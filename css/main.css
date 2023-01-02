@@ -769,11 +769,6 @@ video {
   padding: 1.75rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -794,12 +789,20 @@ video {
   padding-bottom: 3rem;
 }
 
-.pb-40 {
-  padding-bottom: 10rem;
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pr-11 {
+  padding-right: 2.75rem;
 }
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pb-40 {
+  padding-bottom: 10rem;
 }
 
 .pb-\[4em\] {
