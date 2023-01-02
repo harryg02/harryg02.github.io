@@ -15,7 +15,7 @@ module.exports = {
         veryPaleRed: 'hsl(13, 100%, 96%)',
         LightGray: '#EEEEEE',
         veryLightGray: '#F8F8F8',
-        solidBlack:'#000',
+        menu:'#000',
         darkGray: '#777',
         themeRed:'#be1d28',
       },
@@ -29,8 +29,16 @@ module.exports = {
       fontSize: {
         xs: '0.77rem',
         sm: '0.9rem',
-
-      }
+      },
+      keyframes: {
+        'open-menu': {
+          '0%': {  opacity: 0 },
+          '100%': {  opacity: 1 },
+        },
+      },
+      animation: {
+        'open-menu': 'open-menu 0.5s',
+      },
     },
   },
   plugins: [],

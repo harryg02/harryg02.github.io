@@ -10,6 +10,7 @@
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <style>
     /* Highlight current page on navbar */
+    #nav-hamburger-1,
     #nav-1{
       color: white;
     }
@@ -17,20 +18,20 @@
 </head>
 <body class="font-display bg-veryLightGray">
   <!-- Nav Bar -->
-  <div class="bg-solidBlack">
+  <div class="bg-black">
 
     <div id="nav-placeholder">
     </div>
     <script>
     $(function(){
-      $("#nav-placeholder").load("navbar.html");
+      $("#nav-placeholder").load("./navbar.html");
     });
     </script>
 
   </div>
 
   <!-- hero section -->
-  <section id="hero" class="bg-solidBlack">
+  <section id="hero" class="bg-black">
     <div class="container flex flex-col mx-auto items-center text-white pt-8">
       <img class="p-5 m-8 object-cover w-[24.5rem]" src="./images/logo.png" alt="personal logo">
       
@@ -50,16 +51,31 @@
 
       <div class=" text-darkGray sm:max-w-md md:max-w-3xl m-auto ">
 
-        <p class="pb-6 pl-1 font-black tracking-wide">DRAWINGS...</p>
+        <p class="pb-6 pl-1 font-bold">I DO DRAWINGS...</p>
 
         <div class="grid grid-cols-2 md:grid-cols-3 gap-x-7 gap-y-6">
-          <img class="transition hover:scale-105 object-cover h-[22rem] w-full border-8 border-white row-span-2  rounded-3xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
-          <img class="transition hover:scale-105 object-cover h-[10.2rem] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/ship.jpg">
-          <img class="transition hover:scale-105 object-cover h-[10.2rem] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/tank.jpg">
-          <img class="transition hover:scale-105 object-cover h-[10.2rem] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/rifle.jpg">
-          <div class="flex justify-center items-center transition hover:scale-105 bg-grey-500 rounded-3xl shadow-xl min-h[50px] text-center">
-            <p class="inline-flex font-light tracking-wider text-lg">more...</p>
-          </div>
+
+          <a class="row-span-2" href="./drawings.html#Victory">
+            <img class="transition hover:scale-105 object-cover h-[22rem] w-full border-8 border-white   rounded-3xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
+          </a>
+
+          <a href="./drawings.html#Ship">
+            <img class="transition hover:scale-105 object-cover h-[10.2rem] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/ship.jpg">
+          </a>
+
+          <a href="./drawings.html#Tank">
+            <img class="transition hover:scale-105 object-cover h-[10.2rem] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/tank.jpg">
+          </a>
+
+          <a href="./drawings.html#Rifle">
+            <img class="transition hover:scale-105 object-cover h-[10.2rem] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/rifle.jpg">
+          </a>
+
+          <a href="./drawings.html" class="flex hover:text-themeRed justify-center items-center transition hover:scale-105 bg-grey-500 rounded-3xl shadow-xl min-h[50px] text-center">
+            <p class="inline-flex font-bold text-xl">more...</p>
+          </a>
+
+
         </div>
 
       </div>

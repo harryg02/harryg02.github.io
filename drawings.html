@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Harry Gu Art Portfolio</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <style>
+    /* Highlight current page on navbar */
+    #nav-hamburger-2,
+    #nav-2{
+      color: black;
+    }
+
+    .hamburger-top,
+    .hamburger-middle,
+    .hamburger-bottom {
+    position: absolute;
+    background: #333;
+    }
+    .bg-menu {
+      background-color: #F8F8F8;
+    }
+  </style>
+</head>
+<body class="font-display bg-veryLightGray">
+  <!-- Nav Bar -->
+  <div class="bg-veryLightGray">
+
+    <div id="nav-placeholder">
+    </div>
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("navbar.html");
+    });
+    </script>
+
+  </div>
+
+
+
+  <!-- Main content -->
+  <section id="main">
+    <div class="flex items-center">
+      <div class="flex mx-auto flex-col sm:p-16 md:p-24 items-center max-w-xl 
+      md:max-w-[43em]">
+        <div id ='Victory'>‌</div> 
+        <div class="text-center pb-40">
+          <img class="flex m-3 border-8 border-white rounded-xl shadow-xl" src="./images/victory.jpeg" alt="">
+          <p class="text-darkGray ml-4">"Victory", Medium: Graphite, 2022.4</p>
+          <!-- Tank id is right after the description of previous art so the image can be placed in the center -->
+          <div id ='Tank'>‌</div> 
+        </div>
+         
+        <div class="text-center pb-40">
+          <img class="flex m-3 border-8 border-white rounded-xl shadow-xl" src="./images/tank.jpg" alt="">
+          <p class="text-darkGray ml-4">Unnamed, Medium: Charcoal, 2022.4</p>
+          <div id ='Ship'>‌</div> 
+        </div>
+
+        <div class="text-center pb-40">
+          <img class="flex m-3 border-8 border-white rounded-xl shadow-xl" src="./images/ship.jpg" alt="">
+          <p class="text-darkGray ml-4">Unnamed, Medium: Graphite, 2022.4</p>
+          <div id ='Rifle'>‌</div> 
+        </div>
+
+        <div class="text-center pb-40">
+          <img class="flex m-3 border-8 border-white rounded-xl shadow-xl" src="./images/rifle.jpg" alt="">
+          <p class="text-darkGray ml-4">"Aaron's Rifle", Medium: Graphite, 2022.4</p>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+<!-- Footer -->
+  <div id="footer-placeholder">
+  </div>
+  <script>
+  $(function(){
+    $("#footer-placeholder").load("footer.html");
+  });
+  </script>
+  
+
+
+</body>
+</html>
