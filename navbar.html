@@ -1,0 +1,35 @@
+<nav class="relative container p-7 mx-auto text-darkGray text-xs">
+    <!-- Flex container -->
+    <div class="flex items-center justify-between tracking-widest">
+      <!-- logo -->
+      <div class="pt-2">
+        <div class="text-sm">HARRY GU</div>
+      </div>
+      <!-- menu items -->
+      <div class="hidden space-x-14 md:flex">
+        <a href="#" id="nav-1" class="hover:text-themeRed">HOME</a>
+        <a href="#" id="nav-2" class="hover:text-themeRed">DRAWINGS</a>
+        <a href="#" id="nav-3" class="hover:text-themeRed">GRAPHIC DESIGN</a>
+      </div>
+
+      <!-- Hamburger Icon-->
+      <button id="menu-btn" class=" block hamburger md:hidden focus:outline-none">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div id="menu" class="absolute flex-col items-center hidden self-end 
+        py-8 mt-10 space-y-6 font-bold sm:w-auto sm:self-center left-6 right-6 
+        drop-shadow-md bg-solidBlack">
+        <a href="#" id="nav-hamburger-1" class="hover:text-themeRed">HOME</a>
+        <a href="#" id="nav-hamburger-2" class="hover:text-themeRed">DRAWINGS</a>
+        <a href="#" id="nav-hamburger-3" class="hover:text-themeRed">GRAPHIC DESIGN</a>
+        </div>
+      </div>
+  </nav>
+
+  <script src="js/script.js"></script>
