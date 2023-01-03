@@ -561,10 +561,6 @@ video {
   grid-row: span 2 / span 2;
 }
 
-.m-3 {
-  margin: 0.75rem;
-}
-
 .m-8 {
   margin: 2rem;
 }
@@ -586,10 +582,6 @@ video {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
 }
 
 .mt-6 {
@@ -624,12 +616,12 @@ video {
   height: 1rem;
 }
 
-.h-\[22rem\] {
-  height: 22rem;
+.h-\[18rem\] {
+  height: 18rem;
 }
 
-.h-\[10\.2rem\] {
-  height: 10.2rem;
+.h-\[8\.2rem\] {
+  height: 8.2rem;
 }
 
 .w-\[24\.5rem\] {
@@ -686,9 +678,9 @@ video {
   justify-content: space-between;
 }
 
-.gap-x-7 {
-  -moz-column-gap: 1.75rem;
-       column-gap: 1.75rem;
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 
 .gap-y-6 {
@@ -701,10 +693,10 @@ video {
   margin-left: calc(3.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
 .self-end {
@@ -757,16 +749,25 @@ video {
      object-fit: cover;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
 
-.p-\[4em\] {
-  padding: 4em;
+.p-\[4\.8em\] {
+  padding: 4.8em;
 }
 
 .p-7 {
   padding: 1.75rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .py-20 {
@@ -784,17 +785,9 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.pl-6 {
-  padding-left: 1.5rem;
-}
-
-.pr-11 {
-  padding-right: 2.75rem;
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .pt-8 {
@@ -977,6 +970,14 @@ video {
     display: none;
   }
 
+  .md\:h-\[22rem\] {
+    height: 22rem;
+  }
+
+  .md\:h-\[10\.2rem\] {
+    height: 10.2rem;
+  }
+
   .md\:max-w-\[40em\] {
     max-width: 40em;
   }
@@ -995,6 +996,11 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:gap-x-7 {
+    -moz-column-gap: 1.75rem;
+         column-gap: 1.75rem;
   }
 
   .md\:p-24 {
