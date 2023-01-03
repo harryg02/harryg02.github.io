@@ -23,7 +23,7 @@ module.exports = {
         display: ["Montserrat", "sans-serif"],
       },
       letterSpacing: {
-        wider: '.25em',
+        wider: '.15em',
         widest: '.35em',
       },
       fontSize: {

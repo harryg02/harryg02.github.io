@@ -628,6 +628,10 @@ video {
   width: 24.5rem;
 }
 
+.w-72 {
+  width: 18rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -847,12 +851,8 @@ video {
   line-height: 2rem;
 }
 
-.leading-6 {
-  line-height: 1.5rem;
-}
-
 .tracking-wider {
-  letter-spacing: .25em;
+  letter-spacing: .15em;
 }
 
 .text-darkGray {
