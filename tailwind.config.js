@@ -17,6 +17,7 @@ module.exports = {
         veryLightGray: '#F8F8F8',
         menu:'#000',
         darkGray: '#777',
+        veryDarkGray: '#333',
         themeRed:'#be1d28',
       },
       fontFamily: {
@@ -28,7 +29,7 @@ module.exports = {
       },
       fontSize: {
         xs: '0.77rem',
-        sm: '0.9rem',
+        sm: '0.84rem',
       },
       keyframes: {
         'open-menu': {

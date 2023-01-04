@@ -44,45 +44,92 @@
   <!-- hero section -->
   <section id="hero" class="bg-black">
     <div class="container flex flex-col mx-auto items-center text-white pt-8">
-      <img class="p-5 m-8 object-cover w-[24.5rem]" src="./images/logo.png" alt="personal logo">
+      <img class="p-5 m-8 object-cover w-[24.5rem] xl:w-[32em]" src="./images/logo.png" alt="personal logo">
       
-      <div class="text-center tracking-wider text-xs">
-        <div id="example-1" class="bg-black w-72">WELCOME TO HARRY'S ART PORTFOLIO.</div>
+      <div class="text-center tracking-wider text-sm">
+        <div id="example-1" class="bg-black w-72 xl:w-[32em]">WELCOME TO HARRY'S ART PORTFOLIO.</div>
       </div>
       <div class="p-[4.8em]"></div>
     </div> 
 
   </section>
 
-  <!-- Thumbnails -->
-  <section id="thumbails">
-    
-    <div class="p-7 my-28 pb-[4em]">
+  <!-- Graphic Design Thumbnails -->
+<section id="gdthumbnails">
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+  <div class="flex justify-center items-center transition bg-grey-500 shadow-xl min-h[50px] text-center">
+    <p class="inline-flex font-bold md:text-xl p-11">I DO GRAPHIC DESIGN...</p>
+  </div>
+  <div class="bg-blue-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl">
+    <img src="./images/GridLove.png" alt="">
+  </div>
+  <div class="bg-red-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl">
+    <img src="./images/progressive_type.png" alt="">
+  </div>
+  <div class="bg-slate-600 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl">
+    <img src="./images/weather.png" alt="">
+  </div>
+  <div class="bg-cyan-200 col-span-2 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl">
+    <img src="./images/font1.png" alt="">
+  </div>
+  <div class="bg-pink-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl">
+    <img src="./images/mayday.png" alt="">
+  </div>
+  <div class="bg-purple-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl">
+    <img src="./images/matterhorn.png" alt="">
+  </div>
+  <div class="bg-teal-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl">
+    <img src="./images/diversity.png" alt="">
+  </div>
+  <div class="bg-slate-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl">
+    <img src="./images/progressive_type2.png" alt="">
+  </div>
+  <div class="bg-cyan-400 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl">
+    <img src="./images/progressive_type0.png" alt="">
+  </div>
+  <a href="./design.html" class="leading-4 flex flex-col hover:text-themeRed justify-center items-center transition hover:scale-105 bg-grey-500 min-h[50px] text-center">
+    <p class="inline-flex font-bold text-2xl">MORE...</p>
+    <p class="inline-flex text-sm">click to show more</p>
+  </a>
+  <!-- <div class="bg-blue-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl"></div>
+  <div class="bg-red-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl"></div>
+  <div class="bg-slate-600 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl"></div> -->
+</div>
 
-      <div class=" text-darkGray sm:max-w-md md:max-w-3xl m-auto ">
+</section>
+
+
+
+  <!-- Drawing Thumbnails -->
+  <section id="drawingthumbails">
+    
+    <div class="p-7 my-28 pb-[6em] pt-[6em]">
+
+      <div class=" text-veryDarkGray sm:max-w-md md:max-w-4xl xl:max-w-6xl m-auto ">
 
         <p class="pb-6 pl-1 font-bold">I DO DRAWINGS...</p>
 
         <div class="grid grid-cols-2 md:grid-cols-3 gap-x-5 md:gap-x-7 gap-y-6">
 
           <a class="row-span-2" href="./drawing.html#Victory">
-            <img class="transition hover:scale-105 object-cover h-[18rem] md:h-[22rem] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
+            <img class="transition hover:scale-105 object-cover h-[18rem] sm:h-[21.7rem] md:h-[26rem] xl:h-[32.2em] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
           </a>
 
           <a href="./drawing.html#Ship">
-            <img class="transition hover:scale-105 object-cover h-[8.2rem] md:h-[10.2rem] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/ship.jpg">
+            <img class="transition hover:scale-105 object-cover h-[8.2rem] sm:h-[10rem] md:h-[12.2rem] xl:h-[15.4em] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/ship.jpg">
           </a>
 
           <a href="./drawing.html#Tank">
-            <img class="transition hover:scale-105 object-cover h-[8.2rem] md:h-[10.2rem] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/tank.jpg">
+            <img class="transition hover:scale-105 object-cover h-[8.2rem] sm:h-[10rem] md:h-[12.2rem] xl:h-[15.4em] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/tank.jpg">
           </a>
 
           <a href="./drawing.html#Rifle">
-            <img class="transition hover:scale-105 object-cover h-[8.2rem] md:h-[10.2rem] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/rifle.jpg">
+            <img class="transition hover:scale-105 object-cover h-[8.2rem] sm:h-[10rem] md:h-[12.2rem] xl:h-[15.4em] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/rifle.jpg">
           </a>
 
-          <a href="./drawing.html" class="flex hover:text-themeRed justify-center items-center transition hover:scale-105 bg-grey-500 rounded-3xl shadow-xl min-h[50px] text-center">
-            <p class="inline-flex font-bold text-xl">more...</p>
+          <a href="./drawing.html" class="leading-4 flex flex-col hover:text-themeRed justify-center items-center transition hover:scale-105 bg-grey-500 rounded-3xl shadow-xl min-h[50px] text-center">
+            <p class="inline-flex font-bold text-xl">MORE...</p>
+            <p class="inline-flex text-xs">click to show more</p>
           </a>
 
 
