@@ -12,6 +12,16 @@
   <title>Harry Gu Art Portfolio</title>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <style>
+    /*include my own font */
+    @font-face {
+    font-family: "TerminalDisplay";
+    src: url("./fonts/terminalmod.ttf");
+    }
+
+    .font {
+      font-family: "TerminalDisplay";
+    }
+
     /* Highlight current page on navbar */
     #nav-hamburger-3,
     #nav-3{
@@ -28,7 +38,7 @@
     }
   </style>
 </head>
-<body class="font-display bg-[#2E3135]">
+<body class="font font-display bg-[#2E3135]">
   <!-- Nav Bar -->
   <div class="bg-[#2E3135]">
 
@@ -94,12 +104,12 @@
   <section id="gdthumbnails">
     <div class="grid grid-cols-2 md:p-12 md:gap-12 grid-cols-1 lg:grid-cols-3">
     
-      <div class="md:relative lg:left-10 flex flex-col justify-center items-center transition bg-grey-500  min-h[30px] text-center py-32 md:py-24">
+      <div class="md:relative lg:left-12 flex flex-col justify-center items-center transition bg-grey-500  min-h[30px] text-center py-32 md:py-24 lg:py-2">
         <p class="inline-flex font-bold text-[#C4CBD9] md:text-xl">TERMINAL DISPLAY 2000</p>
-        <p class="inline-flex text-xs mx-12 text-[#C4CBD9]">This Bitmap font is the first bitmap font I made for Graphic Design class during 2022 Fall Semester.</p>
+        <p class="inline-flex text-md mx-12 text-[#C4CBD9]">this bitmap font is the first bitmap font I made for graphic design class during 2022 fall semester.</p>
         <!-- download button -->
-        <a href="https://github.com/harryg02/Terminal_Display_2000" class="m-4 p-2 px-6 pt-2 font-bold border-slate-300 bg-[#C4CBD9] text-[#2E3135] bg-brightRed rounded-full
-          baseline hover:bg-brightRedLight block">Download
+        <a href="https://github.com/harryg02/Terminal_Display_2000" class="m-4 p-1 px-6 pt-2 font-bold border-slate-300 bg-[#C4CBD9] text-[#2E3135] bg-brightRed rounded-full
+          baseline hover:bg-brightRedLight block">DOWNLOAD
         </a>
       </div>
     
