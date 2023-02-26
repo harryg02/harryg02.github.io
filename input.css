@@ -48,3 +48,16 @@ position: relative;
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
+
+.handfont {
+    font-family: 'Gochi Hand', cursive;
+}
+
+.monospacefont {
+    font-family: 'Share Tech Mono', monospace;
+}
+/* .fixedheight {
+    box-sizing: border-box;
+    height: 41em;
+    padding: 2em;
+} */

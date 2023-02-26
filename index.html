@@ -6,9 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="./smooth-eocjs-news-ticker/eocjs-newsticker.css">
+  <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Montserrat font -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Raleway font -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,800;0,900;1,700&display=swap" rel="stylesheet">
+  <!-- Hand Writing font -->
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+  <!-- monospace font -->
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
   <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
   <title>Harry Gu Art Portfolio</title>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -42,14 +51,60 @@
   </div>
 
   <!-- hero section -->
-  <section id="hero" class="bg-black">
-    <div class="container flex flex-col mx-auto items-center text-white pt-8">
-      <img class="p-5 m-8 object-cover w-[24.5rem] xl:w-[32em]" src="./images/logo.png" alt="personal logo">
-      
+  <section id="hero" class="bg-black h-screen box-border">
+    <div class="container flex flex-col mx-auto text-center md:text-right items-center text-white pt-8">
+      <!-- <img class="p-5 m-8 object-cover w-[24.5rem] xl:w-[32em]" src="./images/logo.png" alt="personal logo">
+
       <div class="text-center tracking-wider text-sm">
         <div id="example-1" class="bg-black w-72 xl:w-[32em]">WELCOME TO HARRY'S ART PORTFOLIO.</div>
-      </div>
-      <div class="p-[4.8em]"></div>
+      </div> -->
+      <!-- top padding -->
+      <div class="p-[10em] md:p-[5em]"></div> 
+
+      <!-- Introduction Block -->
+      <!-- move text to the left side when on md and lg -->
+      <div class="font-bold  md:text-xl md:pr-[22em] lg:pr-[30em] w-[20rem] md:w-[37em] lg:w-[47em] ">
+        
+        <span>
+          Hi, I'm Harry Gu. I'm
+        </span>
+        
+        <!-- animation -->
+
+        <!-- <span id="change">
+          a
+          <div class="text-[60px] leading-[50px]
+          sm:text-[74px] sm:leading-[58px]
+          md:text-[80px] md:leading-[65px] 
+          lg:text-[88px] lg:leading-[70px] 
+          font-['Raleway']">
+            <div>DES</div>
+            <div>IGN</div>
+            <div>ER</div>
+          </div>
+        </span> -->
+
+        <!-- <span id="change">
+          an
+          <div class="text-[85px] leading-[70px]
+          sm:text-[95px] sm:leading-[78px]
+          md:text-[100px] md:leading-[85px] 
+          lg:text-[115px] lg:leading-[100px] 
+          handfont">ARTIST</div>
+        </span> -->
+
+        <span id="change">
+          a
+          <div class="text-[48px] leading-[48px]
+          sm:text-[50px] sm:leading-[50px]
+          md:text-[58px] md:leading-[54px] 
+          lg:text-[69px] lg:leading-[68px] 
+          monospacefont">
+          <div>Front-end</div>
+          <div>Developer</div>
+          </div>
+        </span>
+
     </div> 
 
   </section>
@@ -58,7 +113,7 @@
 <section id="gdthumbnails">
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
   <div class="flex justify-center items-center transition bg-grey-500 shadow-xl min-h[50px] text-center">
-    <p class="inline-flex font-bold md:text-xl p-11">I DO GRAPHIC DESIGN...</p>
+    <p class="inline-flex font-bold p-11 tracking-[.15em]" >DESIGN</p>
   </div>
   <a class="bg-blue-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl" href="./gridlove.html">
     <img src="./images/GridLove.png" alt="">
@@ -88,7 +143,7 @@
     <img src="./images/progressive_type0.png" alt="">
   </a>
   <a href="./design.html" class="leading-4 flex flex-col hover:text-themeRed justify-center items-center transition hover:scale-105 bg-grey-500 min-h[50px] text-center">
-    <p class="inline-flex font-bold text-2xl">MORE...</p>
+    <p class="inline-flex font-bold text-xl md:text-2xl">MORE...</p>
     <p class="inline-flex text-sm">click to show more</p>
   </a>
   <!-- <div class="bg-blue-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl"></div>
@@ -107,27 +162,27 @@
 
       <div class=" text-veryDarkGray sm:max-w-md md:max-w-4xl xl:max-w-6xl m-auto ">
 
-        <p class="pb-6 pl-1 font-bold">I DO DRAWINGS...</p>
+        <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
 
         <div class="grid grid-cols-2 md:grid-cols-3 gap-x-5 md:gap-x-7 gap-y-6">
 
           <a class="row-span-2" href="./drawing.html#Victory">
-            <img class="transition hover:scale-105 object-cover h-[18rem] sm:h-[21.7rem] md:h-[26rem] xl:h-[32.2em] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
+            <img class="transition hover:scale-105 object-cover h-[18rem] sm:h-[21.7rem] md:h-[26rem] xl:h-[32.2em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
           </a>
 
           <a href="./drawing.html#Ship">
-            <img class="transition hover:scale-105 object-cover h-[8.2rem] sm:h-[10rem] md:h-[12.2rem] xl:h-[15.4em] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/ship.jpg">
+            <img class="transition hover:scale-105 object-cover h-[8.2rem] sm:h-[10rem] md:h-[12.2rem] xl:h-[15.4em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/ship.jpg">
           </a>
 
           <a href="./drawing.html#Tank">
-            <img class="transition hover:scale-105 object-cover h-[8.2rem] sm:h-[10rem] md:h-[12.2rem] xl:h-[15.4em] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/tank.jpg">
+            <img class="transition hover:scale-105 object-cover h-[8.2rem] sm:h-[10rem] md:h-[12.2rem] xl:h-[15.4em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/tank.jpg">
           </a>
 
           <a href="./drawing.html#Rifle">
-            <img class="transition hover:scale-105 object-cover h-[8.2rem] sm:h-[10rem] md:h-[12.2rem] xl:h-[15.4em] w-full border-8 border-white rounded-3xl shadow-xl min-h[50px]" src="./images/rifle.jpg">
+            <img class="transition hover:scale-105 object-cover h-[8.2rem] sm:h-[10rem] md:h-[12.2rem] xl:h-[15.4em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/rifle.jpg">
           </a>
 
-          <a href="./drawing.html" class="leading-4 flex flex-col hover:text-themeRed justify-center items-center transition hover:scale-105 bg-grey-500 rounded-3xl shadow-xl min-h[50px] text-center">
+          <a href="./drawing.html" class="leading-4 flex flex-col hover:text-themeRed justify-center items-center transition hover:scale-105 bg-grey-500 rounded-xl shadow-xl min-h[50px] text-center">
             <p class="inline-flex font-bold text-xl">MORE...</p>
             <p class="inline-flex text-xs">click to show more</p>
           </a>
@@ -153,11 +208,11 @@
 <!-- Ticker script -->
 <script src="./smooth-eocjs-news-ticker/eocjs-newsticker.js"></script>
 
-<script>
+<!-- <script>
 $('#example-1').eocjsNewsticker({
   speed:      25
 });
-</script>
+</script> -->
 
 </body>
 </html>

@@ -5,13 +5,15 @@
       <!-- logo -->
       <div class="pt-2">
 
-          <a href="./index.html"class="text-base hover:text-themeRed">HARRY GU</a>
+          <a href="./index.html"class="text-base">
+            <img class="inline h-5" src="./icons/logo3.png" alt="HARRY GU LOGO">
+          </a>
 
       </div>
       <!-- menu items -->
       <div class="hidden space-x-16 md:flex">
         <a href="./index.html" id="nav-1" class="hover:text-themeRed">HOME</a>
-        <a href="./design.html" id="nav-3" class="hover:text-themeRed">GRAPHIC DESIGN</a>
+        <a href="./design.html" id="nav-3" class="hover:text-themeRed">DESIGN</a>
         <a href="./drawing.html" id="nav-2" class="hover:text-themeRed">DRAWINGS</a>
       </div>
 
