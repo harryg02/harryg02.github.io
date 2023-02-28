@@ -657,12 +657,12 @@ video {
   height: 1.25rem;
 }
 
-.w-\[20rem\] {
-  width: 20rem;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-\[20rem\] {
+  width: 20rem;
 }
 
 .w-\[100vw\] {
@@ -671,10 +671,6 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
-}
-
-.max-w-full {
-  max-width: 100%;
 }
 
 .basis-2\/3 {
@@ -944,6 +940,10 @@ video {
   padding-top: 8rem;
 }
 
+.pt-\[37vh\] {
+  padding-top: 37vh;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1134,7 +1134,7 @@ video {
 /* making the video darker */
 
 .hero {
-  background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
 }
 
 .hover\:scale-105:hover {
@@ -1287,6 +1287,26 @@ video {
     padding: 3rem;
   }
 
+  .md\:p-\[19vh\] {
+    padding: 19vh;
+  }
+
+  .md\:p-\[27vh\] {
+    padding: 27vh;
+  }
+
+  .md\:p-\[17vh\] {
+    padding: 17vh;
+  }
+
+  .md\:p-\[7vh\] {
+    padding: 7vh;
+  }
+
+  .md\:p-\[12vh\] {
+    padding: 12vh;
+  }
+
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -1392,6 +1412,18 @@ video {
     font-size: 70px;
   }
 
+  .lg\:text-\[108px\] {
+    font-size: 108px;
+  }
+
+  .lg\:text-\[110px\] {
+    font-size: 110px;
+  }
+
+  .lg\:text-\[98px\] {
+    font-size: 98px;
+  }
+
   .lg\:leading-\[75px\] {
     line-height: 75px;
   }
@@ -1418,3 +1450,4 @@ video {
     max-width: 72rem;
   }
 }
+

@@ -44,6 +44,6 @@ function switchSnippet() {
   snippets[currentSnippet].style.display = 'inline';
 }
 
-setInterval(switchSnippet, 3050);
+setInterval(switchSnippet, 3090);
 
 
