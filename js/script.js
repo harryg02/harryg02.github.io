@@ -28,3 +28,22 @@ var changevariable = document.getElementById("change");
 //   }
 // }, 3000);
 
+const snippet1 = document.getElementById('snippet1');
+const snippet2 = document.getElementById('snippet2');
+const snippet3 = document.getElementById('snippet3');
+const snippets = [snippet1, snippet2, snippet3];
+
+// snippets[1].style.display = 'none';
+// snippets[2].style.display = 'none';
+// snippets[3].style.display = 'none';
+let currentSnippet = 0;
+
+function switchSnippet() {
+  snippets[currentSnippet].style.display = 'none';
+  currentSnippet = (currentSnippet + 1) % snippets.length;
+  snippets[currentSnippet].style.display = 'inline';
+}
+
+setInterval(switchSnippet, 3500);
+
+
