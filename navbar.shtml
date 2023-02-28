@@ -5,7 +5,7 @@
       <!-- logo -->
       <div class="z-40 pt-2">
           <a href="./index.html"class="text-base">
-            <img class="inline h-5" src="./icons/logo3.png" alt="HARRY GU LOGO">
+            <img class="inline h-[4.3rem] top-1" src="./icons/logo.svg" alt="HARRY GU LOGO">
           </a>
 
       </div>
@@ -31,9 +31,9 @@
     <div class="md:hidden">
       <div id="menu" class="absolute w-[100vw] flex-col items-center hidden self-end 
       py-16 space-y-10 font-bold text-darkGray
-       bg-menu animate-open-menu text-base pt-32 -top-4">
+       bg-menu animate-open-menu text-base pt-36 -top-1">
         <a href="./index.html" id="nav-hamburger-1" class="hover:text-themeRed">HOME</a>
-        <a href="./design.html" id="nav-hamburger-3" class="hover:text-themeRed">GRAPHIC DESIGN</a>
+        <a href="./design.html" id="nav-hamburger-3" class="hover:text-themeRed">DESIGN</a>
         <a href="./drawing.html" id="nav-hamburger-2" class="hover:text-themeRed">DRAWINGS</a>
       </div>
     </div>
