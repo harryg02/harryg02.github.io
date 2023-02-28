@@ -56,8 +56,8 @@ position: relative;
 .monospacefont {
     font-family: 'Share Tech Mono', monospace;
 }
-/* .fixedheight {
-    box-sizing: border-box;
-    height: 41em;
-    padding: 2em;
-} */
+
+/* making the video darker */
+.hero {
+    background-color: rgba(0, 0, 0, 0.5);
+}

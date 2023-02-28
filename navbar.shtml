@@ -3,8 +3,7 @@
     <div class="flex items-center justify-between">
       <!-- <div class="flex items-center justify-between tracking-wider"> -->
       <!-- logo -->
-      <div class="pt-2">
-
+      <div class="z-40 pt-2">
           <a href="./index.html"class="text-base">
             <img class="inline h-5" src="./icons/logo3.png" alt="HARRY GU LOGO">
           </a>
@@ -18,23 +17,25 @@
       </div>
 
       <!-- Hamburger Icon-->
-      <button id="menu-btn" class=" block hamburger md:hidden focus:outline-none">
+      <button id="menu-btn" class="z-40 block hamburger md:hidden focus:outline-none">
         <span class="hamburger-top"></span>
         <span class="hamburger-middle"></span>
         <span class="hamburger-bottom"></span>
       </button>
     </div>
 
-    <!-- Mobile Menu -->
-      <div class="md:hidden">
-        <div id="menu" class="absolute flex-col items-center hidden self-end 
-        py-16 mt-6 space-y-10 font-bold sm:w-auto sm:self-center left-6 right-6 
-         bg-menu animate-open-menu text-base">
-          <a href="./index.html" id="nav-hamburger-1" class="hover:text-themeRed">HOME</a>
-          <a href="./design.html" id="nav-hamburger-3" class="hover:text-themeRed">GRAPHIC DESIGN</a>
-          <a href="./drawing.html" id="nav-hamburger-2" class="hover:text-themeRed">DRAWINGS</a>
-        </div>
-      </div>
   </nav>
+  <!-- Mobile Menu -->
+  <!-- mobile menus has a fixed position. has extra padding on the top to make the top bar black
+     when showing the menu. changed z index of logo and hamburger icon to make them appear on the top of the box. -->
+    <div class="md:hidden">
+      <div id="menu" class="absolute w-[100vw] flex-col items-center hidden self-end 
+      py-16 space-y-10 font-bold text-darkGray
+       bg-menu animate-open-menu text-base pt-32 -top-4">
+        <a href="./index.html" id="nav-hamburger-1" class="hover:text-themeRed">HOME</a>
+        <a href="./design.html" id="nav-hamburger-3" class="hover:text-themeRed">GRAPHIC DESIGN</a>
+        <a href="./drawing.html" id="nav-hamburger-2" class="hover:text-themeRed">DRAWINGS</a>
+      </div>
+    </div>
 
   <script src="js/script.js"></script>

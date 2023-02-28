@@ -37,33 +37,34 @@
   </style>
 </head>
 <body class="font-display bg-veryLightGray">
-  <!-- Nav Bar -->
-  <div class="bg-black">
-
-    <div id="nav-placeholder">
-    </div>
-    <script>
-    $(function(){
-      $("#nav-placeholder").load("./navbar.shtml");
-    });
-    </script>
-
-  </div>
-
+  
+<!-- video -->
+  <video autoplay loop muted class="absolute  max-w-full h-screen object-cover">
+    <source src="intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+  </video>
+  
   <!-- hero section -->
-  <section id="hero" class="bg-black h-[42em] box-border">
+  <section id="hero" class=" hero z-50 box-border h-screen relative ">
+ 
+    <!-- Nav Bar -->
+    <div>
+      <div id="nav-placeholder">
+      </div>
+      <script>
+      $(function(){
+        $("#nav-placeholder").load("./navbar.shtml");
+      });
+      </script>
+  
+    </div>
     <div class="container flex flex-col mx-auto text-center md:text-right items-center text-white pt-8">
-      <!-- <img class="p-5 m-8 object-cover w-[24.5rem] xl:w-[32em]" src="./images/logo.png" alt="personal logo">
 
-      <div class="text-center tracking-wider text-sm">
-        <div id="example-1" class="bg-black w-72 xl:w-[32em]">WELCOME TO HARRY'S ART PORTFOLIO.</div>
-      </div> -->
       <!-- top padding -->
-      <div class="p-[10em] md:p-[5.4em]"></div> 
+      <div class="pt-[39vh] md:p-[6em]"></div> 
 
       <!-- Introduction Block -->
       <!-- move text to the left side when on md and lg -->
-      <div class="rellax font-bold md:text-xl md:pr-[22em] lg:pr-[27em] w-[20rem] md:w-[37em] lg:w-[47em]" data-rellax-speed="4">
+      <div class="rellax font-bold md:text-xl md:pr-[22em] lg:pr-[27em] w-[20rem] md:w-[37em] lg:w-[47em]" data-rellax-speed="3">
         
         <span>
           Hi, I'm Harry Gu. I'm
@@ -86,9 +87,9 @@
 
         <span id="snippet2" style="display: none;">
           an
-          <div class="text-[95px] leading-[80px]
-          sm:text-[105px] sm:leading-[88px]
-          md:text-[120px] md:leading-[95px] 
+          <div class="text-[80px] leading-[80px]
+          sm:text-[80px] sm:leading-[88px]
+          md:text-[90px] md:leading-[95px] 
           lg:text-[100px] lg:leading-[120px] 
           handfont">
             ARTIST
