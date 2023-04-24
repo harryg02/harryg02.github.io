@@ -557,18 +557,6 @@ video {
   top: 0.25rem;
 }
 
-.-top-2 {
-  top: -0.5rem;
-}
-
-.-top-0 {
-  top: -0px;
-}
-
-.-top-3 {
-  top: -0.75rem;
-}
-
 .-top-1 {
   top: -0.25rem;
 }
@@ -932,8 +920,8 @@ video {
   padding-top: 0.5rem;
 }
 
-.pt-\[34vh\] {
-  padding-top: 34vh;
+.pt-\[32vh\] {
+  padding-top: 32vh;
 }
 
 .pb-\[6em\] {
@@ -952,32 +940,8 @@ video {
   padding-left: 0.25rem;
 }
 
-.pt-32 {
-  padding-top: 8rem;
-}
-
-.pt-\[24vh\] {
-  padding-top: 24vh;
-}
-
-.pt-\[32vh\] {
-  padding-top: 32vh;
-}
-
-.pt-24 {
-  padding-top: 6rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
-}
-
 .pt-36 {
   padding-top: 9rem;
-}
-
-.pt-40 {
-  padding-top: 10rem;
 }
 
 .text-center {
@@ -1014,8 +978,8 @@ video {
   font-size: 68px;
 }
 
-.text-\[80px\] {
-  font-size: 80px;
+.text-\[100px\] {
+  font-size: 100px;
 }
 
 .text-\[48px\] {
@@ -1160,7 +1124,7 @@ video {
 }
 
 .handfont {
-  font-family: 'Monoton', cursive;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 .monospacefont {
@@ -1228,8 +1192,8 @@ video {
     font-size: 76px;
   }
 
-  .sm\:text-\[80px\] {
-    font-size: 80px;
+  .sm\:text-\[108px\] {
+    font-size: 108px;
   }
 
   .sm\:text-\[50px\] {
@@ -1315,16 +1279,8 @@ video {
     padding: 6rem;
   }
 
-  .md\:p-\[12vh\] {
-    padding: 12vh;
-  }
-
   .md\:p-12 {
     padding: 3rem;
-  }
-
-  .md\:p-\[11vh\] {
-    padding: 11vh;
   }
 
   .md\:px-10 {
@@ -1342,6 +1298,10 @@ video {
     padding-bottom: 6rem;
   }
 
+  .md\:pt-\[17vh\] {
+    padding-top: 17vh;
+  }
+
   .md\:pr-\[22em\] {
     padding-right: 22em;
   }
@@ -1355,12 +1315,12 @@ video {
     line-height: 1.75rem;
   }
 
-  .md\:text-\[83px\] {
-    font-size: 83px;
+  .md\:text-\[88px\] {
+    font-size: 88px;
   }
 
-  .md\:text-\[90px\] {
-    font-size: 90px;
+  .md\:text-\[115px\] {
+    font-size: 115px;
   }
 
   .md\:text-\[58px\] {
@@ -1424,8 +1384,8 @@ video {
     font-size: 98px;
   }
 
-  .lg\:text-\[100px\] {
-    font-size: 100px;
+  .lg\:text-\[135px\] {
+    font-size: 135px;
   }
 
   .lg\:text-\[70px\] {
