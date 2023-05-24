@@ -57,6 +57,10 @@ position: relative;
     font-family: 'Share Tech Mono', monospace;
 }
 
+.displayfont {
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
 /* making the video darker */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
