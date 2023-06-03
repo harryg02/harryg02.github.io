@@ -66,25 +66,20 @@ position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
 }
 
+.custom-swiper-button::after {
+    display: none;
+  }
+
+/* swiper.js on mobile*/
+
+@media screen and (max-width: 768px) {
+    
+    .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+      }
 
 
-.swiper-button-next,
-.swiper-button-prev {
-  width: 27px;
-  height: 44px;
-  background-size: 27px 44px;
-}
-
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  /* This is to remove the original arrow */
-  content: none;
-}
-
-.swiper-button-next {
-  background-image: url('./icons/back.svg');
-}
-
-.swiper-button-prev {
-  background-image: url('./icons/back.svg');
 }

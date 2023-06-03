@@ -600,6 +600,16 @@ video {
   margin-bottom: 8rem;
 }
 
+.my-7 {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.mx-\[10em\] {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
 .mb-\[3px\] {
   margin-bottom: 3px;
 }
@@ -683,6 +693,18 @@ video {
 
 .max-w-\[19rem\] {
   max-width: 19rem;
+}
+
+.max-w-\[22rem\] {
+  max-width: 22rem;
+}
+
+.max-w-\[20rem\] {
+  max-width: 20rem;
+}
+
+.max-w-\[21rem\] {
+  max-width: 21rem;
 }
 
 .basis-2\/3 {
@@ -1149,25 +1171,19 @@ video {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-  width: 27px;
-  height: 44px;
-  background-size: 27px 44px;
+.custom-swiper-button::after {
+  display: none;
 }
 
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  /* This is to remove the original arrow */
-  content: none;
-}
+/* swiper.js on mobile*/
 
-.swiper-button-next {
-  background-image: url('./icons/back.svg');
-}
-
-.swiper-button-prev {
-  background-image: url('./icons/back.svg');
+@media screen and (max-width: 768px) {
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
 }
 
 .hover\:scale-105:hover {
@@ -1211,6 +1227,14 @@ video {
 
   .sm\:max-w-\[24rem\] {
     max-width: 24rem;
+  }
+
+  .sm\:max-w-\[28rem\] {
+    max-width: 28rem;
+  }
+
+  .sm\:max-w-\[26rem\] {
+    max-width: 26rem;
   }
 
   .sm\:p-16 {
@@ -1451,6 +1475,11 @@ video {
 }
 
 @media (min-width: 1440px) {
+  .xl\:mx-\[15em\] {
+    margin-left: 15em;
+    margin-right: 15em;
+  }
+
   .xl\:h-\[44em\] {
     height: 44em;
   }

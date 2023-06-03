@@ -172,9 +172,9 @@
   <!-- Drawing Thumbnails -->
   <section id="drawingthumbails">
     <!-- Disable swiper on mobile, use a separate 1 column view instead -->
-    <div class="swiper-container hidden md:flex overflow-hidden"> 
+    <div class="swiper-walls hidden md:flex overflow-hidden"> 
       <div class="swiper-wrapper">
-        <!-- swiper slide1 -->
+        <!-- Swiper Slide 1 -->
         <div class="swiper-slide">
           <div class="thumbContainer">
             <div class="p-7 my-32 pb-[6em] pt-[6em]">
@@ -183,24 +183,26 @@
 
                 <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
 
-
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
                     <a class="row-span-2" href="./drawing.html#Victory">
                       <img class="transition hover:scale-105 object-cover h-[24rem] sm:h-[30rem] md:h-[27rem] lg:h-[31em] xl:h-[44em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
                     </a>
                     <a href="./drawing.html#Ship">
-                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/ship.jpg">
+                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/Gaia.jpeg">
                     </a>
                     <a href="./drawing.html#Tank">
-                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/tank.jpg">
+                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/Rahab.jpeg">
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-button-next"></div>
+            <!-- Next button -->
+            <div class="swiper-button-next custom-swiper-button">
+              <img src="./icons/forward.svg" alt="Next">
+            </div>
           </div>
-        <!-- swiper slide2 -->
+        <!-- Swiper slide 2 -->
         <div class="swiper-slide">
           <div class="thumbContainer">
             <div class="p-7 my-32 pb-[6em] pt-[6em]">
@@ -210,9 +212,6 @@
                 <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
 
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
-                    <a class="row-span-2" href="./drawing.html#Victory">
-                      <img class="transition hover:scale-105 object-cover h-[24rem] sm:h-[30rem] md:h-[27rem] lg:h-[31em] xl:h-[44em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
-                    </a>
                     <a href="./drawing.html#Ship">
                       <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/ship.jpg">
                     </a>
@@ -220,15 +219,68 @@
                       <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/tank.jpg">
                     </a>
                   </div>
+                  <div class="grid-cols-1 my-7 mx-[10em] xl:mx-[15em]">
+                    <a href="./drawing.html#Tank">
+                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/rifle.jpg">
+                    </a>
+                    
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-button-prev"></div>
+            <!-- Previous button -->
+            <div class="swiper-button-prev custom-swiper-button">
+              <img src="./icons/back.svg" alt="Previous">
+            </div>
           </div>
           
         </div>
       </div>
-      <!-- end swiper container -->
+      <!-- End desktop swiper container -->
+      <!-- Mobile only swiper  -->
+      <div class="p-7 my-32 pb-[6em] pt-[6em] md:hidden">
+
+        <div class=" text-veryDarkGray max-w-[21rem] sm:max-w-[26rem] m-auto ">
+
+          <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
+          <div class="swiper-container "> 
+            <div class="swiper-cards ">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide mobile-frame-container shadow-xl">
+                  <a href="./drawing.html#Ship">
+                    <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/Gaia.jpeg">
+                  </a>
+                </div>
+                <div class="swiper-slide mobile-frame-container shadow-xl">                    
+                  <a href="./drawing.html#Victory">
+                    <img class="transition object-cover  w-full border-8 border-white rounded-xl min-h[50px]" src="./images/victory.jpeg">
+                  </a>
+                </div>
+                <div class="swiper-slide mobile-frame-container shadow-xl">
+                  <a href="./drawing.html#Ship">
+                    <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/Rahab.jpeg">
+                  </a>
+                </div>
+                <div class="swiper-slide mobile-frame-container shadow-xl">
+                  <a href="./drawing.html#Ship">
+                    <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/ship.jpg">
+                  </a>
+                </div>
+                <div class="swiper-slide mobile-frame-container shadow-xl">
+                  <a href="./drawing.html#Ship">
+                    <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/tank.jpg">
+                  </a>
+                </div>
+                <div class="swiper-slide mobile-frame-container shadow-xl">
+                  <a href="./drawing.html#Ship">
+                    <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/rifle.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
   </section>
@@ -245,7 +297,7 @@
 
 <!-- swiper.js -->
 <script>
-  var swiper = new Swiper(".swiper-container", {
+  var swiper = new Swiper(".swiper-walls", {
     loopedSlides: 2,
     loop: false,
     slidesPerView: "auto",
@@ -260,24 +312,14 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    // breakpoints: {
-    //   1440: {
-    //     spaceBetween: 500,
-    //   },  
-    // },
-    // on: {
-    //     slideChange: function () {
-    //         var lastIndex = this.slides.length - this.params.slidesPerView;
-    //         if (this.activeIndex === lastIndex) {
-    //             // We've reached the last slide, allow scrolling
-    //             document.body.classList.remove('no-scroll');
-    //         } else {
-    //             // We haven't reached the last slide, prevent scrolling
-    //             document.body.classList.add('no-scroll');
-    //         }
-    //     },
-    // },
+
+    
   });
+
+  var swiper2 = new Swiper(".swiper-cards", {
+      effect: "cards",
+      grabCursor: true,
+    });
 
   var thumb = document.querySelectorAll(".thumbContainer");
 
