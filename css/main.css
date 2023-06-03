@@ -661,10 +661,6 @@ video {
   height: 14rem;
 }
 
-.h-\[8\.2rem\] {
-  height: 8.2rem;
-}
-
 .h-\[4\.3rem\] {
   height: 4.3rem;
 }
@@ -762,6 +758,10 @@ video {
 
 .self-end {
   align-self: flex-end;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-xl {
@@ -1149,6 +1149,27 @@ video {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  width: 27px;
+  height: 44px;
+  background-size: 27px 44px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  /* This is to remove the original arrow */
+  content: none;
+}
+
+.swiper-button-next {
+  background-image: url('./icons/back.svg');
+}
+
+.swiper-button-prev {
+  background-image: url('./icons/back.svg');
+}
+
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -1182,10 +1203,6 @@ video {
 
   .sm\:h-\[19rem\] {
     height: 19rem;
-  }
-
-  .sm\:h-\[10rem\] {
-    height: 10rem;
   }
 
   .sm\:min-h-\[150px\] {
@@ -1248,10 +1265,6 @@ video {
 
   .md\:h-\[12\.6rem\] {
     height: 12.6rem;
-  }
-
-  .md\:h-\[12\.2rem\] {
-    height: 12.2rem;
   }
 
   .md\:w-\[37em\] {
@@ -1446,10 +1459,6 @@ video {
     height: 21em;
   }
 
-  .xl\:h-\[15\.4em\] {
-    height: 15.4em;
-  }
-
   .xl\:w-\[57em\] {
     width: 57em;
   }
@@ -1495,4 +1504,3 @@ video {
     line-height: 78px;
   }
 }
-

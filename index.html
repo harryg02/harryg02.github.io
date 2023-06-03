@@ -171,19 +171,19 @@
 
   <!-- Drawing Thumbnails -->
   <section id="drawingthumbails">
-    
-    <div class="p-7 my-32 pb-[6em] pt-[6em]">
+    <!-- Disable swiper on mobile, use a separate 1 column view instead -->
+    <div class="swiper-container hidden md:flex overflow-hidden"> 
+      <div class="swiper-wrapper">
+        <!-- swiper slide1 -->
+        <div class="swiper-slide">
+          <div class="thumbContainer">
+            <div class="p-7 my-32 pb-[6em] pt-[6em]">
 
-      <div class=" text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[37rem] lg:max-w-[44rem] xl:max-w-5xl m-auto ">
+              <div class=" text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[37rem] lg:max-w-[44rem] xl:max-w-5xl m-auto ">
 
-        <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
+                <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
 
-        <!-- Disable swiper on mobile, use a separate 1 column view instead -->
-          <div class="swiper-container hidden md:flex"> 
-            <div class="swiper-wrapper">
 
-              <div class="swiper-slide">
-                <div class="thumbContainer">
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
                     <a class="row-span-2" href="./drawing.html#Victory">
                       <img class="transition hover:scale-105 object-cover h-[24rem] sm:h-[30rem] md:h-[27rem] lg:h-[31em] xl:h-[44em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
@@ -197,38 +197,38 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="thumbContainer">
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
-                    <a class="row-span-2" href="./drawing.html#Victory">
-                      <img class="transition hover:scale-105 object-cover h-[24rem] sm:h-[30rem] md:h-[27rem] lg:h-[31em] xl:h-[44em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
-                    </a>
-                    <a href="./drawing.html#Ship">
-                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/ship.jpg">
-                    </a>
-                    <a href="./drawing.html#Tank">
-                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/tank.jpg">
-                    </a>
-                    <!-- <a href="./drawing.html#Rifle">
-                      <img class="transition hover:scale-105 object-cover h-[8.2rem] sm:h-[10rem] md:h-[12.2rem] xl:h-[15.4em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/rifle.jpg">
-                    </a>
-        
-                    <a href="./drawing.html" class="leading-4 flex flex-col hover:text-themeRed justify-center items-center transition hover:scale-105 bg-grey-500 rounded-xl shadow-xl min-h[50px] text-center">
-                      <p class="inline-flex font-bold text-xl">MORE...</p>
-                      <p class="inline-flex text-xs">click to show more</p>
-                    </a> -->
-                  </div>
-                </div>
-              </div>
-
             </div>
+            <div class="swiper-button-next"></div>
           </div>
-          <!-- end swiper container -->
+        <!-- swiper slide2 -->
+        <div class="swiper-slide">
+          <div class="thumbContainer">
+            <div class="p-7 my-32 pb-[6em] pt-[6em]">
 
+              <div class=" text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[37rem] lg:max-w-[44rem] xl:max-w-5xl m-auto ">
 
+                <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
+
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
+                    <a class="row-span-2" href="./drawing.html#Victory">
+                      <img class="transition hover:scale-105 object-cover h-[24rem] sm:h-[30rem] md:h-[27rem] lg:h-[31em] xl:h-[44em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
+                    </a>
+                    <a href="./drawing.html#Ship">
+                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/ship.jpg">
+                    </a>
+                    <a href="./drawing.html#Tank">
+                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/tank.jpg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          
+        </div>
       </div>
-
-    </div>
+      <!-- end swiper container -->
 
 
   </section>
@@ -249,20 +249,34 @@
     loopedSlides: 2,
     loop: false,
     slidesPerView: "auto",
-    freeMode: true,
-    spaceBetween: 400,
+    freeMode: false,
+    spaceBetween: 0,
     preventInteractionOnTransition: true,
-    autoplay: {
-      delay: 3000,
+    mousewheel: false,
+    // autoplay: {
+    //   delay: 3000,
+    // },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     },
-    breakpoints: {
-      1440: {
-        spaceBetween: 500,
-      },  
-    },
-    mousewheel: {
-      releaseOnEdges: true,
-    },
+    // breakpoints: {
+    //   1440: {
+    //     spaceBetween: 500,
+    //   },  
+    // },
+    // on: {
+    //     slideChange: function () {
+    //         var lastIndex = this.slides.length - this.params.slidesPerView;
+    //         if (this.activeIndex === lastIndex) {
+    //             // We've reached the last slide, allow scrolling
+    //             document.body.classList.remove('no-scroll');
+    //         } else {
+    //             // We haven't reached the last slide, prevent scrolling
+    //             document.body.classList.add('no-scroll');
+    //         }
+    //     },
+    // },
   });
 
   var thumb = document.querySelectorAll(".thumbContainer");
@@ -272,6 +286,7 @@
     image.classList.add("fadeInSlide");
     image.style.animationDelay = delay + "ms";
   });
+
 
 </script>
 
