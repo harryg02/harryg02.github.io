@@ -20,7 +20,11 @@
           <p>
             <img class="inline h-4" src="./icons/ins.svg" alt="">
              <a class="hover:text-themeRed" href="https://www.instagram.com/harrygu.art/">Instagram: @harrygu.art</a> 
-            </p>
+          </p>
+          <p>
+            <img class="inline h-4" src="./icons/github.svg" alt="">
+             <a class="hover:text-themeRed" href="https://github.com/harryg02">GitHub: harryg02</a> 
+          </p>
         </div>
       </div>
       
