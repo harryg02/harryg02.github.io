@@ -5,7 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="./smooth-eocjs-news-ticker/eocjs-newsticker.css">
+  <!-- Photoswipe -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.css">
+  <link rel="stylesheet" href="./photoswipe-dynamic-caption-plugin.css">
   <!-- swiper.js -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -184,15 +186,46 @@
                 <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
 
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
-                    <a class="row-span-2" href="./drawing.html#Victory">
-                      <img class="transition hover:scale-105 object-cover h-[24rem] sm:h-[30rem] md:h-[27rem] lg:h-[31em] xl:h-[44em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
-                    </a>
-                    <a href="./drawing.html#Ship">
-                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/Gaia.jpeg">
-                    </a>
-                    <a href="./drawing.html#Tank">
-                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/Rahab.jpeg">
-                    </a>
+
+                    <div class="pswp-gallery row-span-2" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/victory.jpeg" 
+                          data-pswp-width="2877" 
+                          data-pswp-height="3819" 
+                          target="_blank">
+                          <img class="transition hover:scale-105 object-cover h-[24rem] sm:h-[30rem] md:h-[27rem] lg:h-[31em] xl:h-[44em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/victory.jpeg">
+                        </a>
+                        <div class="pswp-caption-content"><b>Victory", Medium: Graphite, 2022.4</b><br>24 in * 18 in <br> <br>I name this "Victory", because I think true victory comes from peace, not war. <br> <br>Inspired by the Russian invasion of Ukraine, I decided to do anti-war drawings for my final project during the 2022 spring semester. However, this drawing is not just a protest against this specific conflict, but all forms of unjust warfare.</div>
+                       </div>
+                     </div>  
+
+
+                     <div class="pswp-gallery" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/Gaia.jpeg" 
+                          data-pswp-width="2008" 
+                          data-pswp-height="1785" 
+                          target="_blank">
+                          <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/Gaia.jpeg">
+                        </a>
+                        <div class="pswp-caption-content"><b>“Gaia”, graphite & color pencil on paper, 2023.4</b><br>22 in * 25 in <br> <br>This is about non-violence movements. <br> <br> In this drawing, She chose to use a non-violent way against violence. She was not even wearing any protection. She died. But her blood became a waterfall and nourished a beautiful landscape. <br> <br> This drawing is partially inspired by a picture of Gaia from a Greek mythology book, that Gaia’s body becomes mountains and rivers. It’s also inspired by several historical events as well. </div>
+                       </div>
+                     </div>  
+
+
+                     <div class="pswp-gallery" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/Rahab.jpeg" 
+                          data-pswp-width="2151" 
+                          data-pswp-height="1596" 
+                          target="_blank">
+                          <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/Rahab.jpeg">
+                        </a>
+                        <div class="pswp-caption-content"><b>“Prostitute Rehab Meets Two Israeli Spies”, white charcoal on black paper, 2023.4</b><br>18 in * 24 in<br> <br>However the cultural context is not the ancient middle east, but modern China instead. </div>
+                      </div>
+                    </div>  
+
+
                   </div>
                 </div>
               </div>
@@ -210,20 +243,53 @@
               <div class=" text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[37rem] lg:max-w-[44rem] xl:max-w-5xl m-auto ">
 
                 <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
-
+                  <!-- First Row -->
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
-                    <a href="./drawing.html#Ship">
-                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/ship.jpg">
-                    </a>
-                    <a href="./drawing.html#Tank">
-                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/tank.jpg">
-                    </a>
-                  </div>
-                  <div class="grid-cols-1 my-7 mx-[10em] xl:mx-[15em]">
-                    <a href="./drawing.html#Tank">
-                      <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/rifle.jpg">
-                    </a>
+
+
+                    <!-- photoswipe container -->
+                    <div class="pswp-gallery" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/ship.jpg" 
+                          data-pswp-width="4032" 
+                          data-pswp-height="3024" 
+                          target="_blank">
+                          <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/ship.jpg">
+                        </a>
+                       <div class="pswp-caption-content"><b>Unnamed, Medium: Graphite, 2022.4</b><br>18 in x 24 in</div>
+                      </div>
+                    </div>  
+
                     
+                    <div class="pswp-gallery" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/tank.jpg" 
+                          data-pswp-width="4032" 
+                          data-pswp-height="3024" 
+                          target="_blank">
+                          <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/tank.jpg">
+                        </a>
+                       <div class="pswp-caption-content"><b>Unnamed, Medium: Charcoal, 2022.4</b><br>18 in x 24 in</div>
+                      </div>
+                    </div>  
+                    
+
+                  </div>
+                  <!-- Second Row -->
+                  <div class="grid-cols-1 my-7 mx-[10em] xl:mx-[15em]">
+
+                    <div class="pswp-gallery" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/rifle.jpg" 
+                          data-pswp-width="4032" 
+                          data-pswp-height="3024" 
+                          target="_blank">
+                          <img class="transition hover:scale-105 object-cover h-[14rem] sm:h-[19rem] md:h-[12.6rem] lg:h-[14.7em] xl:h-[21em] w-full border-8 border-white rounded-xl shadow-xl min-h[50px]" src="./images/rifle.jpg">
+                        </a>
+                        <div class="pswp-caption-content"><b>"Aaron's Rifle", Medium: Graphite, 2022.4</b><br>18 in x 24 in</div>
+                      </div>
+                    </div>  
+
                   </div>
                 </div>
               </div>
@@ -237,6 +303,10 @@
         </div>
       </div>
       <!-- End desktop swiper container -->
+
+
+
+
       <!-- Mobile only swiper  -->
       <div class="p-7 my-32 pb-[6em] pt-[4em] md:hidden">
 
@@ -246,42 +316,124 @@
           <div class="swiper-container "> 
             <div class="swiper-cards ">
               <div class="swiper-wrapper">
+
+
+                <!-- Swiper.js container -->
                 <div class="swiper-slide mobile-frame-container shadow-xl">
-                  <a href="./drawing.html#Ship">
-                    <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/Gaia.jpeg">
-                  </a>
+                  <!-- photoswipe container -->
+                  <div class="pswp-gallery" id="gallery" >
+                    <div class="pswp-gallery__item">
+                      <a href="./images/Gaia.jpeg" 
+                        data-pswp-width="2008" 
+                        data-pswp-height="1785" 
+                        target="_blank">
+                        <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/Gaia.jpeg">
+                      </a>
+                      <div class="pswp-caption-content"><b>“Gaia”, graphite & color pencil on paper, 2023.4</b><br>22 in * 25 in <br> <br>This is about non-violence movements. <br> <br> In this drawing, She chose to use a non-violent way against violence. She was not even wearing any protection. She died. But her blood became a waterfall and nourished a beautiful landscape. <br> <br> This drawing is partially inspired by a picture of Gaia from a Greek mythology book, that Gaia’s body becomes mountains and rivers. It’s also inspired by several historical events as well. </div>
+                    </div>
+                  </div>  
+
                 </div>
+
+
+
                 <div class="swiper-slide mobile-frame-container shadow-xl">                    
-                  <a href="./drawing.html#Victory">
-                    <img class="transition object-cover  w-full border-8 border-white rounded-xl min-h[50px]" src="./images/victory.jpeg">
-                  </a>
+                  
+                    <div class="pswp-gallery row-span-2" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/victory.jpeg" 
+                          data-pswp-width="2877" 
+                          data-pswp-height="3819" 
+                          target="_blank">
+                          <img class="transition object-cover  w-full border-8 border-white rounded-xl min-h[50px]" src="./images/victory.jpeg">
+                        </a>
+                        <div class="pswp-caption-content"><b>Victory", Medium: Graphite, 2022.4</b><br>24 in * 18 in <br> <br>I name this "Victory", because I think true victory comes from peace, not war. <br> <br>Inspired by the Russian invasion of Ukraine, I decided to do anti-war drawings for my final project during the 2022 spring semester. However, this drawing is not just a protest against this specific conflict, but all forms of unjust warfare.</div>
+                      </div>
+                    </div>  
+                  
                 </div>
+
+
+
                 <div class="swiper-slide mobile-frame-container shadow-xl">
-                  <a href="./drawing.html#Ship">
-                    <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/Rahab.jpeg">
-                  </a>
+                  
+                  <div class="pswp-gallery" id="gallery" >
+                    <div class="pswp-gallery__item">
+                      <a href="./images/Rahab.jpeg" 
+                        data-pswp-width="2151" 
+                        data-pswp-height="1596" 
+                        target="_blank">
+                        <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/Rahab.jpeg">
+                      </a>
+                      <div class="pswp-caption-content"><b>“Prostitute Rehab Meets Two Israeli Spies”, white charcoal on black paper, 2023.4</b><br>18 in * 24 in<br> <br>However the cultural context is not the ancient middle east, but modern China instead. </div>
+                    </div>
+                  </div>  
+
                 </div>
+
+
+
                 <div class="swiper-slide mobile-frame-container shadow-xl">
-                  <a href="./drawing.html#Ship">
-                    <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/ship.jpg">
-                  </a>
+                  
+                  <div class="pswp-gallery" id="gallery" >
+                    <div class="pswp-gallery__item">
+                      <a href="./images/ship.jpg" 
+                        data-pswp-width="4032" 
+                        data-pswp-height="3024" 
+                        target="_blank">
+                        <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/ship.jpg">
+                      </a>
+                      <div class="pswp-caption-content"><b>Unnamed, Medium: Graphite, 2022.4</b><br>18 in x 24 in</div>
+                    </div>
+                  </div>  
+
                 </div>
+
+
+
                 <div class="swiper-slide mobile-frame-container shadow-xl">
-                  <a href="./drawing.html#Ship">
-                    <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/tank.jpg">
-                  </a>
+                  
+                  <div class="pswp-gallery" id="gallery" >
+                    <div class="pswp-gallery__item">
+                      <a href="./images/tank.jpg" 
+                        data-pswp-width="4032" 
+                        data-pswp-height="3024" 
+                        target="_blank">
+                        <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/tank.jpg">
+                      </a>
+                      <div class="pswp-caption-content"><b>Unnamed, Medium: Charcoal, 2022.4</b><br>18 in x 24 in</div>
+                    </div>
+                  </div>  
+
                 </div>
+
+
+
                 <div class="swiper-slide mobile-frame-container shadow-xl">
-                  <a href="./drawing.html#Ship">
-                    <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/rifle.jpg">
-                  </a>
+                 
+                  <div class="pswp-gallery" id="gallery" >
+                    <div class="pswp-gallery__item">
+                      <a href="./images/rifle.jpg" 
+                        data-pswp-width="4032" 
+                        data-pswp-height="3024" 
+                        target="_blank">
+                        <img class="transition object-cover w-full border-8 border-white rounded-xl min-h[50px]" src="./images/rifle.jpg">
+                      </a>
+                      <div class="pswp-caption-content"><b>"Aaron's Rifle", Medium: Graphite, 2022.4</b><br>18 in x 24 in</div>
+                    </div>
+                  </div>  
+
                 </div>
+
+
+                
               </div>
             </div>
           </div>
         </div>
       </div>
 
+      
 
   </section>
 
@@ -332,7 +484,36 @@
 
 </script>
 
+<!-- photoswipe.js -->
+    <script type="module">
+      import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe-lightbox.esm.js';
+      import PhotoSwipeDynamicCaption from 'https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js';
 
+      const smallScreenPadding = {
+        top: 0, bottom: 0, left: 0, right: 0
+      };
+      const largeScreenPadding = {
+        top: 30, bottom: 30, left: 0, right: 0
+      };
+      const lightbox = new PhotoSwipeLightbox({
+        gallerySelector: '#gallery',
+        childSelector: '.pswp-gallery__item',
+        
+        // optionaly adjust viewport
+        paddingFn: (viewportSize) => {
+          return viewportSize.x < 700 ? smallScreenPadding : largeScreenPadding
+        },
+        pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.esm.js')
+      });
+
+      const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
+        mobileLayoutBreakpoint: 700,
+        type: 'auto',
+        mobileCaptionOverlapRatio: 1
+      });
+
+      lightbox.init();
+      </script>
 
 <!-- rellax -->
 
