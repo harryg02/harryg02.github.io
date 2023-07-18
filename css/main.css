@@ -978,6 +978,14 @@ video {
   padding-top: 9rem;
 }
 
+.pb-\[5em\] {
+  padding-bottom: 5em;
+}
+
+.pt-\[8em\] {
+  padding-top: 8em;
+}
+
 .text-center {
   text-align: center;
 }
