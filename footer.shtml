@@ -15,15 +15,15 @@
           <p class="font-bold leading-8">Contact Me:</p>
           <p>
             <img class="inline h-4" src="./icons/email.svg" alt=""> 
-            <a class="hover:text-themeRed" href="mailto:tg27@calvin.edu">Email: tg27@calvin.edu</a>
+            <a class="hover:text-themeRed" href="mailto:tg27@calvin.edu">tg27@calvin.edu</a>
           </p>
           <p>
             <img class="inline h-4" src="./icons/ins.svg" alt="">
-             <a class="hover:text-themeRed" href="https://www.instagram.com/harrygu.art/">Instagram: @harrygu.art</a> 
+             <a class="hover:text-themeRed" href="https://www.instagram.com/harrygu.art/">@harrygu.art</a> 
           </p>
           <p>
             <img class="inline h-4" src="./icons/github.svg" alt="">
-             <a class="hover:text-themeRed" href="https://github.com/harryg02">GitHub: harryg02</a> 
+             <a class="hover:text-themeRed" href="https://github.com/harryg02">harryg02</a> 
           </p>
         </div>
       </div>
