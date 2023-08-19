@@ -83,3 +83,15 @@ position: relative;
 
 
 }
+
+
+.stripe {
+    color: white;
+    background: repeating-linear-gradient(
+      45deg,
+      #969696,
+      #969696 20px,
+      #505050 20px,
+      #505050 40px
+    );
+  }
