@@ -1,4 +1,4 @@
-# Harry Gu Art Portfolio
+# Harry Gu Portfolio
 
 The source code in this repository is licensed under the terms of the GNU General Public License v3.0 (see LICENSE-Code). The artworks and pictures under ./images are licensed under the terms of the Creative Commons Attribution-ShareAlike 4.0 International license (see LICENSE-Artwork). 
 
