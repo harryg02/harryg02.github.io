@@ -3,9 +3,9 @@
     <div class="flex items-center justify-between">
       <!-- <div class="flex items-center justify-between tracking-wider"> -->
       <!-- logo -->
-      <div class="z-40 pt-2">
+      <div class="z-40">
           <a href="./index.html"class="text-base">
-            <img class="inline h-[4.3rem] top-1" src="./icons/logo.svg" alt="HARRY GU LOGO">
+            <img class="inline h-7 opacity-40" src="./icons/logo-9-21-colored.svg" alt="HARRY GU LOGO">
           </a>
 
       </div>
