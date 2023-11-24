@@ -1181,6 +1181,10 @@ video {
   font-family: 'Raleway';
 }
 
+.font-\[Jost\] {
+  font-family: Jost;
+}
+
 .text-sm {
   font-size: 0.84rem;
 }
@@ -1235,6 +1239,10 @@ video {
   font-weight: 700;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .leading-tight {
   line-height: 1.25;
 }
@@ -1273,6 +1281,10 @@ video {
 
 .tracking-\[\.1em\] {
   letter-spacing: .1em;
+}
+
+.tracking-\[\.05em\] {
+  letter-spacing: .05em;
 }
 
 .text-darkGray {

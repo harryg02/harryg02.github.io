@@ -14,8 +14,8 @@
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Montserrat font -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Regular font -->
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Monoton&display=swap" rel="stylesheet"> 
   <!-- Display font -->
   <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
   <!-- Hand Writing font -->
@@ -27,6 +27,14 @@
   <title>Harry Gu Art Portfolio</title>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <style>
+    /*include my own font */
+    @font-face {
+    font-family: "TerminalDisplay";
+    src: url("./fonts/terminaldisplay.ttf");
+    }
+    .font-terminal {
+      font-family: "TerminalDisplay";
+    }
     /* Highlight current page on navbar */
     #nav-hamburger-1,
     #nav-1{
@@ -41,7 +49,7 @@
 
   </style>
 </head>
-<body class="font-display bg-veryLightGray">
+<body class="font-[Jost] font-semibold bg-veryLightGray">
   
 <!-- video -->
   <video autoplay loop muted class="absolute w-full h-screen object-cover hidden md:inline-block">
@@ -57,7 +65,7 @@
   <section id="hero" class=" hero z-50 box-border h-screen relative ">
  
     <!-- Nav Bar -->
-    <div>
+    <div class="font-terminal">
       <div id="nav-placeholder">
       </div>
       <script>
@@ -129,7 +137,7 @@
 <section id="design" class="bg-[#1C1E1F]">
 <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
   <div class="flex justify-center items-center transition bg-grey-500 shadow-xl min-h[50px] text-center">
-    <p class="inline-flex font-bold p-11 tracking-[.15em]">DESIGN</p>
+    <p class="font-terminal inline-flex font-bold p-11 tracking-[.05em]">DESIGN</p>
   </div>
 
   <a class="relative group bg-blue-200 sm:min-h-[150px] h-fit hover:shadow-xl" href="./gridlove.html">
@@ -219,7 +227,7 @@
 
               <div class=" text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[37rem] lg:max-w-[44rem] xl:max-w-5xl m-auto ">
 
-                <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
+                <p class="font-terminal pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
 
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
 
@@ -278,7 +286,7 @@
 
               <div class=" text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[37rem] lg:max-w-[44rem] xl:max-w-5xl m-auto ">
 
-                <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
+                <p class="font-terminal pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
                   <!-- First Row -->
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
 
