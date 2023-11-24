@@ -624,6 +624,10 @@ video {
   margin: 1rem;
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -861,6 +865,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
 .border-8 {
   border-width: 8px;
 }
@@ -1007,6 +1015,15 @@ video {
 .bg-\[\#C4CBD9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(196 203 217 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#1C1E1F\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 30 31 / var(--tw-bg-opacity));
 }
 
 .fill-darkGray {
@@ -1450,6 +1467,82 @@ video {
       #505050 20px,
       #505050 40px
     );
+}
+
+/* Screen Effect */
+
+.screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: repeating-linear-gradient(90deg,red 0px, red 1px, green 1px, green 2px, blue 2px, blue 3px);
+  opacity: 0.2;
+  z-index: 1000;
+}
+
+.screen-lat {
+  z-index: 1000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: repeating-linear-gradient(black 0px, black 1px, white 2px, white 3px);
+  opacity: 0.1;
+}
+
+.lines {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: repeating-linear-gradient(black, black 2px, transparent 1px, transparent 300px);
+  background-position: 0% 0%;
+  background-size: 1px 400px;
+  opacity: 0.3;
+  z-index: 1000;
+}
+
+.slide {
+  animation-name: slide;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes slide {
+  0% {
+    background-position-y: 0%;
+  }
+
+  75% {
+    background-position-y:100%;
+  }
+
+  76% {
+    background-position-y: 95%;
+  }
+
+  99% {
+    background-position-y: 90%;
+  }
+
+  100% {
+    background-position-y: 100%;
+  }
+}
+
+@keyframes pulse {
+  0%, 49.9% {
+    opacity: 0;
+  }
+
+  50%, 100% {
+    opacity: 1;
+  }
 }
 
 .hover\:scale-105:hover {
