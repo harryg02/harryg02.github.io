@@ -52,16 +52,18 @@
 <body class="font-[Jost] font-semibold bg-veryLightGray">
   
 <!-- video -->
-  <video autoplay loop muted class="h-[400px] w-[39vw] object-scale-down top-[-60px] left-[34%] absolute w-full h-screen object-cover hidden md:inline-block">
-    <source src="intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+  <video id="myVideo" autoplay loop muted class="h-[400px] w-[40vw] object-scale-down top-[-60px] left-[35%] absolute w-full h-screen object-cover hidden md:inline-block">
+    <source src="intro.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
   </video>
+
 
   <video autoplay loop muted class="absolute w-full h-screen object-cover md:hidden">
     <source src="intro_mobile.mp4" type="video/mp4" />Your browser does not support the video tag.
   </video>
 
   <!-- Image Overlay -->
-  <div class="image-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/background-hero.png') center center no-repeat; background-size: cover;"></div>
+  <div class="image-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero1.png') center center no-repeat; background-size: cover;"></div>
 
 
   
@@ -482,35 +484,66 @@
 </script>
 
 <!-- photoswipe.js -->
-    <script type="module">
-      import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe-lightbox.esm.js';
-      import PhotoSwipeDynamicCaption from 'https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js';
+<script type="module">
+  import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe-lightbox.esm.js';
+  import PhotoSwipeDynamicCaption from 'https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js';
 
-      const smallScreenPadding = {
-        top: 0, bottom: 0, left: 0, right: 0
-      };
-      const largeScreenPadding = {
-        top: 30, bottom: 30, left: 0, right: 0
-      };
-      const lightbox = new PhotoSwipeLightbox({
-        gallerySelector: '#gallery',
-        childSelector: '.pswp-gallery__item',
-        
-        // optionaly adjust viewport
-        paddingFn: (viewportSize) => {
-          return viewportSize.x < 700 ? smallScreenPadding : largeScreenPadding
-        },
-        pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.esm.js')
-      });
+  const smallScreenPadding = {
+    top: 0, bottom: 0, left: 0, right: 0
+  };
+  const largeScreenPadding = {
+    top: 30, bottom: 30, left: 0, right: 0
+  };
+  const lightbox = new PhotoSwipeLightbox({
+    gallerySelector: '#gallery',
+    childSelector: '.pswp-gallery__item',
+    
+    // optionaly adjust viewport
+    paddingFn: (viewportSize) => {
+      return viewportSize.x < 700 ? smallScreenPadding : largeScreenPadding
+    },
+    pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.esm.js')
+  });
 
-      const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
-        mobileLayoutBreakpoint: 700,
-        type: 'auto',
-        mobileCaptionOverlapRatio: 1
-      });
+  const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
+    mobileLayoutBreakpoint: 700,
+    type: 'auto',
+    mobileCaptionOverlapRatio: 1
+  });
 
-      lightbox.init();
-      </script>
+  lightbox.init();
+</script>
+
+<!-- Change hero image every 3 seconds -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      var imageOverlay = document.querySelector('.image-overlay');
+      var images = ['./images/hero1.png', './images/hero2.png', './images/hero3.png'];
+      var currentIndex = 0;
+
+      function changeBackgroundImage() {
+          currentIndex = (currentIndex + 1) % images.length;
+          imageOverlay.style.backgroundImage = "url('" + images[currentIndex] + "')";
+      }
+
+      setInterval(changeBackgroundImage, 3000);
+  });
+</script>
+
+<!-- force video to play again every 9 seconds -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      var video = document.getElementById('myVideo');
+
+      setInterval(function() {
+          video.currentTime = 0; // Reset the video to start
+          video.play(); // Play the video
+      }, 9000); // Interval set to 3 seconds (3000 milliseconds)
+  });
+</script>
+
+
+
 
 <!-- rellax -->
 
