@@ -701,6 +701,14 @@ video {
   margin-top: 5vh;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-\[8vh\] {
+  margin-top: 8vh;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1711,6 +1719,10 @@ video {
 
   .md\:ml-10 {
     margin-left: 2.5rem;
+  }
+
+  .md\:mt-\[5vh\] {
+    margin-top: 5vh;
   }
 
   .md\:block {
