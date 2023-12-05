@@ -14,8 +14,8 @@
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Montserrat font -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Regular font -->
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Monoton&display=swap" rel="stylesheet"> 
   <!-- Display font -->
   <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
   <!-- Hand Writing font -->
@@ -27,37 +27,80 @@
   <title>Harry Gu Art Portfolio</title>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <style>
+    /*include my own font */
+    @font-face {
+    font-family: "TerminalDisplay";
+    src: url("./fonts/terminaldisplay.ttf");
+    }
+    .font-terminal {
+      font-family: "TerminalDisplay";
+    }
     /* Highlight current page on navbar */
     #nav-hamburger-1,
     #nav-1{
-      color: white;
+      color: #CCD4E3;
     }
 
     .hamburger-top,
     .hamburger-middle,
     .hamburger-bottom {
-    background: #aaa;
+    background: #CCD4E3;
+    }
+
+
+    #myVideo {
+      height: 400px;
+      min-width: 500px;
+      width: 40vw;
+      object-fit: scale-down;
+      top: 100px;
+    }
+
+    @media (min-width: 640px) { 
+      #myVideo {
+        left: 10vw;
+      }
+    }
+
+    @media (min-width: 768px) { 
+      #myVideo {
+        left: 20%;
+      }
+    }
+
+    @media (min-width: 1024px) { 
+      #myVideo {
+        left: 35%;
+      }
     }
 
   </style>
 </head>
-<body class="font-display bg-veryLightGray">
+<body class="font-[Jost] font-semibold bg-veryLightGray">
   
-<!-- video -->
-  <video autoplay loop muted class="absolute w-full h-screen object-cover hidden md:inline-block">
-    <source src="intro.mp4" type="video/mp4" />Your browser does not support the video tag.
-  </video>
+  <!-- loading screen -->
+  <div id="loadingScreen" class="font-terminal " style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; display: flex; justify-content: center; align-items: center; z-index: 1000; opacity: 1; transition: opacity 0.5s ease;">
+    <p id="loadingText" style="color: #CCD4E3; font-size: 2em;">Loading 0%</p>
+  </div>
 
-  <video autoplay loop muted class="absolute w-full h-screen object-cover md:hidden">
-    <source src="intro_mobile.mp4" type="video/mp4" />Your browser does not support the video tag.
-  </video>
 
   
   <!-- hero section -->
-  <section id="hero" class=" hero z-50 box-border h-screen relative ">
+  <section id="hero" class=" z-50 box-border h-screen relative overflow-hidden bg-[#1C1E1F]">
  
+    <!-- video -->
+  <video id="myVideo" autoplay loop muted class="h-[400px] min-w-[500px] w-[40vw] object-scale-down top-[-60px] sm:left-[10vw] md:left-[20%] lg:left-[35%] absolute w-full h-screen object-cover inline-block">
+    <source src="intro.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Image Overlay -->
+  <div class="image-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero1.png') center center no-repeat; background-size: cover;"></div>
+  <!-- making the background darker  -->
+  <div class="hero" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover;"></div>
+  
     <!-- Nav Bar -->
-    <div>
+    <div class="font-terminal">
       <div id="nav-placeholder">
       </div>
       <script>
@@ -65,74 +108,26 @@
         $("#nav-placeholder").load("./navbar.shtml");
       });
       </script>
-  
     </div>
+
     <div class="container flex flex-col mx-auto text-center md:text-right items-center text-white pt-8">
 
       <!-- top padding -->
       <div class="pt-[32vh] md:pt-[17vh] xl:pt-[25vh]"></div> 
 
-      <!-- Introduction Block -->
-      <!-- move text to the left side when on md and lg -->
-      <div class="rellax font-bold md:text-xl md:pr-[22em] lg:pr-[27em] xl:pr-[30em] w-[20rem] md:w-[37em] lg:w-[47em] xl:w-[57em]" data-rellax-speed="3">
-        
-        <span>
-          I'm Harry Gu. I'm
-        </span>
-        
-        <!-- animation -->
-
-        <span id="snippet1">
-          a
-          <div class="mt-1 text-[68px] leading-[60px]
-          sm:text-[72px] sm:leading-[64px]
-          md:text-[80px] md:leading-[73px] 
-          lg:text-[98px] lg:leading-[88px] 
-          xl:text-[130px] xl:leading-[120px] 
-          displayfont">
-            <div>DES</div>
-            <div>IGN</div>
-            <div>ER</div>
-          </div>
-        </span>
-
-        <span id="snippet2" style="display: none;">
-          an
-          <div class="text-[100px] leading-[80px]
-          sm:text-[108px] sm:leading-[88px]
-          md:text-[115px] md:leading-[95px] 
-          lg:text-[135px] lg:leading-[120px] 
-          xl:text-[165px] xl:leading-[135px] 
-          handfont">
-            ARTIST
-          </div>
-        </span>
-
-        <span id="snippet3" style="display: none;">
-          a
-          <div class="text-[48px] leading-[48px]
-          sm:text-[50px] sm:leading-[50px]
-          md:text-[58px] md:leading-[54px] 
-          lg:text-[70px] lg:leading-[68px] 
-          xl:text-[80px] xl:leading-[78px] 
-          monospacefont">
-          <div>FRONT-END</div>
-          <div>DEVELOPER</div>
-          </div>
-        </span>
-
-    </div> 
-
   </section>
 
   <!-- Graphic Design Thumbnails -->
-<section id="design">
+<section id="design" class="bg-[#1C1E1F] text-[#CCD4E3]">
 <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
   <div class="flex justify-center items-center transition bg-grey-500 shadow-xl min-h[50px] text-center">
-    <p class="inline-flex font-bold p-11 tracking-[.15em]">DESIGN</p>
+    <p class="font-terminal inline-flex font-bold p-11 tracking-[.05em]">DESIGN</p>
   </div>
 
   <a class="relative group bg-blue-200 sm:min-h-[150px] h-fit hover:shadow-xl" href="./gridlove.html">
+    <!-- LED filters -->
+    <div class="screen-lat"></div>
+
     <img src="./images/GridLove.png" alt="">
     <!-- hovering effect -->
     <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
@@ -141,8 +136,14 @@
     </div>
   </a>
 
-  <a class="relative group bg-cyan-200 col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./e-communiy-service-logo.html">
-    <img src="./trademarks/e-community-service.png" alt="">
+  <a class="relative group m-2 bg-transparent col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./e-communiy-service-logo.html">
+    
+    <!-- LED filters -->
+    <div class="screen"></div>
+    <div class="screen-lat"></div>
+    <div class="lines slide"></div>
+
+    <img class="rounded-xl" src="./trademarks/e-community-service.png" alt="">
     <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
     <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
       e-community-service.org logo
@@ -158,6 +159,10 @@
   </a>
 
   <a class="relative group bg-slate-100 col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./crazy_charlies.html">
+    <!-- LED filters -->
+    <div class="screen"></div>
+    <div class="screen-lat"></div>
+    
     <img src="./images/crazy_charlies/cover.png" alt="">
     <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
     <div class="text-lg font-bold absolute inset-0 flex flex-col items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
@@ -178,8 +183,13 @@
     </div>
   </div>
 
-  <a class="stripe relative group bg-cyan-400  sm:min-h-[150px] h-fit hover:shadow-xl" >
-    <img src="./images/miscere.jpeg" alt="">
+  <a class="stripe rounded-2xl relative m-3 group bg-cyan-400  sm:min-h-[150px] h-fit hover:shadow-xl" >
+    <!-- LED filters -->
+    <div class="screen"></div>
+    <div class="screen-lat"></div>
+    <div class="lines slide"></div>
+
+    <img class="rounded-2xl" src="./images/miscere.jpeg" alt="">
     <div class="stripe absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
     <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
       "miscere" Packaging Design 
@@ -216,7 +226,7 @@
 
               <div class=" text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[37rem] lg:max-w-[44rem] xl:max-w-5xl m-auto ">
 
-                <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
+                <p class="font-terminal pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
 
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
 
@@ -275,7 +285,7 @@
 
               <div class=" text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[37rem] lg:max-w-[44rem] xl:max-w-5xl m-auto ">
 
-                <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
+                <p class="font-terminal pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
                   <!-- First Row -->
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
 
@@ -518,35 +528,112 @@
 </script>
 
 <!-- photoswipe.js -->
-    <script type="module">
-      import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe-lightbox.esm.js';
-      import PhotoSwipeDynamicCaption from 'https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js';
+<script type="module">
+  import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe-lightbox.esm.js';
+  import PhotoSwipeDynamicCaption from 'https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js';
 
-      const smallScreenPadding = {
-        top: 0, bottom: 0, left: 0, right: 0
-      };
-      const largeScreenPadding = {
-        top: 30, bottom: 30, left: 0, right: 0
-      };
-      const lightbox = new PhotoSwipeLightbox({
-        gallerySelector: '#gallery',
-        childSelector: '.pswp-gallery__item',
-        
-        // optionaly adjust viewport
-        paddingFn: (viewportSize) => {
-          return viewportSize.x < 700 ? smallScreenPadding : largeScreenPadding
-        },
-        pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.esm.js')
-      });
+  const smallScreenPadding = {
+    top: 0, bottom: 0, left: 0, right: 0
+  };
+  const largeScreenPadding = {
+    top: 30, bottom: 30, left: 0, right: 0
+  };
+  const lightbox = new PhotoSwipeLightbox({
+    gallerySelector: '#gallery',
+    childSelector: '.pswp-gallery__item',
+    
+    // optionaly adjust viewport
+    paddingFn: (viewportSize) => {
+      return viewportSize.x < 700 ? smallScreenPadding : largeScreenPadding
+    },
+    pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.esm.js')
+  });
 
-      const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
-        mobileLayoutBreakpoint: 700,
-        type: 'auto',
-        mobileCaptionOverlapRatio: 1
-      });
+  const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
+    mobileLayoutBreakpoint: 700,
+    type: 'auto',
+    mobileCaptionOverlapRatio: 1
+  });
 
-      lightbox.init();
-      </script>
+  lightbox.init();
+</script>
+
+<!-- Change hero image every 3 seconds -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      var imageOverlay = document.querySelector('.image-overlay');
+      var images = ['./images/hero1.png', './images/hero2.png', './images/hero3.png'];
+      var currentIndex = 0;
+
+      function changeBackgroundImage() {
+          currentIndex = (currentIndex + 1) % images.length;
+          imageOverlay.style.backgroundImage = "url('" + images[currentIndex] + "')";
+      }
+
+      setInterval(changeBackgroundImage, 3000);
+  });
+</script>
+
+<!-- force video to play again every 9 seconds -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      var video = document.getElementById('myVideo');
+
+      setInterval(function() {
+          video.currentTime = 0; // Reset the video to start
+          video.play(); // Play the video
+      }, 9000); // Interval set to 3 seconds (3000 milliseconds)
+  });
+</script>
+
+<!-- loading screen js -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var loadingText = document.getElementById('loadingText');
+    var resources = [...document.images, ...document.getElementsByTagName('video')];
+    var totalResources = resources.length;
+    var loadedResources = 0;
+
+    // Update loading percentage
+    function updateLoadingPercentage() {
+      var percentage = Math.round((loadedResources / totalResources) * 100);
+      loadingText.textContent = 'Loading ' + percentage + '%';
+    }
+
+    // Function to call when a resource is loaded
+    function resourceLoaded() {
+      loadedResources++;
+      updateLoadingPercentage();
+      if (loadedResources === totalResources) {
+        // All resources are loaded
+        document.getElementById('loadingScreen').style.opacity = '0';
+        setTimeout(function() {
+          document.getElementById('loadingScreen').style.display = 'none';
+        }, 500); // Adjust this value to match the fade-out transition time
+      }
+    }
+
+    // Add event listeners to each resource
+    resources.forEach(resource => {
+      if (resource.tagName === 'IMG' && resource.complete ||
+          resource.tagName === 'VIDEO' && resource.readyState >= 4) {
+        // Resource is already loaded
+        resourceLoaded();
+      } else {
+        // Wait for the resource to load
+        resource.addEventListener('load', resourceLoaded, { once: true });
+        resource.addEventListener('canplaythrough', resourceLoaded, { once: true });
+        resource.addEventListener('error', resourceLoaded, { once: true }); // Handle load errors
+      }
+    });
+  });
+</script>
+
+
+
+
+
+
 
 <!-- rellax -->
 
