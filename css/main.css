@@ -568,6 +568,14 @@ video {
   top: -0.25rem;
 }
 
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -624,24 +632,20 @@ video {
   margin: 0.5rem;
 }
 
-.m-auto {
-  margin: auto;
-}
-
-.m-4 {
-  margin: 1rem;
+.m-6 {
+  margin: 1.5rem;
 }
 
 .m-3 {
   margin: 0.75rem;
 }
 
-.m-8 {
-  margin: 2rem;
+.m-auto {
+  margin: auto;
 }
 
-.m-6 {
-  margin: 1.5rem;
+.m-4 {
+  margin: 1rem;
 }
 
 .mx-auto {
@@ -683,6 +687,14 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .box-border {
@@ -776,6 +788,10 @@ video {
 
 .max-w-\[21rem\] {
   max-width: 21rem;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
 }
 
 .basis-2\/3 {
@@ -881,16 +897,16 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
 .rounded {
   border-radius: 0.25rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
 }
 
 .border-8 {
@@ -1044,10 +1060,6 @@ video {
 .bg-\[\#C4CBD9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(196 203 217 / var(--tw-bg-opacity));
-}
-
-.bg-\[veryLightGray\] {
-  background-color: veryLightGray;
 }
 
 .fill-darkGray {
@@ -1338,6 +1350,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#CCD4E3\] {
+  --tw-text-opacity: 1;
+  color: rgb(204 212 227 / var(--tw-text-opacity));
+}
+
 .text-veryDarkGray {
   --tw-text-opacity: 1;
   color: rgb(51 51 51 / var(--tw-text-opacity));
@@ -1351,15 +1368,6 @@ video {
 .text-\[\#2E3135\] {
   --tw-text-opacity: 1;
   color: rgb(46 49 53 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[\#CCD4E3\] {
-  --tw-text-opacity: 1;
-  color: rgb(204 212 227 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1696,6 +1704,10 @@ video {
     grid-row: span 3 / span 3;
   }
 
+  .md\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1746,6 +1758,10 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:gap-12 {
@@ -1838,6 +1854,10 @@ video {
     margin-right: 4rem;
   }
 
+  .lg\:ml-20 {
+    margin-left: 5rem;
+  }
+
   .lg\:grid {
     display: grid;
   }
@@ -1868,6 +1888,10 @@ video {
 
   .lg\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 
   .lg\:py-2 {
