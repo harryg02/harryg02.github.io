@@ -78,6 +78,10 @@
 </head>
 <body class="font-[Jost] font-semibold bg-veryLightGray">
   
+  <!-- loading screen -->
+  <div id="loadingScreen" class="font-terminal " style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; display: flex; justify-content: center; align-items: center; z-index: 1000; opacity: 1; transition: opacity 0.5s ease;">
+    <p id="loadingText" style="color: #CCD4E3; font-size: 2em;">Loading 0%</p>
+  </div>
 
 
   
@@ -581,6 +585,52 @@
       }, 9000); // Interval set to 3 seconds (3000 milliseconds)
   });
 </script>
+
+<!-- loading screen js -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var loadingText = document.getElementById('loadingText');
+    var resources = [...document.images, ...document.getElementsByTagName('video')];
+    var totalResources = resources.length;
+    var loadedResources = 0;
+
+    // Update loading percentage
+    function updateLoadingPercentage() {
+      var percentage = Math.round((loadedResources / totalResources) * 100);
+      loadingText.textContent = 'Loading ' + percentage + '%';
+    }
+
+    // Function to call when a resource is loaded
+    function resourceLoaded() {
+      loadedResources++;
+      updateLoadingPercentage();
+      if (loadedResources === totalResources) {
+        // All resources are loaded
+        document.getElementById('loadingScreen').style.opacity = '0';
+        setTimeout(function() {
+          document.getElementById('loadingScreen').style.display = 'none';
+        }, 500); // Adjust this value to match the fade-out transition time
+      }
+    }
+
+    // Add event listeners to each resource
+    resources.forEach(resource => {
+      if (resource.tagName === 'IMG' && resource.complete ||
+          resource.tagName === 'VIDEO' && resource.readyState >= 4) {
+        // Resource is already loaded
+        resourceLoaded();
+      } else {
+        // Wait for the resource to load
+        resource.addEventListener('load', resourceLoaded, { once: true });
+        resource.addEventListener('canplaythrough', resourceLoaded, { once: true });
+        resource.addEventListener('error', resourceLoaded, { once: true }); // Handle load errors
+      }
+    });
+  });
+</script>
+
+
+
 
 
 
