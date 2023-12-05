@@ -38,13 +38,40 @@
     /* Highlight current page on navbar */
     #nav-hamburger-1,
     #nav-1{
-      color: white;
+      color: #CCD4E3;
     }
 
     .hamburger-top,
     .hamburger-middle,
     .hamburger-bottom {
-    background: #aaa;
+    background: #CCD4E3;
+    }
+
+
+    #myVideo {
+      height: 400px;
+      min-width: 500px;
+      width: 40vw;
+      object-fit: scale-down;
+      top: 100px;
+    }
+
+    @media (min-width: 640px) { 
+      #myVideo {
+        left: 10vw;
+      }
+    }
+
+    @media (min-width: 768px) { 
+      #myVideo {
+        left: 20%;
+      }
+    }
+
+    @media (min-width: 1024px) { 
+      #myVideo {
+        left: 35%;
+      }
     }
 
   </style>
@@ -55,7 +82,7 @@
 
   
   <!-- hero section -->
-  <section id="hero" class=" hero z-50 box-border h-screen relative overflow-hidden">
+  <section id="hero" class=" z-50 box-border h-screen relative overflow-hidden bg-[#1C1E1F]">
  
     <!-- video -->
   <video id="myVideo" autoplay loop muted class="h-[400px] min-w-[500px] w-[40vw] object-scale-down top-[-60px] sm:left-[10vw] md:left-[20%] lg:left-[35%] absolute w-full h-screen object-cover inline-block">
@@ -63,10 +90,11 @@
     Your browser does not support the video tag.
   </video>
 
-
   <!-- Image Overlay -->
   <div class="image-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero1.png') center center no-repeat; background-size: cover;"></div>
-
+  <!-- making the background darker  -->
+  <div class="hero" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover;"></div>
+  
     <!-- Nav Bar -->
     <div class="font-terminal">
       <div id="nav-placeholder">
@@ -86,13 +114,16 @@
   </section>
 
   <!-- Graphic Design Thumbnails -->
-<section id="design" class="bg-[#1C1E1F]">
+<section id="design" class="bg-[#1C1E1F] text-[#CCD4E3]">
 <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
   <div class="flex justify-center items-center transition bg-grey-500 shadow-xl min-h[50px] text-center">
     <p class="font-terminal inline-flex font-bold p-11 tracking-[.05em]">DESIGN</p>
   </div>
 
   <a class="relative group bg-blue-200 sm:min-h-[150px] h-fit hover:shadow-xl" href="./gridlove.html">
+    <!-- LED filters -->
+    <div class="screen-lat"></div>
+
     <img src="./images/GridLove.png" alt="">
     <!-- hovering effect -->
     <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
@@ -102,9 +133,12 @@
   </a>
 
   <a class="relative group m-2 bg-transparent col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./e-communiy-service-logo.html">
+    
+    <!-- LED filters -->
     <div class="screen"></div>
     <div class="screen-lat"></div>
     <div class="lines slide"></div>
+
     <img class="rounded-xl" src="./trademarks/e-community-service.png" alt="">
     <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
     <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
@@ -112,7 +146,12 @@
     </div>
   </a>
 
-  <a class="relative group bg-cyan-200 col-span-2  sm:min-h-[150px] h-fit hover:shadow-xl" href="./terminal_display_3000.html">
+  <a class="relative group m-6 bg-cyan-200 col-span-2  sm:min-h-[150px] h-fit hover:shadow-xl" href="./terminal_display_3000.html">
+    <!-- LED filters -->
+    <div class="screen"></div>
+    <div class="screen-lat"></div>
+    <div class="lines slide"></div>
+    
     <img src="./images/font1.png" alt="">
     <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
     <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
@@ -121,6 +160,10 @@
   </a>
 
   <a class="relative group bg-slate-100 col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./crazy_charlies.html">
+    <!-- LED filters -->
+    <div class="screen"></div>
+    <div class="screen-lat"></div>
+    
     <img src="./images/crazy_charlies/cover.png" alt="">
     <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
     <div class="text-lg font-bold absolute inset-0 flex flex-col items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
@@ -141,8 +184,13 @@
     </div>
   </div>
 
-  <a class="stripe relative group bg-cyan-400  sm:min-h-[150px] h-fit hover:shadow-xl" >
-    <img src="./images/miscere.jpeg" alt="">
+  <a class="stripe rounded-2xl relative m-3 group bg-cyan-400  sm:min-h-[150px] h-fit hover:shadow-xl" >
+    <!-- LED filters -->
+    <div class="screen"></div>
+    <div class="screen-lat"></div>
+    <div class="lines slide"></div>
+
+    <img class="rounded-2xl" src="./images/miscere.jpeg" alt="">
     <div class="stripe absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
     <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
       "miscere" Packaging Design 

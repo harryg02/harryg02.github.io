@@ -564,24 +564,8 @@ video {
   top: -60px;
 }
 
-.left-\[35\%\] {
-  left: 35%;
-}
-
 .-top-1 {
   top: -0.25rem;
-}
-
-.left-\[15\%\] {
-  left: 15%;
-}
-
-.left-\[10\%\] {
-  left: 10%;
-}
-
-.left-\[0\%\] {
-  left: 0%;
 }
 
 .z-50 {
@@ -646,6 +630,18 @@ video {
 
 .m-4 {
   margin: 1rem;
+}
+
+.m-3 {
+  margin: 0.75rem;
+}
+
+.m-8 {
+  margin: 2rem;
+}
+
+.m-6 {
+  margin: 1.5rem;
 }
 
 .mx-auto {
@@ -734,12 +730,12 @@ video {
   height: 1rem;
 }
 
-.h-\[400px\] {
-  height: 400px;
-}
-
 .h-screen {
   height: 100vh;
+}
+
+.h-\[400px\] {
+  height: 400px;
 }
 
 .h-\[24rem\] {
@@ -754,8 +750,8 @@ video {
   height: 1.75rem;
 }
 
-.w-\[39vw\] {
-  width: 39vw;
+.w-\[40vw\] {
+  width: 40vw;
 }
 
 .w-full {
@@ -764,14 +760,6 @@ video {
 
 .w-\[100vw\] {
   width: 100vw;
-}
-
-.w-\[40vw\] {
-  width: 40vw;
-}
-
-.min-w-\[400px\] {
-  min-width: 400px;
 }
 
 .min-w-\[500px\] {
@@ -899,6 +887,10 @@ video {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .border-8 {
@@ -1052,6 +1044,10 @@ video {
 .bg-\[\#C4CBD9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(196 203 217 / var(--tw-bg-opacity));
+}
+
+.bg-\[veryLightGray\] {
+  background-color: veryLightGray;
 }
 
 .fill-darkGray {
@@ -1357,6 +1353,15 @@ video {
   color: rgb(46 49 53 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#CCD4E3\] {
+  --tw-text-opacity: 1;
+  color: rgb(204 212 227 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1454,7 +1459,7 @@ video {
   font-family: 'Zen Tokyo Zoo', cursive;
 }
 
-/* making the video darker */
+/* making the background darker */
 
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
@@ -1601,20 +1606,8 @@ video {
 }
 
 @media (min-width: 480px) {
-  .sm\:left-\[0\%\] {
-    left: 0%;
-  }
-
   .sm\:left-\[10vw\] {
     left: 10vw;
-  }
-
-  .sm\:left-\[20vw\] {
-    left: 20vw;
-  }
-
-  .sm\:left-\[30vw\] {
-    left: 30vw;
   }
 
   .sm\:h-\[30rem\] {
@@ -1649,10 +1642,6 @@ video {
 @media (min-width: 768px) {
   .md\:relative {
     position: relative;
-  }
-
-  .md\:left-\[35\%\] {
-    left: 35%;
   }
 
   .md\:left-\[20\%\] {
@@ -1709,10 +1698,6 @@ video {
 
   .md\:block {
     display: block;
-  }
-
-  .md\:inline-block {
-    display: inline-block;
   }
 
   .md\:flex {
@@ -1824,16 +1809,16 @@ video {
 }
 
 @media (min-width: 976px) {
+  .lg\:left-\[35\%\] {
+    left: 35%;
+  }
+
   .lg\:left-12 {
     left: 3rem;
   }
 
   .lg\:left-10 {
     left: 2.5rem;
-  }
-
-  .lg\:left-\[35\%\] {
-    left: 35%;
   }
 
   .lg\:order-last {

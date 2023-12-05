@@ -61,7 +61,7 @@ position: relative;
     font-family: 'Zen Tokyo Zoo', cursive;
 }
 
-/* making the video darker */
+/* making the background darker */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
 }
