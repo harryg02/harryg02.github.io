@@ -1455,6 +1455,7 @@ video {
 
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+  z-index: 600;
 }
 
 .custom-swiper-button::after {
