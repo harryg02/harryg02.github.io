@@ -34,6 +34,7 @@
     }
     .font-terminal {
       font-family: "TerminalDisplay";
+      letter-spacing: 1px;
     }
     /* Highlight current page on navbar */
     #nav-hamburger-1,
@@ -88,14 +89,19 @@
   <!-- hero section -->
   <section id="hero" class=" z-50 box-border h-screen relative overflow-hidden bg-[#1C1E1F]">
  
-    <!-- video -->
-  <video id="myVideo" autoplay loop muted class="h-[400px] min-w-[500px] w-[40vw] object-scale-down top-[-60px] sm:left-[10vw] md:left-[20%] lg:left-[35%] absolute w-full h-screen object-cover inline-block">
+  <div class="screen-lat" style="z-index: 1;"></div>
+  <!-- video -->
+  <video id="myVideo" autoplay loop muted class="z-index: 0; h-[400px] min-w-[500px] w-[40vw] object-scale-down top-[-60px] sm:left-[10vw] md:left-[20%] lg:left-[35%] absolute w-full h-screen object-cover inline-block">
     <source src="intro.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 
   <!-- Image Overlay -->
-  <div class="image-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero1.png') center center no-repeat; background-size: cover;"></div>
+  <div class="image-overlay" id="overlay1" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero1.png') center center no-repeat; background-size: cover;"></div>
+  <div class="image-overlay" id="overlay2" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero2.png') center center no-repeat; background-size: cover; display: none;"></div>
+  <div class="image-overlay" id="overlay3" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero3.png') center center no-repeat; background-size: cover; display: none;"></div>
+  
+  
   <!-- making the background darker  -->
   <div class="hero" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover;"></div>
   
@@ -355,7 +361,8 @@
 
         <div class=" text-veryDarkGray max-w-[21rem] sm:max-w-[26rem] m-auto ">
 
-          <p class="pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
+          <p class="font-terminal pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
+
           <div class="swiper-container "> 
             <div class="swiper-cards ">
               <div class="swiper-wrapper">
@@ -560,18 +567,33 @@
 
 <!-- Change hero image every 3 seconds -->
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-      var imageOverlay = document.querySelector('.image-overlay');
-      var images = ['./images/hero1.png', './images/hero2.png', './images/hero3.png'];
-      var currentIndex = 0;
+document.addEventListener("DOMContentLoaded", function() {
+    var overlays = [
+        document.getElementById('overlay1'),
+        document.getElementById('overlay2'),
+        document.getElementById('overlay3')
+    ];
+    var currentIndex = 0;
 
-      function changeBackgroundImage() {
-          currentIndex = (currentIndex + 1) % images.length;
-          imageOverlay.style.backgroundImage = "url('" + images[currentIndex] + "')";
-      }
+    function changeBackgroundImage() {
+        // Show the next image
+        currentIndex = (currentIndex + 1) % overlays.length;
+        overlays[currentIndex].style.display = 'block';
 
-      setInterval(changeBackgroundImage, 3000);
-  });
+        // After showing the last image, reset all back to the first image
+        if (currentIndex === overlays.length - 1) {
+            setTimeout(function() {
+                overlays.forEach(function(overlay, index) {
+                    overlay.style.display = index === 0 ? 'block' : 'none';
+                });
+                currentIndex = 0;
+            }, 3000); // Reset after the last image has been displayed for 3 seconds
+        }
+    }
+
+    // Start the cycle of changing images every 3 seconds
+    setInterval(changeBackgroundImage, 3000);
+});
 </script>
 
 <!-- force video to play again every 9 seconds -->

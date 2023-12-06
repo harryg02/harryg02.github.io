@@ -1,9 +1,9 @@
 <nav class="relative container p-7 mx-auto text-darkGray text-sm font-bold">
     <!-- Flex container -->
-    <div class="flex items-center justify-between max-w-[500px] mt-[5vh] md:ml-10 lg:ml-20  ">
+    <div class="flex items-center justify-between max-w-[500px] mt-[8vh] md:mt-[5vh] md:ml-10 lg:ml-20  ">
       <!-- <div class="flex items-center justify-between tracking-wider"> -->
       <!-- logo -->
-      <div class="z-40">
+      <div style="z-index: 501">
           <a href="./index.html"class="text-base">
             <img class="inline h-7 opacity-40" src="./icons/logo-9-21-colored.svg" alt="HARRY GU LOGO">
           </a>
@@ -17,7 +17,7 @@
       </div>
 
       <!-- Hamburger Icon-->
-      <button id="menu-btn" class="z-40 block hamburger md:hidden focus:outline-none">
+      <button id="menu-btn" class="z-40 block hamburger md:hidden focus:outline-none" style="z-index: 501">
         <span class="hamburger-top"></span>
         <span class="hamburger-middle"></span>
         <span class="hamburger-bottom"></span>
@@ -31,7 +31,7 @@
     <div class="md:hidden">
       <div id="menu" class="absolute w-[100vw] flex-col items-center hidden self-end 
       py-16 space-y-10 font-bold text-darkGray
-       bg-menu animate-open-menu text-base pt-36 -top-1">
+       bg-menu animate-open-menu text-base pt-36 -top-1" style="z-index: 500">
         <a href="./index.html" id="nav-hamburger-1" class="hover:text-themeRed">HOME</a>
         <a href="./index.html#design" id="nav-hamburger-3" class="hover:text-themeRed">DESIGN</a>
         <a href="./index.html#drawing" id="nav-hamburger-2" class="hover:text-themeRed">DRAWING</a>
