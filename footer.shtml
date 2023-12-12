@@ -4,7 +4,7 @@
         <!-- left item -->
         <div class="basis-2/3 py-10 md:px-10 md:py-0">
           <p class="text-gray-900 font-terminal font-bold leading-8">ABOUT ME</p>
-          <p class="text-sm">
+          <p class="text-base font-medium">
             Hi, I'm Harry, a graphic design student who studies at Calvin University. 
             I'm interested in graphic design, drawings, and web development. I originally wrote
              this website in Bootstrap 3, but I've rewritten it in TailwindCSS. 
