@@ -1997,6 +1997,21 @@ video {
     border-bottom-right-radius: 1rem;
   }
 
+  .lg\:rounded-t-none {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .lg\:rounded-b-none {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .lg\:rounded-r-none {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
   .lg\:rounded-tl-2xl {
     border-top-left-radius: 1rem;
   }
