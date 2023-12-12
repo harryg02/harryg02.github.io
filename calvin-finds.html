@@ -23,6 +23,16 @@
       color: black;
     }
 
+    /*include my own font */
+    @font-face {
+    font-family: "TerminalDisplay";
+    src: url("./fonts/terminaldisplay.ttf");
+    }
+    .font-terminal {
+      font-family: "TerminalDisplay";
+      letter-spacing: 1px;
+    }
+
     .hamburger-top,
     .hamburger-middle,
     .hamburger-bottom {
@@ -97,7 +107,7 @@
   <!-- Main content -->
   <section id="gdthumbnails">
     <!-- Intro -->
-    <div class=" grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 ">
+    <div class="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 ">
       <!-- text block -->
       <div class="lg:order-last md:col-span-2 lg:col-span-1 px-16 py-32 md:py-10 flex flex-col justify-center items-start transition bg-grey-500 min-h[30px] text-center ">
         <p class="font-[poppins] text-left inline-flex font-black text-2xl pt-5 ">Calvin Finds</p>
@@ -110,13 +120,14 @@
       </div>
 
       <div class="md:col-span-2 bg-[#EDE7E7] transition sm:min-h-[150px] h-fit">
-        <img class=" rounded-2xl lg:rounded-l-none drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/CalvinFinds/mockup.png" alt="">
+        <img class="hidden md:block rounded-2xl lg:rounded-l-none drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/CalvinFinds/mockup.png" alt="">
+        <img class="block md:hidden rounded-2xl lg:rounded-l-none drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/CalvinFinds/thumbnail.png" alt="">
       </div>
       
     </div>
 
     <!-- P1 -->
-    <div class="grid grid-cols-2 md:grid-cols-3">
+    <div class="lg:pb-1 grid grid-cols-2 md:grid-cols-3">
 
       <div class="col-span-2 md:col-span-3 lg:col-span-1 row-span-3 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-16 py-16">
         <!-- title -->
@@ -144,7 +155,7 @@
         </p>
       </div>
 
-      <div class="rounded-t-2xl bg-[#FFAF66] col-span-2 md:col-span-3 lg:col-span-2 row-span-3 transition sm:min-h-[150px]">
+      <div class="rounded-t-2xl bg-[#FFAF66] lg:bg-transparent col-span-2 md:col-span-3 lg:col-span-2 row-span-3 transition sm:min-h-[150px]">
         <img class="rounded-t-2xl lg:rounded-r-none object-cover w-[60rem] h-[20rem] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./third_party_img/UI/3.png" alt="">
         <img class="object-cover w-[60rem] h-[20rem] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./third_party_img/UI/1.jpg" alt="">
         <img class="rounded-b-2xl lg:rounded-r-none object-cover w-[60rem] h-[25rem] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./third_party_img/UI/2.png" alt="">
@@ -153,10 +164,10 @@
     </div>
 
     <!-- P2 -->
-    <div class="grid grid-cols-2 lg:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+    <div class="lg:pb-1 grid grid-cols-2 lg:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
 
       <!-- text block -->
-      <div class="bg-[#FFAF66] lg:order-2 col-span-2 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12">
+      <div class="bg-[#FFAF66] lg:order-2 col-span-2 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-16 py-20">
         <!-- title -->
         <!-- title -->
         <div class=" flex flex-row p-4">
@@ -179,7 +190,7 @@
 
 
     <!-- Application -->
-    <div class="grid grid-cols-2 md:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+    <div class="lg:pb-1 grid grid-cols-2 md:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
       <!-- text block -->
       <div class=" col-span-2 md:col-span-4 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12">
         <!-- title -->
