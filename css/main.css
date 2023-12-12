@@ -1992,6 +1992,10 @@ video {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
+  .lg\:rounded-none {
+    border-radius: 0px;
+  }
+
   .lg\:rounded-r-2xl {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -2010,6 +2014,11 @@ video {
   .lg\:rounded-r-none {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
+  }
+
+  .lg\:rounded-l-none {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
 
   .lg\:rounded-tl-2xl {
