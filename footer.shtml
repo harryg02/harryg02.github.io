@@ -17,13 +17,17 @@
             <img class="inline h-4" src="./icons/email.svg" alt=""> 
             <a class="hover:text-themeRed" href="mailto:tg27@calvin.edu">tg27@calvin.edu</a>
           </p>
+
           <p>
-            <img class="inline h-4" src="./icons/ins.svg" alt="">
-             <a class="hover:text-themeRed" href="https://www.instagram.com/harrygu.art/">@harrygu.art</a> 
-          </p>
-          <p>
-            <img class="inline h-4" src="./icons/github.svg" alt="">
-             <a class="hover:text-themeRed" href="https://github.com/harryg02">harryg02</a> 
+            <a class="hover:text-themeRed" href="https://www.instagram.com/harrygu.art/">
+              <img class="inline h-6 m-[1px]" src="./icons/ins.svg" alt="">
+            </a> 
+            <a class="hover:text-themeRed" href="https://github.com/harryg02">
+              <img class="inline h-6 m-[1px]" src="./icons/github.svg" alt="">
+            </a> 
+            <a class="hover:text-themeRed" href="https://www.linkedin.com/in/harry-gu-3762541a3/">
+              <img class="inline h-6 m-[1px]" src="./icons/linkedin.svg" alt="">
+            </a> 
           </p>
         </div>
       </div>
