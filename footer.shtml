@@ -1,4 +1,4 @@
-<footer class="bg-LightGray">
+<footer class="bg-LightGray font-[Jost]">
     <!-- Flex Container -->
       <div class="container flex flex-col md:flex-row relative py-20 px-5 mx-auto text-darkGray leading-7">
         <!-- left item -->
