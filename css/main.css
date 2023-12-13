@@ -1916,6 +1916,10 @@ video {
     max-width: 37rem;
   }
 
+  .md\:max-w-\[44rem\] {
+    max-width: 44rem;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2053,6 +2057,34 @@ video {
 
   .lg\:max-w-\[44rem\] {
     max-width: 44rem;
+  }
+
+  .lg\:max-w-\[88rem\] {
+    max-width: 88rem;
+  }
+
+  .lg\:max-w-\[50rem\] {
+    max-width: 50rem;
+  }
+
+  .lg\:max-w-\[70rem\] {
+    max-width: 70rem;
+  }
+
+  .lg\:max-w-\[60rem\] {
+    max-width: 60rem;
+  }
+
+  .lg\:max-w-\[65rem\] {
+    max-width: 65rem;
+  }
+
+  .lg\:max-w-\[75rem\] {
+    max-width: 75rem;
+  }
+
+  .lg\:max-w-\[73rem\] {
+    max-width: 73rem;
   }
 
   .lg\:grid-cols-3 {
