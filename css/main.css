@@ -886,6 +886,10 @@ video {
   align-items: center;
 }
 
+.items-baseline {
+  align-items: baseline;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -2148,6 +2152,10 @@ video {
 
   .xl\:max-w-5xl {
     max-width: 64rem;
+  }
+
+  .xl\:max-w-\[85rem\] {
+    max-width: 85rem;
   }
 
   .xl\:gap-x-12 {
