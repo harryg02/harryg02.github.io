@@ -872,10 +872,6 @@ video {
   align-items: flex-start;
 }
 
-.items-end {
-  align-items: flex-end;
-}
-
 .items-center {
   align-items: center;
 }
@@ -1095,6 +1091,16 @@ video {
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#D0AF40\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 175 64 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FBFBE3\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 251 227 / var(--tw-bg-opacity));
+}
+
 .bg-pink-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(251 207 232 / var(--tw-bg-opacity));
@@ -1113,20 +1119,6 @@ video {
 .bg-\[\#C4CBD9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(196 203 217 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#D0AF40\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(208 175 64 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#\#D0AF40\] {
-  background-color: ##D0AF40;
-}
-
-.bg-\[\#FBFBE3\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 251 227 / var(--tw-bg-opacity));
 }
 
 .fill-\[\#9E8B8D\] {
@@ -1177,14 +1169,6 @@ video {
 
 .p-11 {
   padding: 2.75rem;
-}
-
-.p-36 {
-  padding: 9rem;
-}
-
-.p-20 {
-  padding: 5rem;
 }
 
 .p-10 {
@@ -1317,16 +1301,12 @@ video {
   padding-top: 5em;
 }
 
-.pt-36 {
-  padding-top: 9rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
 .pl-2 {
   padding-left: 0.5rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
 }
 
 .text-left {
@@ -1339,10 +1319,6 @@ video {
 
 .text-right {
   text-align: right;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .font-\[jost\] {
@@ -1526,6 +1502,16 @@ video {
   color: rgb(51 51 51 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#a18843\] {
+  --tw-text-opacity: 1;
+  color: rgb(161 136 67 / var(--tw-text-opacity));
+}
+
 .text-\[\#C4CBD9\] {
   --tw-text-opacity: 1;
   color: rgb(196 203 217 / var(--tw-text-opacity));
@@ -1534,26 +1520,6 @@ video {
 .text-\[\#2E3135\] {
   --tw-text-opacity: 1;
   color: rgb(46 49 53 / var(--tw-text-opacity));
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-\[\#D0AF40\] {
-  --tw-text-opacity: 1;
-  color: rgb(208 175 64 / var(--tw-text-opacity));
-}
-
-.text-\[\#9e998b\] {
-  --tw-text-opacity: 1;
-  color: rgb(158 153 139 / var(--tw-text-opacity));
-}
-
-.text-\[\#a18843\] {
-  --tw-text-opacity: 1;
-  color: rgb(161 136 67 / var(--tw-text-opacity));
 }
 
 .underline {
