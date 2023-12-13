@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Montserrat Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Monoton&family=Poppins:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
+  <!-- Raleway Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
+  <title>Harry Gu Art Portfolio</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <style>
+    /* Highlight current page on navbar */
+    #nav-hamburger-3,
+    #nav-3{
+      color: black;
+    }
+
+    /*include my own font */
+    @font-face {
+    font-family: "TerminalDisplay";
+    src: url("./fonts/terminaldisplay.ttf");
+    }
+    .font-terminal {
+      font-family: "TerminalDisplay";
+      letter-spacing: 1px;
+    }
+
+    .hamburger-top,
+    .hamburger-middle,
+    .hamburger-bottom {
+    background: #777;
+    }
+    .bg-menu {
+      background-color: #F8F8F8;
+    }
+  </style>
+</head>
+<body class="relative font-[jost] font-medium bg-[#EDE7E7]">
+  <!-- Nav Bar -->
+  <div class="fixed top-0 left-0 right-0 z-50">
+
+    <nav class="relative container p-7 text-darkGray text-sm font-bold ">
+      <!-- Flex container -->
+      <div class="flex items-center justify-between">
+        <!-- <div class="flex items-center justify-between tracking-wider"> -->
+        <div class="py-2 px-6 rounded-full bg-[#FAF2F2] font-extrabold text-[#9E8B8D] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+              <a  onclick="history.back()" href="#"class="text-base hover:text-themeRed fill-[#9E8B8D] hover:fill-themeRed">
+                <svg class="inline h-3 mb-[3px]"
+                    version="1.1"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 1000 1000"
+                    enable-background="new 0 0 1000 1000"
+                    xml:space="preserve"
+                    id="svg8"
+                    sodipodi:docname="8f9ca05567ef7fe72a25480f95fbcf90.svg"
+                    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+                    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:svg="http://www.w3.org/2000/svg"><defs
+                    id="defs12" /><sodipodi:namedview
+                    id="namedview10"
+                    pagecolor="#ffffff"
+                    bordercolor="#000000"
+                    borderopacity="0.25"
+                    inkscape:showpageshadow="2"
+                    inkscape:pageopacity="0.0"
+                    inkscape:pagecheckerboard="0"
+                    inkscape:deskcolor="#d1d1d1"
+                    showgrid="false"
+                    inkscape:zoom="0.236"
+                    inkscape:cx="500"
+                    inkscape:cy="502.11864"
+                    inkscape:window-width="1280"
+                    inkscape:window-height="734"
+                    inkscape:window-x="0"
+                    inkscape:window-y="0"
+                    inkscape:window-maximized="1"
+                    inkscape:current-layer="svg8" />
+                  <metadata
+                      id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+                  <g display="inline"
+                      id="g6"
+                      transform="matrix(-1,0,0,1,1000,0)"><path
+                        d="m 217.6,915.1 c 0,-19.2 7.2,-38.4 21.9,-53 L 601.5,500 239.5,137.9 c -29.3,-29.3 -29.3,-76.7 0,-106 29.3,-29.3 76.7,-29.3 106,0 l 415,415.1 c 29.3,29.3 29.3,76.7 0,106 l -415,415 c -29.3,29.3 -76.7,29.3 -106,0 -14.7,-14.6 -21.9,-33.8 -21.9,-52.9 z"
+                        id="path4" /></g>
+                </svg>
+                  Go Back
+              </a>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+
+
+  <!-- Main content -->
+  <section id="gdthumbnails">
+    <!-- Intro -->
+    <div class="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 ">
+      <!-- text block -->
+      <div class="lg:order-last md:col-span-2 lg:col-span-1 px-16 py-32 lg:py-10 flex flex-col justify-center items-start transition bg-grey-500 min-h[30px] text-center ">
+        <p class="font-[poppins] text-left inline-flex font-black text-2xl pt-5 ">Calvin Finds</p>
+        <p class="font-[poppins] text-left inline-flex text-[#9E8B8D] font-black text-2xl">UX/UI DESIGN</p>
+        <a class="w-7 h-7" href="https://github.com/calvin-cs262-fall2023-teamA/client">
+          <img class="" src="./icons/github.svg" alt="github link">
+        </a>
+        
+        <p class="text-left inline-flex text-base mt-5">Calvin Finds is a lost and found app for Calvin University students, written in React Native. My role in this development team was the UI/UX designer and one of the front-end developer.</p>
+      </div>
+
+      <div class="md:col-span-2 bg-[#EDE7E7] transition sm:min-h-[150px] h-fit">
+        <img class="hidden md:block rounded-2xl lg:rounded-l-none drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/CalvinFinds/mockup.png" alt="">
+        <img class="block md:hidden rounded-2xl lg:rounded-l-none drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/CalvinFinds/thumbnail.png" alt="">
+      </div>
+      
+    </div>
+
+    <!-- P1 -->
+    <div class="lg:pb-1 grid grid-cols-2 md:grid-cols-3">
+
+      <div class="col-span-2 md:col-span-3 lg:col-span-1 row-span-3 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-16 py-16">
+        <!-- title -->
+        <div class="flex flex-row p-4 py-10">
+          <p class="text-[#9E8B8D] text-6xl font-[poppins] font-black pr-3" > 
+            1
+          </p>
+          <p class="text-gray-900 inline-flex font-[poppins] font-black md:text-xl text-left">
+            Brainstorming &
+            </br>
+            Inspiration
+          </p>
+        </div>
+        
+
+        <p class="inline-flex text-base  p-2 py-6">
+          - Clean design, inspired by modern social media apps, but posting lost/found items instead. 
+        </p>
+        <p class="inline-flex text-base  p-2 py-6">
+          - Consistent design. Long rectangular shapes indicates input fields, rounded shapes indicates clickable buttons.
+        </p>
+        <p class="inline-flex text-base  p-2 py-6">
+          - Designed with accessibility and usability in mind. Use Bright yellow as primary button colors. large, bold text as primary font. Huge Buttons for easy user interaction.
+
+        </p>
+      </div>
+
+      <div class="rounded-t-2xl bg-[#FFAF66] lg:bg-transparent col-span-2 md:col-span-3 lg:col-span-2 row-span-3 transition sm:min-h-[150px]">
+        <img class="rounded-t-2xl lg:rounded-r-none object-cover w-[60rem] h-[20rem] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./third_party_img/UI/3.png" alt="">
+        <img class="object-cover w-[60rem] h-[20rem] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./third_party_img/UI/1.jpg" alt="">
+        <img class="rounded-b-2xl lg:rounded-r-none object-cover w-[60rem] h-[25rem] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./third_party_img/UI/2.png" alt="">
+      </div>
+      
+    </div>
+
+    <!-- P2 -->
+    <div class="lg:pb-1 grid grid-cols-2 lg:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+
+      <!-- text block -->
+      <div class="bg-[#FFAF66] lg:order-2 col-span-2 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-16 py-20">
+        <!-- title -->
+        <!-- title -->
+        <div class=" flex flex-row p-4">
+          <p class="text-yellow-900 text-6xl font-black pr-3" > 
+            2
+          </p>
+          <p class=" mt-4 inline-flex font-black text-xl text-left">
+            Process
+          </p>
+        </div>
+      </div>
+
+      <div class="col-span-3 row-span-2 bg-[#FFAF66] rounded-b-2xl lg:rounded-none transition sm:min-h-[150px] h-fit">
+        <img class="rounded-2xl md:rounded-l-none drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/CalvinFinds/process.png" alt="">
+      </div>  
+    </div>
+
+    <!-- Mark & Type Exploration p2 for small and large screen-->
+
+
+
+    <!-- Application -->
+    <div class="bg-[#F77361] py-10 grid grid-col-1 sm:grid-cols-2 lg:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+      <!-- text block -->
+      <div class=" col-span-1 sm:col-span-2 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12">
+        <!-- title -->
+        <div class=" flex flex-row p-4">
+          <p class="text-[#ffdade] text-6xl font-bold pr-3" > 
+            3
+          </p>
+          <p class="font-[poppins] text-white mt-4 inline-flex font-black text-xl text-left">
+            Implementation
+          </p>
+        </div>
+        <!-- <p class="inline-flex text-base  p-3">
+          Bold font because it's more service based. the less bold version feels more medical.
+        </p> -->
+      </div>
+
+      <div class="flex flex-col justify-center items-center  p-9 col-span-1 row-span-2 bg-[#F77361] transition sm:min-h-[150px] h-fit">
+        <img src="./images/CalvinFinds/login.png" alt="">
+        <p class="text-white m-1">Login Page</p>
+      </div>
+
+      <div class="flex flex-col justify-center items-center  p-9 col-span-1 row-span-2 bg-[#F77361] transition sm:min-h-[150px] h-fit">
+        <img src="./images/CalvinFinds/signup.png" alt="">
+        <p class="text-white m-1">Signup Page - Filled</p>
+      </div>
+
+      <div class="flex flex-col justify-center items-center  p-9 col-span-1 row-span-2 bg-[#F77361] transition sm:min-h-[150px] h-fit">
+        <img src="./images/CalvinFinds/main.png" alt="">
+        <p class="text-white m-1">Main Page</p>
+      </div>
+
+      <div class="flex flex-col justify-center items-center  p-9 col-span-1 row-span-2 bg-[#F77361] transition sm:min-h-[150px] h-fit">
+        <img src="./images/CalvinFinds/main-search.png" alt="">
+        <p class="text-white m-1">Main Page - Search Bar Activated</p>
+      </div>
+
+      <div class="flex flex-col justify-center items-center  p-9 col-span-1 row-span-2 bg-[#F77361] transition sm:min-h-[150px] h-fit">
+        <img src="./images/CalvinFinds/details.png" alt="">
+        <p class="text-white m-1">Item Details Page</p>
+      </div>
+
+      <div class="flex flex-col justify-center items-center  p-9 col-span-1 row-span-2 bg-[#F77361] transition sm:min-h-[150px] h-fit">
+        <img src="./images/CalvinFinds/profile.png" alt="">
+        <p class="text-white m-1">User Profile Page</p>
+      </div>
+
+      <div class="flex flex-col justify-center items-center  p-9 col-span-1 row-span-2 bg-[#F77361] transition sm:min-h-[150px] h-fit">
+        <img src="./images/CalvinFinds/posted.png" alt="">
+        <p class="text-white m-1">User Posted Page</p>
+      </div>
+
+      <div class="flex flex-col justify-center items-center  p-9 col-span-1 row-span-2 bg-[#F77361] transition sm:min-h-[150px] h-fit">
+        <img src="./images/CalvinFinds/add.png" alt="">
+        <p class="text-white m-1">Add Item Page</p>
+      </div>
+
+      <div class="flex flex-col justify-center items-center  p-9 col-span-1 row-span-2 bg-[#F77361] transition sm:min-h-[150px] h-fit">
+        <img src="./images/CalvinFinds/map.png" alt="">
+        <p class="text-white m-1">Add Item Page - Map Selection</p>
+      </div>
+
+      <div class="flex flex-col justify-center items-center  p-9 col-span-1 row-span-2 bg-[#F77361] transition sm:min-h-[150px] h-fit">
+        <img src="./images/CalvinFinds/add-filled.png" alt="">
+        <p class="text-white m-1">Add Item Page - Filled</p>
+      </div>
+
+      
+    </div>
+
+  </section>
+
+<!-- Footer -->
+  <div id="footer-placeholder">
+  </div>
+  <script>
+  $(function(){
+    $("#footer-placeholder").load("./footer.shtml");
+  });
+  </script>
+  
+
+
+</body>
+</html>
