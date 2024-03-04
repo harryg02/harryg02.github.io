@@ -1849,6 +1849,26 @@ video {
     margin-left: 2.5rem;
   }
 
+  .md\:mt-\[20\%\] {
+    margin-top: 20%;
+  }
+
+  .md\:mt-\[10\%\] {
+    margin-top: 10%;
+  }
+
+  .md\:mt-\[5\%\] {
+    margin-top: 5%;
+  }
+
+  .md\:mt-\[8vh\] {
+    margin-top: 8vh;
+  }
+
+  .md\:mt-\[7vh\] {
+    margin-top: 7vh;
+  }
+
   .md\:block {
     display: block;
   }
