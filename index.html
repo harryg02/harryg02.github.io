@@ -95,14 +95,14 @@
   <div class="screen-lat" style="z-index: 1;"></div>
   <!-- video -->
   <video id="myVideo" autoplay loop muted class="z-index: 0; h-[400px] min-w-[500px] w-[40vw] object-scale-down top-[-60px] sm:left-[10vw] md:left-[20%] lg:left-[35%] absolute object-cover inline-block">
-    <source src="intro.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
+  
 
   <!-- Image Overlay -->
-  <div class="image-overlay" id="overlay1" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero1.png') center center no-repeat; background-size: cover;"></div>
-  <div class="image-overlay" id="overlay2" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero2.png') center center no-repeat; background-size: cover; display: none;"></div>
-  <div class="image-overlay" id="overlay3" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero3.png') center center no-repeat; background-size: cover; display: none;"></div>
+  <div class="image-overlay" id="overlay1" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero3.png') center center no-repeat; background-size: cover;"></div>
+  <div class="image-overlay" id="overlay2" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero1.png') center center no-repeat; background-size: cover; display: none;"></div>
+  <div class="image-overlay" id="overlay3" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero2.png') center center no-repeat; background-size: cover; display: none;"></div>
   
   
   <!-- making the background darker  -->
@@ -607,17 +607,28 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-<!-- force video to play again every 9 seconds -->
+<!-- video overlay -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
       var video = document.getElementById('myVideo');
-
-      setInterval(function() {
-          video.currentTime = 0; // Reset the video to start
+      var videoSources = ["intro-1.mp4", "intro-2.mp4", "intro-3.mp4"];
+      var currentIndex = 0;
+  
+      function changeVideoSource() {
+          // Set the current video source
+          video.src = videoSources[currentIndex];
+          video.load(); // Load the new video
           video.play(); // Play the video
-      }, 9000); // Interval set to 3 seconds (3000 milliseconds)
+  
+          // Update currentIndex to point to the next video
+          currentIndex = (currentIndex + 1) % videoSources.length;
+      }
+  
+      // Start cycling through videos every 3 seconds
+      setInterval(changeVideoSource, 3000);
   });
-</script>
+  </script>
+  
 
 <!-- loading screen js -->
 <script>
