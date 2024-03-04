@@ -1300,6 +1300,10 @@ video {
   text-align: right;
 }
 
+.align-baseline {
+  vertical-align: baseline;
+}
+
 .font-\[jost\] {
   font-family: jost;
 }
