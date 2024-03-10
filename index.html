@@ -50,16 +50,7 @@
     .hamburger-bottom {
     background: #CCD4E3;
     }
-
-
-    #myVideo {
-      height: 400px;
-      min-width: 500px;
-      width: 40vw;
-      object-fit: scale-down;
-      top: 100px;
-    }
-
+/* 
     @media (min-width: 640px) { 
       #myVideo {
         left: 10vw;
@@ -76,7 +67,7 @@
       #myVideo {
         left: 35%;
       }
-    }
+    } */
 
   </style>
 </head>
@@ -90,11 +81,18 @@
 
   
   <!-- hero section -->
-  <section id="hero" class=" z-50 box-border min-h-[600px] h-[75vh] md:h-screen relative overflow-hidden bg-[#1C1E1F]">
+  <section id="hero" class=" z-50 box-border min-h-[600px] max-h-[800px] h-[75vh] md:h-screen relative overflow-hidden bg-[#1C1E1F]">
  
   <div class="screen-lat" style="z-index: 1;"></div>
   <!-- video -->
-  <video id="myVideo" autoplay loop muted class="z-index: 0; h-[400px] min-w-[500px] w-[40vw] object-scale-down top-[-60px] sm:left-[10vw] md:left-[20%] lg:left-[35%] absolute inline-block">
+  <video id="myVideo" autoplay loop muted 
+  style="      
+    height: 340px;
+    min-width: 350px;
+    width: 40vw;
+    object-fit: scale-down;
+    top: 15vh
+  " class="z-index: 0; w-[40vw] object-scale-down left-[23vw] sm:left-[35%] lg:left-[35%] absolute inline-block">
     Your browser does not support the video tag.
   </video>
   
