@@ -100,9 +100,9 @@
   
 
   <!-- Image Overlay -->
-  <div class="image-overlay" id="overlay1" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero1.png') center center no-repeat; background-size: cover;"></div>
-  <div class="image-overlay" id="overlay2" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero2.png') center center no-repeat; background-size: cover; display: none;"></div>
-  <div class="image-overlay" id="overlay3" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero3.png') center center no-repeat; background-size: cover; display: none;"></div>
+  <div class="image-overlay" id="imageOverlay1" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero1.png') center center no-repeat; background-size: cover;"></div>
+  <div class="image-overlay" id="imageOverlay2" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero2.png') center center no-repeat; background-size: cover; display: none;"></div>
+  <div class="image-overlay" id="imageOverlay3" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero3.png') center center no-repeat; background-size: cover; display: none;"></div>
   
   
   <!-- making the background darker  -->
@@ -584,22 +584,22 @@
 <!-- Change hero image every 3 seconds -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    var overlays = [
-        document.getElementById('overlay1'),
-        document.getElementById('overlay2'),
-        document.getElementById('overlay3')
+    var imageOverlays = [
+        document.getElementById('imageOverlay1'),
+        document.getElementById('imageOverlay2'),
+        document.getElementById('imageOverlay3')
     ];
     var currentIndex = 0;
 
     function changeBackgroundImage() {
         // Show the next image
-        currentIndex = (currentIndex + 1) % overlays.length;
-        overlays[currentIndex].style.display = 'block';
+        currentIndex = (currentIndex + 1) % imageOverlays.length;
+        imageOverlays[currentIndex].style.display = 'block';
 
         // After showing the last image, reset all back to the first image
-        if (currentIndex === overlays.length - 1) {
+        if (currentIndex === imageOverlays.length - 1) {
             setTimeout(function() {
-                overlays.forEach(function(overlay, index) {
+              imageOverlays.forEach(function(overlay, index) {
                     overlay.style.display = index === 0 ? 'block' : 'none';
                 });
                 currentIndex = 0;
