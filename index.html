@@ -67,14 +67,22 @@
  
   <div class="screen-lat" style="z-index: 1;"></div>
   <!-- video -->
-  <video id="myVideo" autoplay loop muted 
-  style="      
-    height: 340px;
-    min-width: 350px;
-    width: 40vw;
-    object-fit: scale-down;
-    top: 15vh
-  " class="z-index: 0; w-[40vw] object-scale-down left-[23vw] sm:left-[35%] lg:left-[35%] absolute inline-block">
+  <video id="myVideo1" autoplay loop muted 
+    style="height: 340px; min-width: 350px; width: 40vw; object-fit: scale-down; top: 15vh;" 
+    class="video-overlay w-[40vw] object-scale-down left-[23vw] sm:left-[35%] lg:left-[35%] absolute inline-block">
+    <source src="intro-1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <video id="myVideo2" autoplay loop muted 
+    style="height: 340px; min-width: 350px; width: 40vw; object-fit: scale-down; top: 15vh; display: none;" 
+    class="video-overlay w-[40vw] object-scale-down left-[23vw] sm:left-[35%] lg:left-[35%] absolute inline-block">
+    <source src="intro-2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <video id="myVideo3" autoplay loop muted 
+    style="height: 340px; min-width: 350px; width: 40vw; object-fit: scale-down; top: 15vh; display: none;" 
+    class="video-overlay w-[40vw] object-scale-down left-[23vw] sm:left-[35%] lg:left-[35%] absolute inline-block">
+    <source src="intro-3.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   
@@ -580,20 +588,29 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('imageOverlay2'),
         document.getElementById('imageOverlay3')
     ];
+    var videoOverlays = [
+        document.getElementById('myVideo1'),
+        document.getElementById('myVideo2'),
+        document.getElementById('myVideo3')
+    ];
     var currentIndex = 0;
 
     function changeBackgroundImage() {
         // Show the next image
         currentIndex = (currentIndex + 1) % imageOverlays.length;
         imageOverlays[currentIndex].style.display = 'block';
+        videoOverlays[currentIndex].style.display = 'block';
 
         // After showing the last image, reset all back to the first image
         if (currentIndex === imageOverlays.length - 1) {
             setTimeout(function() {
               imageOverlays.forEach(function(overlay, index) {
-                    overlay.style.display = index === 0 ? 'block' : 'none';
-                });
-                currentIndex = 0;
+                overlay.style.display = index === 0 ? 'block' : 'none';
+              });
+              videoOverlays.forEach(function(overlay, index) {
+                overlay.style.display = index === 0 ? 'block' : 'none';
+              });
+              currentIndex = 0;
             }, 3000); // Reset after the last image has been displayed for 3 seconds
         }
     }
@@ -602,31 +619,6 @@ document.addEventListener("DOMContentLoaded", function() {
     setInterval(changeBackgroundImage, 3000);
 });
 </script>
-
-<!-- video overlay -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-      var video = document.getElementById('myVideo');
-      var videoSources = ["intro-1.mp4", "intro-2.mp4", "intro-3.mp4"];
-      var currentIndex = 0;
-
-      function changeVideoSource() {
-          // Set the current video source
-          video.src = videoSources[currentIndex];
-          video.load(); // Load the new video
-          video.play(); // Play the video
-
-          // Update currentIndex to point to the next video
-          currentIndex = (currentIndex + 1) % videoSources.length;
-      }
-    
-      // Call it immediately to start the first video
-      changeVideoSource();
-    
-      // Then, continue cycling through videos every 3 seconds
-      setInterval(changeVideoSource, 3000);
-  });
-  </script>
   
 
 <!-- loading screen js -->
