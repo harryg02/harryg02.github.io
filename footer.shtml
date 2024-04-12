@@ -26,7 +26,7 @@
             <a class="hover:text-themeRed" href="https://github.com/harryg02">
               <img class="inline h-6 m-[1px]" src="./icons/github.svg" alt="">
             </a> 
-            <a class="hover:text-themeRed" href="https://www.linkedin.com/in/tu-gu-3762541a3/">
+            <a class="hover:text-themeRed" href="https://www.linkedin.com/in/harry-gu-3762541a3/">
               <img class="inline h-6 m-[1px]" src="./icons/linkedin.svg" alt="">
             </a> 
           </p>
