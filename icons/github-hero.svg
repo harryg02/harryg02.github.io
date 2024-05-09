@@ -41,7 +41,7 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="path1"
-     style="stroke-width:1.8;stroke-dasharray:none;stroke:#d2d8e5;stroke-opacity:0.80000001" />
+     style="stroke-width:1.98;stroke-dasharray:none;stroke:#d2d8e5;stroke-opacity:0.80000001" />
   <path
      d="M4 17C4.36915 17.0523 4.72159 17.1883 5.03065 17.3975C5.3397 17.6068 5.59726 17.8838 5.7838 18.2078C5.94231 18.4962 6.15601 18.7504 6.41264 18.9557C6.66927 19.161 6.96379 19.3135 7.27929 19.4043C7.59478 19.4952 7.92504 19.5226 8.25112 19.485C8.5772 19.4475 8.89268 19.3457 9.17946 19.1855"
      stroke="#323232"
