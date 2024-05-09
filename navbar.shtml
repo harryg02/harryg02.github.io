@@ -1,20 +1,27 @@
 <nav class="relative container mx-auto text-darkGray text-sm font-bold">
     <!-- Flex container -->
-    <div class="flex items-center justify-between max-w-[500px] mt-[8vh] md:mt-[7vh] mx-6 md:ml-10 lg:ml-20  ">
+    <div class="flex items-center justify-between max-w-[600px] mt-[8vh] md:mt-[7vh] mx-6 md:ml-10 lg:ml-20  ">
       <!-- <div class="flex items-center justify-between tracking-wider"> -->
       <!-- logo -->
       <div style="z-index: 701">
           <a href="./index.html"class="text-base">
             <img class="inline h-7 opacity-40" src="./icons/logo-9-21-colored.svg" alt="HARRY GU LOGO">
           </a>
-
       </div>
       <!-- menu items -->
-      <div class="hidden space-x-16 md:flex" style="z-index: 701">
+      <div class="hidden space-x-12 md:flex" style="z-index: 701">
         <a href="./index.html" id="nav-1" class="hover:text-themeRed">HOME</a>
         <a href="./index.html#design" id="nav-3" class="hover:text-themeRed">DESIGN</a>
         <a href="./index.html#drawing" id="nav-2" class="hover:text-themeRed">DRAWING</a>
       </div>
+      <div class="hidden space-x-4 md:flex" style="z-index: 701">
+        <a href="https://www.linkedin.com/in/harry-gu-3762541a3/"class="text-base">
+          <img class="inline h-8" src="./icons/linkedin-hero.svg" alt="">
+        </a>
+        <a href="https://github.com/harryg02"class="text-base">
+          <img class="inline h-8" src="./icons/github-hero.svg" alt="">
+        </a>
+      </div>  
 
       <!-- Hamburger Icon-->
       <button id="menu-btn" class="z-40 block hamburger md:hidden focus:outline-none" style="z-index: 701">
