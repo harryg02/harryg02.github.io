@@ -14,7 +14,7 @@
         <a href="./index.html#design" id="nav-3" class="hover:text-themeRed">DESIGN</a>
         <a href="./index.html#drawing" id="nav-2" class="hover:text-themeRed">DRAWING</a>
       </div>
-      <div class="hidden space-x-4 md:flex" style="z-index: 701">
+      <div class="hidden space-x-2 md:flex" style="z-index: 701">
         <a href="https://www.linkedin.com/in/harry-gu-3762541a3/"class="text-base">
           <img class="inline h-8" src="./icons/linkedin-hero.svg" alt="">
         </a>
@@ -42,6 +42,14 @@
         <a href="./index.html" id="nav-hamburger-1" class="hover:text-themeRed">HOME</a>
         <a href="./index.html#design" id="nav-hamburger-3" class="hover:text-themeRed">DESIGN</a>
         <a href="./index.html#drawing" id="nav-hamburger-2" class="hover:text-themeRed">DRAWING</a>
+        <div>
+          <a href="https://www.linkedin.com/in/harry-gu-3762541a3/"class="text-base">
+            <img class="inline h-8" src="./icons/linkedin-hero.svg" alt="">
+          </a>
+          <a href="https://github.com/harryg02"class="text-base">
+            <img class="inline h-8" src="./icons/github-hero.svg" alt="">
+          </a>
+        </div>
       </div>
     </div>
 
