@@ -674,6 +674,11 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .mb-\[3px\] {
   margin-bottom: 3px;
 }
@@ -696,6 +701,10 @@ video {
 
 .mt-\[8vh\] {
   margin-top: 8vh;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .box-border {
@@ -795,6 +804,14 @@ video {
   width: 100vw;
 }
 
+.w-20 {
+  width: 5rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
 .max-w-\[19rem\] {
   max-width: 19rem;
 }
@@ -813,6 +830,18 @@ video {
 
 .max-w-\[600px\] {
   max-width: 600px;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.flex-initial {
+  flex: 0 1 auto;
 }
 
 .basis-2\/3 {
