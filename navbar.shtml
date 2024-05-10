@@ -16,10 +16,10 @@
       </div>
       <div class="hidden space-x-3 md:flex" style="z-index: 701">
         <a href="https://www.linkedin.com/in/harry-gu-3762541a3/"class="text-base">
-          <img class="inline h-8" src="./icons/linkedin-hero.svg" alt="">
+          <img class="inline h-7" src="./icons/linkedin-hero.svg" alt="">
         </a>
         <a href="https://github.com/harryg02"class="text-base">
-          <img class="inline h-8" src="./icons/github-hero.svg" alt="">
+          <img class="inline h-7" src="./icons/github-hero.svg" alt="">
         </a>
       </div>  
 
