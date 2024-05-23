@@ -54,7 +54,7 @@
         <div class="flex items-center justify-between">
           <!-- <div class="flex items-center justify-between tracking-wider"> -->
           <div class="py-2 px-6 rounded-full bg-[#FAF2F2] font-extrabold text-[#9E8B8D] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-                <a  onclick="history.back()" href="#"class="text-base hover:text-themeRed fill-[#9E8B8D] hover:fill-themeRed">
+                <a onclick="goBackOrIndex()" href="#"class="text-base hover:text-themeRed fill-[#9E8B8D] hover:fill-themeRed">
                   <svg class="inline h-3 mb-[3px]"
                       version="1.1"
                       x="0px"
@@ -283,6 +283,19 @@
           });
       });
     </script>
+    <script>
+      function goBackOrIndex() {
+        const referrer = document.referrer;
+        const currentDomain = window.location.hostname;
+    
+        if (referrer && new URL(referrer).hostname === currentDomain) {
+          history.back();
+        } else {
+          window.location.href = 'index.html';
+        }
+      }
+    </script>
+    
 
     
 
