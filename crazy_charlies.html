@@ -54,7 +54,7 @@
           <!-- <div class="flex items-center justify-between tracking-wider"> -->
           <!-- logo -->
           <div class="pt-2">
-                <a  onclick="history.back()" href="#"class="text-base hover:text-themeRed fill-darkGray hover:fill-themeRed">
+                <a onclick="goBackOrIndex()" href="#"class="text-base hover:text-themeRed fill-darkGray hover:fill-themeRed">
                   <svg class="inline h-3 mb-[3px]"
                       version="1.1"
                       x="0px"
@@ -419,6 +419,19 @@
           });
       });
     </script>
+    <script>
+      function goBackOrIndex() {
+        const referrer = document.referrer;
+        const currentDomain = window.location.hostname;
+    
+        if (referrer && new URL(referrer).hostname === currentDomain) {
+          history.back();
+        } else {
+          window.location.href = 'index.html';
+        }
+      }
+    </script>
+    
 
   </body>
 </html>
