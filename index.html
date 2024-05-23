@@ -1,485 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/main.css">
-  <!-- Photoswipe -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.css">
-  <link rel="stylesheet" href="./photoswipe-dynamic-caption-plugin.css">
-  <!-- swiper.js -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <!-- google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Regular font -->
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Monoton&display=swap" rel="stylesheet"> 
-  <!-- Display font -->
-  <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
-  <!-- Hand Writing font -->
-  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
-  <!-- monospace font -->
-  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-  <!-- icon -->
-  <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
-  <title>Harry Gu - Digital Designer, Developer, Illustrator | Portfolio - Home</title>
-  <meta name="description" content="Harry Gu - Graphic Designer with expertise in UI/UX, branding, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.">
-  <meta name="keywords" content="Harry Gu, UI/UX design, web design, typography, brand identity, logo design, freelance, developer, graphic design, artwork, front-end developer, react native, drawings, portfolio, design projects, creative design, visual art, historical themes, contract work, freelance designer, freelance developer, freelance UI/UX, contract designer, contract developer, remote work, remote designer, remote developer, freelance projects, contract projects, design consultancy, digital freelancer, freelance contracts, independent designer, project-based work, part-time designer, contract-based designer, UX consultant, UI consultant">
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  <style>
-    /*include my own font */
-    @font-face {
-    font-family: "TerminalDisplay";
-    src: url("./fonts/terminaldisplay.ttf");
-    }
-    .font-terminal {
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Photoswipe -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.css">
+    <link rel="stylesheet" href="./photoswipe-dynamic-caption-plugin.css">
+    <!-- swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Regular font -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Monoton&display=swap" rel="stylesheet"> 
+    <!-- Display font -->
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <!-- Hand Writing font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+    <!-- monospace font -->
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
+    <title>Harry Gu - Digital Designer, Developer, Illustrator | Portfolio - Home</title>
+    <meta name="description" content="Harry Gu - Graphic Designer with expertise in UI/UX, branding, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.">
+    <meta name="keywords" content="Harry Gu, UI/UX design, web design, typography, brand identity, logo design, freelance, developer, graphic design, artwork, front-end developer, react native, drawings, portfolio, design projects, creative design, visual art, historical themes, contract work, freelance designer, freelance developer, freelance UI/UX, contract designer, contract developer, remote work, remote designer, remote developer, freelance projects, contract projects, design consultancy, digital freelancer, freelance contracts, independent designer, project-based work, part-time designer, contract-based designer, UX consultant, UI consultant">
+    
+    <style>
+      /*include my own font */
+      @font-face {
       font-family: "TerminalDisplay";
-      letter-spacing: 1px;
-    }
-    html {
-      scroll-behavior: smooth;
-    }
-    /* Highlight current page on navbar */
-    #nav-hamburger-1,
-    #nav-1{
-      color: #CCD4E3;
-    }
+      src: url("./fonts/terminaldisplay.ttf");
+      }
+      .font-terminal {
+        font-family: "TerminalDisplay";
+        letter-spacing: 1px;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      /* Highlight current page on navbar */
+      #nav-hamburger-1,
+      #nav-1{
+        color: #CCD4E3;
+      }
 
-    .hamburger-top,
-    .hamburger-middle,
-    .hamburger-bottom {
-    background: #CCD4E3;
-    }
+      .hamburger-top,
+      .hamburger-middle,
+      .hamburger-bottom {
+      background: #CCD4E3;
+      }
 
-  </style>
-</head>
-<body class="font-[Jost] font-semibold bg-veryLightGray">
-  
-  <!-- loading screen -->
-  <div id="loadingScreen" class="font-terminal " style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; display: flex; justify-content: center; align-items: center; z-index: 1000; opacity: 1; transition: opacity 0.5s ease;">
-    <p id="loadingText" style="color: #CCD4E3; font-size: 2em;">Loading 0%</p>
-  </div>
-
-
-  
-  <!-- hero section -->
-  <section id="hero" class=" z-50 box-border min-h-[600px] max-h-[800px] h-[75vh] md:h-screen relative overflow-hidden bg-[#1C1E1F]">
- 
-  <div class="screen-lat" style="z-index: 1;"></div>
-  <!-- video -->
-  <video id="myVideo1" autoplay loop muted 
-    style="height: 340px; min-width: 350px; width: 40vw; object-fit: scale-down; top: 15vh;" 
-    class="video-overlay w-[40vw] object-scale-down left-[23vw] sm:left-[35%] lg:left-[35%] absolute inline-block">
-    <source src="intro-1.webm" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <video id="myVideo2" autoplay loop muted 
-    style="height: 340px; min-width: 350px; width: 40vw; object-fit: scale-down; top: 15vh; display: none;" 
-    class="video-overlay w-[40vw] object-scale-down left-[23vw] sm:left-[35%] lg:left-[35%] absolute inline-block">
-    <source src="intro-2.webm" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <video id="myVideo3" autoplay loop muted 
-    style="height: 340px; min-width: 350px; width: 40vw; object-fit: scale-down; top: 15vh; display: none;" 
-    class="video-overlay w-[40vw] object-scale-down left-[23vw] sm:left-[35%] lg:left-[35%] absolute inline-block">
-    <source src="intro-3.webm" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  
-
-  <!-- Image Overlay -->
-  <div class="image-overlay" id="imageOverlay1" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero1.png') center center no-repeat; background-size: cover;"></div>
-  <div class="image-overlay" id="imageOverlay2" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero2.png') center center no-repeat; background-size: cover; display: none;"></div>
-  <div class="image-overlay" id="imageOverlay3" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero3.png') center center no-repeat; background-size: cover; display: none;"></div>
-  
-  
-  <!-- making the background darker  -->
-  <div class="hero" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover;"></div>
-  
-  <!-- Nav Bar -->
-  <div class="font-terminal">
-    <div id="nav-placeholder">
+    </style>
+  </head>
+  <body class="font-[Jost] font-semibold bg-veryLightGray">
+    
+    <!-- loading screen -->
+    <div id="loadingScreen" class="font-terminal " style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; display: flex; justify-content: center; align-items: center; z-index: 1000; opacity: 1; transition: opacity 0.5s ease;">
+      <p id="loadingText" style="color: #CCD4E3; font-size: 2em;">Loading 0%</p>
     </div>
-    <script>
-    $(function(){
-      $("#nav-placeholder").load("./navbar.shtml");
-    });
-    </script>
+
+
+    
+    <!-- hero section -->
+    <section id="hero" class=" z-50 box-border min-h-[600px] max-h-[800px] h-[75vh] md:h-screen relative overflow-hidden bg-[#1C1E1F]">
+  
+    <div class="screen-lat" style="z-index: 1;"></div>
+    <!-- video -->
+    <video id="myVideo1" autoplay loop muted 
+      style="height: 340px; min-width: 350px; width: 40vw; object-fit: scale-down; top: 15vh;" 
+      class="video-overlay w-[40vw] object-scale-down left-[23vw] sm:left-[35%] lg:left-[35%] absolute inline-block">
+      <source src="intro-1.webm" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video id="myVideo2" autoplay loop muted 
+      style="height: 340px; min-width: 350px; width: 40vw; object-fit: scale-down; top: 15vh; display: none;" 
+      class="video-overlay w-[40vw] object-scale-down left-[23vw] sm:left-[35%] lg:left-[35%] absolute inline-block">
+      <source src="intro-2.webm" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video id="myVideo3" autoplay loop muted 
+      style="height: 340px; min-width: 350px; width: 40vw; object-fit: scale-down; top: 15vh; display: none;" 
+      class="video-overlay w-[40vw] object-scale-down left-[23vw] sm:left-[35%] lg:left-[35%] absolute inline-block">
+      <source src="intro-3.webm" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+
+    <!-- Image Overlay -->
+    <div class="image-overlay" id="imageOverlay1" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero1.png') center center no-repeat; background-size: cover;"></div>
+    <div class="image-overlay" id="imageOverlay2" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero2.png') center center no-repeat; background-size: cover; display: none;"></div>
+    <div class="image-overlay" id="imageOverlay3" style="z-index: 2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('./images/hero3.png') center center no-repeat; background-size: cover; display: none;"></div>
+    
+    
+    <!-- making the background darker  -->
+    <div class="hero" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover;"></div>
+    
+    <!-- Nav Bar -->
+    <div class="font-terminal">
+      <div id="nav-placeholder">
+      </div>
+    </div>
+
+      <!-- <div class="container flex flex-col mx-auto text-center md:text-right items-center text-white pt-8"> -->
+
+        <!-- top padding -->
+        <!-- <div class="pt-[32vh] md:pt-[17vh] xl:pt-[25vh]"></div>  -->
+
+    </section>
+
+    <!-- Graphic Design Thumbnails -->
+  <section id="design" class="bg-[#1C1E1F] text-[#CCD4E3]">
+  <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+    <div class="flex justify-center items-center transition bg-grey-500 shadow-xl min-h[60px] text-center">
+      <p class="font-terminal inline-flex font-bold p-11 tracking-[.05em]">DESIGN</p>
+    </div>
+
+    <a class="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="./calvin-finds.html">
+      <!-- LED filters -->
+      <!-- <div class="screen"></div> -->
+      <div class="screen-lat"></div>
+      <!-- <div class="lines slide"></div> -->
+
+      <img class="" src="./images/CalvinFinds/thumbnail.png" alt="">
+      <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
+      <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+        CALVIN FINDS
+        <br/>
+        UI/UX DESIGN 
+        <br/>
+        & DEVELOPMENT
+      </div>
+    </a>
+
+
+
+    <a class="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./e-communiy-service-logo.html">
+      
+      <!-- LED filters -->
+      <div class="screen"></div>
+      <div class="screen-lat"></div>
+      <div class="lines slide"></div>
+
+      <img class="" src="./trademarks/e-community-service.png" alt="">
+      <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+      <div class="font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+        e-community-service.org logo
+      </div>
+    </a>
+
+    <a class="mb-2 relative group bg-cyan-200 col-span-2  sm:min-h-[150px] h-fit hover:shadow-xl" href="./terminal_display_3500.html">
+      <img src="./images/font1.png" alt="">
+      <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
+      <div class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+        "TERMINAL DISPLAY 3500"
+        </br>
+        TYPOGRAPHY / FONT
+      </div>
+    </a>
+
+    <a class="mb-2 relative group bg-slate-100 col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./crazy_charlies.html">
+      <!-- LED filters -->
+      <div class="screen"></div>
+      <div class="screen-lat"></div>
+      
+      <img src="./images/crazy_charlies/cover.png" alt="">
+      <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
+      <div class="text-lg font-bold absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+        Crazy Charlies 
+        <div>
+          Brand Identity
+        </div>
+      </div>
+    </a>
+
+    <a class="mb-2 relative group bg-blue-200 sm:min-h-[150px] h-fit hover:shadow-xl" href="./gridlove.html">
+      <!-- LED filters -->
+      <div class="screen-lat"></div>
+
+      <img src="./images/GridLove.png" alt="">
+      <!-- hovering effect -->
+      <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+      <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+        Project GRID LOVE
+      </div>
+    </a>
+
+
+    <a class="mb-2 relative group rounded-xl  sm:min-h-[150px] h-fit hover:shadow-xl" href="./mixtape.html">
+      <!-- LED filters -->
+      <!-- <div class="screen"></div> -->
+      <div class="screen-lat"></div>
+      <div class="lines slide"></div>
+
+      <img class="" src="./images/miscere.jpeg" alt="">
+      <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
+      <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+        MIXTAPE
+        PACKAGING
+        DESIGN
+      </div>
+    </a>
+
+    <a class="mb-2 relative group bg-red-200  sm:min-h-[150px] h-fit hover:shadow-xl" href="./progressive_type.html">
+      <!-- <div class="screen"></div> -->
+      <div class="screen-lat"></div>
+      <!-- <div class="lines slide"></div> -->
+      
+      <img src="./images/progressive_type.png" alt="">
+      <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
+      <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+        Project Progressive Type
+      </div>
+    </a>
+    <!-- <div class="bg-blue-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl"></div>
+    <div class="bg-red-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl"></div>
+    <div class="bg-slate-600 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl"></div> -->
   </div>
-
-    <!-- <div class="container flex flex-col mx-auto text-center md:text-right items-center text-white pt-8"> -->
-
-      <!-- top padding -->
-      <!-- <div class="pt-[32vh] md:pt-[17vh] xl:pt-[25vh]"></div>  -->
 
   </section>
 
-  <!-- Graphic Design Thumbnails -->
-<section id="design" class="bg-[#1C1E1F] text-[#CCD4E3]">
-<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-  <div class="flex justify-center items-center transition bg-grey-500 shadow-xl min-h[60px] text-center">
-    <p class="font-terminal inline-flex font-bold p-11 tracking-[.05em]">DESIGN</p>
-  </div>
-
-  <a class="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="./calvin-finds.html">
-    <!-- LED filters -->
-    <!-- <div class="screen"></div> -->
-    <div class="screen-lat"></div>
-    <!-- <div class="lines slide"></div> -->
-
-    <img class="" src="./images/CalvinFinds/thumbnail.png" alt="">
-    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
-    <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
-      CALVIN FINDS
-      <br/>
-      UI/UX DESIGN 
-      <br/>
-      & DEVELOPMENT
-    </div>
-  </a>
 
 
 
-  <a class="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./e-communiy-service-logo.html">
-    
-    <!-- LED filters -->
-    <div class="screen"></div>
-    <div class="screen-lat"></div>
-    <div class="lines slide"></div>
+    <!-- Drawing Thumbnails -->
+    <section id="drawing">
+      
+      <!-- Disable swiper on mobile, use a separate 1 column view instead -->
+      <div class="hidden md:flex overflow-hidden"> 
+        <div class="thumbContainer mx-auto">
+          <div class="my-32 pb-[5em] pt-[4em]">
 
-    <img class="" src="./trademarks/e-community-service.png" alt="">
-    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
-    <div class="font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
-      e-community-service.org logo
-    </div>
-  </a>
+            <div class="text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[44rem] lg:max-w-[65rem] xl:max-w-[85rem] m-auto ">
 
-  <a class="mb-2 relative group bg-cyan-200 col-span-2  sm:min-h-[150px] h-fit hover:shadow-xl" href="./terminal_display_3500.html">
-    <img src="./images/font1.png" alt="">
-    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
-    <div class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
-      "TERMINAL DISPLAY 3500"
-      </br>
-      TYPOGRAPHY / FONT
-    </div>
-  </a>
+              <p class="font-terminal pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
 
-  <a class="mb-2 relative group bg-slate-100 col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./crazy_charlies.html">
-    <!-- LED filters -->
-    <div class="screen"></div>
-    <div class="screen-lat"></div>
-    
-    <img src="./images/crazy_charlies/cover.png" alt="">
-    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
-    <div class="text-lg font-bold absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
-      Crazy Charlies 
-      <div>
-        Brand Identity
-      </div>
-    </div>
-  </a>
+                <div class="align-baseline grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
 
-  <a class="mb-2 relative group bg-blue-200 sm:min-h-[150px] h-fit hover:shadow-xl" href="./gridlove.html">
-    <!-- LED filters -->
-    <div class="screen-lat"></div>
-
-    <img src="./images/GridLove.png" alt="">
-    <!-- hovering effect -->
-    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
-    <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
-      Project GRID LOVE
-    </div>
-  </a>
+                  <div class="pswp-gallery row-span-2" id="gallery" >
+                    <div class="pswp-gallery__item">
+                      <a href="./images/victory.jpeg" 
+                        data-pswp-width="2877" 
+                        data-pswp-height="3819" 
+                        target="_blank">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/victory.jpeg">
+                      </a>
+                      <div class="pswp-caption-content">
+                        <b>Victory", Graphite on Paper, 2022.4</b>
+                        <br>24 in * 18 in <br> 
+                        <br>I name this "Victory", because I think true victory comes from peace, not war. <br> 
+                        <br>Inspired by the Russian invasion of Ukraine, I decided to do anti-war drawings for my final project during the 2022 spring semester. However, this drawing is not just a protest against this specific conflict, but all forms of unjust warfare.<br>
+                        <br>This drawing was exhibited at ArtPrize 2023 and selected by Cultivate Art Magazine, which can be seen 
+                          <a href="https://issuu.com/cultivategrandrapids/docs/2023_4-8_final2" target="_blank"><b><u>here.</u></b></a>
+                        <br> 
+                      </div>
+                      </div>
+                  </div>  
 
 
-  <a class="mb-2 relative group rounded-xl  sm:min-h-[150px] h-fit hover:shadow-xl" href="./mixtape.html">
-    <!-- LED filters -->
-    <!-- <div class="screen"></div> -->
-    <div class="screen-lat"></div>
-    <div class="lines slide"></div>
-
-    <img class="" src="./images/miscere.jpeg" alt="">
-    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
-    <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
-      MIXTAPE
-      PACKAGING
-      DESIGN
-    </div>
-  </a>
-
-  <a class="mb-2 relative group bg-red-200  sm:min-h-[150px] h-fit hover:shadow-xl" href="./progressive_type.html">
-    <!-- <div class="screen"></div> -->
-    <div class="screen-lat"></div>
-    <!-- <div class="lines slide"></div> -->
-    
-    <img src="./images/progressive_type.png" alt="">
-    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
-    <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
-      Project Progressive Type
-    </div>
-  </a>
-  <!-- <div class="bg-blue-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl"></div>
-  <div class="bg-red-200 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl"></div>
-  <div class="bg-slate-600 transition hover:scale-105 sm:min-h-[150px] h-fit hover:shadow-xl"></div> -->
-</div>
-
-</section>
-
-
-
-
-  <!-- Drawing Thumbnails -->
-  <section id="drawing">
-    
-    <!-- Disable swiper on mobile, use a separate 1 column view instead -->
-    <div class="hidden md:flex overflow-hidden"> 
-      <div class="thumbContainer mx-auto">
-        <div class="my-32 pb-[5em] pt-[4em]">
-
-          <div class="text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[44rem] lg:max-w-[65rem] xl:max-w-[85rem] m-auto ">
-
-            <p class="font-terminal pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
-
-              <div class="align-baseline grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
-
-                <div class="pswp-gallery row-span-2" id="gallery" >
-                  <div class="pswp-gallery__item">
-                    <a href="./images/victory.jpeg" 
-                      data-pswp-width="2877" 
-                      data-pswp-height="3819" 
-                      target="_blank">
-                      <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/victory.jpeg">
-                    </a>
-                    <div class="pswp-caption-content">
-                      <b>Victory", Graphite on Paper, 2022.4</b>
-                      <br>24 in * 18 in <br> 
-                      <br>I name this "Victory", because I think true victory comes from peace, not war. <br> 
-                      <br>Inspired by the Russian invasion of Ukraine, I decided to do anti-war drawings for my final project during the 2022 spring semester. However, this drawing is not just a protest against this specific conflict, but all forms of unjust warfare.<br>
-                      <br>This drawing was exhibited at ArtPrize 2023 and selected by Cultivate Art Magazine, which can be seen 
-                        <a href="https://issuu.com/cultivategrandrapids/docs/2023_4-8_final2" target="_blank"><b><u>here.</u></b></a>
-                      <br> 
-                    </div>
-                    </div>
-                </div>  
-
-
-                <div class="pswp-gallery" id="gallery" >
-                  <div class="pswp-gallery__item">
-                    <a href="./images/Gaia.jpeg" 
-                      data-pswp-width="2008" 
-                      data-pswp-height="1785" 
-                      target="_blank">
-                      <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/Gaia.jpeg">
-                    </a>
-                    <div class="pswp-caption-content"><b>“Gaia”, Graphite & Color Pencil on Paper, 2023.4</b><br>22 in * 25 in <br> <br>This is about non-violence movements. <br> <br> In this drawing, She chose to use a non-violent way against violence. She was not even wearing any protection. She died. But her blood became a waterfall and nourished a beautiful landscape. <br> <br> This drawing is partially inspired by a picture of Gaia from a Greek mythology book, that Gaia’s body becomes mountains and rivers. It’s also inspired by several historical events as well. </div>
-                    </div>
-                </div>  
-
-
-                <div class="pswp-gallery" id="gallery" >
-                  <div class="pswp-gallery__item">
-                    <a href="./images/Rahab.jpeg" 
-                      data-pswp-width="2151" 
-                      data-pswp-height="1596" 
-                      target="_blank">
-                      <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/Rahab.jpeg">
-                    </a>
-                    <div class="pswp-caption-content"><b>“Prostitute Rehab Meets Two Israeli Spies”, White cCharcoal on Black paper, 2023.4</b><br>18 in * 24 in<br> <br>However the cultural context is not the ancient middle east, but modern China instead. </div>
-                  </div>
-                </div>  
-
-                <!-- photoswipe container -->
-                <div class="pswp-gallery" id="gallery" >
-                  <div class="pswp-gallery__item">
-                    <a href="./images/ship.jpg" 
-                      data-pswp-width="4032" 
-                      data-pswp-height="3024" 
-                      target="_blank">
-                      <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/ship.jpg">
-                    </a>
-                    <div class="pswp-caption-content"><b>Unnamed, Graphite on Paper, 2022.4</b><br>18 in x 24 in</div>
-                  </div>
-                </div>  
-
-
-                <div class="pswp-gallery" id="gallery" >
-                  <div class="pswp-gallery__item">
-                    <a href="./images/tank.jpg" 
-                      data-pswp-width="4032" 
-                      data-pswp-height="3024" 
-                      target="_blank">
-                      <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/tank.jpg">
-                    </a>
-                    <div class="pswp-caption-content"><b>Unnamed, Charcoal on Paper, 2022.4</b><br>18 in x 24 in</div>
-                  </div>
-                </div>  
-
-                <div class="pswp-gallery" id="gallery" >
-                  <div class="pswp-gallery__item">
-                    <a href="./images/rifle.jpg" 
-                      data-pswp-width="4032" 
-                      data-pswp-height="3024" 
-                      target="_blank">
-                      <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/rifle.jpg">
-                    </a>
-                    <div class="pswp-caption-content"><b>"Aaron's Rifle", Graphite on Paper, 2022.4</b><br>18 in x 24 in</div>
-                  </div>
-                </div>  
-
-                <div class="pswp-gallery" id="gallery" >
-                  <div class="pswp-gallery__item">
-                    <a href="./images/equality.jpeg" 
-                      data-pswp-width="4032" 
-                      data-pswp-height="3024" 
-                      target="_blank">
-                      <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/equality.jpeg">
-                    </a>
-                    <div class="pswp-caption-content"><b>Equality, Graphite on Paper, 2023.12</b><br>18 in x 24 in</div>
-                  </div>
-                </div>  
-
-
-
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End desktop swiper container -->
-
-
-
-
-      <!-- Mobile only swiper  -->
-      <div class="p-7 my-32 pb-[6em] pt-[4em] md:hidden overflow-hidden">
-
-        <div class=" text-veryDarkGray max-w-[21rem] sm:max-w-[26rem] m-auto ">
-
-          <p class="font-terminal pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
-
-          <div class="swiper-container "> 
-            <div class="swiper-cards ">
-              <div class="swiper-wrapper">
-
-
-                <!-- Swiper.js container -->
-                <div class="swiper-slide mobile-frame-container shadow-xl">
-                  <!-- photoswipe container -->
                   <div class="pswp-gallery" id="gallery" >
                     <div class="pswp-gallery__item">
                       <a href="./images/Gaia.jpeg" 
                         data-pswp-width="2008" 
                         data-pswp-height="1785" 
                         target="_blank">
-                        <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/Gaia.jpeg">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/Gaia.jpeg">
                       </a>
                       <div class="pswp-caption-content"><b>“Gaia”, Graphite & Color Pencil on Paper, 2023.4</b><br>22 in * 25 in <br> <br>This is about non-violence movements. <br> <br> In this drawing, She chose to use a non-violent way against violence. She was not even wearing any protection. She died. But her blood became a waterfall and nourished a beautiful landscape. <br> <br> This drawing is partially inspired by a picture of Gaia from a Greek mythology book, that Gaia’s body becomes mountains and rivers. It’s also inspired by several historical events as well. </div>
-                    </div>
+                      </div>
                   </div>  
 
-                </div>
 
-
-
-                <div class="swiper-slide mobile-frame-container shadow-xl">                    
-                  
-                    <div class="pswp-gallery row-span-2" id="gallery" >
-                      <div class="pswp-gallery__item">
-                        <a href="./images/victory.jpeg" 
-                          data-pswp-width="2877" 
-                          data-pswp-height="3819" 
-                          target="_blank">
-                          <img class="transition object-cover  w-full border-8 border-white rounded-lg min-h[50px]" src="./images/victory.jpeg">
-                        </a>
-                        <div class="pswp-caption-content"><b>Victory", Graphite on Paper, 2022.4</b>
-                          <br>24 in * 18 in <br> 
-                          <br>I name this "Victory", because I think true victory comes from peace, not war. <br> 
-                          <br>Inspired by the Russian invasion of Ukraine, I decided to do anti-war drawings for my final project during the 2022 spring semester. However, this drawing is not just a protest against this specific conflict, but all forms of unjust warfare. <br>
-                          <br>This drawing was exhibited at ArtPrize 2023 and selected by Cultivate Art Magazine, which can be seen 
-                            <a href="https://issuu.com/cultivategrandrapids/docs/2023_4-8_final2" target="_blank"><b><u>here.</u></b></a>
-                          <br> 
-                        </div>
-                      </div>
-                    </div>  
-                  
-                </div>
-
-
-
-                <div class="swiper-slide mobile-frame-container shadow-xl">
-                  
                   <div class="pswp-gallery" id="gallery" >
                     <div class="pswp-gallery__item">
                       <a href="./images/Rahab.jpeg" 
                         data-pswp-width="2151" 
                         data-pswp-height="1596" 
                         target="_blank">
-                        <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/Rahab.jpeg">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/Rahab.jpeg">
                       </a>
-                      <div class="pswp-caption-content"><b>“Prostitute Rehab Meets Two Israeli Spies”, White Charcoal on Black Paper, 2023.4</b><br>18 in * 24 in<br> <br>However the cultural context is not the ancient middle east, but modern China instead. </div>
+                      <div class="pswp-caption-content"><b>“Prostitute Rehab Meets Two Israeli Spies”, White cCharcoal on Black paper, 2023.4</b><br>18 in * 24 in<br> <br>However the cultural context is not the ancient middle east, but modern China instead. </div>
                     </div>
                   </div>  
 
-                </div>
-
-
-
-                <div class="swiper-slide mobile-frame-container shadow-xl">
-                  
+                  <!-- photoswipe container -->
                   <div class="pswp-gallery" id="gallery" >
                     <div class="pswp-gallery__item">
                       <a href="./images/ship.jpg" 
                         data-pswp-width="4032" 
                         data-pswp-height="3024" 
                         target="_blank">
-                        <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/ship.jpg">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/ship.jpg">
                       </a>
                       <div class="pswp-caption-content"><b>Unnamed, Graphite on Paper, 2022.4</b><br>18 in x 24 in</div>
                     </div>
                   </div>  
 
-                </div>
 
-
-
-                <div class="swiper-slide mobile-frame-container shadow-xl">
-                  
                   <div class="pswp-gallery" id="gallery" >
                     <div class="pswp-gallery__item">
                       <a href="./images/tank.jpg" 
                         data-pswp-width="4032" 
                         data-pswp-height="3024" 
                         target="_blank">
-                        <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/tank.jpg">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/tank.jpg">
                       </a>
                       <div class="pswp-caption-content"><b>Unnamed, Charcoal on Paper, 2022.4</b><br>18 in x 24 in</div>
                     </div>
                   </div>  
 
-                </div>
-
-
-
-                <div class="swiper-slide mobile-frame-container shadow-xl">
-                 
                   <div class="pswp-gallery" id="gallery" >
                     <div class="pswp-gallery__item">
                       <a href="./images/rifle.jpg" 
                         data-pswp-width="4032" 
                         data-pswp-height="3024" 
                         target="_blank">
-                        <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/rifle.jpg">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/rifle.jpg">
                       </a>
                       <div class="pswp-caption-content"><b>"Aaron's Rifle", Graphite on Paper, 2022.4</b><br>18 in x 24 in</div>
                     </div>
                   </div>  
 
-                </div>
-
-                <div class="swiper-slide mobile-frame-container shadow-xl">
                   <div class="pswp-gallery" id="gallery" >
                     <div class="pswp-gallery__item">
                       <a href="./images/equality.jpeg" 
@@ -491,203 +334,362 @@
                       <div class="pswp-caption-content"><b>Equality, Graphite on Paper, 2023.12</b><br>18 in x 24 in</div>
                     </div>
                   </div>  
+
+
+
+
                 </div>
-
-
-                
               </div>
-              <p class="text-center font-bold text-gray-400 text-sm p-2">
-                Swipe to browse through the images.
-              </p>
-              
             </div>
-
           </div>
         </div>
-      </div>
-
-      
-
-  </section>
+        <!-- End desktop swiper container -->
 
 
-<!-- Footer -->
-  <div id="footer-placeholder">
-  </div>
-  <script>
-  $(function(){
-    $("#footer-placeholder").load("footer.shtml");
-  });
-  </script>
-
-<!-- swiper.js -->
-<script>
-  var swiper = new Swiper(".swiper-walls", {
-    loopedSlides: 2,
-    loop: false,
-    slidesPerView: "auto",
-    freeMode: false,
-    spaceBetween: 0,
-    preventInteractionOnTransition: true,
-    mousewheel: false,
-    // autoplay: {
-    //   delay: 3000,
-    // },
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-
-    
-  });
-
-  var swiper2 = new Swiper(".swiper-cards", {
-      effect: "cards",
-      grabCursor: true,
-    });
-
-  var thumb = document.querySelectorAll(".thumbContainer");
-
-  thumb.forEach(function(image, index) {
-    var delay = index * 90;
-    image.classList.add("fadeInSlide");
-    image.style.animationDelay = delay + "ms";
-  });
 
 
-</script>
+        <!-- Mobile only swiper  -->
+        <div class="p-7 my-32 pb-[6em] pt-[4em] md:hidden overflow-hidden">
 
-<!-- photoswipe.js -->
-<script type="module">
-  import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe-lightbox.esm.js';
-  import PhotoSwipeDynamicCaption from 'https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js';
+          <div class=" text-veryDarkGray max-w-[21rem] sm:max-w-[26rem] m-auto ">
 
-  const smallScreenPadding = {
-    top: 0, bottom: 0, left: 0, right: 0
-  };
-  const largeScreenPadding = {
-    top: 30, bottom: 30, left: 0, right: 0
-  };
-  const lightbox = new PhotoSwipeLightbox({
-    gallerySelector: '#gallery',
-    childSelector: '.pswp-gallery__item',
-    
-    // optionaly adjust viewport
-    paddingFn: (viewportSize) => {
-      return viewportSize.x < 700 ? smallScreenPadding : largeScreenPadding
-    },
-    pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.esm.js')
-  });
+            <p class="font-terminal pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
 
-  const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
-    mobileLayoutBreakpoint: 700,
-    type: 'auto',
-    mobileCaptionOverlapRatio: 1
-  });
-
-  lightbox.init();
-</script>
-
-<style>
-  @media (max-width: 767px) {
-    #imageOverlay1,
-    #imageOverlay2,
-    #imageOverlay3 {
-      background-position: calc(50% + 35px) center !important;
-    }
-  }
-</style>
+            <div class="swiper-container "> 
+              <div class="swiper-cards ">
+                <div class="swiper-wrapper">
 
 
-<!-- Change hero image every 3 seconds -->
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    var imageOverlays = [
-        document.getElementById('imageOverlay1'),
-        document.getElementById('imageOverlay2'),
-        document.getElementById('imageOverlay3')
-    ];
-    var videoOverlays = [
-        document.getElementById('myVideo1'),
-        document.getElementById('myVideo2'),
-        document.getElementById('myVideo3')
-    ];
-    var currentIndex = 0;
+                  <!-- Swiper.js container -->
+                  <div class="swiper-slide mobile-frame-container shadow-xl">
+                    <!-- photoswipe container -->
+                    <div class="pswp-gallery" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/Gaia.jpeg" 
+                          data-pswp-width="2008" 
+                          data-pswp-height="1785" 
+                          target="_blank">
+                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/Gaia.jpeg">
+                        </a>
+                        <div class="pswp-caption-content"><b>“Gaia”, Graphite & Color Pencil on Paper, 2023.4</b><br>22 in * 25 in <br> <br>This is about non-violence movements. <br> <br> In this drawing, She chose to use a non-violent way against violence. She was not even wearing any protection. She died. But her blood became a waterfall and nourished a beautiful landscape. <br> <br> This drawing is partially inspired by a picture of Gaia from a Greek mythology book, that Gaia’s body becomes mountains and rivers. It’s also inspired by several historical events as well. </div>
+                      </div>
+                    </div>  
 
-    function changeBackgroundImage() {
-        // Show the next image
-        currentIndex = (currentIndex + 1) % imageOverlays.length;
-        imageOverlays[currentIndex].style.display = 'block';
-        videoOverlays[currentIndex].style.display = 'block';
+                  </div>
 
-        // After showing the last image, reset all back to the first image
-        if (currentIndex === imageOverlays.length - 1) {
-            setTimeout(function() {
-              imageOverlays.forEach(function(overlay, index) {
-                overlay.style.display = index === 0 ? 'block' : 'none';
-              });
-              videoOverlays.forEach(function(overlay, index) {
-                overlay.style.display = index === 0 ? 'block' : 'none';
-              });
-              currentIndex = 0;
-            }, 3000); // Reset after the last image has been displayed for 3 seconds
+
+
+                  <div class="swiper-slide mobile-frame-container shadow-xl">                    
+                    
+                      <div class="pswp-gallery row-span-2" id="gallery" >
+                        <div class="pswp-gallery__item">
+                          <a href="./images/victory.jpeg" 
+                            data-pswp-width="2877" 
+                            data-pswp-height="3819" 
+                            target="_blank">
+                            <img class="transition object-cover  w-full border-8 border-white rounded-lg min-h[50px]" src="./images/victory.jpeg">
+                          </a>
+                          <div class="pswp-caption-content"><b>Victory", Graphite on Paper, 2022.4</b>
+                            <br>24 in * 18 in <br> 
+                            <br>I name this "Victory", because I think true victory comes from peace, not war. <br> 
+                            <br>Inspired by the Russian invasion of Ukraine, I decided to do anti-war drawings for my final project during the 2022 spring semester. However, this drawing is not just a protest against this specific conflict, but all forms of unjust warfare. <br>
+                            <br>This drawing was exhibited at ArtPrize 2023 and selected by Cultivate Art Magazine, which can be seen 
+                              <a href="https://issuu.com/cultivategrandrapids/docs/2023_4-8_final2" target="_blank"><b><u>here.</u></b></a>
+                            <br> 
+                          </div>
+                        </div>
+                      </div>  
+                    
+                  </div>
+
+
+
+                  <div class="swiper-slide mobile-frame-container shadow-xl">
+                    
+                    <div class="pswp-gallery" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/Rahab.jpeg" 
+                          data-pswp-width="2151" 
+                          data-pswp-height="1596" 
+                          target="_blank">
+                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/Rahab.jpeg">
+                        </a>
+                        <div class="pswp-caption-content"><b>“Prostitute Rehab Meets Two Israeli Spies”, White Charcoal on Black Paper, 2023.4</b><br>18 in * 24 in<br> <br>However the cultural context is not the ancient middle east, but modern China instead. </div>
+                      </div>
+                    </div>  
+
+                  </div>
+
+
+
+                  <div class="swiper-slide mobile-frame-container shadow-xl">
+                    
+                    <div class="pswp-gallery" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/ship.jpg" 
+                          data-pswp-width="4032" 
+                          data-pswp-height="3024" 
+                          target="_blank">
+                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/ship.jpg">
+                        </a>
+                        <div class="pswp-caption-content"><b>Unnamed, Graphite on Paper, 2022.4</b><br>18 in x 24 in</div>
+                      </div>
+                    </div>  
+
+                  </div>
+
+
+
+                  <div class="swiper-slide mobile-frame-container shadow-xl">
+                    
+                    <div class="pswp-gallery" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/tank.jpg" 
+                          data-pswp-width="4032" 
+                          data-pswp-height="3024" 
+                          target="_blank">
+                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/tank.jpg">
+                        </a>
+                        <div class="pswp-caption-content"><b>Unnamed, Charcoal on Paper, 2022.4</b><br>18 in x 24 in</div>
+                      </div>
+                    </div>  
+
+                  </div>
+
+
+
+                  <div class="swiper-slide mobile-frame-container shadow-xl">
+                  
+                    <div class="pswp-gallery" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/rifle.jpg" 
+                          data-pswp-width="4032" 
+                          data-pswp-height="3024" 
+                          target="_blank">
+                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/rifle.jpg">
+                        </a>
+                        <div class="pswp-caption-content"><b>"Aaron's Rifle", Graphite on Paper, 2022.4</b><br>18 in x 24 in</div>
+                      </div>
+                    </div>  
+
+                  </div>
+
+                  <div class="swiper-slide mobile-frame-container shadow-xl">
+                    <div class="pswp-gallery" id="gallery" >
+                      <div class="pswp-gallery__item">
+                        <a href="./images/equality.jpeg" 
+                          data-pswp-width="4032" 
+                          data-pswp-height="3024" 
+                          target="_blank">
+                          <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/equality.jpeg">
+                        </a>
+                        <div class="pswp-caption-content"><b>Equality, Graphite on Paper, 2023.12</b><br>18 in x 24 in</div>
+                      </div>
+                    </div>  
+                  </div>
+
+
+                  
+                </div>
+                <p class="text-center font-bold text-gray-400 text-sm p-2">
+                  Swipe to browse through the images.
+                </p>
+                
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+
+    </section>
+
+
+  <!-- Footer -->
+    <div id="footer-placeholder">
+    </div>
+
+    <!-- swiper.js -->
+    <script>
+      var swiper = new Swiper(".swiper-walls", {
+        loopedSlides: 2,
+        loop: false,
+        slidesPerView: "auto",
+        freeMode: false,
+        spaceBetween: 0,
+        preventInteractionOnTransition: true,
+        mousewheel: false,
+        // autoplay: {
+        //   delay: 3000,
+        // },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        
+      });
+
+      var swiper2 = new Swiper(".swiper-cards", {
+          effect: "cards",
+          grabCursor: true,
+        });
+
+      var thumb = document.querySelectorAll(".thumbContainer");
+
+      thumb.forEach(function(image, index) {
+        var delay = index * 90;
+        image.classList.add("fadeInSlide");
+        image.style.animationDelay = delay + "ms";
+      });
+
+
+    </script>
+
+    <!-- photoswipe.js -->
+    <script type="module">
+      import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe-lightbox.esm.js';
+      import PhotoSwipeDynamicCaption from 'https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js';
+
+      const smallScreenPadding = {
+        top: 0, bottom: 0, left: 0, right: 0
+      };
+      const largeScreenPadding = {
+        top: 30, bottom: 30, left: 0, right: 0
+      };
+      const lightbox = new PhotoSwipeLightbox({
+        gallerySelector: '#gallery',
+        childSelector: '.pswp-gallery__item',
+        
+        // optionaly adjust viewport
+        paddingFn: (viewportSize) => {
+          return viewportSize.x < 700 ? smallScreenPadding : largeScreenPadding
+        },
+        pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.esm.js')
+      });
+
+      const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
+        mobileLayoutBreakpoint: 700,
+        type: 'auto',
+        mobileCaptionOverlapRatio: 1
+      });
+
+      lightbox.init();
+    </script>
+
+    <style>
+      @media (max-width: 767px) {
+        #imageOverlay1,
+        #imageOverlay2,
+        #imageOverlay3 {
+          background-position: calc(50% + 35px) center !important;
         }
-    }
-
-    // Start the cycle of changing images every 3 seconds
-    setInterval(changeBackgroundImage, 3000);
-});
-</script>
-  
-
-<!-- loading screen js -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var loadingText = document.getElementById('loadingText');
-    var resources = [...document.images, ...document.getElementsByTagName('video')];
-    var totalResources = resources.length;
-    var loadedResources = 0;
-
-    // Update loading percentage
-    function updateLoadingPercentage() {
-      var percentage = Math.round((loadedResources / totalResources) * 100);
-      loadingText.textContent = 'Loading ' + percentage + '%';
-    }
-
-    // Function to call when a resource is loaded
-    function resourceLoaded() {
-      loadedResources++;
-      updateLoadingPercentage();
-      if (loadedResources === totalResources) {
-        // All resources are loaded
-        document.getElementById('loadingScreen').style.opacity = '0';
-        setTimeout(function() {
-          document.getElementById('loadingScreen').style.display = 'none';
-        }, 500); // Adjust this value to match the fade-out transition time
       }
-    }
+    </style>
 
-    // Add event listeners to each resource
-    resources.forEach(resource => {
-      if (resource.tagName === 'IMG' && resource.complete ||
-          resource.tagName === 'VIDEO' && resource.readyState >= 4) {
-        // Resource is already loaded
-        resourceLoaded();
-      } else {
-        // Wait for the resource to load
-        resource.addEventListener('load', resourceLoaded, { once: true });
-        resource.addEventListener('canplaythrough', resourceLoaded, { once: true });
-        resource.addEventListener('error', resourceLoaded, { once: true }); // Handle load errors
-      }
+
+    <!-- Change hero image every 3 seconds -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var imageOverlays = [
+            document.getElementById('imageOverlay1'),
+            document.getElementById('imageOverlay2'),
+            document.getElementById('imageOverlay3')
+        ];
+        var videoOverlays = [
+            document.getElementById('myVideo1'),
+            document.getElementById('myVideo2'),
+            document.getElementById('myVideo3')
+        ];
+        var currentIndex = 0;
+
+        function changeBackgroundImage() {
+            // Show the next image
+            currentIndex = (currentIndex + 1) % imageOverlays.length;
+            imageOverlays[currentIndex].style.display = 'block';
+            videoOverlays[currentIndex].style.display = 'block';
+
+            // After showing the last image, reset all back to the first image
+            if (currentIndex === imageOverlays.length - 1) {
+                setTimeout(function() {
+                  imageOverlays.forEach(function(overlay, index) {
+                    overlay.style.display = index === 0 ? 'block' : 'none';
+                  });
+                  videoOverlays.forEach(function(overlay, index) {
+                    overlay.style.display = index === 0 ? 'block' : 'none';
+                  });
+                  currentIndex = 0;
+                }, 3000); // Reset after the last image has been displayed for 3 seconds
+            }
+        }
+
+        // Start the cycle of changing images every 3 seconds
+        setInterval(changeBackgroundImage, 3000);
     });
-  });
-</script>
+    </script>
+    
+
+    <!-- loading screen js -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var loadingText = document.getElementById('loadingText');
+        var resources = [...document.images, ...document.getElementsByTagName('video')];
+        var totalResources = resources.length;
+        var loadedResources = 0;
+
+        // Update loading percentage
+        function updateLoadingPercentage() {
+          var percentage = Math.round((loadedResources / totalResources) * 100);
+          loadingText.textContent = 'Loading ' + percentage + '%';
+        }
+
+        // Function to call when a resource is loaded
+        function resourceLoaded() {
+          loadedResources++;
+          updateLoadingPercentage();
+          if (loadedResources === totalResources) {
+            // All resources are loaded
+            document.getElementById('loadingScreen').style.opacity = '0';
+            setTimeout(function() {
+              document.getElementById('loadingScreen').style.display = 'none';
+            }, 500); // Adjust this value to match the fade-out transition time
+          }
+        }
+
+        // Add event listeners to each resource
+        resources.forEach(resource => {
+          if (resource.tagName === 'IMG' && resource.complete ||
+              resource.tagName === 'VIDEO' && resource.readyState >= 4) {
+            // Resource is already loaded
+            resourceLoaded();
+          } else {
+            // Wait for the resource to load
+            resource.addEventListener('load', resourceLoaded, { once: true });
+            resource.addEventListener('canplaythrough', resourceLoaded, { once: true });
+            resource.addEventListener('error', resourceLoaded, { once: true }); // Handle load errors
+          }
+        });
+      });
+    </script>
+
+    <!-- load navbar and footer -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        fetch('./navbar.shtml')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+          });
+
+        fetch('./footer.shtml')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+          });
+      });
+    </script>
 
 
-
-
-
-
-
-</body>
+  </body>
 </html>

@@ -1,336 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <!-- Regular font -->
-   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Monoton&display=swap" rel="stylesheet"> 
-  <!-- Montserrat Font-->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <!-- Raleway Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
-  <title>Harry Gu - Digital Designer, Developer, Illustrator | Portfolio - E-Community-Service</title>
-  <meta name="description" content="Harry Gu - Graphic Designer with expertise in UI/UX, branding, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.">
-  <meta name="keywords" content="Harry Gu, UI/UX design, web design, typography, brand identity, logo design, freelance, developer, graphic design, artwork, front-end developer, react native, drawings, portfolio, design projects, creative design, visual art, historical themes, contract work, freelance designer, freelance developer, freelance UI/UX, contract designer, contract developer, remote work, remote designer, remote developer, freelance projects, contract projects, design consultancy, digital freelancer, freelance contracts, independent designer, project-based work, part-time designer, contract-based designer, UX consultant, UI consultant">
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  <style>
-    /*include my own font */
-    @font-face {
-      font-family: "TerminalDisplay";
-      src: url("./fonts/terminaldisplay.ttf");
-    }
-    .font-terminal {
-      font-family: "TerminalDisplay";
-      letter-spacing: 1px;
-    }
-    /* Highlight current page on navbar */
-    #nav-hamburger-3,
-    #nav-3{
-      color: black;
-    }
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Regular font -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Monoton&display=swap" rel="stylesheet"> 
+    <!-- Montserrat Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Raleway Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
+    <title>Harry Gu - Digital Designer, Developer, Illustrator | Portfolio - E-Community-Service</title>
+    <meta name="description" content="Harry Gu - Graphic Designer with expertise in UI/UX, branding, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.">
+    <meta name="keywords" content="Harry Gu, UI/UX design, web design, typography, brand identity, logo design, freelance, developer, graphic design, artwork, front-end developer, react native, drawings, portfolio, design projects, creative design, visual art, historical themes, contract work, freelance designer, freelance developer, freelance UI/UX, contract designer, contract developer, remote work, remote designer, remote developer, freelance projects, contract projects, design consultancy, digital freelancer, freelance contracts, independent designer, project-based work, part-time designer, contract-based designer, UX consultant, UI consultant">
+    
+    <style>
+      /*include my own font */
+      @font-face {
+        font-family: "TerminalDisplay";
+        src: url("./fonts/terminaldisplay.ttf");
+      }
+      .font-terminal {
+        font-family: "TerminalDisplay";
+        letter-spacing: 1px;
+      }
+      /* Highlight current page on navbar */
+      #nav-hamburger-3,
+      #nav-3{
+        color: black;
+      }
 
-    .hamburger-top,
-    .hamburger-middle,
-    .hamburger-bottom {
-    background: #777;
-    }
-    .bg-menu {
-      background-color: #F8F8F8;
-    }
-  </style>
-</head>
-<body class="font-display bg-veryLightGray">
-  <!-- Nav Bar -->
-  <div class="bg-veryLightGray">
+      .hamburger-top,
+      .hamburger-middle,
+      .hamburger-bottom {
+      background: #777;
+      }
+      .bg-menu {
+        background-color: #F8F8F8;
+      }
+    </style>
+  </head>
+  <body class="font-display bg-veryLightGray">
+    <!-- Nav Bar -->
+    <div class="bg-veryLightGray">
 
-    <nav class="relative container p-7 mx-auto text-darkGray text-sm font-bold">
-      <!-- Flex container -->
-      <div class="flex items-center justify-between">
-        <!-- <div class="flex items-center justify-between tracking-wider"> -->
-        <!-- logo -->
-        <div class="pt-2">
-              <a  onclick="history.back()" href="#"class="text-base hover:text-themeRed fill-darkGray hover:fill-themeRed">
-                <svg class="inline h-3 mb-[3px]"
-                    version="1.1"
-                    x="0px"
-                    y="0px"
-                    viewBox="0 0 1000 1000"
-                    enable-background="new 0 0 1000 1000"
-                    xml:space="preserve"
-                    id="svg8"
-                    sodipodi:docname="8f9ca05567ef7fe72a25480f95fbcf90.svg"
-                    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-                    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:svg="http://www.w3.org/2000/svg"><defs
-                    id="defs12" /><sodipodi:namedview
-                    id="namedview10"
-                    pagecolor="#ffffff"
-                    bordercolor="#000000"
-                    borderopacity="0.25"
-                    inkscape:showpageshadow="2"
-                    inkscape:pageopacity="0.0"
-                    inkscape:pagecheckerboard="0"
-                    inkscape:deskcolor="#d1d1d1"
-                    showgrid="false"
-                    inkscape:zoom="0.236"
-                    inkscape:cx="500"
-                    inkscape:cy="502.11864"
-                    inkscape:window-width="1280"
-                    inkscape:window-height="734"
-                    inkscape:window-x="0"
-                    inkscape:window-y="0"
-                    inkscape:window-maximized="1"
-                    inkscape:current-layer="svg8" />
-                  <metadata
-                      id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
-                  <g display="inline"
-                      id="g6"
-                      transform="matrix(-1,0,0,1,1000,0)"><path
-                        d="m 217.6,915.1 c 0,-19.2 7.2,-38.4 21.9,-53 L 601.5,500 239.5,137.9 c -29.3,-29.3 -29.3,-76.7 0,-106 29.3,-29.3 76.7,-29.3 106,0 l 415,415.1 c 29.3,29.3 29.3,76.7 0,106 l -415,415 c -29.3,29.3 -76.7,29.3 -106,0 -14.7,-14.6 -21.9,-33.8 -21.9,-52.9 z"
-                        id="path4" /></g>
-                </svg>
-                  GO BACK
-              </a>
+      <nav class="relative container p-7 mx-auto text-darkGray text-sm font-bold">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+          <!-- <div class="flex items-center justify-between tracking-wider"> -->
+          <!-- logo -->
+          <div class="pt-2">
+                <a  onclick="history.back()" href="#"class="text-base hover:text-themeRed fill-darkGray hover:fill-themeRed">
+                  <svg class="inline h-3 mb-[3px]"
+                      version="1.1"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 1000 1000"
+                      enable-background="new 0 0 1000 1000"
+                      xml:space="preserve"
+                      id="svg8"
+                      sodipodi:docname="8f9ca05567ef7fe72a25480f95fbcf90.svg"
+                      inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+                      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:svg="http://www.w3.org/2000/svg"><defs
+                      id="defs12" /><sodipodi:namedview
+                      id="namedview10"
+                      pagecolor="#ffffff"
+                      bordercolor="#000000"
+                      borderopacity="0.25"
+                      inkscape:showpageshadow="2"
+                      inkscape:pageopacity="0.0"
+                      inkscape:pagecheckerboard="0"
+                      inkscape:deskcolor="#d1d1d1"
+                      showgrid="false"
+                      inkscape:zoom="0.236"
+                      inkscape:cx="500"
+                      inkscape:cy="502.11864"
+                      inkscape:window-width="1280"
+                      inkscape:window-height="734"
+                      inkscape:window-x="0"
+                      inkscape:window-y="0"
+                      inkscape:window-maximized="1"
+                      inkscape:current-layer="svg8" />
+                    <metadata
+                        id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+                    <g display="inline"
+                        id="g6"
+                        transform="matrix(-1,0,0,1,1000,0)"><path
+                          d="m 217.6,915.1 c 0,-19.2 7.2,-38.4 21.9,-53 L 601.5,500 239.5,137.9 c -29.3,-29.3 -29.3,-76.7 0,-106 29.3,-29.3 76.7,-29.3 106,0 l 415,415.1 c 29.3,29.3 29.3,76.7 0,106 l -415,415 c -29.3,29.3 -76.7,29.3 -106,0 -14.7,-14.6 -21.9,-33.8 -21.9,-52.9 z"
+                          id="path4" /></g>
+                  </svg>
+                    GO BACK
+                </a>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-  </div>
-
-
-
-  <!-- Main content -->
-  <section id="gdthumbnails">
-    <!-- Intro -->
-    <div class=" grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-      <!-- text block -->
-      <div class="lg:order-last md:col-span-2 lg:col-span-1  flex flex-col justify-center items-center transition bg-grey-500 shadow-xl min-h[30px] text-center py-32 md:py-24">
-        <p class="inline-flex font-bold md:text-xl p-1">E-community-service logo</p>
-        <p class="inline-flex text-xs mx-12">e-community-service.org is a mobile oriented web platform for high school students to do community service online. </p>
-      </div>
-
-      <div class="md:col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./trademarks/e-community-service.png" alt="">
-      </div>
-      
     </div>
 
-    <!-- Brainstorming & Mood Exploration -->
-    <div class="md:py-1 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
 
-      <div class="col-span-2 row-span-3 flex flex-col justify-center items-left transition bg-grey-500 shadow-xl min-h[30px] text-left px-8 py-12">
-        <!-- title -->
-        <div class="flex flex-row p-4">
-          <p class="text-gray-400 text-6xl font-bold pr-3" > 
-            1
-          </p>
-          <p class="inline-flex font-bold md:text-xl text-left">
-            Brainstorming &
-            </br>
-            Mood Exploration 
-          </p>
+
+    <!-- Main content -->
+    <section id="gdthumbnails">
+      <!-- Intro -->
+      <div class=" grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+        <!-- text block -->
+        <div class="lg:order-last md:col-span-2 lg:col-span-1  flex flex-col justify-center items-center transition bg-grey-500 shadow-xl min-h[30px] text-center py-32 md:py-24">
+          <p class="inline-flex font-bold md:text-xl p-1">E-community-service logo</p>
+          <p class="inline-flex text-xs mx-12">e-community-service.org is a mobile oriented web platform for high school students to do community service online. </p>
+        </div>
+
+        <div class="md:col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./trademarks/e-community-service.png" alt="">
         </div>
         
-
-        <p class="inline-flex text-xs  p-2">
-          - A formal, modern sans serif font, because it's easy to read on screen and good for visually disabled people. All caps to avoid weird space between letters.  
-          <!-- Bold font because it's more service based. the less bold version feels more medical. -->
-        </p>
-        <p class="inline-flex text-xs  p-2">
-          - A simple icon illustration that's good for small screens. 
-        </p>
-        <p class="inline-flex text-xs  p-2">
-          - Icon on the left and text on the right to make the logo wider, so it can be more easily put on a navigation bar. 
-        </p>
-        <p class="inline-flex text-xs  p-2">
-          - blue or/and green color for the logo, symbolizing growth and trust. It also accompanying with the current changing the present logo. </p>
-        </p>
       </div>
 
-      <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./third_party_img/img1.png" alt="">
-      </div>
-      
-      <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./third_party_img/LiNK_Logo.png" alt="">
-      </div>
+      <!-- Brainstorming & Mood Exploration -->
+      <div class="md:py-1 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
 
-      <div class="col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./third_party_img/heartassociation.png" alt="">
-      </div>
+        <div class="col-span-2 row-span-3 flex flex-col justify-center items-left transition bg-grey-500 shadow-xl min-h[30px] text-left px-8 py-12">
+          <!-- title -->
+          <div class="flex flex-row p-4">
+            <p class="text-gray-400 text-6xl font-bold pr-3" > 
+              1
+            </p>
+            <p class="inline-flex font-bold md:text-xl text-left">
+              Brainstorming &
+              </br>
+              Mood Exploration 
+            </p>
+          </div>
+          
 
-      <div class="col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./third_party_img/220421132621_LogoCett-Descriptiu-UB-H-color-positiu.png" alt="">
-      </div>
-
-      <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./third_party_img/onedrop_share-1552502970-1669300092.png" alt="">
-      </div>
-
-      <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./third_party_img/Human_appeal_logo18.png" alt="">
-      </div>
-
-      <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./third_party_img/PoP.png" alt="">
-      </div>
-
-      <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./third_party_img/DAM_New_Logo.svg.png" alt="">
-      </div>
-
-      <div class="col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./third_party_img/IMG_BANDEAUX_PAGE-LOGO_EN.jpg" alt="">
-      </div>
-      
-    </div>
-
-    <!-- Mark & Type Exploration -->
-    <div class="grid grid-cols-2 md:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-
-      <!-- text block -->
-      <div class="bg-gray-800 col-span-2 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 shadow-xl min-h[30px] text-left px-8 py-12">
-        <!-- title -->
-        <div class=" flex flex-row p-4">
-          <p class="text-gray-400 text-6xl font-bold pr-3" > 
-            2
+          <p class="inline-flex text-xs  p-2">
+            - A formal, modern sans serif font, because it's easy to read on screen and good for visually disabled people. All caps to avoid weird space between letters.  
+            <!-- Bold font because it's more service based. the less bold version feels more medical. -->
           </p>
-          <p class="text-gray-100 inline-flex font-bold md:text-xl text-left">
-            Mark &
-            </br>
-            Type Exploration 
+          <p class="inline-flex text-xs  p-2">
+            - A simple icon illustration that's good for small screens. 
           </p>
+          <p class="inline-flex text-xs  p-2">
+            - Icon on the left and text on the right to make the logo wider, so it can be more easily put on a navigation bar. 
+          </p>
+          <p class="inline-flex text-xs  p-2">
+            - blue or/and green color for the logo, symbolizing growth and trust. It also accompanying with the current changing the present logo. </p>
+          </p>
+        </div>
+
+        <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./third_party_img/img1.png" alt="">
+        </div>
+        
+        <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./third_party_img/LiNK_Logo.png" alt="">
+        </div>
+
+        <div class="col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./third_party_img/heartassociation.png" alt="">
+        </div>
+
+        <div class="col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./third_party_img/220421132621_LogoCett-Descriptiu-UB-H-color-positiu.png" alt="">
+        </div>
+
+        <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./third_party_img/onedrop_share-1552502970-1669300092.png" alt="">
+        </div>
+
+        <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./third_party_img/Human_appeal_logo18.png" alt="">
+        </div>
+
+        <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./third_party_img/PoP.png" alt="">
+        </div>
+
+        <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./third_party_img/DAM_New_Logo.svg.png" alt="">
+        </div>
+
+        <div class="col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./third_party_img/IMG_BANDEAUX_PAGE-LOGO_EN.jpg" alt="">
+        </div>
+        
+      </div>
+
+      <!-- Mark & Type Exploration -->
+      <div class="grid grid-cols-2 md:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+
+        <!-- text block -->
+        <div class="bg-gray-800 col-span-2 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 shadow-xl min-h[30px] text-left px-8 py-12">
+          <!-- title -->
+          <div class=" flex flex-row p-4">
+            <p class="text-gray-400 text-6xl font-bold pr-3" > 
+              2
+            </p>
+            <p class="text-gray-100 inline-flex font-bold md:text-xl text-left">
+              Mark &
+              </br>
+              Type Exploration 
+            </p>
+          </div>
+        </div>
+
+        <div class="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./trademarks/e-community-service/progress1.png" alt="">
+        </div>
+
+
+        <div class="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./trademarks/e-community-service/progress2.png" alt="">
+        </div>
+
+
+        <div class="col-span-2 md:col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./trademarks/e-community-service/progress3.png" alt="">
+        </div>
+        
+      <!-- Mark & Type Exploration p2 for medium screen-->
+        <!-- text block -->
+        <div class="hidden md:block lg:hidden font-['Raleway'] row-span-2 col-span-2 font-bold text-gray-900 bg-gray-200  flex flex-col items-left transition bg-grey-500 shadow-xl min-h[30px] text-left px-20 py-32">
+          <!-- title -->
+          <div class=" flex flex-col">
+            <div class=" text-xs ">Logo Wordmark</div>
+            <p class="inline-flex text-3xl text-left">
+              Raleway Bold
+            </p>
+          </div>
+          <p class="inline-flex text-sm leading-tight">
+              ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          </p>
+          <p class="inline-flex text-sm leading-tight">
+            abcdefghijklmnopqrstuvwxyz
+          </p>
+          <p class="inline-flex text-sm leading-tight">
+            1234567890
+          </p>
+        </div>
+    
+        <div class="hidden md:block lg:hidden col-span-2 md:col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./trademarks/e-community-service/logo-complete3.png" alt="">
+        </div>
+
+      </div>
+
+      <!-- Mark & Type Exploration p2 for small and large screen-->
+      <div class="grid md:hidden lg:grid grid-cols-1 md:grid-cols-3  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+        <!-- text block -->
+        <div class="font-['Raleway'] font-bold text-gray-900 bg-gray-200  flex flex-col items-left transition bg-grey-500 shadow-xl min-h[30px] text-left px-20 py-16">
+          <!-- title -->
+          <div class=" flex flex-col">
+            <div class=" text-xs ">Logo Wordmark</div>
+            <p class="inline-flex text-3xl text-left">
+              Raleway Bold
+            </p>
+          </div>
+          <p class="inline-flex text-sm leading-tight">
+              ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          </p>
+          <p class="inline-flex text-sm leading-tight">
+            abcdefghijklmnopqrstuvwxyz
+          </p>
+          <p class="inline-flex text-sm leading-tight">
+            1234567890
+          </p>
+        </div>
+
+        <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./trademarks/e-community-service/logo-complete1.png" alt="">
+        </div>
+    
+        <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./trademarks/e-community-service/logo-complete2.png" alt="">
         </div>
       </div>
 
-      <div class="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./trademarks/e-community-service/progress1.png" alt="">
-      </div>
 
-
-      <div class="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./trademarks/e-community-service/progress2.png" alt="">
-      </div>
-
-
-      <div class="col-span-2 md:col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./trademarks/e-community-service/progress3.png" alt="">
-      </div>
-      
-    <!-- Mark & Type Exploration p2 for medium screen-->
-      <!-- text block -->
-      <div class="hidden md:block lg:hidden font-['Raleway'] row-span-2 col-span-2 font-bold text-gray-900 bg-gray-200  flex flex-col items-left transition bg-grey-500 shadow-xl min-h[30px] text-left px-20 py-32">
-        <!-- title -->
-        <div class=" flex flex-col">
-          <div class=" text-xs ">Logo Wordmark</div>
-          <p class="inline-flex text-3xl text-left">
-            Raleway Bold
-          </p>
+      <!-- Application -->
+      <div class="md:py-1 grid grid-cols-2 md:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+        <!-- text block -->
+        <div class="bg-gray-400 col-span-2 md:col-span-4 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 shadow-xl min-h[30px] text-left px-8 py-12">
+          <!-- title -->
+          <div class=" flex flex-row p-4">
+            <p class="text-gray-600 text-6xl font-bold pr-3" > 
+              3
+            </p>
+            <p class="text-gray-800 mt-4 inline-flex font-bold text-xl text-left">
+              Application
+            </p>
+          </div>
+          <!-- <p class="inline-flex text-xs  p-3">
+            Bold font because it's more service based. the less bold version feels more medical.
+          </p> -->
         </div>
-        <p class="inline-flex text-sm leading-tight">
-            ABCDEFGHIJKLMNOPQRSTUVWXYZ
-        </p>
-        <p class="inline-flex text-sm leading-tight">
-          abcdefghijklmnopqrstuvwxyz
-        </p>
-        <p class="inline-flex text-sm leading-tight">
-          1234567890
-        </p>
-      </div>
-  
-      <div class="hidden md:block lg:hidden col-span-2 md:col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./trademarks/e-community-service/logo-complete3.png" alt="">
-      </div>
 
-    </div>
-
-    <!-- Mark & Type Exploration p2 for small and large screen-->
-    <div class="grid md:hidden lg:grid grid-cols-1 md:grid-cols-3  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-      <!-- text block -->
-      <div class="font-['Raleway'] font-bold text-gray-900 bg-gray-200  flex flex-col items-left transition bg-grey-500 shadow-xl min-h[30px] text-left px-20 py-16">
-        <!-- title -->
-        <div class=" flex flex-col">
-          <div class=" text-xs ">Logo Wordmark</div>
-          <p class="inline-flex text-3xl text-left">
-            Raleway Bold
-          </p>
+        <div class="col-span-3 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./trademarks/e-community-service/desktop-web-mockup.png" alt="">
         </div>
-        <p class="inline-flex text-sm leading-tight">
-            ABCDEFGHIJKLMNOPQRSTUVWXYZ
-        </p>
-        <p class="inline-flex text-sm leading-tight">
-          abcdefghijklmnopqrstuvwxyz
-        </p>
-        <p class="inline-flex text-sm leading-tight">
-          1234567890
-        </p>
-      </div>
 
-      <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./trademarks/e-community-service/logo-complete1.png" alt="">
-      </div>
-  
-      <div class="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./trademarks/e-community-service/logo-complete2.png" alt="">
-      </div>
-    </div>
-
-
-    <!-- Application -->
-    <div class="md:py-1 grid grid-cols-2 md:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-      <!-- text block -->
-      <div class="bg-gray-400 col-span-2 md:col-span-4 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 shadow-xl min-h[30px] text-left px-8 py-12">
-        <!-- title -->
-        <div class=" flex flex-row p-4">
-          <p class="text-gray-600 text-6xl font-bold pr-3" > 
-            3
-          </p>
-          <p class="text-gray-800 mt-4 inline-flex font-bold text-xl text-left">
-            Application
-          </p>
+        <div class="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./trademarks/e-community-service/phone-web-mockup.png" alt="">
         </div>
-        <!-- <p class="inline-flex text-xs  p-3">
-          Bold font because it's more service based. the less bold version feels more medical.
-        </p> -->
+
+        <div class="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./trademarks/e-community-service/insta.png" alt="">
+        </div>
+
+        <div class="col-span-2 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
+          <img src="./trademarks/e-community-service/facebook.png" alt="">
+        </div>
+        
       </div>
 
-      <div class="col-span-3 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./trademarks/e-community-service/desktop-web-mockup.png" alt="">
-      </div>
+    </section>
 
-      <div class="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./trademarks/e-community-service/phone-web-mockup.png" alt="">
-      </div>
-
-      <div class="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./trademarks/e-community-service/insta.png" alt="">
-      </div>
-
-      <div class="col-span-2 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-        <img src="./trademarks/e-community-service/facebook.png" alt="">
-      </div>
-      
+  <!-- Footer -->
+    <div id="footer-placeholder">
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        fetch('./navbar.shtml')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+          });
 
-  </section>
+        fetch('./footer.shtml')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+          });
+      });
+    </script>
 
-<!-- Footer -->
-  <div id="footer-placeholder">
-  </div>
-  <script>
-  $(function(){
-    $("#footer-placeholder").load("./footer.shtml");
-  });
-  </script>
-  
-
-
-</body>
+  </body>
 </html>

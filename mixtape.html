@@ -1,239 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Montserrat Font-->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <!-- Poppins Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Monoton&family=Poppins:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
-  <!-- Raleway Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
-  <title>Harry Gu - Digital Designer, Developer, Illustrator | Portfolio - MixTape</title>
-  <meta name="description" content="Harry Gu - Graphic Designer with expertise in UI/UX, branding, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.">
-  <meta name="keywords" content="Harry Gu, UI/UX design, web design, typography, brand identity, logo design, freelance, developer, graphic design, artwork, front-end developer, react native, drawings, portfolio, design projects, creative design, visual art, historical themes, contract work, freelance designer, freelance developer, freelance UI/UX, contract designer, contract developer, remote work, remote designer, remote developer, freelance projects, contract projects, design consultancy, digital freelancer, freelance contracts, independent designer, project-based work, part-time designer, contract-based designer, UX consultant, UI consultant">
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  <style>
-    /* Highlight current page on navbar */
-    #nav-hamburger-3,
-    #nav-3{
-      color: black;
-    }
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Montserrat Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Monoton&family=Poppins:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
+    <!-- Raleway Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
+    <title>Harry Gu - Digital Designer, Developer, Illustrator | Portfolio - MixTape</title>
+    <meta name="description" content="Harry Gu - Graphic Designer with expertise in UI/UX, branding, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.">
+    <meta name="keywords" content="Harry Gu, UI/UX design, web design, typography, brand identity, logo design, freelance, developer, graphic design, artwork, front-end developer, react native, drawings, portfolio, design projects, creative design, visual art, historical themes, contract work, freelance designer, freelance developer, freelance UI/UX, contract designer, contract developer, remote work, remote designer, remote developer, freelance projects, contract projects, design consultancy, digital freelancer, freelance contracts, independent designer, project-based work, part-time designer, contract-based designer, UX consultant, UI consultant">
+    
+    <style>
+      /* Highlight current page on navbar */
+      #nav-hamburger-3,
+      #nav-3{
+        color: black;
+      }
 
-    /*include my own font */
-    @font-face {
-    font-family: "TerminalDisplay";
-    src: url("./fonts/terminaldisplay.ttf");
-    }
-    .font-terminal {
+      /*include my own font */
+      @font-face {
       font-family: "TerminalDisplay";
-      letter-spacing: 1px;
-    }
+      src: url("./fonts/terminaldisplay.ttf");
+      }
+      .font-terminal {
+        font-family: "TerminalDisplay";
+        letter-spacing: 1px;
+      }
 
-    .hamburger-top,
-    .hamburger-middle,
-    .hamburger-bottom {
-    background: #777;
-    }
-    .bg-menu {
-      background-color: #F8F8F8;
-    }
-  </style>
-</head>
-<body class="relative font-[jost] font-medium bg-[#D0AF40]">
-  <!-- Nav Bar -->
-  <div class="fixed top-0 left-0 right-0 z-50">
+      .hamburger-top,
+      .hamburger-middle,
+      .hamburger-bottom {
+      background: #777;
+      }
+      .bg-menu {
+        background-color: #F8F8F8;
+      }
+    </style>
+  </head>
+  <body class="relative font-[jost] font-medium bg-[#D0AF40]">
+    <!-- Nav Bar -->
+    <div class="fixed top-0 left-0 right-0 z-50">
 
-    <nav class="relative container p-7 text-sm font-bold ">
-      <!-- Flex container -->
-      <div class="flex items-center justify-between">
-        <!-- <div class="flex items-center justify-between tracking-wider"> -->
-        <div class="py-2 px-6 rounded-full bg-[#D0AF40] font-black text-black drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-              <a  onclick="history.back()" href="#"class="text-base hover:text-themeRed fill-black hover:fill-themeRed">
-                <svg class="inline h-3 mb-[3px]"
-                    version="1.1"
-                    x="0px"
-                    y="0px"
-                    viewBox="0 0 1000 1000"
-                    enable-background="new 0 0 1000 1000"
-                    xml:space="preserve"
-                    id="svg8"
-                    sodipodi:docname="8f9ca05567ef7fe72a25480f95fbcf90.svg"
-                    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-                    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:svg="http://www.w3.org/2000/svg"><defs
-                    id="defs12" /><sodipodi:namedview
-                    id="namedview10"
-                    pagecolor="#ffffff"
-                    bordercolor="#000000"
-                    borderopacity="0.25"
-                    inkscape:showpageshadow="2"
-                    inkscape:pageopacity="0.0"
-                    inkscape:pagecheckerboard="0"
-                    inkscape:deskcolor="#d1d1d1"
-                    showgrid="false"
-                    inkscape:zoom="0.236"
-                    inkscape:cx="500"
-                    inkscape:cy="502.11864"
-                    inkscape:window-width="1280"
-                    inkscape:window-height="734"
-                    inkscape:window-x="0"
-                    inkscape:window-y="0"
-                    inkscape:window-maximized="1"
-                    inkscape:current-layer="svg8" />
-                  <metadata
-                      id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
-                  <g display="inline"
-                      id="g6"
-                      transform="matrix(-1,0,0,1,1000,0)"><path
-                        d="m 217.6,915.1 c 0,-19.2 7.2,-38.4 21.9,-53 L 601.5,500 239.5,137.9 c -29.3,-29.3 -29.3,-76.7 0,-106 29.3,-29.3 76.7,-29.3 106,0 l 415,415.1 c 29.3,29.3 29.3,76.7 0,106 l -415,415 c -29.3,29.3 -76.7,29.3 -106,0 -14.7,-14.6 -21.9,-33.8 -21.9,-52.9 z"
-                        id="path4" /></g>
-                </svg>
-                  Go Back
-              </a>
-        </div>
-      </div>
-    </nav>
-
-  </div>
-
-
-
-  <!-- Main content -->
-  <section id="gdthumbnails">
-    <!-- Intro -->
-    <div class="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 ">
-      <!-- text block -->
-      <div class="lg:order-last md:col-span-2 lg:col-span-1 px-16 py-32 lg:py-10 flex flex-col justify-center items-start transition bg-grey-500 min-h[30px] text-center ">
-        <p class="font-[poppins] text-left inline-flex text-black font-black text-2xl pt-5 ">MIXTAPE</p>
-        <p class="font-[poppins] text-left inline-flex text-white font-black text-2xl">PACKAGING</p>
-        <p class="font-[poppins] text-left inline-flex text-white font-black text-2xl">DESIGN</p>
-        
-        <p class="text-left inline-flex text-base mt-5">
-          “Miscere” is an album packaging
-          design project exploring the
-          integration of graphic design and
-          music dring 2023 spring semester.</p>
-      </div>
-
-      <div class="md:col-span-2 bg-[#EDE7E7] transition sm:min-h-[150px] h-fit">
-      
-        <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_1.png" alt="">
-      </div>
-
-      
-    </div>
-
-    <!-- P1 -->
-    <div class="lg:pb-1 grid grid-cols-1 md:grid-cols-2 px-10 py-20">
-
-      <div class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_1.png" alt="">
-        <p class="text-white m-3 text-xl font-black">FRONT</p>
-      </div>
-
-      <div class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_3.png" alt="">
-        <p class="text-white m-3 text-xl font-black">BACK</p>
-      </div>
-
-    </div>
-
-    <!-- P2 -->
-    <div class="lg:pb-1 grid grid-cols-1 md:grid-cols-2 px-10 py-20 bg-[#FBFBE3]">
-
-      <div class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_2.png" alt="">
-        <p class="text-black m-3 text-xl font-black">INTERIOR - LEFT</p>
-      </div>
-
-      <div class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_4.png" alt="">
-        <p class="text-black m-3 text-xl font-black">INTERIOR - RIGHT</p>
-      </div>
-
-    </div>
-
-    <!-- P3 -->
-    <div class="lg:pb-1 grid grid-cols-1 md:grid-cols-2 px-10 py-20 bg-[#FBFBE3]">
-
-      <div class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/insert1.png" alt="">
-        <p class="text-black m-3 text-xl font-black">INSERT 1</p>
-      </div>
-
-      <div class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/insert2.png" alt="">
-        <p class="text-black m-3 text-xl font-black">INSERT 2</p>
-      </div>
-
-    </div>
-
-
-    <!-- Mark & Type Exploration p2 for small and large screen-->
-
-    <!-- Application -->
-    <div class="py-10 items-center grid grid-col-1 sm:grid-cols-2 lg:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-      <!-- text block -->
-      <div class=" col-span-1 sm:col-span-2 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12">
-        <!-- title -->
-
-        <div class=" flex flex-row p-4">
-
-          <div class="flex flex-col">
-
-            <p class="text-gray-900 text-right font-[poppins] font-black text-xl">
-              APPLICATION
-              </br>
-            </p>
-            <p class="text-white text-right font-[poppins] font-black text-xl">
-              IMPLEMENTATION
-            </p>
-
+      <nav class="relative container p-7 text-sm font-bold ">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+          <!-- <div class="flex items-center justify-between tracking-wider"> -->
+          <div class="py-2 px-6 rounded-full bg-[#D0AF40] font-black text-black drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+                <a  onclick="history.back()" href="#"class="text-base hover:text-themeRed fill-black hover:fill-themeRed">
+                  <svg class="inline h-3 mb-[3px]"
+                      version="1.1"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 1000 1000"
+                      enable-background="new 0 0 1000 1000"
+                      xml:space="preserve"
+                      id="svg8"
+                      sodipodi:docname="8f9ca05567ef7fe72a25480f95fbcf90.svg"
+                      inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+                      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:svg="http://www.w3.org/2000/svg"><defs
+                      id="defs12" /><sodipodi:namedview
+                      id="namedview10"
+                      pagecolor="#ffffff"
+                      bordercolor="#000000"
+                      borderopacity="0.25"
+                      inkscape:showpageshadow="2"
+                      inkscape:pageopacity="0.0"
+                      inkscape:pagecheckerboard="0"
+                      inkscape:deskcolor="#d1d1d1"
+                      showgrid="false"
+                      inkscape:zoom="0.236"
+                      inkscape:cx="500"
+                      inkscape:cy="502.11864"
+                      inkscape:window-width="1280"
+                      inkscape:window-height="734"
+                      inkscape:window-x="0"
+                      inkscape:window-y="0"
+                      inkscape:window-maximized="1"
+                      inkscape:current-layer="svg8" />
+                    <metadata
+                        id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+                    <g display="inline"
+                        id="g6"
+                        transform="matrix(-1,0,0,1,1000,0)"><path
+                          d="m 217.6,915.1 c 0,-19.2 7.2,-38.4 21.9,-53 L 601.5,500 239.5,137.9 c -29.3,-29.3 -29.3,-76.7 0,-106 29.3,-29.3 76.7,-29.3 106,0 l 415,415.1 c 29.3,29.3 29.3,76.7 0,106 l -415,415 c -29.3,29.3 -76.7,29.3 -106,0 -14.7,-14.6 -21.9,-33.8 -21.9,-52.9 z"
+                          id="path4" /></g>
+                  </svg>
+                    Go Back
+                </a>
           </div>
-          <p class="text-[#a18843] text-6xl font-[poppins] font-black pl-2" > 
-            &
-          </p>
         </div>
-      </div>
+      </nav>
 
-      <div class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="rounded-2xl" src="./images/mixtape/photo6.jpg" alt="">
-      </div>
-
-      <div class="flex flex-col justify-center items-center p-9 col-span-2 md:col-span-1 row-span-2  transition sm:min-h-[150px] h-fit">
-        <img class="rounded-2xl" src="./images/mixtape/photo5.jpg" alt="">
-      </div>
-
-      <div class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="rounded-2xl" src="./images/mixtape/photo1.jpg" alt="">
-      </div>
-
-      <div class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="rounded-2xl" src="./images/mixtape/photo2.jpg" alt="">
-      </div>
-      
     </div>
 
-  </section>
-
-<!-- Footer -->
-  <div id="footer-placeholder">
-  </div>
-  <script>
-  $(function(){
-    $("#footer-placeholder").load("./footer.shtml");
-  });
-  </script>
-  
 
 
-</body>
+    <!-- Main content -->
+    <section id="gdthumbnails">
+      <!-- Intro -->
+      <div class="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 ">
+        <!-- text block -->
+        <div class="lg:order-last md:col-span-2 lg:col-span-1 px-16 py-32 lg:py-10 flex flex-col justify-center items-start transition bg-grey-500 min-h[30px] text-center ">
+          <p class="font-[poppins] text-left inline-flex text-black font-black text-2xl pt-5 ">MIXTAPE</p>
+          <p class="font-[poppins] text-left inline-flex text-white font-black text-2xl">PACKAGING</p>
+          <p class="font-[poppins] text-left inline-flex text-white font-black text-2xl">DESIGN</p>
+          
+          <p class="text-left inline-flex text-base mt-5">
+            “Miscere” is an album packaging
+            design project exploring the
+            integration of graphic design and
+            music dring 2023 spring semester.</p>
+        </div>
+
+        <div class="md:col-span-2 bg-[#EDE7E7] transition sm:min-h-[150px] h-fit">
+        
+          <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_1.png" alt="">
+        </div>
+
+        
+      </div>
+
+      <!-- P1 -->
+      <div class="lg:pb-1 grid grid-cols-1 md:grid-cols-2 px-10 py-20">
+
+        <div class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+          <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_1.png" alt="">
+          <p class="text-white m-3 text-xl font-black">FRONT</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+          <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_3.png" alt="">
+          <p class="text-white m-3 text-xl font-black">BACK</p>
+        </div>
+
+      </div>
+
+      <!-- P2 -->
+      <div class="lg:pb-1 grid grid-cols-1 md:grid-cols-2 px-10 py-20 bg-[#FBFBE3]">
+
+        <div class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+          <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_2.png" alt="">
+          <p class="text-black m-3 text-xl font-black">INTERIOR - LEFT</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+          <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_4.png" alt="">
+          <p class="text-black m-3 text-xl font-black">INTERIOR - RIGHT</p>
+        </div>
+
+      </div>
+
+      <!-- P3 -->
+      <div class="lg:pb-1 grid grid-cols-1 md:grid-cols-2 px-10 py-20 bg-[#FBFBE3]">
+
+        <div class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+          <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/insert1.png" alt="">
+          <p class="text-black m-3 text-xl font-black">INSERT 1</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+          <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/insert2.png" alt="">
+          <p class="text-black m-3 text-xl font-black">INSERT 2</p>
+        </div>
+
+      </div>
+
+
+      <!-- Mark & Type Exploration p2 for small and large screen-->
+
+      <!-- Application -->
+      <div class="py-10 items-center grid grid-col-1 sm:grid-cols-2 lg:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+        <!-- text block -->
+        <div class=" col-span-1 sm:col-span-2 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12">
+          <!-- title -->
+
+          <div class=" flex flex-row p-4">
+
+            <div class="flex flex-col">
+
+              <p class="text-gray-900 text-right font-[poppins] font-black text-xl">
+                APPLICATION
+                </br>
+              </p>
+              <p class="text-white text-right font-[poppins] font-black text-xl">
+                IMPLEMENTATION
+              </p>
+
+            </div>
+            <p class="text-[#a18843] text-6xl font-[poppins] font-black pl-2" > 
+              &
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
+          <img class="rounded-2xl" src="./images/mixtape/photo6.jpg" alt="">
+        </div>
+
+        <div class="flex flex-col justify-center items-center p-9 col-span-2 md:col-span-1 row-span-2  transition sm:min-h-[150px] h-fit">
+          <img class="rounded-2xl" src="./images/mixtape/photo5.jpg" alt="">
+        </div>
+
+        <div class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
+          <img class="rounded-2xl" src="./images/mixtape/photo1.jpg" alt="">
+        </div>
+
+        <div class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
+          <img class="rounded-2xl" src="./images/mixtape/photo2.jpg" alt="">
+        </div>
+        
+      </div>
+
+    </section>
+
+  <!-- Footer -->
+    <div id="footer-placeholder">
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        fetch('./navbar.shtml')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+          });
+
+        fetch('./footer.shtml')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+          });
+      });
+    </script>
+
+
+  </body>
 </html>
