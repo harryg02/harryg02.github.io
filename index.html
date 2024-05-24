@@ -54,7 +54,7 @@
       }
     </style>
   </head>
-  <body class="font-[Jost] font-semibold bg-veryLightGray">
+  <body class="font-[Jost] font-semibold bg-[#1E2128]">
     
     <!-- loading screen -->
     <div id="loadingScreen" class="font-terminal " style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; display: flex; justify-content: center; align-items: center; z-index: 1000; opacity: 1; transition: opacity 0.5s ease;">
@@ -273,7 +273,7 @@
 
 
     <!-- Drawing Thumbnails -->
-    <section id="drawing">
+    <section id="drawing" class="bg-veryLightGray">
       
       <!-- Disable swiper on mobile, use a separate 1 column view instead -->
       <div class="hidden md:flex overflow-hidden"> 
@@ -635,6 +635,7 @@
       }
     </style>
 
+  <!-- parallax -->
     <script>
       window.addEventListener('scroll', function() {
         const scrollPosition = window.pageYOffset;

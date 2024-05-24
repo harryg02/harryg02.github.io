@@ -842,16 +842,6 @@ video {
   animation: open-menu 0.5s;
 }
 
-@keyframes pulse {
-  50% {
-    opacity: .5;
-  }
-}
-
-.animate-pulse {
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1133,6 +1123,11 @@ video {
 .bg-\[\#C4CBD9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(196 203 217 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#1E2128\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 33 40 / var(--tw-bg-opacity));
 }
 
 .fill-\[\#9E8B8D\] {
@@ -1554,10 +1549,6 @@ video {
   transition-property: opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Hamburger Menu */
