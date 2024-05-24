@@ -650,73 +650,34 @@
 
 
 
-    <!-- Change hero image every 3 seconds -->
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var imageOverlays = [
-            document.getElementById('imageOverlay1'),
-            document.getElementById('imageOverlay2'),
-            document.getElementById('imageOverlay3')
-        ];
-        var videoOverlays = [
-            document.getElementById('myVideo1'),
-            document.getElementById('myVideo2'),
-            document.getElementById('myVideo3')
-        ];
-        var currentIndex = 0;
-
-        function changeBackgroundImage() {
-            // Show the next image
-            currentIndex = (currentIndex + 1) % imageOverlays.length;
-            imageOverlays[currentIndex].style.display = 'block';
-            videoOverlays[currentIndex].style.display = 'block';
-
-            // After showing the last image, reset all back to the first image
-            if (currentIndex === imageOverlays.length - 1) {
-                setTimeout(function() {
-                  imageOverlays.forEach(function(overlay, index) {
-                    overlay.style.display = index === 0 ? 'block' : 'none';
-                  });
-                  videoOverlays.forEach(function(overlay, index) {
-                    overlay.style.display = index === 0 ? 'block' : 'none';
-                  });
-                  currentIndex = 0;
-                }, 3000); // Reset after the last image has been displayed for 3 seconds
-            }
-        }
-
-        // Start the cycle of changing images every 3 seconds
-        setInterval(changeBackgroundImage, 3000);
-    });
-    </script>
-
-    <!-- loading screen js -->
+    <!-- Loading Screen and Change hero image every 3 seconds -->
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         var loadingText = document.getElementById('loadingText');
         var resources = [...document.images, ...document.getElementsByTagName('video')];
         var totalResources = resources.length;
         var loadedResources = 0;
-
+    
         // Update loading percentage
         function updateLoadingPercentage() {
           var percentage = Math.round((loadedResources / totalResources) * 100);
           loadingText.textContent = 'Loading ' + percentage + '%';
         }
-
+    
         // Function to call when a resource is loaded
         function resourceLoaded() {
           loadedResources++;
           updateLoadingPercentage();
           if (loadedResources === totalResources) {
-            // All resources are loaded
+            // All resources are loaded, hide loading screen
             document.getElementById('loadingScreen').style.opacity = '0';
             setTimeout(function() {
               document.getElementById('loadingScreen').style.display = 'none';
+              startBackgroundChange(); // Start background change script
             }, 500); // Adjust this value to match the fade-out transition time
           }
         }
-
+    
         // Add event listeners to each resource
         resources.forEach(resource => {
           if (resource.tagName === 'IMG' && resource.complete ||
@@ -730,8 +691,46 @@
             resource.addEventListener('error', resourceLoaded, { once: true }); // Handle load errors
           }
         });
+    
+        function startBackgroundChange() {
+          var imageOverlays = [
+            document.getElementById('imageOverlay1'),
+            document.getElementById('imageOverlay2'),
+            document.getElementById('imageOverlay3')
+          ];
+          var videoOverlays = [
+            document.getElementById('myVideo1'),
+            document.getElementById('myVideo2'),
+            document.getElementById('myVideo3')
+          ];
+          var currentIndex = 0;
+    
+          function changeBackgroundImage() {
+            // Show the next image
+            currentIndex = (currentIndex + 1) % imageOverlays.length;
+            imageOverlays[currentIndex].style.display = 'block';
+            videoOverlays[currentIndex].style.display = 'block';
+    
+            // After showing the last image, reset all back to the first image
+            if (currentIndex === imageOverlays.length - 1) {
+              setTimeout(function() {
+                imageOverlays.forEach(function(overlay, index) {
+                  overlay.style.display = index === 0 ? 'block' : 'none';
+                });
+                videoOverlays.forEach(function(overlay, index) {
+                  overlay.style.display = index === 0 ? 'block' : 'none';
+                });
+                currentIndex = 0;
+              }, 3000); // Reset after the last image has been displayed for 3 seconds
+            }
+          }
+    
+          // Start the cycle of changing images every 3 seconds
+          setInterval(changeBackgroundImage, 3000);
+        }
       });
     </script>
+    
 
     <!-- load navbar and footer -->
     <script>
