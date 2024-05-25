@@ -165,20 +165,32 @@
           <p class="font-terminal inline-flex font-bold p-11 tracking-[.05em]">DESIGN</p>
         </div>
 
+        <a class="mb-2 relative group bg-cyan-200 col-span-2  sm:min-h-[150px] h-fit hover:shadow-xl" href="./terminal_display_3500.html">
+          <!-- <div class="screen"></div> -->
+          <div class="screen-lat"></div>
+          <div class="lines slide"></div>
+          <img src="./images/ReentryGuide-GR/cover.png" alt="">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
+          <div class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+            "ReentryGuide GR"
+            </br>
+            Design & Development
+          </div>
+        </a>
+
         <a class="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="./calvin-finds.html">
           <!-- LED filters -->
           <!-- <div class="screen"></div> -->
           <div class="screen-lat"></div>
           <!-- <div class="lines slide"></div> -->
-
           <img class="" src="./images/CalvinFinds/thumbnail.png" alt="">
           <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
           <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
-            CALVIN FINDS
+            Calvin Finds
             <br/>
-            UI/UX DESIGN 
+            UI/UX Design
             <br/>
-            & DEVELOPMENT
+            & Development
           </div>
         </a>
 
@@ -198,16 +210,6 @@
           </div>
         </a>
 
-        <a class="mb-2 relative group bg-cyan-200 col-span-2  sm:min-h-[150px] h-fit hover:shadow-xl" href="./terminal_display_3500.html">
-          <img src="./images/font1.png" alt="">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
-          <div class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
-            "TERMINAL DISPLAY 3500"
-            </br>
-            TYPOGRAPHY / FONT
-          </div>
-        </a>
-
         <a class="mb-2 relative group bg-slate-100 col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./crazy_charlies.html">
           <!-- LED filters -->
           <div class="screen"></div>
@@ -222,6 +224,18 @@
             </div>
           </div>
         </a>
+
+        <a class="mb-2 relative group bg-cyan-200 col-span-2  sm:min-h-[150px] h-fit hover:shadow-xl" href="./terminal_display_3500.html">
+          <img src="./images/font1.png" alt="">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
+          <div class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+            "TERMINAL DISPLAY 3500"
+            </br>
+            TYPOGRAPHY / FONT
+          </div>
+        </a>
+
+
 
         <a class="mb-2 relative group bg-blue-200 sm:min-h-[150px] h-fit hover:shadow-xl" href="./gridlove.html">
           <!-- LED filters -->
@@ -638,13 +652,11 @@
   <!-- parallax -->
     <script>
       window.addEventListener('scroll', function() {
-        const scrollPosition = window.pageYOffset;
+        const offset = window.pageYOffset;
         const parallaxContainer = document.getElementById('hero');
 
         // Adjust this speed factor to make it move slower (e.g., 0.3 for slower, 0.5 for faster)
-        const speed = 0.25;
-        const yPos = (scrollPosition * speed);
-        parallaxContainer.style.transform = `translateY(${yPos}px)`;
+        parallaxContainer.style.transform = `translateY(${offset * 0.25}px)`;
       });
     </script>
 
