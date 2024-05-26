@@ -11,6 +11,8 @@
     <!-- swiper.js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Lenis -->
+    <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script> 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,7 +54,28 @@
       .hamburger-bottom {
       background: #CCD4E3;
       }
+
+      html, html body {
+        height: auto;
+      }
+
+      .lenis.lenis-smooth {
+        scroll-behavior: auto !important;
+      }
+
+      .lenis.lenis-smooth [data-lenis-prevent] {
+        overscroll-behavior: contain;
+      }
+
+      .lenis.lenis-stopped {
+        overflow: hidden;
+      }
+
+      .lenis.lenis-scrolling iframe {
+        pointer-events: none;
+      }
     </style>
+
   </head>
   <body class="font-[Jost] font-semibold bg-[#1E2128]">
     
@@ -649,7 +672,7 @@
       }
     </style>
 
-  <!-- parallax -->
+    <!-- parallax -->
     <script>
       window.addEventListener('scroll', function() {
         const offset = window.pageYOffset;
@@ -660,6 +683,21 @@
       });
     </script>
 
+    <!-- Lenis.js -->
+    <script>
+      const lenis = new Lenis()
+
+      lenis.on('scroll', (e) => {
+        console.log(e)
+      })
+
+      function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+      }
+
+      requestAnimationFrame(raf)
+    </script>
 
 
     <!-- Loading Screen and Change hero image every 3 seconds -->
