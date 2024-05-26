@@ -715,6 +715,10 @@ video {
   margin-top: 2rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1372,6 +1376,10 @@ video {
 
 .align-baseline {
   vertical-align: baseline;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .font-\[jost\] {
