@@ -11,6 +11,8 @@
     <!-- swiper.js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Lenis -->
+    <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script> 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,7 +54,28 @@
       .hamburger-bottom {
       background: #CCD4E3;
       }
+
+      html, html body {
+        height: auto;
+      }
+
+      .lenis.lenis-smooth {
+        scroll-behavior: auto !important;
+      }
+
+      .lenis.lenis-smooth [data-lenis-prevent] {
+        overscroll-behavior: contain;
+      }
+
+      .lenis.lenis-stopped {
+        overflow: hidden;
+      }
+
+      .lenis.lenis-scrolling iframe {
+        pointer-events: none;
+      }
     </style>
+
   </head>
   <body class="font-[Jost] font-semibold bg-[#1E2128]">
     
@@ -112,8 +135,8 @@
             <!-- menu items -->
             <div class="hidden space-x-12 md:flex" style="z-index: 701">
               <a href="./index.html" id="nav-1" class="hover:text-themeRed">HOME</a>
-              <a href="./index.html#design" id="nav-3" class="hover:text-themeRed">DESIGN</a>
-              <a href="./index.html#drawing" id="nav-2" class="hover:text-themeRed">DRAWING</a>
+              <a href="./index.html#design" onclick="lenis.scrollTo('#design')" id="nav-3" class="hover:text-themeRed">DESIGN</a>
+              <a href="./index.html#drawing" onclick="lenis.scrollTo('#drawing')" id="nav-2" class="hover:text-themeRed">DRAWING</a>
             </div>
             <div class="hidden space-x-3 md:flex" style="z-index: 701">
               <a href="https://www.linkedin.com/in/harry-gu-3762541a3/"class="text-base">
@@ -165,20 +188,32 @@
           <p class="font-terminal inline-flex font-bold p-11 tracking-[.05em]">DESIGN</p>
         </div>
 
+        <a class="mb-2 relative group bg-cyan-200 col-span-2  sm:min-h-[150px] h-fit hover:shadow-xl" href="./reentryguide-gr.html">
+          <!-- <div class="screen"></div> -->
+          <div class="screen-lat"></div>
+          <div class="lines slide"></div>
+          <img src="./images/ReentryGuide-GR/cover.png" alt="">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
+          <div class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+            "ReentryGuide GR"
+            </br>
+            Design & Development
+          </div>
+        </a>
+
         <a class="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="./calvin-finds.html">
           <!-- LED filters -->
           <!-- <div class="screen"></div> -->
           <div class="screen-lat"></div>
           <!-- <div class="lines slide"></div> -->
-
           <img class="" src="./images/CalvinFinds/thumbnail.png" alt="">
           <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
           <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
-            CALVIN FINDS
+            Calvin Finds
             <br/>
-            UI/UX DESIGN 
+            UI/UX Design
             <br/>
-            & DEVELOPMENT
+            & Development
           </div>
         </a>
 
@@ -198,16 +233,6 @@
           </div>
         </a>
 
-        <a class="mb-2 relative group bg-cyan-200 col-span-2  sm:min-h-[150px] h-fit hover:shadow-xl" href="./terminal_display_3500.html">
-          <img src="./images/font1.png" alt="">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
-          <div class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
-            "TERMINAL DISPLAY 3500"
-            </br>
-            TYPOGRAPHY / FONT
-          </div>
-        </a>
-
         <a class="mb-2 relative group bg-slate-100 col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./crazy_charlies.html">
           <!-- LED filters -->
           <div class="screen"></div>
@@ -222,6 +247,18 @@
             </div>
           </div>
         </a>
+
+        <a class="mb-2 relative group bg-cyan-200 col-span-2  sm:min-h-[150px] h-fit hover:shadow-xl" href="./terminal_display_3500.html">
+          <img src="./images/font1.png" alt="">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
+          <div class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+            "TERMINAL DISPLAY 3500"
+            </br>
+            TYPOGRAPHY / FONT
+          </div>
+        </a>
+
+
 
         <a class="mb-2 relative group bg-blue-200 sm:min-h-[150px] h-fit hover:shadow-xl" href="./gridlove.html">
           <!-- LED filters -->
@@ -635,19 +672,32 @@
       }
     </style>
 
-  <!-- parallax -->
+    <!-- parallax -->
     <script>
       window.addEventListener('scroll', function() {
-        const scrollPosition = window.pageYOffset;
+        const offset = window.pageYOffset;
         const parallaxContainer = document.getElementById('hero');
 
         // Adjust this speed factor to make it move slower (e.g., 0.3 for slower, 0.5 for faster)
-        const speed = 0.25;
-        const yPos = (scrollPosition * speed);
-        parallaxContainer.style.transform = `translateY(${yPos}px)`;
+        parallaxContainer.style.transform = `translateY(${offset * 0.25}px)`;
       });
     </script>
 
+    <!-- Lenis.js -->
+    <script>
+      const lenis = new Lenis()
+
+      lenis.on('scroll', (e) => {
+        console.log(e)
+      })
+
+      function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+      }
+
+      requestAnimationFrame(raf)
+    </script>
 
 
     <!-- Loading Screen and Change hero image every 3 seconds -->

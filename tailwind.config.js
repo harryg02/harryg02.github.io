@@ -33,8 +33,7 @@ module.exports = {
         widest: '.35em',
       },
       fontSize: {
-        xs: '0.77rem',
-        sm: '0.84rem',
+
       },
       keyframes: {
         'open-menu': {
