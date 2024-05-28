@@ -1,14 +1,18 @@
 // src/App.tsx
-import './index.css';
+import React from 'react';
 import Hero from './sections/hero/components/Hero';
+import './index.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div>
-      <Hero />
+      {/* <Hero /> */}
+      <p>
+        hh
+      </p>
       {/* Add other sections or components here */}
     </div>
   );
-}
+};
 
 export default App;
