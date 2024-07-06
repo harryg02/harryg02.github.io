@@ -1515,12 +1515,8 @@ video {
   font-family: 'Raleway';
 }
 
-.font-\[Jost\] {
-  font-family: Jost;
-}
-
-.font-\[jost\] {
-  font-family: jost;
+.font-\[Urbanist\] {
+  font-family: Urbanist;
 }
 
 .font-\[manrope\] {
@@ -1533,6 +1529,10 @@ video {
 
 .font-display {
   font-family: Montserrat, sans-serif;
+}
+
+.font-\[Outfit\] {
+  font-family: Outfit;
 }
 
 .text-2xl {
@@ -1829,17 +1829,17 @@ video {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
-.handfont {
-  font-family: 'Cabin Sketch', cursive;
+/* .handfont {
+    font-family: 'Cabin Sketch', cursive;
 }
 
 .monospacefont {
-  font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .displayfont {
-  font-family: 'Zen Tokyo Zoo', cursive;
-}
+    font-family: 'Zen Tokyo Zoo', cursive;
+} */
 
 /* making the background darker */
 
