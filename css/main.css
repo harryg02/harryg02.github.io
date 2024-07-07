@@ -1515,8 +1515,8 @@ video {
   font-family: 'Raleway';
 }
 
-.font-\[Urbanist\] {
-  font-family: Urbanist;
+.font-\[Outfit\] {
+  font-family: Outfit;
 }
 
 .font-\[manrope\] {
@@ -1529,10 +1529,6 @@ video {
 
 .font-display {
   font-family: Montserrat, sans-serif;
-}
-
-.font-\[Outfit\] {
-  font-family: Outfit;
 }
 
 .text-2xl {
