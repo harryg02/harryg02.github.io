@@ -1531,12 +1531,12 @@ video {
   font-family: poppins;
 }
 
-.font-display {
-  font-family: Montserrat, sans-serif;
-}
-
 .font-\[urbanist\] {
   font-family: urbanist;
+}
+
+.font-display {
+  font-family: Montserrat, sans-serif;
 }
 
 .text-2xl {
@@ -1613,14 +1613,6 @@ video {
 
 .leading-tight {
   line-height: 1.25;
-}
-
-.tracking-\[\.05em\] {
-  letter-spacing: .05em;
-}
-
-.tracking-\[\.1em\] {
-  letter-spacing: .1em;
 }
 
 .tracking-wider {
