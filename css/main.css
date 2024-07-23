@@ -1539,6 +1539,10 @@ video {
   font-family: Montserrat, sans-serif;
 }
 
+.font-\[outfit\] {
+  font-family: outfit;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
