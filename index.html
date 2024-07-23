@@ -19,7 +19,7 @@
     <!-- Regular font -->
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Monoton&display=swap" rel="stylesheet"> 
     <!-- Display font -->
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Hand Writing font -->
     <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
     <!-- monospace font -->
@@ -77,7 +77,7 @@
     </style>
 
   </head>
-  <body class="font-[Jost] font-semibold bg-[#1E2128]">
+  <body class="font-[urbanist] font-semibold bg-[#1E2128]">
     
     <!-- loading screen -->
     <div id="loadingScreen" class="font-terminal " style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; display: flex; justify-content: center; align-items: center; z-index: 1000; opacity: 1; transition: opacity 0.5s ease;">
@@ -121,8 +121,8 @@
       <div class="hero" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover;"></div>
       
       <!-- Nav Bar -->
-      <div class="font-terminal">
-        <nav class="relative container mx-auto text-darkGray text-sm font-bold">
+      <div class="font-[urbanist] font-extrabold">
+        <nav class="relative container mx-auto text-darkGray ">
           <!-- Flex container -->
           <div class="flex items-center justify-between max-w-[600px] mt-[8vh] md:mt-[7vh] mx-6 md:ml-10 lg:ml-20  ">
             <!-- <div class="flex items-center justify-between tracking-wider"> -->
@@ -134,9 +134,9 @@
             </div>
             <!-- menu items -->
             <div class="hidden space-x-12 md:flex" style="z-index: 701">
-              <a href="./index.html" id="nav-1" class="hover:text-themeRed">HOME</a>
-              <a href="./index.html#projects" onclick="lenis.scrollTo('#projects')" id="nav-3" class="hover:text-themeRed">PROJECTS</a>
-              <a href="./index.html#drawing" onclick="lenis.scrollTo('#drawing')" id="nav-2" class="hover:text-themeRed">DRAWING</a>
+              <a href="./index.html" id="nav-1" class="hover:text-themeRed">Home</a>
+              <a href="./index.html#projects" onclick="lenis.scrollTo('#projects')" id="nav-3" class="hover:text-themeRed">Projects</a>
+              <a href="./index.html#drawing" onclick="lenis.scrollTo('#drawing')" id="nav-2" class="hover:text-themeRed">Drawing</a>
             </div>
             <div class="hidden space-x-3 md:flex" style="z-index: 701">
               <a href="https://www.linkedin.com/in/harry-gu-3762541a3/"class="text-base">
@@ -162,9 +162,9 @@
           <div id="menu" class="absolute w-[100vw] flex-col items-center hidden self-end 
           py-16 space-y-10 font-bold text-darkGray
             bg-menu animate-open-menu text-base pt-36 -top-1" style="z-index: 700">
-            <a href="./index.html" id="nav-hamburger-1" class="hover:text-themeRed">HOME</a>
-            <a href="./index.html#projects" id="nav-hamburger-3" class="hover:text-themeRed">PROJECTS</a>
-            <a href="./index.html#drawing" id="nav-hamburger-2" class="hover:text-themeRed">DRAWING</a>
+            <a href="./index.html" id="nav-hamburger-1" class="hover:text-themeRed">Home</a>
+            <a href="./index.html#projects" id="nav-hamburger-3" class="hover:text-themeRed">Projects</a>
+            <a href="./index.html#drawing" id="nav-hamburger-2" class="hover:text-themeRed">Drawing</a>
             <div>
               <a href="https://www.linkedin.com/in/harry-gu-3762541a3/"class="text-base">
                 <img class="inline h-8" src="./icons/linkedin-hero.svg" alt="">
@@ -186,7 +186,7 @@
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
         
         <div class="col-span-2  md:col-span-1 bg-[#1C1E1F] flex justify-center items-center transition bg-grey-500 shadow-xl min-h[60px] text-center">
-          <p class="font-terminal inline-flex font-bold p-11 tracking-[.05em]">PROJECTS</p>
+          <p class="font-[urbanist] inline-flex font-extrabold text-xl p-11">Projects</p>
         </div>
 
         <a class="mb-2 relative group bg-cyan-200 col-span-2  sm:min-h-[150px] h-fit hover:shadow-xl" href="./reentryguide-gr.html">
@@ -205,7 +205,7 @@
         <a class="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="./calvin-finds.html">
           <!-- LED filters -->
           <!-- <div class="screen"></div> -->
-          <div class="screen-lat"></div>
+          <!-- <div class="screen-lat"></div> -->
           <!-- <div class="lines slide"></div> -->
           <img class="" src="./images/CalvinFinds/thumbnail.png" alt="">
           <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
@@ -223,9 +223,9 @@
         <a class="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./e-communiy-service-logo.html">
           
           <!-- LED filters -->
-          <div class="screen"></div>
-          <div class="screen-lat"></div>
-          <div class="lines slide"></div>
+          <!-- <div class="screen"></div> -->
+          <!-- <div class="screen-lat"></div> -->
+          <!-- <div class="lines slide"></div> -->
 
           <img class="" src="./trademarks/e-community-service.png" alt="">
           <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
@@ -236,8 +236,8 @@
 
         <a class="mb-2 relative group bg-slate-100 col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./crazy_charlies.html">
           <!-- LED filters -->
-          <div class="screen"></div>
-          <div class="screen-lat"></div>
+          <!-- <div class="screen"></div> -->
+          <!-- <div class="screen-lat"></div> -->
           
           <img src="./images/crazy_charlies/cover.png" alt="">
           <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
@@ -263,7 +263,7 @@
 
         <a class="mb-2 relative group bg-blue-200 sm:min-h-[150px] h-fit hover:shadow-xl" href="./gridlove.html">
           <!-- LED filters -->
-          <div class="screen-lat"></div>
+          <!-- <div class="screen-lat"></div> -->
 
           <img src="./images/GridLove.png" alt="">
           <!-- hovering effect -->
@@ -277,8 +277,8 @@
         <a class="mb-2 relative group rounded-xl  sm:min-h-[150px] h-fit hover:shadow-xl" href="./mixtape.html">
           <!-- LED filters -->
           <!-- <div class="screen"></div> -->
-          <div class="screen-lat"></div>
-          <div class="lines slide"></div>
+          <!-- <div class="screen-lat"></div> -->
+          <!-- <div class="lines slide"></div> -->
 
           <img class="" src="./images/miscere.jpeg" alt="">
           <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
@@ -320,7 +320,7 @@
 
             <div class="text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[44rem] lg:max-w-[65rem] xl:max-w-[85rem] m-auto ">
 
-              <p class="font-terminal pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
+              <p class="font-[urbanist] pb-6 pl-1 font-black text-xl">Drawing</p>
 
                 <div class="align-baseline grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
 
@@ -438,7 +438,7 @@
 
           <div class=" text-veryDarkGray max-w-[21rem] sm:max-w-[26rem] m-auto ">
 
-            <p class="font-terminal pb-6 pl-1 font-bold tracking-[.1em]">DRAWING</p>
+            <p class="font-[urbanist] pb-6 pl-1 font-bold">DRAWING</p>
 
             <div class="swiper-container "> 
               <div class="swiper-cards ">

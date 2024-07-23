@@ -1,21 +1,21 @@
-<footer class="bg-LightGray font-[Jost]">
+<footer class="bg-LightGray font-[urbanist]">
     <!-- Flex Container -->
       <div class="container flex flex-col md:flex-row relative py-20 px-5 mx-auto text-gray-600 leading-7">
         <!-- left item -->
         <div class="basis-2/3 py-10 md:px-10 md:py-0">
-          <p class="text-gray-900 font-terminal font-bold leading-8">ABOUT ME</p>
-          <p class="text-base font-medium">
+          <p class="text-gray-900 font-[urbanist] font-extrabold text-lg leading-8">About Me</p>
+          <p class="text-base ">
             I'm Harry Gu, a Graphic Designer and Front-End Developer with skills in Illustration, UI/UX design, and web design. I earned my Graphic Design degree at Calvin University, and finished various contracts and projects with local businesses and non-profits. I aim to blend my skills in design and development into meaningful works and bring positive change to the world.
           </p>
         </div>
         <!-- Right item -->
         <div class="basis-1/3 py-10 md:px-10 md:py-0">
-          <p class="text-gray-900 font-terminal font-bold leading-8">CONTACT ME</p>
+          <p class="text-gray-900 font-[urbanist] font-extrabold text-lg leading-8">Contact Me</p>
 
           <a href="mailto:tuharrygu@gmail.com" class="flex flex-row justify-center items-center rounded-2xl w-[200px] px-5 py-4 my-2 bg-[#2E3135] hover:bg-[#222] shadow-md max-w-xs">
             <div class="flex items-center mr-4">
               <img src="/icons/mail.png" class="mr-0 w-6 h-6 object-contain" alt="icon" />
-              <span class="ml-2.5 text-base text-white flex-shrink-1">Email Me</span>
+              <span class="ml-2.5 text-white flex-shrink-1">Email Me</span>
             </div>
           </a> 
 

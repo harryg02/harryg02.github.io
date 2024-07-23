@@ -1515,20 +1515,16 @@ video {
   font-family: 'Raleway';
 }
 
-.font-\[Jost\] {
-  font-family: Jost;
-}
-
-.font-\[jost\] {
-  font-family: jost;
-}
-
 .font-\[manrope\] {
   font-family: manrope;
 }
 
 .font-\[poppins\] {
   font-family: poppins;
+}
+
+.font-\[urbanist\] {
+  font-family: urbanist;
 }
 
 .font-display {
@@ -1611,14 +1607,6 @@ video {
   line-height: 1.25;
 }
 
-.tracking-\[\.05em\] {
-  letter-spacing: .05em;
-}
-
-.tracking-\[\.1em\] {
-  letter-spacing: .1em;
-}
-
 .tracking-wider {
   letter-spacing: .15em;
 }
@@ -1691,11 +1679,6 @@ video {
 .text-gray-100 {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
-}
-
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .text-gray-600 {
