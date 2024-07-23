@@ -15,7 +15,7 @@
           <a href="mailto:tuharrygu@gmail.com" class="flex flex-row justify-center items-center rounded-2xl w-[200px] px-5 py-4 my-2 bg-[#2E3135] hover:bg-[#222] shadow-md max-w-xs">
             <div class="flex items-center mr-4">
               <img src="/icons/mail.png" class="mr-0 w-6 h-6 object-contain" alt="icon" />
-              <span class="ml-2.5 text-base text-white flex-shrink-1">Email Me</span>
+              <span class="ml-2.5 text-white flex-shrink-1">Email Me</span>
             </div>
           </a> 
 
