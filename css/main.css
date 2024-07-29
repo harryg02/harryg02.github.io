@@ -1515,14 +1515,6 @@ video {
   font-family: 'Raleway';
 }
 
-.font-\[Jost\] {
-  font-family: Jost;
-}
-
-.font-\[jost\] {
-  font-family: jost;
-}
-
 .font-\[manrope\] {
   font-family: manrope;
 }
@@ -1613,14 +1605,6 @@ video {
 
 .leading-tight {
   line-height: 1.25;
-}
-
-.tracking-\[\.05em\] {
-  letter-spacing: .05em;
-}
-
-.tracking-\[\.1em\] {
-  letter-spacing: .1em;
 }
 
 .tracking-wider {
