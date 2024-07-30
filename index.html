@@ -670,16 +670,6 @@
       lightbox.init();
     </script>
 
-    <style>
-      @media (max-width: 767px) {
-        #imageOverlay1,
-        #imageOverlay2,
-        #imageOverlay3 {
-          background-position: calc(50% + 35px) center !important;
-        }
-      }
-    </style>
-
     <!-- parallax -->
     <script>
       window.addEventListener('scroll', function() {
@@ -687,7 +677,7 @@
         const parallaxContainer = document.getElementById('hero');
 
         // Adjust this speed factor to make it move slower (e.g., 0.3 for slower, 0.5 for faster)
-        parallaxContainer.style.transform = `translateY(${offset * 0.25}px)`;
+        parallaxContainer.style.transform = `translateY(${offset * 0.3}px)`;
       });
     </script>
 
