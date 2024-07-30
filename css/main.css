@@ -630,6 +630,10 @@ video {
   z-index: 50;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -866,6 +870,10 @@ video {
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .max-h-\[800px\] {
