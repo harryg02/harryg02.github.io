@@ -88,16 +88,18 @@
         <source src="herovideo1.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
+
       <video id="myVideo2" autoplay loop muted 
-        style="object-fit: scale-down; display: none;" 
-        class="video-overlay object-scale-down absolute inline-block">
-        <source src="intro-2.webm" type="video/mp4">
+        style="display: none;" 
+        class="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0 ">
+        <source src="herovideo2.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
+      
       <video id="myVideo3" autoplay loop muted 
-        style="object-fit: scale-down; display: none;" 
-        class="video-overlay object-scale-down absolute inline-block">
-        <source src="intro-3.webm" type="video/mp4">
+        style="display: none;" 
+        class="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0 ">
+        <source src="herovideo3.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       
@@ -696,20 +698,20 @@
     </script>
 
 
-    <!-- Loading Screen and Change hero image every 3 seconds -->
+    <!-- Loading Screen and Change hero video every 3 seconds -->
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         var loadingText = document.getElementById('loadingText');
         var resources = [...document.images, ...document.getElementsByTagName('video')];
         var totalResources = resources.length;
         var loadedResources = 0;
-    
+
         // Update loading percentage
         function updateLoadingPercentage() {
           var percentage = Math.round((loadedResources / totalResources) * 100);
           loadingText.textContent = 'Loading ' + percentage + '%';
         }
-    
+
         // Function to call when a resource is loaded
         function resourceLoaded() {
           loadedResources++;
@@ -723,7 +725,7 @@
             }, 500); // Adjust this value to match the fade-out transition time
           }
         }
-    
+
         // Add event listeners to each resource
         resources.forEach(resource => {
           if (resource.tagName === 'IMG' && resource.complete ||
@@ -737,45 +739,37 @@
             resource.addEventListener('error', resourceLoaded, { once: true }); // Handle load errors
           }
         });
-    
+
         function startBackgroundChange() {
-          var imageOverlays = [
-            document.getElementById('imageOverlay1'),
-            document.getElementById('imageOverlay2'),
-            document.getElementById('imageOverlay3')
-          ];
           var videoOverlays = [
             document.getElementById('myVideo1'),
             document.getElementById('myVideo2'),
             document.getElementById('myVideo3')
           ];
           var currentIndex = 0;
-    
-          function changeBackgroundImage() {
-            // Show the next image
-            currentIndex = (currentIndex + 1) % imageOverlays.length;
-            imageOverlays[currentIndex].style.display = 'block';
+
+          function changeBackgroundVideo() {
+            // Show the next video
+            currentIndex = (currentIndex + 1) % videoOverlays.length;
             videoOverlays[currentIndex].style.display = 'block';
-    
-            // After showing the last image, reset all back to the first image
-            if (currentIndex === imageOverlays.length - 1) {
+
+            // After showing the last video, reset all back to the first video
+            if (currentIndex === videoOverlays.length - 1) {
               setTimeout(function() {
-                imageOverlays.forEach(function(overlay, index) {
-                  overlay.style.display = index === 0 ? 'block' : 'none';
-                });
                 videoOverlays.forEach(function(overlay, index) {
                   overlay.style.display = index === 0 ? 'block' : 'none';
                 });
                 currentIndex = 0;
-              }, 3000); // Reset after the last image has been displayed for 3 seconds
+              }, 3000); // Reset after the last video has been displayed for 3 seconds
             }
           }
-    
-          // Start the cycle of changing images every 3 seconds
-          setInterval(changeBackgroundImage, 3000);
+
+          // Start the cycle of changing videos every 3 seconds
+          setInterval(changeBackgroundVideo, 3000);
         }
       });
     </script>
+
     
 
     <!-- load navbar and footer -->
