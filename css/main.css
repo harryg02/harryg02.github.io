@@ -682,6 +682,10 @@ video {
   margin: auto;
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
 .mx-12 {
   margin-left: 3rem;
   margin-right: 3rem;
@@ -730,6 +734,11 @@ video {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .mb-10 {
@@ -875,6 +884,14 @@ video {
 
 .max-h-\[800px\] {
   max-height: 800px;
+}
+
+.max-h-6 {
+  max-height: 1.5rem;
+}
+
+.max-h-\[600px\] {
+  max-height: 600px;
 }
 
 .min-h-\[600px\] {
@@ -1297,6 +1314,16 @@ video {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#fff6f6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 246 246 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FFF8F1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 248 241 / var(--tw-bg-opacity));
+}
+
 .fill-\[\#141414\] {
   fill: #141414;
 }
@@ -1445,6 +1472,16 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -1523,6 +1560,10 @@ video {
 
 .align-baseline {
   vertical-align: baseline;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .font-\[\'Raleway\'\] {
@@ -2184,6 +2225,11 @@ video {
     padding-bottom: 6rem;
   }
 
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -2209,6 +2255,10 @@ video {
 
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3;
   }
 
   .lg\:m-0 {
