@@ -55,7 +55,7 @@
         height: auto;
       }
 
-      .lenis.lenis-smooth {
+      /* .lenis.lenis-smooth {
         scroll-behavior: auto !important;
       }
 
@@ -69,6 +69,14 @@
 
       .lenis.lenis-scrolling iframe {
         pointer-events: none;
+      } */
+
+      @media (max-width: 767px) {
+        #myVideo1,
+        #myVideo2,
+        #myVideo3 {
+          background-position: calc(50% + 35px) center !important;
+        }
       }
     </style>
 
