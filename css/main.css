@@ -752,6 +752,10 @@ video {
   margin-left: 0.75rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -833,12 +837,16 @@ video {
   max-height: 600px;
 }
 
-.max-h-\[300px\] {
-  max-height: 300px;
+.max-h-\[650px\] {
+  max-height: 650px;
 }
 
-.max-h-\[500px\] {
-  max-height: 500px;
+.max-h-\[620px\] {
+  max-height: 620px;
+}
+
+.max-h-\[630px\] {
+  max-height: 630px;
 }
 
 .min-h-\[600px\] {
@@ -1461,16 +1469,16 @@ video {
   padding-left: 1.25rem;
 }
 
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
 
 .pb-20 {
   padding-bottom: 5rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
 }
 
 .text-left {
@@ -1719,13 +1727,13 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.drop-shadow-\[0_10px_8px_rgba\(0\2c 0\2c 0\2c 0\.1\)\] {
-  --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0,0,0,0.1));
+.drop-shadow-\[0_10px_8px_rgba\(0\2c 0\2c 0\2c 0\.10\)\] {
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0,0,0,0.10));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.drop-shadow-\[0_10px_8px_rgba\(0\2c 0\2c 0\2c 0\.10\)\] {
-  --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0,0,0,0.10));
+.drop-shadow-\[0_10px_8px_rgba\(0\2c 0\2c 0\2c 0\.1\)\] {
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0,0,0,0.1));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -2180,11 +2188,6 @@ video {
     margin: 0px;
   }
 
-  .lg\:mx-\[9vh\] {
-    margin-left: 9vh;
-    margin-right: 9vh;
-  }
-
   .lg\:mx-\[2em\] {
     margin-left: 2em;
     margin-right: 2em;
@@ -2193,6 +2196,11 @@ video {
   .lg\:my-14 {
     margin-top: 3.5rem;
     margin-bottom: 3.5rem;
+  }
+
+  .lg\:mx-\[9vh\] {
+    margin-left: 9vh;
+    margin-right: 9vh;
   }
 
   .lg\:ml-20 {
