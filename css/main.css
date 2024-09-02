@@ -905,6 +905,14 @@ video {
   max-width: 1200px;
 }
 
+.max-w-\[1280px\] {
+  max-width: 1280px;
+}
+
+.max-w-\[1300px\] {
+  max-width: 1300px;
+}
+
 .flex-initial {
   flex: 0 1 auto;
 }
@@ -2251,6 +2259,11 @@ video {
   .lg\:mx-\[9vh\] {
     margin-left: 9vh;
     margin-right: 9vh;
+  }
+
+  .lg\:mx-\[9vw\] {
+    margin-left: 9vw;
+    margin-right: 9vw;
   }
 
   .lg\:ml-20 {
