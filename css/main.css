@@ -1504,16 +1504,16 @@ video {
   padding-bottom: 5rem;
 }
 
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
 
-.pl-0 {
-  padding-left: 0px;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .text-left {
