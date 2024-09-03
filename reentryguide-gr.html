@@ -204,9 +204,39 @@
 
           <div class="flex flex-col py-2">
             <b class="text-sm">• Cognitive Abilities</b>
-            <p class="text-sm pl-3">Some users have various cognitive disabilities, requiring special consideration in our design approach.</p>
+            <p class="text-sm pl-3">Some users have various cognitive disabilities, requiring special consideration in our design approach.
+              <br />
+              <br />
+            </p>
           </div>
   
+          <b>Map Integration Decision</b>
+          <ul class="list-none">
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              <p class="pb-1">
+                Options Considered:
+              </p>
+              <ol class="list-decimal pl-3">
+                <li class="pb-1">Develop a fully-featured map application</li>
+                <li class="pb-1">Create an app that generates links to Google Maps</li>
+              </ol>
+            </li>
+
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Decision: We chose option 2 - generating links to Google Maps.
+            </li>
+            
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              <p class="pb-1">
+                Rationale:
+              </p>
+              <ul class="list-decimal pl-3">
+                <li class="pb-1">Cost-effective: Avoided expensive API costs for local bus route data</li>
+                <li class="pb-1">Sustainability: More beneficial for long-term maintenance and updates</li>
+              </ul>
+            </li>
+
+          </ul>
           <!-- <p class="py-3 text-gray-900 inline-flex font-bold font-RedHatDisplay text-xl text-left">
             Design Brainstorming
           </p>
@@ -262,7 +292,7 @@
     <!-- p3 -->
     <div class="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
 
-      <div class=" max-w-[1300px] m-auto px-6 py-10 grid grid-col-1 lg:grid-cols-3 ">
+      <div class=" max-w-[1300px] m-auto px-6 pt-10 grid grid-col-1 lg:grid-cols-3 ">
 
         <!-- text block -->
         <div class=" col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-4 py-12 max-w-xl">
@@ -295,38 +325,6 @@
             </li>
           </ul>
 
-          <b>Map Integration Decision</b>
-          <ul class="list-none">
-            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              <p class="pb-1">
-                Options Considered:
-              </p>
-              <ol class="list-decimal pl-3">
-                <li class="pb-1">Develop a fully-featured map application</li>
-                <li class="pb-1">Create an app that generates links to Google Maps</li>
-              </ol>
-            </li>
-
-            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              Decision: We chose option 2 - generating links to Google Maps.
-            </li>
-            
-            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              <p class="pb-1">
-                Rationale:
-              </p>
-              <ul class="list-decimal pl-3">
-                <li class="pb-1">Cost-effective: Avoided expensive API costs for local bus route data</li>
-                <li class="pb-1">Sustainability: More beneficial for long-term maintenance and updates</li>
-              </ul>
-            </li>
-
-          </ul>
-  
-        </div>
-
-        <!-- text block 3-->
-        <div class=" col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-16 py-12 max-w-xl">
           <b>UI Design System Analysis:</b>
           <p class="inline-flex text-sm py-2">
             We compared several prominent design systems to inform our UI decisions:
@@ -358,6 +356,11 @@
               <br />
             </li>
           </ul>
+  
+        </div>
+
+        <!-- text block 3-->
+        <div class=" col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-16 py-12 max-w-xl">
 
           <b>Initial UI/UX Design Choices:</b>
           <ul class="list-none">
