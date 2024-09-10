@@ -103,7 +103,7 @@
               </svg>
                 Go Back
             </a>
-            <a href="./index.html"class="text-base">
+            <a href="./index.html" class="text-base">
               <img class="inline h-7 ml-5" src="./icons/logo-01-18-black.svg" alt="HARRY GU LOGO">
             </a>
           </div>
@@ -116,8 +116,8 @@
     <div class="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 text-white bg-[#141414]">
       <!-- text block -->
       <div class="md:col-span-3 bg-[#EDE7E7] transition sm:min-h-[150px] h-fit">
-        <img class="hidden md:block rounded-2xl lg:rounded-l-none drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/ReentryGuide-GR/mockup.png" alt="">
-        <img class="block md:hidden rounded-2xl lg:rounded-l-none drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/ReentryGuide-GR/mockup-mobile.png" alt="">
+        <img class="hidden md:block drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/ReentryGuide-GR/mockup.png" alt="">
+        <img class="block md:hidden drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/ReentryGuide-GR/mockup-mobile.png" alt="">
       </div>
       <div class="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pt-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center ">
         <p class="font-RedHatDisplay text-left inline-flex font-semibold text-2xl">ReentryGuide GR</p>
@@ -151,96 +151,558 @@
 
       <div class="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pb-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
         <p class="text-left inline-flex text-sm">"ReentryGuide GR" is a mobile application developed in collaboration with Reentry Reimagined, designed specifically to support the reintegration of former prisoners into society within the Grand Rapids area. </p>
-        <p class="text-left inline-flex text-sm">The contract includes creating an inclusive and user-friendly mobile application for end users, alongside a website with documentation, encouraging people to fork the project and expand its impact.</p>
+        <p class="text-left inline-flex text-sm">The goal is to develop an inclusive and user-friendly mobile application for end users, alongside a website with documentation, encouraging people to fork the project and expand its impact.</p>
       </div>
       
     </div>
 
-
-
     <!-- p2 -->
-    <div class="bg-[#FDDEBA] px-6 py-10 grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-      <!-- text block -->
-      <div class=" col-span-1 sm:col-span-2 lg:col-span-2 lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">
-        <!-- title -->
-        <div class="flex flex-row py-3">
-          <p class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-xl text-left">
-            The Challenge
+    <div class="bg-[#FDDEBA] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+
+      <div class=" max-w-[1200px] m-auto px-6 py-10 grid grid-col-1 lg:grid-cols-2 ">
+        <!-- text block -->
+        <div class=" col-span-1  lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">
+          <!-- title -->
+          <div class="flex flex-row py-3">
+            <p class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+              The Challenge
+            </p>
+          </div>
+          
+  
+          <p class="inline-flex text-sm py-2 mb-10">
+            A local non-profit organization "Reentry Reimagined" needed a mobile app to help formerly incarcerated people navigate to locations that provide crucial resources for their survival, such as food, clothing, hygiene, and healthcare. 
           </p>
+
+          <!-- title -->
+          <div class="flex flex-row py-3">
+            <p class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+              User Research
+            </p>
+          </div>
+          
+          <p class="inline-flex text-sm py-2 mb-5">
+            Our user research focused on understanding the unique needs and challenges of our target audience: formerly incarcerated individuals seeking crucial resources.
+          </p>
+  
+          <b>Key Findings:</b>
+
+          <div class="flex flex-col py-2">
+            <b class="text-sm">• Demographics</b>
+            <p class="text-sm pl-3">Our users come from diverse backgrounds but share the experience of reintegrating into society after incarceration.</p>
+          </div>
+
+          <div class="flex flex-col py-2">
+            <b class="text-sm">• Environment</b>
+            <p class="text-sm pl-3">Many of our users navigate high-stress environments daily, dealing with uncertainties in housing, employment, and social reintegration.</p>
+          </div>
+
+          <div class="flex flex-col py-2">
+            <b class="text-sm">• Technology Experience</b>
+            <p class="text-sm pl-3">A significant portion of our user base has limited experience with modern smartphones and apps.</p>
+          </div>
+
+          <div class="flex flex-col py-2">
+            <b class="text-sm">• Cognitive Abilities</b>
+            <p class="text-sm pl-3">Some users have various cognitive disabilities, requiring special consideration in our design approach.
+              <br />
+              <br />
+              <br />
+            </p>
+          </div>
+  
+          <!-- <p class="py-3 text-gray-900 inline-flex font-bold font-RedHatDisplay text-xl text-left">
+            Design Brainstorming
+          </p>
+  
+          <div class="flex flex-wrap">
+            <div class="flex flex-col w-full md:w-1/2 lg:pr-2 py-1">
+              <div class="flex flex-col py-2">
+                <b class="text-sm">• Large Buttons</b>
+                <p class="text-sm pl-3">Easy for users to click without requiring precise finger movements.</p>
+              </div>
+              <div class="flex flex-col py-2">
+                <b class="text-sm">• High Contrast</b>
+                <p class="text-sm pl-3">WCAG AAA compliant.</p>
+              </div>
+              <div class="flex flex-col py-2">
+                <b class="text-sm">• Unified Button Style</b>
+                <p class="text-sm pl-3">Avoid confusion.</p>
+              </div>
+              <div class="flex flex-col py-2">
+                <b class="text-sm">• Limited Options</b>
+                <p class="text-sm pl-3">Reduce cognitive load.</p>
+              </div>
+            </div>
+            <div class="flex flex-col w-full md:w-1/2 lg:pr-2 py-1">
+              <div class="flex flex-col py-2">
+                <b class="text-sm">• Big Texts</b>
+                <p class="text-sm pl-3">Ensuring readability, especially for users with visual impairments.</p>
+              </div>
+              <div class="flex flex-col py-2">
+                <b class="text-sm">• Combining Texts with Icons</b>
+                <p class="text-sm pl-3">Aid understanding.</p>
+              </div>
+              <div class="flex flex-col py-2">
+                <b class="text-sm">• Accessible Placement</b>
+                <p class="text-sm pl-3">Buttons in the middle or lower half, making users easier to reach with minimal hand movement.</p>
+              </div>
+              <div class="flex flex-col py-2">
+                <b class="text-sm">• Streamlined Process</b>
+                <p class="text-sm pl-3">Simple and straightforward.</p>
+              </div>
+            </div>
+          </div> -->
+  
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-2 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img src="/images/ReentryGuide-GR/infographic.png" alt="reference">
         </div>
         
-
-        <p class="inline-flex text-sm py-2 mb-10">
-          Many of the app's users might have never interacted with modern technology or smartphones before. Additionally, users might have various disabilities, making it essential to prioritize simplicity and accessibility in the design process.
-        </p>
-
-        <p class="py-3 text-gray-900 inline-flex font-bold font-RedHatDisplay text-xl text-left">
-          Solutions
-        </p>
-
-        <div class="flex flex-wrap">
-          <div class="flex flex-col w-full md:w-1/2 lg:pr-2 py-1">
-            <div class="flex flex-col py-2">
-              <b class="text-sm">• Large Buttons</b>
-              <p class="text-sm pl-3">Easy for users to click without requiring precise finger movements.</p>
-            </div>
-            <div class="flex flex-col py-2">
-              <b class="text-sm">• High Contrast</b>
-              <p class="text-sm pl-3">WCAG AAA compliant.</p>
-            </div>
-            <div class="flex flex-col py-2">
-              <b class="text-sm">• Unified Button Style</b>
-              <p class="text-sm pl-3">Avoid confusion.</p>
-            </div>
-            <div class="flex flex-col py-2">
-              <b class="text-sm">• Limited Options</b>
-              <p class="text-sm pl-3">Reduce cognitive load.</p>
-            </div>
-          </div>
-          <div class="flex flex-col w-full md:w-1/2 lg:pr-2 py-1">
-            <div class="flex flex-col py-2">
-              <b class="text-sm">• Big Texts</b>
-              <p class="text-sm pl-3">Ensuring readability, especially for users with visual impairments.</p>
-            </div>
-            <div class="flex flex-col py-2">
-              <b class="text-sm">• Combining Texts with Icons</b>
-              <p class="text-sm pl-3">Aid understanding.</p>
-            </div>
-            <div class="flex flex-col py-2">
-              <b class="text-sm">• Accessible Placement</b>
-              <p class="text-sm pl-3">Buttons in the middle or lower half, making users easier to reach with minimal hand movement.</p>
-            </div>
-            <div class="flex flex-col py-2">
-              <b class="text-sm">• Streamlined Process</b>
-              <p class="text-sm pl-3">Simple and straightforward.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- <p class="inline-flex text-base  p-3">
-          Bold font because it's more service based. the less bold version feels more medical.
-        </p> -->
       </div>
-
-      <div class="flex flex-col justify-center items-center  p-2 col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
-        <img src="/images/ReentryGuide-GR/s1.png" alt="">
-      </div>
-
-      <div class="flex flex-col justify-center items-center  p-2 col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
-        <img src="/images/ReentryGuide-GR/s2.png" alt="">
-      </div>
-
-      <div class="flex flex-col justify-center items-center  p-2 col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
-        <img src="/images/ReentryGuide-GR/s3.png" alt="">
-      </div>
-
-      <div class="flex flex-col justify-center items-center  p-2 col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
-        <img src="/images/ReentryGuide-GR/s4.png" alt="">
-      </div>
-      
     </div>
 
     <!-- p3 -->
+    <div class="bg-[#FDDEBA] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+
+      <div class=" max-w-[1200px] m-auto px-6 pb-20 grid grid-col-1 lg:grid-cols-2 ">
+
+        <div class="flex flex-col justify-center items-center  p-2 col-span-1 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img src="/images/ReentryGuide-GR/stack.svg" alt="reference">
+        </div>
+        <!-- text block -->
+        <div class=" col-span-1  lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 max-w-xl">
+  
+          <p class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+            Technology Stack Evaluation
+          </p>
+          <ul class="list-none">
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Trello for agile project management
+            </li>
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Github for hosting git repository
+            </li>
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              <p class="pb-1">
+                React Native as framework
+              </p>
+              <ul class="list-decimal pl-3">
+                <li class="pb-1">Large Community: accessible to large amount of npm packages.</li>
+                <li class="pb-1">Cross-Platform Code: One set of code for multiple potential platforms.</li>
+              </ul>
+            </li>
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Expo for managed workflow and easy debugging on physical devices
+            </li>
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Yarn as local package management, as it perform better than npm
+              <br />
+              <br />
+              <br />
+            </li> 
+
+          </ul>
+          <b>Map Integration Decision</b>
+          <ul class="list-none">
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              <p class="pb-1">
+                Options Considered:
+              </p>
+              <ol class="list-decimal pl-3">
+                <li class="pb-1">Develop a fully-featured map applications, including navigation that leads user to resources locations that provides food, clothing, etc.</li>
+                <li class="pb-1">Create an app that generates links to Google Maps with few clicks.</li>
+              </ol>
+            </li>
+
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Decision: We chose option 2 - generating links to Google Maps.
+            </li>
+            
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              <p class="pb-1">
+                Rationale:
+              </p>
+              <ul class="list-decimal pl-3">
+                <li class="pb-1">Cost-effective: Avoided expensive API costs for local bus route data</li>
+                <li class="pb-1">Sustainability: More beneficial for long-term maintenance and updates</li>
+              </ul>
+            </li>
+
+          </ul>
+  
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- p4  UI/UX Design Research -->
+    <div class="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+
+      <div class=" max-w-[1300px] m-auto px-6 pt-10 grid grid-col-1 lg:grid-cols-3 ">
+
+        <!-- image block -->
+        <div class=" col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-4 py-12 max-w-xl">
+          <!-- title -->
+          <div class="flex flex-col justify-center items-center  p-2 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <img src="/images/ReentryGuide-GR/ref.png" alt="reference">
+          </div>
+        </div>
+
+        <!-- text block 2-->
+        <div class=" col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-16 py-12 max-w-xl">
+          <!-- title -->
+          <div class="flex flex-row py-5">
+            <p class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+              UI/UX Design Research
+            </p>
+          </div>
+          
+          <!-- <p class="inline-flex text-sm py-2 mb-5">
+            Our design process involved careful consideration of technical constraints, user interface best practices, and the specific needs of our user base.
+          </p> -->
+  
+          <b>Visual Design Approach:</b>
+
+          <ul class="list-none">
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">We opted for a calm, soothing visual design to provide a sense of stability for users navigating potentially stressful environments and coping with past traumas.</li>
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">This decision was directly informed by our user research, which highlighted the high-stress situations many of our users face daily.
+              <br />
+              <br />
+            </li>
+          </ul>
+
+          <b>UI Design System Analysis:</b>
+          <p class="inline-flex text-sm py-2">
+            We compared several prominent design systems to inform our UI decisions:
+          </p>
+          <ul class="list-none">
+            <li class="text-sm pl-3 py-1 relative before:content-['•'] before:absolute before:left-0">
+              Fluent Design (Microsoft)</li>
+            <li class="text-sm pl-3 py-1 relative before:content-['•'] before:absolute before:left-0">
+              iOS Design Guidelines (Apple)</li>
+            <li class="text-sm pl-3 py-1 relative before:content-['•'] before:absolute before:left-0">
+              Refactoring UI</li>
+            <li class="text-sm pl-3 py-1 relative before:content-['•'] before:absolute before:left-0">
+              Material Design 3 (Google)
+            </li>
+          </ul>
+          <p class="inline-flex text-sm py-2">
+            Key Decision: We adopted a hybrid approach, drawing inspiration from iOS settings menu and Fluent Design, with additional accessibility design suggestions from Refactoring UI.
+            <br />
+            <br />
+          </p>
+
+          <p class="pb-1 text-sm">
+            Rationale:
+          </p>
+          <ul class="list-decimal pl-3 text-sm">
+            <li class="pb-1">Emphasize Depth: Created clear visual cues for clickable elements, crucial for users with limited smartphone experience.</li>
+            <li class="pb-1">Avoid Confusion: Steered away from the flatter aesthetic of Material Design 3, which might be less intuitive for our user base.
+              <br />
+              <br />
+            </li>
+          </ul>
+  
+        </div>
+
+        <!-- text block 3-->
+        <div class=" col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-16 py-12 max-w-xl">
+
+          <b>Initial Design Choices:</b>
+          <ul class="list-none">
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Straightforward and Streamlined process: when the user needs something like food or clothing, we want to help the user to get to their desired locations with few clicks and without extra effort.
+            </li>
+
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Accessible Placement: Buttons located in the middle or lower half of the screen, making it easier for users to reach with minimal hand movement
+            </li>
+
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Limited Options on one page: Reduce cognitive load and make sure a Simple and straightforward process.
+            </li>
+
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Buttons: Large, clearly defined with shadows to indicate 'clickability', with unified style to avoid confusion. 
+            </li>
+
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Combining Texts with Icons: Aid understanding
+            </li>
+
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Font: Manrope, which is similar to Product Sans as regular font, increasing the familiarity to Google Maps. 
+            </li>
+
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Big Texts: Font size should be at least 17px to ensure readability, especially for users with visual impairments
+            </li>
+
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Color Scheme: Light, Neutral color like #FCFCFC as background color, #FDDEBA as primary button color to ensure brand consistency with Reentry Reimagined. 
+            </li>
+
+            <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              High Contrast: Ensuring all components are WCAG AAA compliant. 
+            </li>
+            
+          </ul>
+  
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- p5 -->
+    <div class="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+
+      <div class=" max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-3 ">
+
+        <div class="flex flex-col justify-center items-center  p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+          <img src="/images/ReentryGuide-GR/Tablet-Screen-1.svg" alt="">
+        </div>
+  
+        <div class="flex flex-col justify-center items-center  p-2 col-span-1 md:col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
+          <img src="/images/ReentryGuide-GR/tablet-screen.svg" alt="">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- p6 -->
+    <div class="bg-[#FDDEBA] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+
+      <div class=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2 ">
+
+        <!-- text block -->
+        <div class=" col-span-1  lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 max-w-xl">
+  
+          <p class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+            Usability Testing
+            <br />
+            <br />
+          </p>
+          <p class="text-sm py-2 relative">
+            We conducted thorough user testing to ensure our app meets the needs of our diverse user base. Our testing group included:
+          </p>
+
+          <ul class="list-decimal pl-3">
+            <li class="text-sm py-2 relative">
+              40s male, formerly incarcerated (2 years ago), homeless, limited smartphone skills
+            </li>
+            <li class="text-sm py-2 relative">
+              50s male, formerly incarcerated (1 year and 7 months ago), has autism
+            </li>
+            <li class="text-sm py-2 relative">
+              30s male, homeless, limited smartphone skills
+            </li>
+            <li class="text-sm py-2 relative">
+              30s female, homeless
+            </li>
+            <li class="text-sm py-2 relative">
+              40s male, formerly incarcerated (2 months ago), limited smartphone skills
+              <br />
+              <br />
+              <br />
+              <br />
+            </li> 
+
+          </ul>
+          <b>Testing Methodology:</b>
+          <p class="text-sm py-2 relative">
+            We implemented an iterative usability testing process, conducting two rounds of evaluations with distinct sets of participants. After each round, we analyzed the results and made necessary adjustments to the app. 
+          </p>
+          <p class="text-sm py-2 relative">
+            For each session, I met participants at a convenient location near their residences to ensure a comfortable and familiar environment. Participants were provided with a testing phone preloaded with our app. Using a standardized usability testing script, I guided participants through a series of tasks within the app. To gain deeper insights into their thought processes and comprehension, I employed the 'think-aloud' protocol, encouraging participants to verbalize their thoughts and explain what they saw on the screen in their own words. Throughout the session, I used my own phone to record verbatim quotes and detailed observations of the user's responses and interactions with the app. This method allowed for accurate documentation while maintaining a natural testing environment.
+            <br />
+            <br />
+            <br />
+            <br />
+          </p>
+
+          <p class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-md text-left">
+            Key Findings
+          </p>
+
+          <p class="pb-1">
+            Positive Outcomes:
+          </p>
+          <ul class="list-decimal pl-3 text-sm py-2">
+            <li class="pb-1">Font Readability: All users found the chosen font comfortable to read.</li>
+            <li class="pb-1">Clear Navigation: The app's navigation structure was intuitive for all users.</li>
+          </ul>
+        </div>
+        <!-- text block -->
+        <div class=" col-span-1  lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 max-w-xl">
+  
+
+          
+          <ul class="list-none">
+            <p class="pb-1">
+              Areas for Improvement:
+            </p>
+
+            <li class="text-sm pl-3 py-2 relative">
+              <ul class="list-decimal pl-3">
+                <li class="pb-1">
+                  During the first round of testing, we found that the users with autism (User No.2) and the ones less familiar with smartphones (User No.1) found the timing and open/closed status confusing. 
+                </li>
+                <p class="text-sm pl-3 py-2 relative before:content-['◦'] before:absolute before:left-0">
+                  Solution: We changed the alignments of the elements from horizontal to vertical and the wording to present tense. We did not find this confusing anymore in the second round of usability testing.
+                </p>
+                <img src="/images/ReentryGuide-GR/usability-testing-change1.svg" alt="">
+                <li class="pb-1">
+                  In the second round of usability testing, the bus option in Google Maps confused users with limited smartphone experience. 
+                </li>
+                <p class="text-sm pl-3 py-2 relative before:content-['◦'] before:absolute before:left-0">
+                  Plans: We are planning to shoot a video guide for how to use Google Maps Bus routes, and link the video into the app.
+                </p>
+              </ul>
+            </li>
+
+          </ul>
+
+  
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- p7 -->
+    <div class="bg-[#FDDEBA] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+
+      <div class=" max-w-[2000px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-3 ">
+
+        <!-- text block -->
+        <a href="/images/ReentryGuide-GR/UsabilityTestingScript-1.png" class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] flex flex-col justify-center items-center  p-2 col-span-1 transition sm:min-h-[150px] h-fit">
+          <img src="/images/ReentryGuide-GR/UsabilityTestingScript-1.png" alt="reference">
+        </a>
+
+        <a href="/images/ReentryGuide-GR/UsabilityTestingScript-2.png" class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] flex flex-col justify-center items-center  p-2 col-span-1 transition sm:min-h-[150px] h-fit">
+          <img src="/images/ReentryGuide-GR/UsabilityTestingScript-2.png" alt="reference">
+        </a>
+
+        <!-- text block 3-->
+        <a href="/images/ReentryGuide-GR/UsabilityTestingScript-3.png" class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] flex flex-col justify-center items-center  p-2 col-span-1 transition sm:min-h-[150px] h-fit">
+          <img src="/images/ReentryGuide-GR/UsabilityTestingScript-3.png" alt="reference">
+        </a>
+        
+      </div>
+    </div>
+
+    <!-- p8 -->
+    <div class="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+
+      <div class=" max-w-[1200px] m-auto lg:px-6 py-10 grid grid-col-1">
+
+        <div class="flex flex-col justify-center items-center  p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+          <img src="/images/ReentryGuide-GR/sitemap.svg" alt="">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- p9 -->
+    <div class="bg-[#FDDEBA] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+
+      <p class="m-auto px-14 pt-10 text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+        Final UI
+      </p>
+
+      <div class="grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 ">
+  
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_1.png" alt="">
+          <p class="py-3 text-sm">ProminentDisclosure.js</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_2.png" alt="">
+          <p class="py-3 text-sm">ImportantNotice.js</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_3.png" alt="">
+          <p class="py-3 text-sm">RequestPermission.js</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_5.png" alt="">
+          <p class="py-3 text-sm">MainMenu.js</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_6.png" alt="">
+          <p class="py-3 text-sm">MealOrGroceries.js</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_7.png" alt="">
+          <p class="py-3 text-sm">LunchOrDinner.js</p>
+        </div>
+        
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_8.png" alt="">
+          <p class="py-3 text-sm">ResourceLocation.js</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_9.png" alt="">
+          <p class="py-3 text-sm">SelectResourceLocation.js</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_10.png" alt="">
+          <p class="py-3 text-sm">SelectResourceLocation.js</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_10.5.png" alt="">
+          <p class="pt-3 text-sm">AllLocationsClosed.js</p>
+          <p class="pb-3 text-sm">(I temporary set time to 11:24 pm)</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_11.png" alt="">
+          <p class="py-3 text-sm">ResourceLocationsList.js</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_12.png" alt="">
+          <p class="py-3 text-sm">ResourceLocation.js</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_13.png" alt="">
+          <p class="py-3 text-sm">MoreInfo.js</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_14.png" alt="">
+          <p class="py-3 text-sm">SelectTransportation.js</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_15.png" alt="">
+          <p class="py-3 text-sm">/components/GoogleMapsTutorial.js</p>
+        </div>
+
+        <!-- <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_16.png" alt="">
+          <p class="py-3 text-sm">DidGoogleMapsCrash.js</p>
+        </div> -->
+
+        <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/screenshots/Screenshot_17.png" alt="">
+          <p class="py-3 text-sm">FindHealthcare.js</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- p? -->
     <div class="bg-[#fff] px-6 py-10 justify-center grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
       <!-- text block -->
       <div class=" col-span-2 lg:col-span-1 lg:mx-[2em] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">
