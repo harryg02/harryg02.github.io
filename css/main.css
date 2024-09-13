@@ -1749,6 +1749,11 @@ video {
   color: rgb(46 49 53 / var(--tw-text-opacity));
 }
 
+.text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -2288,6 +2293,18 @@ video {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:min-h-\[500px\] {
+    min-height: 500px;
+  }
+
+  .lg\:min-h-\[800px\] {
+    min-height: 800px;
+  }
+
+  .lg\:min-h-\[900px\] {
+    min-height: 900px;
   }
 
   .lg\:max-w-\[65rem\] {
