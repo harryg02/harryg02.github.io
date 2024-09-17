@@ -1781,6 +1781,10 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.outline {
+  outline-style: solid;
+}
+
 .drop-shadow-\[0_10px_8px_rgba\(0\2c 0\2c 0\2c 0\.05\)\] {
   --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0,0,0,0.05));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
