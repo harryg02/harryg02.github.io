@@ -2030,6 +2030,21 @@ video {
   background-color: rgb(158 112 58 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#FFAF66\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 175 102 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#FFAF99\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 175 153 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#FFEFaa\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 239 170 / var(--tw-bg-opacity));
+}
+
 .hover\:fill-themeRed:hover {
   fill: #be1d28;
 }
