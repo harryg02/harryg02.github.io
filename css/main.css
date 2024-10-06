@@ -807,6 +807,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1574,6 +1578,10 @@ video {
 
 .align-baseline {
   vertical-align: baseline;
+}
+
+.align-top {
+  vertical-align: top;
 }
 
 .font-\[\'Raleway\'\] {
