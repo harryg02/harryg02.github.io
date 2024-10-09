@@ -189,7 +189,7 @@
 
           <div class="flex flex-col py-2">
             <b class="text-sm">• Demographics</b>
-            <p class="text-sm pl-3">Our users come from diverse backgrounds but share the experience of reintegrating into society after incarceration.</p>
+            <p class="text-sm pl-3">Our users come from diverse backgrounds and varies in age, but share the experience of reintegrating into society after incarceration.</p>
           </div>
 
           <div class="flex flex-col py-2">
@@ -304,17 +304,10 @@
     <!-- p4  UI/UX Design Research -->
     <div class="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
 
-      <div class=" max-w-[1300px] m-auto px-6 pt-10 grid grid-col-1 lg:grid-cols-3 ">
+      <div class=" max-w-[1200px] m-auto px-6 pt-10 grid grid-col-1 lg:grid-cols-2 items-start ">
 
-        <!-- image block -->
-        <div class=" col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-4 py-12 max-w-xl">
-          <!-- title -->
-          <div class="flex flex-col justify-center items-center  p-2 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-            <img src="/images/ReentryGuide-GR/ref.png" alt="reference">
-          </div>
-        </div>
 
-        <!-- text block 2-->
+        <!-- text block 1-->
         <div class=" col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-16 py-12 max-w-xl">
           <!-- title -->
           <div class="flex flex-row py-5">
@@ -357,7 +350,9 @@
             <br />
             <br />
           </p>
-
+          <div class="max-w-[400px] flex flex-col justify-center items-center  p-2 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <img src="/images/ReentryGuide-GR/ref.png" alt="reference">
+          </div>
           <p class="pb-1 text-sm">
             Rationale:
           </p>
@@ -371,8 +366,8 @@
   
         </div>
 
-        <!-- text block 3-->
-        <div class=" col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-16 py-12 max-w-xl">
+        <!-- text block 2 -->
+        <div class=" col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-16 py-12 mt-12 max-w-xl">
 
           <b>Initial Design Choices:</b>
           <ul class="list-none">
@@ -384,17 +379,37 @@
               Limited Options on one page: Reduce cognitive load and make sure a Simple and straightforward process.
             </li>
 
+            <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <img class="max-w-[300px] rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/design-choices/highlight.png" alt="">
+              <p class="py-3 text-sm">Highlighting the most likely choice with limited options by the user ensures a streamlined user experience</p>
+            </div>
+
             <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
               Accessible Placement: Buttons located in the middle or lower half of the screen, making it easier for users to reach with minimal hand movement
             </li>
 
+            <div class="flex flex-col lg:flex-row justify-center items-center">
+              <div class="mx-5 flex flex-col justify-center items-center p-9 w-full lg:w-1/2 transition sm:min-h-[150px] h-fit">
+                <img class="max-w-[300px] rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/design-choices/hand-left.png" alt="">
+                <p class="py-3 text-sm">Thumb zone for left handed people</p>
+              </div>
+              <div class="mx-5 flex flex-col justify-center items-center p-9 w-full lg:w-1/2 transition sm:min-h-[150px] h-fit">
+                <img class="max-w-[300px] rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/design-choices/hand-right.png" alt="">
+                <p class="py-3 text-sm">Thumb zone for right handed people</p>
+              </div>
+            </div>
+
             <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              Buttons: Large, clearly defined with shadows to indicate 'clickability', with unified style to avoid confusion. 
+              Buttons: Large, clearly defined with shadows to indicate 'clickability', with unified style across the app to avoid confusion. 
             </li>
 
             <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
               Combining Texts with Icons: Aid understanding
             </li>
+
+            <div class="flex flex-col justify-center items-center  p-5 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <img class="max-w-[300px] rounded-3xl" src="/images/ReentryGuide-GR/design-choices/button.png" alt="">
+            </div>
 
             <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
               Font: Manrope, which is similar to Product Sans as regular font, increasing the familiarity to Google Maps. 
@@ -407,6 +422,10 @@
             <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
               Color Scheme: Light, Neutral color like #FCFCFC as background color, #FDDEBA as primary button color to ensure brand consistency with Reentry Reimagined. 
             </li>
+
+            <div class="flex flex-col justify-center items-center  p-10 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <img class="max-w-[300px] rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/ReentryGuide-GR/design-choices/color.svg" alt="">
+            </div>
 
             <li class="text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
               High Contrast: Ensuring all components are WCAG AAA compliant. 
@@ -438,7 +457,7 @@
     <!-- p6 -->
     <div class="bg-[#FDDEBA] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
 
-      <div class=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2 ">
+      <div class=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2 items-start">
 
         <!-- text block -->
         <div class=" col-span-1  lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 max-w-xl">
@@ -475,18 +494,61 @@
 
           </ul>
           <b>Testing Methodology:</b>
-          <p class="text-sm py-2 relative">
-            We implemented an iterative usability testing process, conducting two rounds of evaluations with distinct sets of participants. After each round, we analyzed the results and made necessary adjustments to the app. 
-          </p>
-          <p class="text-sm py-2 relative">
-            For each session, I met participants at a convenient location near their residences to ensure a comfortable and familiar environment. Participants were provided with a testing phone preloaded with our app. Using a standardized usability testing script, I guided participants through a series of tasks within the app. To gain deeper insights into their thought processes and comprehension, I employed the 'think-aloud' protocol, encouraging participants to verbalize their thoughts and explain what they saw on the screen in their own words. Throughout the session, I used my own phone to record verbatim quotes and detailed observations of the user's responses and interactions with the app. This method allowed for accurate documentation while maintaining a natural testing environment.
-            <br />
-            <br />
-            <br />
-            <br />
-          </p>
-
-          <p class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-md text-left">
+          <ul class="list-decimal pl-5 space-y-4 text-sm">
+            <li class="mb-2">
+              <p class="font-semibold">Implemented iterative usability testing process</p>
+              <ul class="list-disc pl-5 mt-1">
+                <li>Conducted two rounds of evaluations</li>
+                <li>Used different participants for each round</li>
+                <li>Analyzed results and adjusted the app after each round</li>
+              </ul>
+            </li>
+            
+            <li class="mb-2">
+              <p class="font-semibold">Testing session setup:</p>
+              <ul class="list-disc pl-5 mt-1">
+                <li>Met participants near their homes or location of their choice for comfort</li>
+                <li>Provided a testing phone with preloaded app</li>
+              </ul>
+            </li>
+            
+            <li class="mb-2">
+              <p class="font-semibold">User Interview:</p>
+              <ul class="list-disc pl-5 mt-1">
+                <li>Used standardized usability testing script</li>
+                <li>Guided participants through app tasks</li>
+                <li>Employed 'think-aloud' protocol for deeper insights
+                  <ul class="list-disc pl-5 mt-1">
+                    <li>Participants verbalized thoughts</li>
+                    <li>Explained screen content in their own words</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            
+            <li class="mb-2">
+              <p class="font-semibold">Data collection:</p>
+              <ul class="list-disc pl-5 mt-1">
+                <li>Used personal phone to record:
+                  <ul class="list-disc pl-5 mt-1">
+                    <li>Verbatim quotes</li>
+                    <li>Detailed observations of user responses</li>
+                    <li>User interactions with the app and performance of doing tasks</li>
+                  </ul>
+                </li>
+                <li>Maintained natural testing environment while documenting accurately
+                  <br />
+                  <br />
+                  <br />
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- text block -->
+        <div class=" col-span-1 lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 max-w-xl">
+  
+          <p class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-md text-left mt-9">
             Key Findings
           </p>
 
@@ -495,13 +557,8 @@
           </p>
           <ul class="list-decimal pl-3 text-sm py-2">
             <li class="pb-1">Font Readability: All users found the chosen font comfortable to read.</li>
-            <li class="pb-1">Clear Navigation: The app's navigation structure was intuitive for all users.</li>
+            <li class="pb-5">Clear Navigation: The app's navigation structure was intuitive for all users.</li>
           </ul>
-        </div>
-        <!-- text block -->
-        <div class=" col-span-1  lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 max-w-xl">
-  
-
           
           <ul class="list-none">
             <p class="pb-1">
@@ -518,10 +575,19 @@
                 </p>
                 <img src="/images/ReentryGuide-GR/usability-testing-change1.svg" alt="">
                 <li class="pb-1">
+                  During the first round of testing, we found that the users with autism (User No.2) got lost in Google Maps and did not click on the blue "start" button to start the navigation.  
+                </li>
+                <p class="text-sm pl-3 py-2 relative before:content-['◦'] before:absolute before:left-0">
+                  Solution: We added a simple page to remind the user to click on the start button, before our app opens the google map only for the first time. 
+                </p>
+                <div class="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+                  <img class="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] max-w-[300px]" src="/images/ReentryGuide-GR/screenshots/Screenshot_15.png" alt="">
+                </div>
+                <li class="pb-1">
                   In the second round of usability testing, the bus option in Google Maps confused users with limited smartphone experience. 
                 </li>
                 <p class="text-sm pl-3 py-2 relative before:content-['◦'] before:absolute before:left-0">
-                  Plans: We are planning to shoot a video guide for how to use Google Maps Bus routes, and link the video into the app.
+                  Future Plans: We are planning to shoot a video guide for how to use Google Maps Bus routes, and link the video into the app.
                 </p>
               </ul>
             </li>

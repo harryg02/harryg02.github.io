@@ -692,6 +692,11 @@ video {
   margin-right: 0.75rem;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -789,8 +794,16 @@ video {
   margin-right: 1rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-2 {
@@ -811,6 +824,10 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
 }
 
 .mt-\[8vh\] {
@@ -882,14 +899,6 @@ video {
   height: 100%;
 }
 
-.h-\[20rem\] {
-  height: 20rem;
-}
-
-.h-\[25rem\] {
-  height: 25rem;
-}
-
 .max-h-\[600px\] {
   max-height: 600px;
 }
@@ -930,14 +939,6 @@ video {
   width: 100%;
 }
 
-.w-7 {
-  width: 1.75rem;
-}
-
-.w-\[60rem\] {
-  width: 60rem;
-}
-
 .max-w-\[1200px\] {
   max-width: 1200px;
 }
@@ -964,6 +965,10 @@ video {
 
 .max-w-\[300px\] {
   max-width: 300px;
+}
+
+.max-w-\[400px\] {
+  max-width: 400px;
 }
 
 .max-w-\[600px\] {
@@ -1109,6 +1114,12 @@ video {
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
 .self-start {
   align-self: flex-start;
 }
@@ -1153,16 +1164,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-b-2xl {
-  border-bottom-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
-}
-
-.rounded-t-2xl {
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-
 .border-8 {
   border-width: 8px;
 }
@@ -1185,6 +1186,11 @@ video {
 .bg-\[\#141414\] {
   --tw-bg-opacity: 1;
   background-color: rgb(20 20 20 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#18141D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 20 29 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#1C1E1F\] {
@@ -1371,19 +1377,6 @@ video {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#\] {
-  background-color: #;
-}
-
-.bg-\[\#\#18141D\] {
-  background-color: ##18141D;
-}
-
-.bg-\[\#18141D\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(24 20 29 / var(--tw-bg-opacity));
-}
-
 .fill-\[\#141414\] {
   fill: #141414;
 }
@@ -1434,6 +1427,10 @@ video {
   padding: 1rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .p-7 {
   padding: 1.75rem;
 }
@@ -1465,11 +1462,6 @@ video {
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .px-5 {
@@ -1556,6 +1548,10 @@ video {
 
 .pb-3 {
   padding-bottom: 0.75rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .pb-6 {
@@ -1841,16 +1837,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#ffdade\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 218 222 / var(--tw-text-opacity));
-}
-
-.text-yellow-900 {
-  --tw-text-opacity: 1;
-  color: rgb(113 63 18 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2261,10 +2247,6 @@ video {
     height: 100vh;
   }
 
-  .md\:w-1\/2 {
-    width: 50%;
-  }
-
   .md\:max-w-\[44rem\] {
     max-width: 44rem;
   }
@@ -2300,11 +2282,6 @@ video {
 
   .md\:gap-y-6 {
     row-gap: 1.5rem;
-  }
-
-  .md\:rounded-l-none {
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
   }
 
   .md\:p-10 {
@@ -2356,10 +2333,6 @@ video {
     order: 9999;
   }
 
-  .lg\:order-2 {
-    order: 2;
-  }
-
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -2407,6 +2380,10 @@ video {
     min-height: 800px;
   }
 
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
   .lg\:max-w-\[65rem\] {
     max-width: 65rem;
   }
@@ -2435,22 +2412,9 @@ video {
     flex-direction: row;
   }
 
-  .lg\:rounded-none {
-    border-radius: 0px;
-  }
-
   .lg\:rounded-l-none {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-  }
-
-  .lg\:rounded-r-none {
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-
-  .lg\:bg-transparent {
-    background-color: transparent;
   }
 
   .lg\:px-6 {
@@ -2475,10 +2439,6 @@ video {
 
   .lg\:pb-1 {
     padding-bottom: 0.25rem;
-  }
-
-  .lg\:pr-2 {
-    padding-right: 0.5rem;
   }
 }
 
