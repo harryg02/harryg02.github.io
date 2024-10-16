@@ -5,7 +5,7 @@
         <div class="basis-2/3 py-10 md:px-10 md:py-0">
           <p class="text-gray-900 font-[urbanist] font-extrabold text-lg leading-8">About Me</p>
           <p class="text-base font-semibold">
-            I'm Harry Gu, a Graphic Designer and Front-End Developer with skills in Illustration, UI/UX design, and web design. I earned my Graphic Design degree at Calvin University, and finished various contracts and projects with local businesses and non-profits. I aim to blend my skills in design and development into meaningful works and bring positive change to the world.
+            I'm Harry Gu, a Graphic Designer and Front-End Developer with skills in UI/UX design, web design, and Illustration. I earned my Graphic Design degree at Calvin University in Grand Rapids, Michigan, and finished various contracts and projects with local businesses and non-profits. I aim to blend my skills in design and development into meaningful works and bring positive change to the world.
           </p>
         </div>
         <!-- Right item -->
@@ -20,14 +20,14 @@
           </a> 
 
           <p class="my-2">
-            <a class="hover:text-themeRed" href="https://www.instagram.com/harrygu.art/">
+            <!-- <a class="hover:text-themeRed" href="https://www.instagram.com/harrygu.art/">
               <img class="inline h-8 m-[2px]" src="./icons/ins.svg" alt="">
+            </a>  -->
+            <a class="hover:text-themeRed" href="https://www.linkedin.com/in/harry-gu-3762541a3/">
+              <img class="inline h-8 m-[2px]" src="./icons/linkedin.svg" alt="">
             </a> 
             <a class="hover:text-themeRed" href="https://github.com/harryg02">
               <img class="inline h-8 m-[2px]" src="./icons/github.svg" alt="">
-            </a> 
-            <a class="hover:text-themeRed" href="https://www.linkedin.com/in/harry-gu-3762541a3/">
-              <img class="inline h-8 m-[2px]" src="./icons/linkedin.svg" alt="">
             </a> 
           </p>
         </div>
