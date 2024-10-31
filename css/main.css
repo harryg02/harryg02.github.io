@@ -1777,6 +1777,10 @@ video {
   line-height: 1.25;
 }
 
+.leading-none {
+  line-height: 1;
+}
+
 .tracking-wider {
   letter-spacing: .15em;
 }
