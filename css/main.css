@@ -2261,12 +2261,12 @@ video {
     height: 100vh;
   }
 
-  .md\:max-w-\[44rem\] {
-    max-width: 44rem;
-  }
-
   .md\:max-w-\[300px\] {
     max-width: 300px;
+  }
+
+  .md\:max-w-\[44rem\] {
+    max-width: 44rem;
   }
 
   .md\:grid-cols-2 {
