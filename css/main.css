@@ -766,6 +766,10 @@ video {
   margin-bottom: -40px;
 }
 
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
 .mb-\[3px\] {
   margin-bottom: 3px;
 }
@@ -830,16 +834,12 @@ video {
   margin-top: 2.25rem;
 }
 
-.mt-\[8vh\] {
-  margin-top: 8vh;
-}
-
-.mb-\[15px\] {
-  margin-bottom: 15px;
-}
-
 .mt-\[-15px\] {
   margin-top: -15px;
+}
+
+.mt-\[8vh\] {
+  margin-top: 8vh;
 }
 
 .box-border {
@@ -1451,6 +1451,11 @@ video {
   padding: 2.25rem;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1544,11 +1549,6 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
 }
 
 .pb-1 {
@@ -1653,10 +1653,6 @@ video {
 
 .align-baseline {
   vertical-align: baseline;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .font-\[\'Raleway\'\] {
