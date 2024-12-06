@@ -1424,6 +1424,11 @@ video {
   background-color: rgb(0 104 38 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#2A2A2A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 42 42 / var(--tw-bg-opacity));
+}
+
 .fill-\[\#141414\] {
   fill: #141414;
 }
@@ -1438,6 +1443,10 @@ video {
 
 .fill-darkGray {
   fill: #777;
+}
+
+.fill-\[\#fff\] {
+  fill: #fff;
 }
 
 .object-contain {
@@ -1904,6 +1913,11 @@ video {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
