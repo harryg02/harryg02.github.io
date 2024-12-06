@@ -1,4 +1,4 @@
-<nav class="relative container mx-auto text-darkGray text-sm font-bold">
+<nav class="relative container mx-auto text-darkGray md:text-sm font-bold">
     <!-- Flex container -->
     <div class="flex items-center justify-between max-w-[600px] mt-[8vh] md:mt-[7vh] mx-6 md:ml-10 lg:ml-20  ">
       <!-- <div class="flex items-center justify-between tracking-wider"> -->

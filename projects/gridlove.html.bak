@@ -32,7 +32,7 @@
   <!-- Nav Bar -->
   <div class="bg-veryLightGray">
 
-    <nav class="relative container p-7 mx-auto text-darkGray text-sm font-bold">
+    <nav class="relative container p-7 mx-auto text-darkGray md:text-sm font-bold">
       <!-- Flex container -->
       <div class="flex items-center justify-between">
         <!-- <div class="flex items-center justify-between tracking-wider"> -->
@@ -95,7 +95,7 @@
     <div class="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
       <div class="flex flex-col justify-center items-center transition bg-grey-500 shadow-xl min-h[30px] text-center py-32 md:py-24">
         <p class="inline-flex font-bold md:text-xl">Grid Love</p>
-        <p class="inline-flex text-sm mx-12">This project is about using the knowledge of hierarchy, content navigation, and aesthetics in graphic design, organizing texts on a 7*7 inches square under various restrictions.</p>
+        <p class="inline-flex md:text-sm mx-12">This project is about using the knowledge of hierarchy, content navigation, and aesthetics in graphic design, organizing texts on a 7*7 inches square under various restrictions.</p>
       </div>
       <div class="bg-blue-200 transition sm:min-h-[150px] h-fit">
         <img src="./images/GridLove.png" alt="">
@@ -145,7 +145,7 @@
 
       <!-- <a href="./design.html" class="leading-4 flex flex-col hover:text-themeRed justify-center items-center transition hover:scale-105 bg-grey-500 min-h[50px] text-center">
         <p class="inline-flex font-bold text-2xl">MORE...</p>
-        <p class="inline-flex text-sm">click to show more</p>
+        <p class="inline-flex md:text-sm">click to show more</p>
       </a> -->
       
     </div>
