@@ -838,24 +838,12 @@ video {
   margin-top: -15px;
 }
 
-.mt-\[8vh\] {
-  margin-top: 8vh;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
 .mt-\[-40px\] {
   margin-top: -40px;
 }
 
-.mt-\[-20px\] {
-  margin-top: -20px;
-}
-
-.mt-\[-10px\] {
-  margin-top: -10px;
+.mt-\[8vh\] {
+  margin-top: 8vh;
 }
 
 .box-border {
@@ -1107,10 +1095,6 @@ video {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .gap-5 {
