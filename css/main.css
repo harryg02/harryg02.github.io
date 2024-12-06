@@ -1592,6 +1592,16 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -2330,6 +2340,14 @@ video {
 
   .md\:mt-\[7vh\] {
     margin-top: 7vh;
+  }
+
+  .md\:mt-\[-40px\] {
+    margin-top: -40px;
+  }
+
+  .md\:mb-\[-40px\] {
+    margin-bottom: -40px;
   }
 
   .md\:block {
