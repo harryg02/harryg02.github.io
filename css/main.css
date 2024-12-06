@@ -582,10 +582,6 @@ video {
   }
 }
 
-.visible {
-  visibility: visible;
-}
-
 .fixed {
   position: fixed;
 }
@@ -846,6 +842,10 @@ video {
   margin-top: 8vh;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1097,10 +1097,6 @@ video {
   gap: 1rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
 .gap-x-7 {
   -moz-column-gap: 1.75rem;
        column-gap: 1.75rem;
@@ -1273,6 +1269,11 @@ video {
   background-color: rgb(208 175 64 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#E6F2EB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 242 235 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#EDE7E7\] {
   --tw-bg-opacity: 1;
   background-color: rgb(237 231 231 / var(--tw-bg-opacity));
@@ -1415,11 +1416,6 @@ video {
 .bg-yellow-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#E6F2EB\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(230 242 235 / var(--tw-bg-opacity));
 }
 
 .fill-\[\#141414\] {
@@ -1692,6 +1688,14 @@ video {
   vertical-align: baseline;
 }
 
+.font-\[\'Inter\'\] {
+  font-family: 'Inter';
+}
+
+.font-\[\'Montserrat\'\] {
+  font-family: 'Montserrat';
+}
+
 .font-\[\'Raleway\'\] {
   font-family: 'Raleway';
 }
@@ -1710,14 +1714,6 @@ video {
 
 .font-display {
   font-family: Montserrat, sans-serif;
-}
-
-.font-\[\'Montserrat\'\] {
-  font-family: 'Montserrat';
-}
-
-.font-\[\'Inter\'\] {
-  font-family: 'Inter';
 }
 
 .text-2xl {
@@ -1776,10 +1772,6 @@ video {
   font-weight: 600;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .leading-4 {
   line-height: 1rem;
 }
@@ -1798,6 +1790,11 @@ video {
 
 .tracking-wider {
   letter-spacing: .15em;
+}
+
+.text-\[\#006826\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 104 38 / var(--tw-text-opacity));
 }
 
 .text-\[\#191919\] {
@@ -1920,11 +1917,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#006826\] {
-  --tw-text-opacity: 1;
-  color: rgb(0 104 38 / var(--tw-text-opacity));
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -1965,11 +1957,6 @@ video {
 
 .drop-shadow-\[0_10px_8px_rgba\(0\2c 0\2c 0\2c 0\.10\)\] {
   --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0,0,0,0.10));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.drop-shadow-md {
-  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
