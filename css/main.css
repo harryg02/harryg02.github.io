@@ -1417,6 +1417,11 @@ video {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#E6F2EB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 242 235 / var(--tw-bg-opacity));
+}
+
 .fill-\[\#141414\] {
   fill: #141414;
 }
@@ -1707,6 +1712,14 @@ video {
   font-family: Montserrat, sans-serif;
 }
 
+.font-\[\'Montserrat\'\] {
+  font-family: 'Montserrat';
+}
+
+.font-\[\'Inter\'\] {
+  font-family: 'Inter';
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1761,6 +1774,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .leading-4 {
@@ -1901,6 +1918,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#006826\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 104 38 / var(--tw-text-opacity));
 }
 
 .underline {
