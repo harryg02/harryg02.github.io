@@ -947,6 +947,10 @@ video {
   width: 100%;
 }
 
+.w-\[400px\] {
+  width: 400px;
+}
+
 .max-w-\[1200px\] {
   max-width: 1200px;
 }
@@ -1596,6 +1600,11 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 .pb-1 {
@@ -2486,6 +2495,11 @@ video {
   .lg\:my-14 {
     margin-top: 3.5rem;
     margin-bottom: 3.5rem;
+  }
+
+  .lg\:mx-\[6vh\] {
+    margin-left: 6vh;
+    margin-right: 6vh;
   }
 
   .lg\:ml-20 {
