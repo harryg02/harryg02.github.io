@@ -999,6 +999,10 @@ video {
   max-width: 20rem;
 }
 
+.max-w-\[1000px\] {
+  max-width: 1000px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -2347,6 +2351,10 @@ video {
 
   .md\:mt-\[7vh\] {
     margin-top: 7vh;
+  }
+
+  .md\:mt-\[-20px\] {
+    margin-top: -20px;
   }
 
   .md\:block {
