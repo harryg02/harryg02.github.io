@@ -1,38 +1,42 @@
 <footer class="bg-LightGray font-[urbanist]">
-    <!-- Flex Container -->
-      <div class="container flex flex-col md:flex-row relative py-20 px-5 mx-auto text-gray-600 leading-7">
-        <!-- left item -->
-        <div class="basis-2/3 py-10 md:px-10 md:py-0">
-          <p class="text-gray-900 font-[urbanist] font-extrabold text-lg leading-8">About Me</p>
-          <p class="text-base font-semibold">
-            I'm Harry Gu, a Graphic Designer and Front-End Developer focused on delivering results. I specialize in strategic mobile and web redesigns that drive growth,
-             achieving outcomes like a 173% increase in page views and a 40% boost in traffic for my clients. Combining skills in User Experience, Development, and graphic design,
-              I create impactful digital experiences. Fluent in English and Mandarin Chinese. Currently studying at University of Michigan School of Information - MS in information with User-Centered Agile Development Pathway.
-          </p>
-        </div>
-        <!-- Right item -->
-        <div class="basis-1/3 py-10 md:px-10 md:py-0">
-          <p class="text-gray-900 font-[urbanist] font-extrabold text-lg leading-8">Contact Me</p>
+  <!-- Flex Container -->
+  <div class="container flex flex-col md:flex-row relative py-20 px-5 mx-auto text-gray-600 leading-7">
+    <!-- left item -->
+    <div class="basis-2/3 py-10 md:px-10 md:py-0">
+      <p class="text-gray-900 font-[urbanist] font-extrabold text-lg leading-8">About Me</p>
+      <p class="text-base font-semibold">
+        I'm Harry Gu, a Graphic Designer and Front-End Developer focused on delivering results. I specialize in strategic mobile and web redesigns that drive growth,
+          achieving outcomes like a 173% increase in page views and a 40% boost in traffic for my clients. Combining skills in User Experience, Development, and graphic design,
+          I create impactful digital experiences. Fluent in English and Mandarin Chinese. Currently studying at University of Michigan School of Information - MS in information with User-Centered Agile Development Pathway.
+      </p>
+    </div>
+    <!-- Right item -->
+    <div class="basis-1/3 py-10 md:px-10 md:py-0">
+      <p class="text-gray-900 font-[urbanist] font-extrabold text-lg leading-8">Contact Me</p>
 
-          <a href="mailto:tuharrygu@gmail.com" class="flex flex-row justify-center items-center rounded-2xl w-[200px] px-5 py-4 my-2 bg-[#2E3135] hover:bg-[#222] shadow-md max-w-xs">
-            <div class="flex items-center mr-4">
-              <img src="/icons/mail.png" class="mr-0 w-6 h-6 object-contain" alt="icon" />
-              <span class="ml-2.5 text-white flex-shrink-1 font-semibold">Email Me</span>
-            </div>
-          </a> 
-
-          <p class="my-2">
-            <!-- <a class="hover:text-themeRed" href="https://www.instagram.com/harrygu.art/">
-              <img class="inline h-8 m-[2px]" src="./icons/ins.svg" alt="">
-            </a>  -->
-            <a class="hover:text-themeRed" href="https://www.linkedin.com/in/harrygu-dev/">
-              <img class="inline h-8 m-[2px]" src="./icons/linkedin.svg" alt="">
-            </a> 
-            <a class="hover:text-themeRed" href="https://github.com/harryg02">
-              <img class="inline h-8 m-[2px]" src="./icons/github.svg" alt="">
-            </a> 
-          </p>
+      <a href="mailto:tuharrygu@gmail.com" class="flex flex-row justify-center items-center rounded-2xl w-[200px] px-5 py-4 my-2 bg-[#1E2128] hover:bg-[#222] shadow-md max-w-xs">
+        <div class="flex items-center mr-4">
+          <img src="/icons/mail.png" class="mr-0 w-6 h-6 object-contain" alt="icon" />
+          <span class="ml-2.5 text-white flex-shrink-1 font-semibold">Email Me</span>
         </div>
-      </div>
-      
-    </footer>
+      </a> 
+
+      <p class="my-2">
+        <!-- <a class="hover:text-themeRed" href="https://www.instagram.com/harrygu.art/">
+          <img class="inline h-8 m-[2px]" src="./icons/ins.svg" alt="">
+        </a>  -->
+        <a class="hover:text-themeRed" href="https://www.linkedin.com/in/harrygu-dev/">
+          <img class="inline h-8 m-[2px]" src="./icons/linkedin.svg" alt="">
+        </a> 
+        <a class="hover:text-themeRed" href="https://github.com/harryg02">
+          <img class="inline h-8 m-[2px]" src="./icons/github.svg" alt="">
+        </a> 
+      </p>
+    </div>
+  </div>
+  <div class="w-full text-gray-600 p-2 text-center font-semibold">
+    <p>
+      © 2025 by harrygu.art. Built with HTML/CSS/JS · Hosted on GitHub Pages
+    </p>
+  </div>
+</footer>
