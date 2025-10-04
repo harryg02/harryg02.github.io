@@ -25,7 +25,7 @@
         <!-- <a class="hover:text-themeRed" href="https://www.instagram.com/harrygu.art/">
           <img class="inline h-8 m-[2px]" src="./icons/ins.svg" alt="">
         </a>  -->
-        <a class="hover:text-themeRed" href="https://www.linkedin.com/in/harrygu-dev/">
+        <a class="hover:text-themeRed" href="https://www.linkedin.com/in/harrygu-ux/">
           <img class="inline h-8 m-[2px]" src="./icons/linkedin.svg" alt="">
         </a> 
         <a class="hover:text-themeRed" href="https://github.com/harryg02">
