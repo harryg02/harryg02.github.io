@@ -976,6 +976,10 @@ video {
   min-height: 600px;
 }
 
+.min-h-full {
+  min-height: 100%;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -2092,6 +2096,11 @@ video {
 
 .drop-shadow-\[0_10px_8px_rgba\(0\2c 0\2c 0\2c 0\.10\)\] {
   --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0,0,0,0.10));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.drop-shadow-\[0_10px_8px_rgba\(0\2c 0\2c 0\2c 0\.00\)\] {
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0,0,0,0.00));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
