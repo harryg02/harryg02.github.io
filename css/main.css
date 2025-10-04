@@ -972,8 +972,56 @@ video {
   max-height: 800px;
 }
 
+.max-h-\[200px\] {
+  max-height: 200px;
+}
+
+.max-h-\[100px\] {
+  max-height: 100px;
+}
+
+.max-h-\[10px\] {
+  max-height: 10px;
+}
+
+.max-h-\[150px\] {
+  max-height: 150px;
+}
+
+.max-h-\[140px\] {
+  max-height: 140px;
+}
+
+.max-h-\[130px\] {
+  max-height: 130px;
+}
+
 .min-h-\[600px\] {
   min-height: 600px;
+}
+
+.min-h-\[200px\] {
+  min-height: 200px;
+}
+
+.min-h-\[100px\] {
+  min-height: 100px;
+}
+
+.min-h-\[150px\] {
+  min-height: 150px;
+}
+
+.min-h-\[140px\] {
+  min-height: 140px;
+}
+
+.min-h-\[120px\] {
+  min-height: 120px;
+}
+
+.min-h-\[110px\] {
+  min-height: 110px;
 }
 
 .w-5 {
