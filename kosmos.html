@@ -1,359 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Red Hat Display Font-->
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <!-- Manrope Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <!-- Raleway Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
-    <!-- Umami -->
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="78081a86-b416-47ef-8ca6-3509cd763406"></script>
-    <title>Harry Gu - Creative Designer & Developer | Portfolio - Kosmos Stargazing Resort Website Redesign & Development</title>
-    <meta name="description" content="Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.">
-    <meta name="keywords" content="Harry Gu, graphic design, web design, UI/UX design, illustration, front-end programming, web development, logo design, branding, drawing, product design, packaging design, brand identity, artwork, portfolio, creative design, visual art, contract work, remote work, freelance designer">
-    
-    <style>
-      /* Highlight current page on navbar */
-      #nav-hamburger-3,
-      #nav-3{
-        color: black;
-      }
 
-      /*include my own font */
-      @font-face {
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Red Hat Display Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <!-- Manrope Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- Raleway Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
+  <!-- Umami -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="78081a86-b416-47ef-8ca6-3509cd763406"></script>
+  <title>Harry Gu - Creative Designer & Developer | Portfolio - Kosmos Stargazing Resort Website Redesign & Development
+  </title>
+  <meta name="description"
+    content="Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.">
+  <meta name="keywords"
+    content="Harry Gu, graphic design, web design, UI/UX design, illustration, front-end programming, web development, logo design, branding, drawing, product design, packaging design, brand identity, artwork, portfolio, creative design, visual art, contract work, remote work, freelance designer">
+
+  <style>
+    /* Highlight current page on navbar */
+    #nav-hamburger-3,
+    #nav-3 {
+      color: black;
+    }
+
+    /*include my own font */
+    @font-face {
       font-family: "TerminalDisplay";
       src: url("./fonts/terminaldisplay.ttf");
-      }
-      .font-[urbanist] {
-        font-family: "TerminalDisplay";
-        letter-spacing: 1px;
-      }
+    }
 
-      .hamburger-top,
-      .hamburger-middle,
-      .hamburger-bottom {
+    .font-[urbanist] {
+      font-family: "TerminalDisplay";
+      letter-spacing: 1px;
+    }
+
+    .hamburger-top,
+    .hamburger-middle,
+    .hamburger-bottom {
       background: #777;
-      }
-      .bg-menu {
-        background-color: #F8F8F8;
-      }
-      .font-RedHatDisplay {
-        font-family: "Red Hat Display";
-      }
+    }
 
-    </style>
-  </head>
-  <body class="relative font-[manrope] font-semibold bg-[#fff]">
-    <!-- Nav Bar -->
-    <div class="fixed top-0 left-0 right-0 z-50">
+    .bg-menu {
+      background-color: #F8F8F8;
+    }
 
-      <nav class="relative container p-7 text-black md:text-sm font-bold ">
-        <!-- Flex container -->
-        <div class="flex">
-          <!-- <div class="flex items-center justify-between tracking-wider"> -->
-          <div class="">
+    .font-RedHatDisplay {
+      font-family: "Red Hat Display";
+    }
+  </style>
+</head>
 
-            <a onclick="goBackOrIndex()" href="#"class="py-3 px-12 pl-5 rounded-[15px] bg-[#392A3D] font-semibold text-[#fff] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] text-base hover:text-themeRed fill-[#fff] hover:fill-themeRed">
-              <svg class="inline h-3 mb-[3px] mr-3"
-                  version="1.1"
-                  x="0px"
-                  y="0px"
-                  viewBox="0 0 1000 1000"
-                  enable-background="new 0 0 1000 1000"
-                  xml:space="preserve"
-                  id="svg8"
-                  sodipodi:docname="8f9ca05567ef7fe72a25480f95fbcf90.svg"
-                  inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-                  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:svg="http://www.w3.org/2000/svg"><defs
-                  id="defs12" /><sodipodi:namedview
-                  id="namedview10"
-                  pagecolor="#ffffff"
-                  bordercolor="#000000"
-                  borderopacity="0.25"
-                  inkscape:showpageshadow="2"
-                  inkscape:pageopacity="0.0"
-                  inkscape:pagecheckerboard="0"
-                  inkscape:deskcolor="#d1d1d1"
-                  showgrid="false"
-                  inkscape:zoom="0.236"
-                  inkscape:cx="500"
-                  inkscape:cy="502.11864"
-                  inkscape:window-width="1280"
-                  inkscape:window-height="734"
-                  inkscape:window-x="0"
-                  inkscape:window-y="0"
-                  inkscape:window-maximized="1"
-                  inkscape:current-layer="svg8" />
-                <metadata
-                    id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
-                <g display="inline"
-                    id="g6"
-                    transform="matrix(-1,0,0,1,1000,0)"><path
-                      d="m 217.6,915.1 c 0,-19.2 7.2,-38.4 21.9,-53 L 601.5,500 239.5,137.9 c -29.3,-29.3 -29.3,-76.7 0,-106 29.3,-29.3 76.7,-29.3 106,0 l 415,415.1 c 29.3,29.3 29.3,76.7 0,106 l -415,415 c -29.3,29.3 -76.7,29.3 -106,0 -14.7,-14.6 -21.9,-33.8 -21.9,-52.9 z"
-                      id="path4" /></g>
-              </svg>
-                Go Back
-            </a>
-            <a href="./index.html"class="text-base">
-              <img class="inline h-7 ml-5" src="./icons/logo-01-18-black.svg" alt="HARRY GU LOGO">
-            </a>
-          </div>
+<body class="relative font-[manrope] font-semibold bg-[#fff]">
+  <!-- Nav Bar -->
+  <div class="fixed top-0 left-0 right-0 z-50">
+
+    <nav class="relative container p-7 text-black md:text-sm font-bold ">
+      <!-- Flex container -->
+      <div class="flex">
+        <!-- <div class="flex items-center justify-between tracking-wider"> -->
+        <div class="">
+
+          <a onclick="goBackOrIndex()" href="#"
+            class="py-3 px-12 pl-5 rounded-[15px] bg-[#392A3D] font-semibold text-[#fff] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] text-base hover:text-themeRed fill-[#fff] hover:fill-themeRed">
+            <svg class="inline h-3 mb-[3px] mr-3" version="1.1" x="0px" y="0px" viewBox="0 0 1000 1000"
+              enable-background="new 0 0 1000 1000" xml:space="preserve" id="svg8"
+              sodipodi:docname="8f9ca05567ef7fe72a25480f95fbcf90.svg" inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+              xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+              xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
+              xmlns:svg="http://www.w3.org/2000/svg">
+              <defs id="defs12" />
+              <sodipodi:namedview id="namedview10" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25"
+                inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0"
+                inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="0.236" inkscape:cx="500"
+                inkscape:cy="502.11864" inkscape:window-width="1280" inkscape:window-height="734" inkscape:window-x="0"
+                inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="svg8" />
+              <metadata id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+              <g display="inline" id="g6" transform="matrix(-1,0,0,1,1000,0)">
+                <path
+                  d="m 217.6,915.1 c 0,-19.2 7.2,-38.4 21.9,-53 L 601.5,500 239.5,137.9 c -29.3,-29.3 -29.3,-76.7 0,-106 29.3,-29.3 76.7,-29.3 106,0 l 415,415.1 c 29.3,29.3 29.3,76.7 0,106 l -415,415 c -29.3,29.3 -76.7,29.3 -106,0 -14.7,-14.6 -21.9,-33.8 -21.9,-52.9 z"
+                  id="path4" />
+              </g>
+            </svg>
+            Go Back
+          </a>
+          <a href="./index.html" class="text-base">
+            <img class="inline h-7 ml-5" src="./icons/logo-01-18-black.svg" alt="HARRY GU LOGO">
+          </a>
         </div>
-      </nav>
-
-    </div>
-
-    <!-- text block -->
-    <div class="md:col-span-2 transition sm:min-h-[150px] h-fit mb-[-40px]">
-      <img class="hidden md:block" src="./images/kosmos_resort/thumb.png" alt="">
-      <img class="block md:hidden" src="./images/kosmos_resort/thumb-mobile.png" alt="">
-    </div>
-    <div class="text-[#392A3D] bg-[#F9F4F1] ">
-      <!-- p1 -->
-      <div class="max-w-[1200px] m-auto pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-
-
-        <div class=" lg:col-span-2 px-16 py-5 lg:py-[4em] pb-20 flex flex-col items-left transition bg-grey-500 min-h[30px] max-w-xl m-auto">
-          <h3 class="font-RedHatDisplay font-bold text-2xl">Result</h3>
-          <p class="text-left md:text-sm">Collaborated with marketing to roll out the redesign, contributing to an average uplift of <b class="inline">+78 daily unique visitors (~62 % increase) and decreased 8% bounce rate.</b></p>
-        </div>
-        
-        
-        <div class="col-span-1 px-16 py-5 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center ">
-          <h1 class="font-RedHatDisplay text-left inline-flex font-bold text-2xl">Kosmos Resort Website Redesign & Development</h1>
-          <p class="text-left inline-flex md:text-sm my-8">Kosmos Stargazing Resort & Spa is a resort for astrotourism located in Alamosa, CO that blends luxuary and sustainibility. The project focused on enhancing the current website and develop a custom booking widget.</p>
-
-          <!-- <p class="font-RedHatDisplay text-left inline-flex text-[#FDDEBA] font-semibold text-2xl">Design & Development</p> -->
-          <a href="https://www.kosmosresort.com/" class="flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 mt-2 bg-[#392A3D] hover:bg-[#56435b] shadow-md max-w-xs">
-            <div class="flex items-center flex-1">
-              <img src="/icons/globe.png" class="mr-0 w-8 h-8 object-contain" alt="icon" />
-              <span class="ml-2.5 text-base text-white flex-shrink-1">Visit Website</span>
-            </div>
-            <img src="/icons/forward-white.png" class="mr-0 w-5 h-5 object-contain" alt="arrow" />
-          </a>   
-        </div>
-
-        <div class="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-
-          <h3 class="font-RedHatDisplay font-bold text-xl">Technology</h3>
-          <p class="text-left inline-flex md:text-sm">Webflow, JavaScript, Figma, Mews API</p>
-          <h3 class="font-RedHatDisplay font-bold text-xl mt-8 ">Service</h3>
-          <p class="text-left inline-flex md:text-sm">Web Design, UX design, Web Development, Responsive Design, API integration, SEO</p>
-        </div>
-
-
-        
       </div>
+    </nav>
+
+  </div>
+
+  <!-- text block -->
+  <div class="md:col-span-2 transition sm:min-h-[150px] h-fit mb-[-40px]">
+    <img class="hidden md:block" src="./images/kosmos_resort/thumb.png" alt="">
+    <img class="block md:hidden" src="./images/kosmos_resort/thumb-mobile.png" alt="">
+  </div>
+  <div class="text-[#392A3D] bg-[#F9F4F1] ">
+    <!-- p1 -->
+    <div class="max-w-[1200px] m-auto pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+
+
+      <div
+        class=" lg:col-span-2 px-16 py-5 lg:py-[4em] pb-20 flex flex-col items-left transition bg-grey-500 min-h[30px] max-w-xl m-auto">
+        <h3 class="font-RedHatDisplay font-bold text-2xl">Result</h3>
+        <p class="text-left md:text-sm">Collaborated with marketing to roll out the redesign, contributing to an average
+          uplift of <b class="inline">+78 daily unique visitors (~62 % increase) and decreased 8% bounce rate.</b></p>
+      </div>
+
+
+      <div
+        class="col-span-1 px-16 py-5 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center ">
+        <h1 class="font-RedHatDisplay text-left inline-flex font-bold text-2xl">Kosmos Resort Website Redesign &
+          Development</h1>
+        <p class="text-left inline-flex md:text-sm my-8">Kosmos Stargazing Resort & Spa is a resort for astrotourism
+          located in Alamosa, CO that blends luxuary and sustainibility. The project focused on enhancing the current
+          website and develop a custom booking widget.</p>
+
+        <!-- <p class="font-RedHatDisplay text-left inline-flex text-[#FDDEBA] font-semibold text-2xl">Design & Development</p> -->
+        <a href="https://www.kosmosresort.com/"
+          class="flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 mt-2 bg-[#392A3D] hover:bg-[#56435b] shadow-md max-w-xs">
+          <div class="flex items-center flex-1">
+            <img src="/icons/globe.png" class="mr-0 w-8 h-8 object-contain" alt="icon" />
+            <span class="ml-2.5 text-base text-white flex-shrink-1">Visit Website</span>
+          </div>
+          <img src="/icons/forward-white.png" class="mr-0 w-5 h-5 object-contain" alt="arrow" />
+        </a>
+      </div>
+
+      <div
+        class="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+
+        <h3 class="font-RedHatDisplay font-bold text-xl">Technology</h3>
+        <p class="text-left inline-flex md:text-sm">Webflow, JavaScript, Figma, Mews API</p>
+        <h3 class="font-RedHatDisplay font-bold text-xl mt-8 ">Service</h3>
+        <p class="text-left inline-flex md:text-sm">Web Design, UX design, Web Development, Responsive Design, API
+          integration, SEO</p>
+      </div>
+
+
+
     </div>
+  </div>
 
 
-    <!-- P2 -->
-    <div class="bg-[#EDE3DD] text-[#392A3D]  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+  <!-- P2 -->
+  <div class="bg-[#EDE3DD] text-[#392A3D]  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
 
-      <div class=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2 ">
-        <!-- text block -->
-        <div class=" col-span-1  lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">
-          <!-- title -->
-          <div class="flex flex-row py-3">
-            <p class=" inline-flex font-bold font-RedHatDisplay text-2xl text-left">
-              Project Overview
-            </p>
-          </div>
-          
-  
-          <p class="inline-flex md:text-sm py-2 mb-10">
-            Kosmos Stargazing Resort is a Colorado-based luxury destination designed for astronomy lovers that blends high-end hospitality with immersive night-sky experiences. 
-            Early community backing through a successful crowdfunding campaign helped launch construction, with the first villas opening in Spring 2025 and strong advance reservations from early supporters.
-            <br />
-            The resort’s original website didn’t match the ambition of the brand. It was visually dated, light on storytelling, and inefficient for showcasing villas, location, and availability. Key gaps included a fragmented booking flow, limited mapping/location context, and tiny default fonts that does not match to WCAG AA standard.
+    <div class=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2 ">
+      <!-- text block -->
+      <div
+        class=" col-span-1  lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">
+        <!-- title -->
+        <div class="flex flex-row py-3">
+          <p class=" inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+            Project Overview
           </p>
+        </div>
 
-          <!-- title -->
-          <div class="flex flex-row py-3">
-            <p class="inline-flex font-bold font-RedHatDisplay text-2xl text-left">
-              Objectives:
-            </p>
+        <p class="inline-flex md:text-sm py-2 mb-6">
+          Kosmos Stargazing Resort needed a digital presence that matched their luxury astrotourism brand.
+          However, the critical requirement was a booking flow that prioritized villa selection over dates—a feature not
+          natively supported by their property management system (Mews).
+        </p>
+
+        <div class="flex flex-col gap-4 mb-8">
+          <div>
+            <h4 class="font-bold font-RedHatDisplay text-lg text-[#392A3D]">The Challenge</h4>
+            <p class="md:text-sm">Stakeholders required an urgent launch to capture early reservations. The existing
+              booking flow was date-first, causing customer frustration and drop-offs. I needed a solution that offered
+              a seamless, villa-first experience without a months-long custom build.</p>
           </div>
-          
-          <p class="inline-flex md:text-sm py-2 mb-5">
-            As the designer, my role encompassed:
+          <div>
+            <h4 class="font-bold font-RedHatDisplay text-lg text-[#392A3D]">The Pivot</h4>
+            <p class="md:text-sm">Instead of building a complex custom booking engine from scratch, I proposed a
+              pragmatic alternative: a lightweight, custom calendar widget that deep-links directly into specific Mews
+              booking engine states. This would solve the UX problem while drastically reducing development time and
+              maintenance overhead.</p>
+          </div>
+          <div>
+            <h4 class="font-bold font-RedHatDisplay text-lg text-[#392A3D]">The Hurdle</h4>
+            <p class="md:text-sm">As the sole developer on a contract, I had no senior engineering support and had never
+              worked with the Mews API. I had to independently navigate their documentation, experiment with endpoints,
+              and engineer a solution that was both robust and secure.</p>
+          </div>
+        </div>
+
+        <!-- <div class="my-8 p-4 border-2 border-dashed border-gray-300 rounded-lg text-center bg-gray-50">
+          <p class="text-gray-500 font-bold">[Visual: Before/After User Flow Diagram]</p>
+          <p class="text-sm text-gray-400">Comparing the old date-first flow (5 steps) vs. the new villa-first flow (3
+            steps)</p>
+        </div> -->
+
+        <!-- title -->
+        <div class="flex flex-row py-3">
+          <p class="inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+            Key Objectives
           </p>
-  
-          <ol class="list-decimal pl-3 md:text-sm">
+        </div>
+
+        <ol class="list-decimal pl-3 md:text-sm space-y-2">
+          <li>
+            <strong>Strategic UX:</strong> Shift from date-first to villa-first booking flow to align with user mental
+            models.
+          </li>
+          <li>
+            <strong>Technical Solvency:</strong> Independently learn and integrate Mews API to enable deep-linking.
+          </li>
+          <li>
+            <strong>Brand Storytelling:</strong> Redesign the aesthetic to reflect the high-end, immersive nature of the
+            resort.
+          </li>
+          <li>
+            <strong>Accessibility:</strong> Ensure WCAG AA compliance for fonts and contrast.
+          </li>
+        </ol>
+
+      </div>
+
+      <div
+        class="flex flex-col justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
+        <img class="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+          src="https://cdn.prod.website-files.com/64b952b6247a6084952d92ef/68537b2786c3788191e0ee87_Kosmos-VillaOne-Web-20-1-p-1600.jpg"
+          alt="a luxury villa with white domes in a beautiful landscape">
+        <p class="md:text-sm p-4">Credit: Kosmos Stargazing Resort</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- P3 -->
+  <div class="text-[#392A3D] bg-[#F9F4F1]">
+
+    <div class=" max-w-[1300px] m-auto px-6 py-20 grid grid-col-1 gap-5">
+      <!-- text block -->
+      <div
+        class=" col-span-1 row-span-3 lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8 max-w-xl">
+        <h2 class="inline-flex font-bold font-['Montserrat'] text-2xl text-left py-3">
+          Design
+        </h2>
+      </div>
+
+      <!-- text block -->
+      <div
+        class="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+        <img class="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/kosmos_resort/desktop.png"
+          alt="reference">
+        <div
+          class="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+          <h3 class="font-['Montserrat'] font-bold text-xl  text-left py-2">Homepage - Hero Section</h3>
+          <ul class="list-disc pl-3 text-left">
             <li class="pb-1">
-              Redesign and enhance story telling of the website and aesthetics
+              Tagline for marketing
             </li>
             <li class="pb-1">
-              Build a custom booking widget to streamline the reservation journey that is integrated to our branding and enhancing villa selection.
+              Big calls-to-action button with strong color contrast to draw users attention, because strong colors would
+              pop up in user's periphery vision, guiding the user to the booking process
             </li>
             <li class="pb-1">
               Enhancing the site's SEO to improve visibility and reach.
             </li>
             <li class="pb-1">
-              Fix the small fonts and contrast issue on the original website to comply to WCAG guidelines.
+              A galaxy video background to echo with the astrotourism theme
             </li>
-          </ol>
-
-
+          </ul>
         </div>
+      </div>
 
-        <div class="flex flex-col justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
-          <img class="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="https://cdn.prod.website-files.com/64b952b6247a6084952d92ef/68537b2786c3788191e0ee87_Kosmos-VillaOne-Web-20-1-p-1600.jpg" alt="a luxury villa with white domes in a beautiful landscape">
-          <p class="md:text-sm p-4">Credit: Kosmos Stargazing Resort</p>
+      <div
+        class="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+        <img class="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/kosmos_resort/villa.png"
+          alt="stargazing villa card">
+        <img class="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] pt-10" src="/images/kosmos_resort/villa2.png"
+          alt="galaxy villa card">
+        <div
+          class="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+          <h3 class="font-['Montserrat'] font-bold text-xl  text-left py-2">Homepage - Villa Section</h3>
+          <ul class="list-disc pl-3 text-left">
+            <li class="pb-1">
+              Key visual images and features to showcase the villa
+            </li>
+            <li class="pb-1">
+              We chose two vertically stacked villa cards, instead of the tabbed layout, so guests can discover both
+              options by simply scrolling, no extra clicks required.
+            </li>
+            <li class="pb-1">
+              Lower interaction cost: Scrolling (native, continuous) beats clicking a tab (discrete, interruptive),
+              especially on mobile.
+            </li>
+            <li class="pb-1">
+              Behavior match: Modern users expect to scroll (e.g. tiktok, instagram), not hop between tabbed views.
+            </li>
+            <li class="pb-1">
+              "Learn more" button if the user want to see more images and details
+            </li>
+            <li class="pb-1">
+              "Book this villa" button continues the booking process, opens the booking widget
+            </li>
+          </ul>
         </div>
-        
+      </div>
+
+    </div>
+  </div>
+
+  <!-- P4 -->
+  <div class="text-[#392A3D] bg-[#EDE3DD]">
+
+    <div class=" max-w-[1300px] m-auto px-6 py-20 grid grid-col-1 gap-5">
+
+
+      <!-- text block -->
+      <div
+        class="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <img class="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]"
+            src="/images/kosmos_resort/widget.png" alt="reference">
+          <img class="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]"
+            src="/images/kosmos_resort/widget2.png" alt="reference">
+        </div>
+        <div
+          class="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-left max-w-xl">
+          <h3 class="font-['Montserrat'] font-bold text-2xl text-left py-2 mb-4">Strategic Implementation: The Booking
+            System</h3>
+
+          <div class="space-y-6">
+            <div>
+              <h4 class="font-bold font-RedHatDisplay text-lg text-[#392A3D]">Self-Directed Learning</h4>
+              <p class="md:text-sm">With no senior developer to guide me, I dove into the Mews API documentation. I
+                spent days testing endpoints in Postman to understand how to query availability and generate deep links.
+                This self-taught knowledge was crucial in proving that a lightweight widget could replace a full custom
+                build.</p>
+            </div>
+
+            <div>
+              <h4 class="font-bold font-RedHatDisplay text-lg text-[#392A3D]">The Solution</h4>
+              <p class="md:text-sm">I built a custom JavaScript calendar widget that:</p>
+              <ul class="list-disc pl-5 md:text-sm mt-2">
+                <li>Fetches real-time availability from Mews.</li>
+                <li>Auto-selects the first available date to reduce friction.</li>
+                <li>Generates a deep link that drops the user directly into the Mews booking engine.</li>
+              </ul>
+            </div>
+
+            <div class="my-8 p-4 border-2 border-dashed border-gray-300 rounded-lg text-center bg-gray-50">
+              <p class="text-gray-500 font-bold">[Visual: Mews API Integration Diagram]</p>
+              <p class="text-sm text-gray-400">Diagram showing: Widget -> Mews API (Availability) -> Deep Link
+                Generation -> Mews Booking Engine</p>
+            </div>
+
+            <div>
+              <h4 class="font-bold font-RedHatDisplay text-lg text-[#392A3D]">The Result</h4>
+              <p class="md:text-sm">This approach saved months of development time. We launched on schedule, and the
+                simplified flow contributed to a <strong>62% increase in unique visitors</strong> and a smoother user
+                journey.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- P5: Reflection -->
+  <div class="text-[#392A3D] bg-[#F9F4F1]">
+    <div class="max-w-[1200px] m-auto px-6 py-20">
+      <div class="max-w-3xl m-auto text-center">
+        <h2 class="font-RedHatDisplay font-bold text-2xl mb-8">Reflection</h2>
+        <div class="text-left md:text-sm space-y-6">
+          <p>
+            <strong>Pragmatic Engineering:</strong> This project reinforced that the best engineering solution isn't
+            always the one with the most code. By leveraging the existing Mews ecosystem instead of rebuilding it, I
+            delivered value faster and with less risk.
+          </p>
+          <p>
+            <strong>Fearless Learning:</strong> Tackling the Mews API without prior experience taught me that I can
+            learn any technology if I break it down systematically. This confidence in self-directed learning is
+            something I bring to every new challenge.
+          </p>
+        </div>
       </div>
     </div>
-
-    <!-- P3 -->
-    <div class="text-[#392A3D] bg-[#F9F4F1]">
-
-      <div class=" max-w-[1300px] m-auto px-6 py-20 grid grid-col-1 gap-5">
-        <!-- text block -->
-        <div class=" col-span-1 row-span-3 lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8 max-w-xl">
-          <h2 class="inline-flex font-bold font-['Montserrat'] text-2xl text-left py-3">
-            Design
-          </h2>
-        </div>
-
-        <!-- text block -->
-        <div class="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-          <img class="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/kosmos_resort/desktop.png" alt="reference">
-          <div class="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-            <h3 class="font-['Montserrat'] font-bold text-xl  text-left py-2">Homepage - Hero Section</h3>
-            <ul class="list-disc pl-3 text-left">
-              <li class="pb-1">
-                Tagline for marketing
-              </li>
-              <li class="pb-1">
-                Big calls-to-action button with strong color contrast to draw users attention, because strong colors would pop up in user's periphery vision, guiding the user to the booking process
-              </li>
-              <li class="pb-1">
-                Enhancing the site's SEO to improve visibility and reach.
-              </li>
-              <li class="pb-1">
-                A galaxy video background to echo with the astrotourism theme
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-          <img class="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/kosmos_resort/villa.png" alt="stargazing villa card">
-          <img class="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] pt-10" src="/images/kosmos_resort/villa2.png" alt="galaxy villa card">
-          <div class="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-            <h3 class="font-['Montserrat'] font-bold text-xl  text-left py-2">Homepage - Villa Section</h3>
-            <ul class="list-disc pl-3 text-left">
-              <li class="pb-1">
-                Key visual images and features to showcase the villa
-              </li>
-              <li class="pb-1">
-                We chose two vertically stacked villa cards, instead of the tabbed layout, so guests can discover both options by simply scrolling, no extra clicks required.
-              </li>
-              <li class="pb-1">
-                Lower interaction cost: Scrolling (native, continuous) beats clicking a tab (discrete, interruptive), especially on mobile.
-              </li>
-              <li class="pb-1">
-                Behavior match: Modern users expect to scroll (e.g. tiktok, instagram), not hop between tabbed views.
-              </li>
-              <li class="pb-1">
-                "Learn more" button if the user want to see more images and details
-              </li>
-              <li class="pb-1">
-                "Book this villa" button continues the booking process, opens the booking widget
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- P4 -->
-    <div class="text-[#392A3D] bg-[#EDE3DD]">
-
-      <div class=" max-w-[1300px] m-auto px-6 py-20 grid grid-col-1 gap-5">
-
-
-        <!-- text block -->
-        <div class="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <img class="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]" src="/images/kosmos_resort/widget.png" alt="reference">
-            <img class="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]" src="/images/kosmos_resort/widget2.png" alt="reference">
-          </div>
-          <div class="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-            <h3 class="font-['Montserrat'] font-bold text-xl  text-left py-2">Booking Widget</h3>
-            <ul class="list-disc pl-3 text-left">
-              <li class="pb-1">
-                Jumps to the first available date after opening the widget, so the user doesn't have to navigate manually
-              </li>
-              <li class="pb-1">
-                Marks the checkout only dates, they are only selectable after the user to select the first date, eliminating confusion
-              </li>
-              <li class="pb-1">
-                Consistent branding and design with the rest of the page
-              </li>
-              <li class="pb-1">
-                Written in JavaScript
-              </li>
-              <li class="pb-1">
-                Integrated with Mews API to pull the dates from Mews hotel management system
-              </li>
-
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
+  </div>
 
 
 
-    <!-- Footer -->
-    <div id="footer-placeholder">
-    </div>
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        fetch('./navbar.shtml')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('nav-placeholder').innerHTML = data;
-          });
+  <!-- Footer -->
+  <div id="footer-placeholder">
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch('./navbar.shtml')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('nav-placeholder').innerHTML = data;
+        });
 
-        fetch('./footer.shtml')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('footer-placeholder').innerHTML = data;
-          });
-      });
-    </script>
-    <script>
-      function goBackOrIndex() {
-        const referrer = document.referrer;
-        const currentDomain = window.location.hostname;
-    
-        if (referrer && new URL(referrer).hostname === currentDomain) {
-          history.back();
-        } else {
-          window.location.href = 'index.html';
-        }
+      fetch('./footer.shtml')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer-placeholder').innerHTML = data;
+        });
+    });
+  </script>
+  <script>
+    function goBackOrIndex() {
+      const referrer = document.referrer;
+      const currentDomain = window.location.hostname;
+
+      if (referrer && new URL(referrer).hostname === currentDomain) {
+        history.back();
+      } else {
+        window.location.href = 'index.html';
       }
-    </script>
-    
-
-    
+    }
+  </script>
 
 
-  </body>
+
+
+
+</body>
+
 </html>
