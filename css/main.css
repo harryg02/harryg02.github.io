@@ -2486,11 +2486,6 @@ video {
   border-radius: 0.25rem;
 }
 
-.focus\:bg-themeRed:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgb(190 29 40 / var(--tw-bg-opacity));
-}
-
 .focus\:bg-veryDarkBlue:focus {
   --tw-bg-opacity: 1;
   background-color: hsl(233 12% 13% / var(--tw-bg-opacity));
