@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/html5reset.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +51,7 @@
   </head>
   <body class="relative font-['Inter'] bg-[#fff]">
     <!-- Nav Bar -->
-    <div class="fixed top-0 left-0 right-0 z-50">
+    <header class="fixed top-0 left-0 right-0 z-50">
 
       <nav class="relative container p-7 text-white md:text-sm font-bold ">
         <!-- Flex container -->
@@ -109,7 +110,10 @@
         </div>
       </nav>
 
-    </div>
+    </header>
+
+    <main>
+    <h1 class="sr-only">Exodus Place Website Redesign - Project Case Study</h1>
 
     <!-- p1 -->
     <div class="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 text-white bg-[#1A1A1A]">
@@ -522,10 +526,11 @@
         </div> -->
       </div>
     </div>
+    </main>
 
     <!-- Footer -->
     <div id="footer-placeholder">
-    </div>
+    </footer>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         fetch('./navbar.shtml')
