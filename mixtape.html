@@ -60,7 +60,7 @@
 
 <body class="relative font-[urbanist] font-semibold bg-[#D0AF40]">
   <!-- Nav Bar -->
-  <div class="fixed top-0 left-0 right-0 z-50">
+  <header class="fixed top-0 left-0 right-0 z-50">
 
     <nav class="relative container p-7 md:text-sm font-bold ">
       <!-- Flex container -->
@@ -97,19 +97,21 @@
       </div>
     </nav>
 
-  </div>
+  </header>
 
 
   <!-- Main content -->
-  <section id="gdthumbnails">
+  <main id="gdthumbnails">
     <!-- Intro -->
     <div class="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 ">
       <!-- text block -->
       <div
         class="lg:order-last md:col-span-2 lg:col-span-1 px-16 py-32 lg:py-10 flex flex-col justify-center items-start transition bg-grey-500 min-h[30px] text-center ">
-        <p class="font-[poppins] text-left inline-flex text-black font-black text-2xl pt-5 ">MIXTAPE</p>
-        <p class="font-[poppins] text-left inline-flex text-white font-black text-2xl">PACKAGING</p>
-        <p class="font-[poppins] text-left inline-flex text-white font-black text-2xl">DESIGN</p>
+        <h1 class="text-left inline-flex flex-col">
+          <span class="font-[poppins] text-black font-black text-2xl pt-5 ">MIXTAPE</span>
+          <span class="font-[poppins] text-black font-black text-2xl">PACKAGING</span>
+          <span class="font-[poppins] text-black font-black text-2xl">DESIGN</span>
+        </h1>
 
         <p class="text-left inline-flex text-base mt-5">
           “Miscere” is an album packaging
@@ -121,7 +123,7 @@
       <div class="md:col-span-2 bg-[#EDE7E7] transition sm:min-h-[150px] h-fit">
 
         <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_1.png"
-          alt="">
+          alt="Album cover art featuring a silhouette figure standing against a gold circle with the title 'MISCERE'.">
       </div>
 
 
@@ -133,15 +135,15 @@
       <div
         class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
         <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_1.png"
-          alt="">
-        <p class="text-white m-3 text-xl font-black">FRONT</p>
+          alt="Digital design of the album front cover with a central silhouette and gold circular motif.">
+        <p class="text-black m-3 text-xl font-black">FRONT</p>
       </div>
 
       <div
         class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
         <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_3.png"
-          alt="">
-        <p class="text-white m-3 text-xl font-black">BACK</p>
+          alt="Digital design of the album back cover listing the tracklist for Side A and Side B.">
+        <p class="text-black m-3 text-xl font-black">BACK</p>
       </div>
 
     </div>
@@ -152,14 +154,14 @@
       <div
         class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
         <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_2.png"
-          alt="">
+          alt="Illustration of a hiking backpack containing a blue mountain landscape.">
         <p class="text-black m-3 text-xl font-black">INTERIOR - LEFT</p>
       </div>
 
       <div
         class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
         <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/0-albumfinalprint_Page_4.png"
-          alt="">
+          alt="Stylized typography design of the album title 'MISCERE' featuring a geometric logo symbol.">
         <p class="text-black m-3 text-xl font-black">INTERIOR - RIGHT</p>
       </div>
 
@@ -170,13 +172,15 @@
 
       <div
         class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/insert1.png" alt="">
+        <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/insert1.png"
+          alt="Album insert art featuring a dark castle silhouette against a teal background.">
         <p class="text-black m-3 text-xl font-black">INSERT 1</p>
       </div>
 
       <div
         class="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/insert2.png" alt="">
+        <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="./images/mixtape/insert2.png"
+          alt="Album insert art featuring a city skyline silhouette against a light blue background.">
         <p class="text-black m-3 text-xl font-black">INSERT 2</p>
       </div>
 
@@ -194,47 +198,50 @@
         <!-- title -->
 
         <div class=" flex flex-row p-4">
-
-          <div class="flex flex-col">
-
-            <p class="text-gray-900 text-right font-[poppins] font-black text-xl">
-              APPLICATION
-              </br>
-            </p>
-            <p class="text-white text-right font-[poppins] font-black text-xl">
-              IMPLEMENTATION
-            </p>
-
-          </div>
-          <p class="text-[#a18843] text-6xl font-[poppins] font-black pl-2">
-            &
-          </p>
+          <h2 class="flex flex-row items-center">
+            <span class="flex flex-col">
+              <span class="text-gray-900 text-right font-[poppins] font-black text-xl">
+                APPLICATION
+                <br />
+              </span>
+              <span class="text-black text-right font-[poppins] font-black text-xl">
+                IMPLEMENTATION
+              </span>
+            </span>
+            <span class="text-[#a18843] text-6xl font-[poppins] font-black pl-2">
+              &
+            </span>
+          </h2>
         </div>
       </div>
 
       <div
         class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="rounded-2xl" src="./images/mixtape/photo6.jpg" alt="">
+        <img class="rounded-2xl" src="./images/mixtape/photo6.jpg"
+          alt="Physical mockup of the vinyl record, open gatefold sleeve, and cassette tape arranged on a wooden surface.">
       </div>
 
       <div
         class="flex flex-col justify-center items-center p-9 col-span-2 md:col-span-1 row-span-2  transition sm:min-h-[150px] h-fit">
-        <img class="rounded-2xl" src="./images/mixtape/photo5.jpg" alt="">
+        <img class="rounded-2xl" src="./images/mixtape/photo5.jpg"
+          alt="Close-up of the 'Miscere' cassette tape packaging.">
       </div>
 
       <div
         class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="rounded-2xl" src="./images/mixtape/photo1.jpg" alt="">
+        <img class="rounded-2xl" src="./images/mixtape/photo1.jpg"
+          alt="Physical printed vinyl sleeve with the record peeking out.">
       </div>
 
       <div
         class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
-        <img class="rounded-2xl" src="./images/mixtape/photo2.jpg" alt="">
+        <img class="rounded-2xl" src="./images/mixtape/photo2.jpg"
+          alt="Interior view of the open gatefold vinyl sleeve displaying the backpack illustration and title typography.">
       </div>
 
     </div>
 
-  </section>
+  </main>
 
   <!-- Footer -->
   <!-- Footer -->
