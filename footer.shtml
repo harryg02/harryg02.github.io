@@ -1,5 +1,4 @@
-<footer class="bg-LightGray font-[urbanist]">
-  <!-- Flex Container -->
+<!-- Flex Container -->
   <div class="container flex flex-col md:flex-row relative py-20 px-5 mx-auto text-gray-600 leading-7">
     <!-- left item -->
     <div class="basis-2/3 py-10 md:px-10 md:py-0">
@@ -39,4 +38,3 @@
       © 2025 by harrygu.art. Built with HTML/CSS/JS · Hosted on GitHub Pages
     </p>
   </div>
-</footer>
