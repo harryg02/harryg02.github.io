@@ -70,14 +70,17 @@
 
   </head>
   <body class="font-[urbanist] font-semibold bg-[#1C1E1F]">
-    
+
+    <!-- Skip to main content link -->
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[1000] focus:bg-veryDarkBlue focus:text-white focus:px-4 focus:py-2 focus:rounded">Skip to main content</a>
+
     <!-- loading screen -->
     <div id="loadingScreen" class="font-terminal " style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; display: flex; justify-content: center; align-items: center; z-index: 1000; opacity: 1; transition: opacity 0.5s ease;">
       <p id="loadingText" style="color: #CCD4E3; font-size: 2em;">Loading 0%</p>
     </div>
 
     <!-- Nav Bar -->
-    <div class="font-[urbanist] font-extrabold">
+    <header class="font-[urbanist] font-extrabold">
       <nav class="relative container mx-auto text-gray-400 ">
         <!-- Flex container -->
         <div class="flex items-center justify-between max-w-[600px] mt-[8vh] md:mt-[7vh] mx-6 md:ml-10 lg:ml-20 my-10 ">
@@ -104,7 +107,7 @@
           </div>  
     
           <!-- Hamburger Icon-->
-          <button id="menu-btn" class="z-40 block hamburger md:hidden focus:outline-none" style="z-index: 701">
+          <button id="menu-btn" class="z-40 block hamburger md:hidden focus:outline-none" style="z-index: 701" aria-label="Toggle menu">
             <span class="hamburger-top"></span>
             <span class="hamburger-middle"></span>
             <span class="hamburger-bottom"></span>
@@ -123,33 +126,37 @@
           <a href="./archive.html" id="nav-hamburger-1" class="hover:text-themeRed">Archive</a>
           <div>
             <a href="https://www.linkedin.com/in/harrygu-ux/"class="text-base">
-              <img class="inline h-8" src="./icons/linkedin-hero.svg" alt="">
+              <img class="inline h-8" src="./icons/linkedin-hero.svg" alt="LinkedIn">
             </a>
             <a href="https://github.com/harryg02"class="text-base">
-              <img class="inline h-8" src="./icons/github-hero.svg" alt="">
+              <img class="inline h-8" src="./icons/github-hero.svg" alt="GitHub">
             </a>
           </div>
         </div>
       </div>
-    
+
       <script src="js/script.js"></script>
-    </div>
+    </header>
 
 
-    <!-- Graphic Design -->
-    <section id="graphicdesign" class="bg-[#1C1E1F] text-[#CCD4E3] z-50">
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-        
-        <div class="col-span-2  md:col-span-1 flex justify-center items-center transition bg-grey-500 shadow-xl min-h[60px] text-center">
-          <p class="font-[urbanist] inline-flex font-extrabold text-xl p-11">Graphic Design</p>
-        </div>
+    <!-- Main content -->
+    <main id="main">
+      <!-- Graphic Design -->
+      <section id="graphicdesign" class="bg-[#1C1E1F] text-[#CCD4E3] z-50">
+         <!-- Screen reader accessible heading -->
+        <h1 class="sr-only">I'm Harry Gu. I'm a UI/UX Designer, Front-End Developer, and Graphic Designer</h1>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+
+          <div class="col-span-2  md:col-span-1 flex justify-center items-center transition bg-grey-500 shadow-xl min-h[60px] text-center">
+            <h2 class="font-[urbanist] inline-flex font-extrabold text-xl p-11">Graphic Design</h2>
+          </div>
 
         <a class="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="./ReentryReimagined-Brochure.html">
-          <img class="" src="./images/ReentryReimagined-Brochure/1.jpg" alt="">
+          <img class="" src="./images/ReentryReimagined-Brochure/1.jpg" alt="Hand holding Reentry Reimagined brochure with city skyline illustration, text reads 'Empowering Second Chances, Supporting Strong Futures'">
           <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
           <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
             Reentry Reimagined
-          </br>
+          <br>
             Brochure
           </div>
           <p class="px-1 leading-tight text-center md:hidden">
@@ -158,11 +165,11 @@
         </a>
 
         <a class="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="./reentryguide-gr-flyer.html">
-          <img class="" src="./images/ReentryGuide-GR/flyer-thumbnail.png" alt="">
+          <img class="" src="./images/ReentryGuide-GR/flyer-thumbnail.png" alt="White flyer on wooden table with text 'Do you need Food, Clothing, Hygiene, Healthcare etc.?' and QR code">
           <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
           <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
             "ReentryGuide GR"
-          </br>
+          <br>
             Print Marketing Materials
           </div>
           <p class="px-1 leading-tight text-center md:hidden">
@@ -171,7 +178,7 @@
         </a>
 
         <a class="mb-2 relative group rounded-xl  sm:min-h-[150px] h-fit hover:shadow-xl" href="./mixtape.html">
-          <img class="" src="./images/miscere.jpeg" alt="">
+          <img class="" src="./images/miscere.jpeg" alt="Circular yellow logo design with silhouette of person and text 'MISCERE' in geometric font">
           <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
           <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
             Mixtape
@@ -193,7 +200,7 @@
         </a> -->
 
         <a class="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./e-communiy-service-logo.html">
-          <img class="" src="./trademarks/e-community-service.png" alt="">
+          <img class="" src="./trademarks/e-community-service.png" alt="Logo with blue and green gradient heart icon with handshake symbol and text 'E-COMMUNITY SERVICE' in white uppercase letters">
           <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
           <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
             e-community-service.org logo
@@ -256,7 +263,7 @@
 
             <div class="text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[44rem] lg:max-w-[65rem] xl:max-w-[85rem] m-auto ">
 
-              <p class="font-[urbanist] pb-6 pl-1 font-extrabold text-xl">Drawing</p>
+              <h2 class="font-[urbanist] pb-6 pl-1 font-extrabold text-xl">Drawing</h2>
 
                 <div class="align-baseline grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
 
@@ -266,7 +273,7 @@
                         data-pswp-width="2877" 
                         data-pswp-height="3819" 
                         target="_blank">
-                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/victory.jpeg">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/victory.jpeg" alt="Graphite drawing of airplane dropping small human figures instead of bombs over a city skyline">
                       </a>
                       <div class="pswp-caption-content">
                         <b>Victory", Graphite on Paper, 2022.4</b>
@@ -287,7 +294,7 @@
                         data-pswp-width="2008" 
                         data-pswp-height="1785" 
                         target="_blank">
-                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/Gaia.jpeg">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/Gaia.jpeg" alt="Graphite and color pencil drawing of person lying on platform with red blood flowing down as waterfall into landscape below">
                       </a>
                       <div class="pswp-caption-content"><b>“Gaia”, Graphite & Color Pencil on Paper, 2023.4</b><br>22 in * 25 in <br> <br>This is about non-violence movements. <br> <br> In this drawing, She chose to use a non-violent way against violence. She was not even wearing any protection. She died. But her blood became a waterfall and nourished a beautiful landscape. <br> <br> This drawing is partially inspired by a picture of Gaia from a Greek mythology book, that Gaia’s body becomes mountains and rivers. It’s also inspired by several historical events as well. </div>
                       </div>
@@ -300,7 +307,7 @@
                         data-pswp-width="2151" 
                         data-pswp-height="1596" 
                         target="_blank">
-                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/Rahab.jpeg">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/Rahab.jpeg" alt="White charcoal drawing on black paper showing storefront with Chinese characters 'SPA' and figures in urban night scene">
                       </a>
                       <div class="pswp-caption-content"><b>“Prostitute Rehab Meets Two Israeli Spies”, White cCharcoal on Black paper, 2023.4</b><br>18 in * 24 in<br> <br>However the cultural context is not the ancient middle east, but modern China instead. </div>
                     </div>
@@ -313,7 +320,7 @@
                         data-pswp-width="4032" 
                         data-pswp-height="3024" 
                         target="_blank">
-                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/ship.jpg">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/ship.jpg" alt="Graphite drawing of sinking ship tilted in ocean water">
                       </a>
                       <div class="pswp-caption-content"><b>Unnamed, Graphite on Paper, 2022.4</b><br>18 in x 24 in</div>
                     </div>
@@ -326,7 +333,7 @@
                         data-pswp-width="4032" 
                         data-pswp-height="3024" 
                         target="_blank">
-                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/tank.jpg">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/tank.jpg" alt="Charcoal drawing of military tank in dark wooded forest setting">
                       </a>
                       <div class="pswp-caption-content"><b>Unnamed, Charcoal on Paper, 2022.4</b><br>18 in x 24 in</div>
                     </div>
@@ -338,7 +345,7 @@
                         data-pswp-width="4032" 
                         data-pswp-height="3024" 
                         target="_blank">
-                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/rifle.jpg">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/rifle.jpg" alt="Graphite drawing of AK-47 rifle with barrel bent upward by three blooming roses">
                       </a>
                       <div class="pswp-caption-content"><b>"Aaron's Rifle", Graphite on Paper, 2022.4</b><br>18 in x 24 in</div>
                     </div>
@@ -350,7 +357,7 @@
                         data-pswp-width="4032" 
                         data-pswp-height="3024" 
                         target="_blank">
-                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/equality.jpeg">
+                        <img class="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]" src="./images/equality.jpeg" alt="Graphite drawing of two gravestones side by side, one wearing business suit and tie, the other in tattered homeless clothing">
                       </a>
                       <div class="pswp-caption-content"><b>Equality, Graphite on Paper, 2023.12</b><br>18 in x 24 in</div>
                     </div>
@@ -374,7 +381,7 @@
 
           <div class=" text-veryDarkGray max-w-[21rem] sm:max-w-[26rem] m-auto ">
 
-            <p class="font-[urbanist] pb-6 pl-1 font-extrabold text-xl">Drawing</p>
+            <h2 class="font-[urbanist] pb-6 pl-1 font-extrabold text-xl">Drawing</h2>
 
             <div class="swiper-container "> 
               <div class="swiper-cards ">
@@ -390,7 +397,7 @@
                           data-pswp-width="2008" 
                           data-pswp-height="1785" 
                           target="_blank">
-                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/Gaia.jpeg">
+                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/Gaia.jpeg" alt="Graphite and color pencil drawing of person lying on platform with red blood flowing down as waterfall into landscape below">
                         </a>
                         <div class="pswp-caption-content"><b>“Gaia”, Graphite & Color Pencil on Paper, 2023.4</b><br>22 in * 25 in <br> <br>This is about non-violence movements. <br> <br> In this drawing, She chose to use a non-violent way against violence. She was not even wearing any protection. She died. But her blood became a waterfall and nourished a beautiful landscape. <br> <br> This drawing is partially inspired by a picture of Gaia from a Greek mythology book, that Gaia’s body becomes mountains and rivers. It’s also inspired by several historical events as well. </div>
                       </div>
@@ -408,7 +415,7 @@
                             data-pswp-width="2877" 
                             data-pswp-height="3819" 
                             target="_blank">
-                            <img class="transition object-cover  w-full border-8 border-white rounded-lg min-h[50px]" src="./images/victory.jpeg">
+                            <img class="transition object-cover  w-full border-8 border-white rounded-lg min-h[50px]" src="./images/victory.jpeg" alt="Graphite drawing of airplane dropping small human figures instead of bombs over a city skyline">
                           </a>
                           <div class="pswp-caption-content"><b>Victory", Graphite on Paper, 2022.4</b>
                             <br>24 in * 18 in <br> 
@@ -433,7 +440,7 @@
                           data-pswp-width="2151" 
                           data-pswp-height="1596" 
                           target="_blank">
-                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/Rahab.jpeg">
+                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/Rahab.jpeg" alt="White charcoal drawing on black paper showing storefront with Chinese characters 'SPA' and figures in urban night scene">
                         </a>
                         <div class="pswp-caption-content"><b>“Prostitute Rehab Meets Two Israeli Spies”, White Charcoal on Black Paper, 2023.4</b><br>18 in * 24 in<br> <br>However the cultural context is not the ancient middle east, but modern China instead. </div>
                       </div>
@@ -451,7 +458,7 @@
                           data-pswp-width="4032" 
                           data-pswp-height="3024" 
                           target="_blank">
-                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/ship.jpg">
+                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/ship.jpg" alt="Graphite drawing of sinking ship tilted in ocean water">
                         </a>
                         <div class="pswp-caption-content"><b>Unnamed, Graphite on Paper, 2022.4</b><br>18 in x 24 in</div>
                       </div>
@@ -469,7 +476,7 @@
                           data-pswp-width="4032" 
                           data-pswp-height="3024" 
                           target="_blank">
-                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/tank.jpg">
+                          <img class="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]" src="./images/tank.jpg" alt="Charcoal drawing of military tank in dark wooded forest setting">
                         </a>
                         <div class="pswp-caption-content"><b>Unnamed, Charcoal on Paper, 2022.4</b><br>18 in x 24 in</div>
                       </div>
@@ -522,14 +529,15 @@
           </div>
         </div>
 
-        
+
 
     </section>
+    </main>
 
 
   <!-- Footer -->
-    <div id="footer-placeholder">
-    </div>
+    <footer id="footer-placeholder">
+    </footer>
 
     <!-- swiper.js -->
     <script>

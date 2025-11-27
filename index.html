@@ -70,37 +70,44 @@
 
   </head>
   <body class="font-[urbanist] font-semibold bg-[#1E2128]">
-    
+
+    <!-- Skip to main content link -->
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[1000] focus:bg-veryDarkBlue focus:text-white focus:px-4 focus:py-2 focus:rounded">Skip to main content</a>
+
     <!-- loading screen -->
     <div id="loadingScreen" class="font-terminal " style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; display: flex; justify-content: center; align-items: center; z-index: 1000; opacity: 1; transition: opacity 0.5s ease;">
       <p id="loadingText" style="color: #CCD4E3; font-size: 2em;">Loading 0%</p>
     </div>
 
     <!-- hero section -->
-    <section id="hero" class="box-border min-h-[600px] max-h-[800px] h-[75vh] md:h-screen relative overflow-hidden bg-[#1C1E1F]">
+    <section id="hero" role="banner" class="box-border min-h-[600px] max-h-[800px] h-[75vh] md:h-screen relative overflow-hidden bg-[#1C1E1F]">
+
+      <!-- Screen reader accessible heading -->
+      <h1 class="sr-only">I'm Harry Gu. I'm a UI/UX Designer, Front-End Developer, and Graphic Designer</h1>
+
       <!-- video -->
-      <video id="myVideo1" autoplay loop muted 
+      <video id="myVideo1" autoplay loop muted aria-hidden="true"
         class="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0 ">
         <source src="herovideo1.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
 
-      <video id="myVideo2" autoplay loop muted 
-        style="display: none;" 
+      <video id="myVideo2" autoplay loop muted aria-hidden="true"
+        style="display: none;"
         class="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0 ">
         <source src="herovideo2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      
-      <video id="myVideo3" autoplay loop muted 
-        style="display: none;" 
+
+      <video id="myVideo3" autoplay loop muted aria-hidden="true"
+        style="display: none;"
         class="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0 ">
         <source src="herovideo3.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      
+
       <!-- making the background darker  -->
-      <div class="hero" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover;"></div>
+      <div class="hero" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover;" aria-hidden="true"></div>
       
       <!-- Nav Bar -->
       <div class="font-[urbanist] font-extrabold">
@@ -130,7 +137,7 @@
             </div>  
       
             <!-- Hamburger Icon-->
-            <button id="menu-btn" class="z-40 block hamburger md:hidden focus:outline-none" style="z-index: 701">
+            <button id="menu-btn" class="z-40 block hamburger md:hidden focus:outline-none" style="z-index: 701" aria-label="Toggle menu">
               <span class="hamburger-top"></span>
               <span class="hamburger-middle"></span>
               <span class="hamburger-bottom"></span>
@@ -165,48 +172,49 @@
 
 
     <!-- Thumbnails -->
-    <section id="projects" class="bg-[#1C1E1F] text-[#CCD4E3] z-50">
+    <main id="main">
+    <section id="projects" role="region" aria-label="Projects" class="bg-[#1C1E1F] text-[#CCD4E3] z-50">
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] items-center">
         
         <div class="col-span-2 md:col-span-1 bg-[#1C1E1F] flex justify-center items-center transition bg-grey-500 min-h-full text-center">
-          <p class="font-[urbanist] inline-flex font-extrabold text-xl p-11">
+          <h2 class="font-[urbanist] inline-flex font-extrabold text-xl p-11">
             Projects
-          </p>
+          </h2>
         </div>
 
         <a class="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./kosmos.html">
-          <img src="./images/kosmos_resort/thumb-dark.png" alt="kosmos website image">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
-          <div class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+          <img src="./images/kosmos_resort/thumb-dark.png" alt="Kosmos stargazing resort website showing night sky with stars and text 'Where The Stars Align With You' with Book Your Stay button">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden="true"></div>
+          <h3 class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
             "Kosmos Stargazing Resort"
             Website Redesign & Development
-          </div>
+          </h3>
           <p class="leading-tight pb-2 text-center">
-            Result: +84 % visitors
+            Result: +84 % retention, -10% bounce rate
           </p>
         </a>
 
         <a class="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="./impact-report-usletter-Dec4.pdf">
-          <img class="" src="./images/impact_report/thumbnail.png" alt="Calvin Finds mobile app thumbnail">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
-          <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+          <img class="" src="./images/impact_report/thumbnail.png" alt="Exodus Place fiscal year report cover in teal green showing text 'AUGUST 2023 to JULY 2024 END OF THE FISCAL YEAR REPORT' with QR code labeled 'Donate to Exodus Place'">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden="true"></div>
+          <h3 class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
             Exodus Place 2024
             <br/>
             Impact Report
-          </div>
+          </h3>
           <p class="p-2 leading-tight text-center">
             Result: Distributed to donor base during $835K fundraising campaign
           </p>
         </a>
 
         <a class="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./reentryguide-gr.html">
-          <img src="./images/ReentryGuide-GR/cover.png" alt="ReentryGuide GR mobile app and website cover">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
-          <div class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+          <img src="./images/ReentryGuide-GR/cover.png" alt="Hand holding smartphone displaying ReentryGuide GR app main menu with options Find Food, Clothing, Hygiene, Healthcare, and text 'YOUR LOCAL RESOURCE NAVIGATOR'">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden="true"></div>
+          <h3 class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
             "ReentryGuide GR"
-             
+
             Mobile App & Website
-          </div>
+          </h3>
           <p class="p-2 leading-tight text-center">
             Result: Fixed 2 accessibility issues, promoted by MDOC
           </p>
@@ -214,35 +222,35 @@
 
 
         <a class="items-center mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./exodusplace.org.html">
-          <img class="" src="./images/ExodusPlace.org/thumbnail.png" alt="Exodus Place website redesign thumbnail">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
-          <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+          <img class="" src="./images/ExodusPlace.org/thumbnail.png" alt="Website showing aerial view of residential buildings, headline 'Providing a hand up to the homeless', with Donate button in green">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity" aria-hidden="true"></div>
+          <h3 class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
             Exodus Place Website Redesign
-          </div>
+          </h3>
           <p class="pb-2 leading-tight text-center">
             Result: +173% Page views
           </p>
         </a>
 
         <a class="items-center mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./reentryreimagined.html">
-          <img class="" src="./images/ReentryReimagined/thumbnail.png" alt="Reentry Reimagined website redesign thumbnail">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
-          <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+          <img class="" src="./images/ReentryReimagined/thumbnail.png" alt="Website showing desktop and mobile versions with headline 'Empowering New Beginnings, Supporting Strong Futures' featuring client testimonial with photo and quote, and Donate button in brown">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity" aria-hidden="true"></div>
+          <h3 class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
             Reentry Reimagined Website Redesign
-          </div>
+          </h3>
           <p class="pb-2 leading-tight text-center mt-[-15px] mb-[15px] ">
             Result: +40% traffic
           </p>
         </a>
 
         <a class="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="./calvin-finds.html">
-          <img class="" src="./images/CalvinFinds/thumbnail.png" alt="Calvin Finds mobile app thumbnail">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
-          <div class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+          <img class="" src="./images/CalvinFinds/thumbnail.png" alt="Mobile app login screen on orange background showing app logo with illustrated character, email field, and password field">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden="true"></div>
+          <h3 class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
             Calvin Finds
             <br/>
             Mobile App
-          </div>
+          </h3>
           <p class="p-2 leading-tight text-center">
             Result: Identified and fixed 6 usability issues
           </p>
@@ -251,12 +259,13 @@
       </div>
 
     </section>
+    </main>
 
 
 
   <!-- Footer -->
-    <div id="footer-placeholder">
-    </div>
+    <footer id="footer-placeholder">
+    </footer>
 
     <!-- parallax -->
     <script>
