@@ -1,218 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/html5reset.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Urbanist Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- Poppins Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Monoton&family=Poppins:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
-    <!-- Red Hat Display Font-->
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
-    <!-- Umami -->
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="78081a86-b416-47ef-8ca6-3509cd763406"></script>
-    <title>Harry Gu - Creative Designer & Developer | Portfolio - ReentryReimagined - Brochure</title>
-    <meta name="description" content="Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.">
-    <meta name="keywords" content="Harry Gu, graphic design, web design, UI/UX design, illustration, front-end programming, web development, logo design, branding, drawing, product design, packaging design, brand identity, artwork, portfolio, creative design, visual art, contract work, remote work, freelance designer">
-    
-    <style>
-      /* Highlight current page on navbar */
-      #nav-hamburger-3,
-      #nav-3{
-        color: black;
-      }
 
-      /*include my own font */
-      @font-face {
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/html5reset.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Urbanist Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- Poppins Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Monoton&family=Poppins:wght@100;300;400;500;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Red Hat Display Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
+  <!-- Umami -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="78081a86-b416-47ef-8ca6-3509cd763406"></script>
+  <title>Harry Gu - Creative Designer & Developer | Portfolio - ReentryReimagined - Brochure</title>
+  <meta name="description"
+    content="Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.">
+  <meta name="keywords"
+    content="Harry Gu, graphic design, web design, UI/UX design, illustration, front-end programming, web development, logo design, branding, drawing, product design, packaging design, brand identity, artwork, portfolio, creative design, visual art, contract work, remote work, freelance designer">
+
+  <style>
+    /* Highlight current page on navbar */
+    #nav-hamburger-3,
+    #nav-3 {
+      color: black;
+    }
+
+    /*include my own font */
+    @font-face {
       font-family: "TerminalDisplay";
       src: url("./fonts/terminaldisplay.ttf");
-      }
-      .font-[urbanist] {
-        font-family: "TerminalDisplay";
-        letter-spacing: 1px;
-      }
-      .font-RedHatDisplay {
-        font-family: "Red Hat Display";
-      }
-      .hamburger-top,
-      .hamburger-middle,
-      .hamburger-bottom {
+    }
+
+    .font-[urbanist] {
+      font-family: "TerminalDisplay";
+      letter-spacing: 1px;
+    }
+
+    .font-RedHatDisplay {
+      font-family: "Red Hat Display";
+    }
+
+    .hamburger-top,
+    .hamburger-middle,
+    .hamburger-bottom {
       background: #777;
-      }
-      .bg-menu {
-        background-color: #F8F8F8;
-      }
-    </style>
-  </head>
-  <body class="relative font-RedHatDisplay font-semibold bg-[#FFF8F1]">
+    }
 
-    <!-- Nav Bar -->
-    <div class="fixed top-0 left-0 right-0 z-50">
+    .bg-menu {
+      background-color: #F8F8F8;
+    }
+  </style>
+</head>
 
-      <nav class="relative container p-7 md:text-sm">
-        <!-- Flex container -->
-        <div class="flex items-center justify-between">
-          <!-- <div class="flex items-center justify-between tracking-wider"> -->
-          <div class="">
-            <a onclick="goBackOrIndex()" href="#"class="py-2 px-6 rounded-full bg-[#FFF8F1] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] text-base hover:text-themeRed fill-black hover:fill-themeRed">
-              <svg class="inline h-3 mb-[3px]"
-                  version="1.1"
-                  x="0px"
-                  y="0px"
-                  viewBox="0 0 1000 1000"
-                  enable-background="new 0 0 1000 1000"
-                  xml:space="preserve"
-                  id="svg8"
-                  sodipodi:docname="8f9ca05567ef7fe72a25480f95fbcf90.svg"
-                  inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-                  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:svg="http://www.w3.org/2000/svg"><defs
-                  id="defs12" /><sodipodi:namedview
-                  id="namedview10"
-                  pagecolor="#ffffff"
-                  bordercolor="#000000"
-                  borderopacity="0.25"
-                  inkscape:showpageshadow="2"
-                  inkscape:pageopacity="0.0"
-                  inkscape:pagecheckerboard="0"
-                  inkscape:deskcolor="#d1d1d1"
-                  showgrid="false"
-                  inkscape:zoom="0.236"
-                  inkscape:cx="500"
-                  inkscape:cy="502.11864"
-                  inkscape:window-width="1280"
-                  inkscape:window-height="734"
-                  inkscape:window-x="0"
-                  inkscape:window-y="0"
-                  inkscape:window-maximized="1"
-                  inkscape:current-layer="svg8" />
-                <metadata
-                    id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
-                <g display="inline"
-                    id="g6"
-                    transform="matrix(-1,0,0,1,1000,0)"><path
-                      d="m 217.6,915.1 c 0,-19.2 7.2,-38.4 21.9,-53 L 601.5,500 239.5,137.9 c -29.3,-29.3 -29.3,-76.7 0,-106 29.3,-29.3 76.7,-29.3 106,0 l 415,415.1 c 29.3,29.3 29.3,76.7 0,106 l -415,415 c -29.3,29.3 -76.7,29.3 -106,0 -14.7,-14.6 -21.9,-33.8 -21.9,-52.9 z"
-                      id="path4" /></g>
-              </svg>
-                Go Back
-            </a>
-            <a href="./index.html"class="text-base">
-              <img class="inline h-7 ml-5" src="./icons/logo-01-18-black.svg" alt="HARRY GU LOGO">
-            </a>
-          </div>
+<body class="relative font-RedHatDisplay font-semibold bg-[#FFF8F1]">
+
+  <!-- Nav Bar -->
+  <header class="fixed top-0 left-0 right-0 z-50">
+
+    <nav class="relative container p-7 md:text-sm">
+      <!-- Flex container -->
+      <div class="flex items-center justify-between">
+        <!-- <div class="flex items-center justify-between tracking-wider"> -->
+        <div class="">
+          <a onclick="goBackOrIndex()" href="#"
+            class="py-2 px-6 rounded-full bg-[#FFF8F1] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] text-base hover:text-themeRed fill-black hover:fill-themeRed">
+            <svg class="inline h-3 mb-[3px]" version="1.1" x="0px" y="0px" viewBox="0 0 1000 1000"
+              enable-background="new 0 0 1000 1000" xml:space="preserve" id="svg8"
+              sodipodi:docname="8f9ca05567ef7fe72a25480f95fbcf90.svg" inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+              xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+              xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
+              xmlns:svg="http://www.w3.org/2000/svg">
+              <defs id="defs12" />
+              <sodipodi:namedview id="namedview10" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25"
+                inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0"
+                inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="0.236" inkscape:cx="500"
+                inkscape:cy="502.11864" inkscape:window-width="1280" inkscape:window-height="734" inkscape:window-x="0"
+                inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="svg8" />
+              <metadata id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+              <g display="inline" id="g6" transform="matrix(-1,0,0,1,1000,0)">
+                <path
+                  d="m 217.6,915.1 c 0,-19.2 7.2,-38.4 21.9,-53 L 601.5,500 239.5,137.9 c -29.3,-29.3 -29.3,-76.7 0,-106 29.3,-29.3 76.7,-29.3 106,0 l 415,415.1 c 29.3,29.3 29.3,76.7 0,106 l -415,415 c -29.3,29.3 -76.7,29.3 -106,0 -14.7,-14.6 -21.9,-33.8 -21.9,-52.9 z"
+                  id="path4" />
+              </g>
+            </svg>
+            Go Back
+          </a>
+          <a href="./index.html" class="text-base">
+            <img class="inline h-7 ml-5" src="./icons/logo-01-18-black.svg" alt="HARRY GU LOGO">
+          </a>
         </div>
-      </nav>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- Main content -->
+  <main id="gdthumbnails">
+    <!-- Intro -->
+    <div class="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 ">
+      <!-- text block -->
+      <div
+        class="lg:order-last md:col-span-2 lg:col-span-1 px-16 py-32 lg:py-10 flex flex-col justify-center items-start transition bg-grey-500 min-h[30px] text-center ">
+        <h1 class="text-left inline-flex flex-col">
+          <span class="font-RedHatDisplay text-black font-black text-2xl pt-5">Reentry Reimagined</span>
+          <span class="font-RedHatDisplay text-[#775022] font-black text-2xl">BROCHURE</span>
+          <span class="font-RedHatDisplay text-[#775022] font-black text-2xl">DESIGN</span>
+        </h1>
+
+        <p class="text-left inline text-base mt-5">
+          Following the <a href="/reentryreimagined.html" class="text-[#775022] underline">website redesign</a> for
+          Reentry Reimagined, the next step was bringing their new visual identity to print through a redesigned
+          brochure.
+        </p>
+      </div>
+
+      <div class="md:col-span-2 transition sm:min-h-[150px] h-fit">
+
+        <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] md:rounded-br-2xl"
+          src="./images/ReentryReimagined-Brochure/1.jpg"
+          alt="Hand holding the closed brochure showing the 'Empowering New Beginnings' cover design.">
+      </div>
+
 
     </div>
 
-    <!-- Main content -->
-    <section id="gdthumbnails">
-      <!-- Intro -->
-      <div class="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 ">
-        <!-- text block -->
-        <div class="lg:order-last md:col-span-2 lg:col-span-1 px-16 py-32 lg:py-10 flex flex-col justify-center items-start transition bg-grey-500 min-h[30px] text-center ">
-          <p class="font-RedHatDisplay text-left inline-flex text-black font-black text-2xl pt-5 ">Reentry Reimagined</p>
-          <p class="font-RedHatDisplay text-left inline-flex text-[#775022] font-black text-2xl">BROCHURE</p>
-          <p class="font-RedHatDisplay text-left inline-flex text-[#775022] font-black text-2xl">DESIGN</p>
-          
-          <p class="text-left inline text-base mt-5">
-            Following the <a href="/reentryreimagined.html" class="text-[#775022] underline">website redesign</a> for Reentry Reimagined, the next step was bringing their new visual identity to print through a redesigned brochure.
-           </p>
-        </div>
+    <!-- Application -->
+    <div class="py-10 items-center grid grid-col-1 md:grid-cols-2 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
 
-        <div class="md:col-span-2 transition sm:min-h-[150px] h-fit">
-        
-          <img class="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] md:rounded-br-2xl" src="./images/ReentryReimagined-Brochure/1.jpg" alt="">
-        </div>
+      <div
+        class="flex flex-col justify-center items-center p-9 col-span-2 md:col-span-1 row-span-2  transition sm:min-h-[150px] h-fit">
+        <div class="p-2">
+          <div>
+            <h2 class="mb-2 font-RedHatDisplay font-bold text-lg">Target Audience</h2>
+            <ul class="list-disc ml-5 p-2">
+              <li>Formerly incarcerated individuals seeking support services</li>
+              <li>Local non-profits across Michigan for potential collaborations
+                <br />
+                <br />
+              </li>
+            </ul>
+          </div>
 
-        
-      </div>
-
-      <!-- Application -->
-      <div class="py-10 items-center grid grid-col-1 md:grid-cols-2 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-
-        <div class="flex flex-col justify-center items-center p-9 col-span-2 md:col-span-1 row-span-2  transition sm:min-h-[150px] h-fit">
-          <div class="p-2">
-            <div>
-              <h1 class="mb-2 font-RedHatDisplay font-bold text-lg">Target Audience</h1>
-              <ul class="list-disc ml-5 p-2">
-                <li>Formerly incarcerated individuals seeking support services</li>
-                <li>Local non-profits across Michigan for potential collaborations
-                  <br />
-                  <br />
-                </li>
-              </ul>
-            </div>
-        
-            <div>
-              <h1 class="mb-2 font-RedHatDisplay font-bold text-lg">Design Approach</h1>
-              <ul class="list-disc ml-5 p-2">
-                <li>Minimum 16px font size for readability</li>
-                <li>Text passes contrast requirements</li>
-                <li>Matches website branding and style</li>
-              </ul>
-            </div>
+          <div>
+            <h2 class="mb-2 font-RedHatDisplay font-bold text-lg">Design Approach</h2>
+            <ul class="list-disc ml-5 p-2">
+              <li>Minimum 16px font size for readability</li>
+              <li>Text passes contrast requirements</li>
+              <li>Matches website branding and style</li>
+            </ul>
           </div>
         </div>
-
-        <div class="flex flex-col justify-center items-center p-9 col-span-2 md:col-span-1 row-span-2  transition sm:min-h-[150px] h-fit">
-          <img class="rounded-2xl" src="./images/ReentryReimagined-Brochure/2.jpg" alt="">
-        </div>
-
-        <div class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
-          <img class="rounded-2xl" src="./images/ReentryReimagined-Brochure/4.png" alt="">
-        </div>
-
-
-
-        <div class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
-          <img class="rounded-2xl" src="./images/ReentryReimagined-Brochure/3.jpg" alt="">
-        </div>
-
-        
       </div>
 
-    </section>
+      <div
+        class="flex flex-col justify-center items-center p-9 col-span-2 md:col-span-1 row-span-2  transition sm:min-h-[150px] h-fit">
+        <img class="rounded-2xl" src="./images/ReentryReimagined-Brochure/2.jpg"
+          alt="Hands holding the partially open brochure, revealing the 'Our Team' and 'About Us' panels.">
+      </div>
+
+      <div
+        class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
+        <img class="rounded-2xl" src="./images/ReentryReimagined-Brochure/4.png"
+          alt="Fully open brochure held in hands, displaying the internal 'Our Services' and statistics panels.">
+      </div>
+
+
+
+      <div
+        class="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
+        <img class="rounded-2xl" src="./images/ReentryReimagined-Brochure/3.jpg"
+          alt="Exterior view of the unfolded brochure showing the cover, back panel, and inside flap layout.">
+      </div>
+
+
+    </div>
+
+  </main>
 
   <!-- Footer -->
-    <div id="footer-placeholder">
-    </div>
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        fetch('./navbar.shtml')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('nav-placeholder').innerHTML = data;
-          });
+  <!-- Footer -->
+  <footer id="footer-placeholder" class="bg-LightGray font-[urbanist]">
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch('./navbar.shtml')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('nav-placeholder').innerHTML = data;
+        });
 
-        fetch('./footer.shtml')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('footer-placeholder').innerHTML = data;
-          });
-      });
-    </script>
-    <script>
-      function goBackOrIndex() {
-        const referrer = document.referrer;
-        const currentDomain = window.location.hostname;
-    
-        if (referrer && new URL(referrer).hostname === currentDomain) {
-          history.back();
-        } else {
-          window.location.href = 'index.html';
-        }
+      fetch('./footer.shtml')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer-placeholder').innerHTML = data;
+        });
+    });
+  </script>
+  <script>
+    function goBackOrIndex() {
+      const referrer = document.referrer;
+      const currentDomain = window.location.hostname;
+
+      if (referrer && new URL(referrer).hostname === currentDomain) {
+        history.back();
+      } else {
+        window.location.href = 'index.html';
       }
-    </script>
-    
+    }
+  </script>
 
-  </body>
+
+</body>
+
 </html>
