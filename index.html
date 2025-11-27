@@ -1,192 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/html5reset.css">
-    <link rel="stylesheet" href="css/main.css">
-    <!-- Photoswipe -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.css">
-    <link rel="stylesheet" href="./photoswipe-dynamic-caption-plugin.css">
-    <!-- swiper.js -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <!-- Lenis -->
-    <!-- <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script>  -->
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Default font -->
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- monospace font -->
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <!-- icon -->
-    <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
-    <!-- Umami -->
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="78081a86-b416-47ef-8ca6-3509cd763406"></script>
-    <title>Harry Gu - Creative Designer & Developer | Portfolio - Home</title>
-    <meta name="description" content="Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.">
-    <meta name="keywords" content="Harry Gu, graphic design, web design, UI/UX design, illustration, front-end programming, web development, logo design, branding, drawing, product design, packaging design, brand identity, artwork, portfolio, creative design, visual art, contract work, remote work, freelance designer">
-    
-    <style>
-      /*include my own font */
-      @font-face {
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/html5reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Photoswipe -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.css">
+  <link rel="stylesheet" href="./photoswipe-dynamic-caption-plugin.css">
+  <!-- swiper.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- Lenis -->
+  <!-- <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script>  -->
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Default font -->
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- monospace font -->
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <!-- icon -->
+  <link rel="icon" type="image/x-icon" href="./icons/favicon.png">
+  <!-- Umami -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="78081a86-b416-47ef-8ca6-3509cd763406"></script>
+  <title>Harry Gu - Creative Designer & Developer | Portfolio - Home</title>
+  <meta name="description"
+    content="Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.">
+  <meta name="keywords"
+    content="Harry Gu, graphic design, web design, UI/UX design, illustration, front-end programming, web development, logo design, branding, drawing, product design, packaging design, brand identity, artwork, portfolio, creative design, visual art, contract work, remote work, freelance designer">
+
+  <style>
+    /*include my own font */
+    @font-face {
       font-family: "TerminalDisplay";
       src: url("./fonts/terminaldisplay.ttf");
-      }
-      .font-terminal {
-        font-family: "TerminalDisplay";
-        letter-spacing: 1px;
-      }
-      html {
-        scroll-behavior: smooth;
-      }
-      /* Highlight current page on navbar */
-      #nav-hamburger-1,
-      #nav-1{
-        color: #fff;
-      }
+    }
 
-      .hamburger-top,
-      .hamburger-middle,
-      .hamburger-bottom {
+    .font-terminal {
+      font-family: "TerminalDisplay";
+      letter-spacing: 1px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Highlight current page on navbar */
+    #nav-hamburger-1,
+    #nav-1 {
+      color: #fff;
+    }
+
+    .hamburger-top,
+    .hamburger-middle,
+    .hamburger-bottom {
       background: #CCD4E3;
+    }
+
+    html,
+    html body {
+      height: auto;
+    }
+
+    @media (max-width: 767px) {
+
+      #myVideo1,
+      #myVideo2,
+      #myVideo3 {
+        /* position: relative; */
+        object-position: calc(50% + 40px) center;
       }
+    }
+  </style>
 
-      html, html body {
-        height: auto;
-      }
+</head>
 
-      @media (max-width: 767px) {
-        #myVideo1,
-        #myVideo2,
-        #myVideo3 {
-          /* position: relative; */
-          object-position: calc(50% + 40px) center;
-        }
-      }
+<body class="font-[urbanist] font-semibold bg-[#1E2128]">
 
-    </style>
+  <!-- Skip to main content link -->
+  <a href="#main"
+    class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[1000] focus:bg-veryDarkBlue focus:text-white focus:px-4 focus:py-2 focus:rounded">Skip
+    to main content</a>
 
-  </head>
-  <body class="font-[urbanist] font-semibold bg-[#1E2128]">
+  <!-- loading screen -->
+  <div id="loadingScreen" class="font-terminal "
+    style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; display: flex; justify-content: center; align-items: center; z-index: 1000; opacity: 1; transition: opacity 0.5s ease;">
+    <p id="loadingText" style="color: #CCD4E3; font-size: 2em;">Loading 0%</p>
+  </div>
 
-    <!-- Skip to main content link -->
-  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[1000] focus:bg-veryDarkBlue focus:text-white focus:px-4 focus:py-2 focus:rounded">Skip to main content</a>
+  <!-- hero section -->
+  <section id="hero" role="banner"
+    class="box-border min-h-[600px] max-h-[800px] h-[75vh] md:h-screen relative overflow-hidden bg-[#1C1E1F]">
 
-    <!-- loading screen -->
-    <div id="loadingScreen" class="font-terminal " style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; display: flex; justify-content: center; align-items: center; z-index: 1000; opacity: 1; transition: opacity 0.5s ease;">
-      <p id="loadingText" style="color: #CCD4E3; font-size: 2em;">Loading 0%</p>
-    </div>
+    <!-- Screen reader accessible heading -->
+    <h1 class="sr-only">I'm Harry Gu. I'm a UI/UX Designer, Front-End Developer, and Graphic Designer</h1>
 
-    <!-- hero section -->
-    <section id="hero" role="banner" class="box-border min-h-[600px] max-h-[800px] h-[75vh] md:h-screen relative overflow-hidden bg-[#1C1E1F]">
+    <!-- video -->
+    <video id="myVideo1" autoplay loop muted aria-hidden="true"
+      class="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0 ">
+      <source src="herovideo1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 
-      <!-- Screen reader accessible heading -->
-      <h1 class="sr-only">I'm Harry Gu. I'm a UI/UX Designer, Front-End Developer, and Graphic Designer</h1>
+    <video id="myVideo2" autoplay loop muted aria-hidden="true" style="display: none;"
+      class="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0 ">
+      <source src="herovideo2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 
-      <!-- video -->
-      <video id="myVideo1" autoplay loop muted aria-hidden="true"
-        class="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0 ">
-        <source src="herovideo1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <video id="myVideo3" autoplay loop muted aria-hidden="true" style="display: none;"
+      class="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0 ">
+      <source src="herovideo3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 
-      <video id="myVideo2" autoplay loop muted aria-hidden="true"
-        style="display: none;"
-        class="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0 ">
-        <source src="herovideo2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <!-- making the background darker  -->
+    <div class="hero" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover;"
+      aria-hidden="true"></div>
 
-      <video id="myVideo3" autoplay loop muted aria-hidden="true"
-        style="display: none;"
-        class="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0 ">
-        <source src="herovideo3.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-
-      <!-- making the background darker  -->
-      <div class="hero" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover;" aria-hidden="true"></div>
-      
-      <!-- Nav Bar -->
-      <div class="font-[urbanist] font-extrabold">
-        <nav class="relative container mx-auto text-gray-400 ">
-          <!-- Flex container -->
-          <div class="flex items-center justify-between max-w-[600px] mt-[8vh] md:mt-[7vh] mx-6 md:ml-10 lg:ml-20  ">
-            <!-- <div class="flex items-center justify-between tracking-wider"> -->
-            <!-- logo -->
-            <div style="z-index: 701">
-                <a href="./index.html"class="text-base">
-                  <img class="inline h-7 opacity-40" src="./icons/logo-9-21-colored.svg" alt="HARRY GU LOGO">
-                </a>
-            </div>
-            <!-- menu items -->
-            <div class="hidden space-x-12 md:flex" style="z-index: 701">
-              <a href="./index.html" id="nav-1" class="hover:text-themeRed">Home</a>
-              <a href="./index.html#projects" onclick="lenis.scrollTo('#projects')" id="nav-3" class="hover:text-themeRed">Projects</a>
-              <a href="./archive.html" id="nav-2" class="hover:text-themeRed">Archive</a>
-            </div>
-            <div class="hidden space-x-3 md:flex" style="z-index: 701">
-              <a href="https://www.linkedin.com/in/harrygu-ux/"class="text-base">
-                <img class="inline h-7" src="./icons/linkedin-hero.svg" alt="LinkedIn">
-              </a>
-              <a href="https://github.com/harryg02"class="text-base">
-                <img class="inline h-7" src="./icons/github-hero.svg" alt="github">
-              </a>
-            </div>  
-      
-            <!-- Hamburger Icon-->
-            <button id="menu-btn" class="z-40 block hamburger md:hidden focus:outline-none" style="z-index: 701" aria-label="Toggle menu">
-              <span class="hamburger-top"></span>
-              <span class="hamburger-middle"></span>
-              <span class="hamburger-bottom"></span>
-            </button>
+    <!-- Nav Bar -->
+    <div class="font-[urbanist] font-extrabold">
+      <nav class="relative container mx-auto text-gray-400 ">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between max-w-[600px] mt-[8vh] md:mt-[7vh] mx-6 md:ml-10 lg:ml-20  ">
+          <!-- <div class="flex items-center justify-between tracking-wider"> -->
+          <!-- logo -->
+          <div style="z-index: 701">
+            <a href="./index.html" class="text-base">
+              <img class="inline h-7 opacity-40" src="./icons/logo-9-21-colored.svg" alt="HARRY GU LOGO">
+            </a>
           </div>
-      
-        </nav>
-        <!-- mobile menus has a fixed position. has extra padding on the top to make the top bar black
+          <!-- menu items -->
+          <div class="hidden space-x-12 md:flex" style="z-index: 701">
+            <a href="./index.html" id="nav-1" class="hover:text-themeRed">Home</a>
+            <a href="./index.html#projects" onclick="lenis.scrollTo('#projects')" id="nav-3"
+              class="hover:text-themeRed">Projects</a>
+            <a href="./archive.html" id="nav-2" class="hover:text-themeRed">Archive</a>
+          </div>
+          <div class="hidden space-x-3 md:flex" style="z-index: 701">
+            <a href="https://www.linkedin.com/in/harrygu-ux/" class="text-base">
+              <img class="inline h-7" src="./icons/linkedin-hero.svg" alt="LinkedIn Profile">
+            </a>
+            <a href="https://github.com/harryg02" class="text-base">
+              <img class="inline h-7" src="./icons/github-hero.svg" alt="GitHub Profile">
+            </a>
+          </div>
+
+          <!-- Hamburger Icon-->
+          <button id="menu-btn" class="z-40 block hamburger md:hidden focus:outline-none" style="z-index: 701"
+            aria-label="Toggle menu">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+
+      </nav>
+      <!-- mobile menus has a fixed position. has extra padding on the top to make the top bar black
           when showing the menu. changed z index of logo and hamburger icon to make them appear on the top of the box. -->
-        <div class="md:hidden">
-          <div id="menu" class="absolute w-[100vw] flex-col items-center hidden self-end 
+      <div class="md:hidden">
+        <div id="menu" class="absolute w-[100vw] flex-col items-center hidden self-end 
           py-16 space-y-10 font-bold text-darkGray
             bg-menu animate-open-menu text-base pt-36 -top-1" style="z-index: 700">
-            <a href="./index.html" id="nav-hamburger-1" class="hover:text-themeRed">Home</a>
-            <a href="./index.html#projects" id="nav-hamburger-3" class="hover:text-themeRed">Projects</a>
-            <a href="./archive.html" id="nav-hamburger-2" class="hover:text-themeRed">Archive</a>
-            <div>
-              <a href="https://www.linkedin.com/in/harrygu-ux/"class="text-base">
-                <img class="inline h-8" src="./icons/linkedin-hero.svg" alt="LinkedIn">
-              </a>
-              <a href="https://github.com/harryg02"class="text-base">
-                <img class="inline h-8" src="./icons/github-hero.svg" alt="GitHub">
-              </a>
-            </div>
+          <a href="./index.html" id="nav-hamburger-1" class="hover:text-themeRed">Home</a>
+          <a href="./index.html#projects" id="nav-hamburger-3" class="hover:text-themeRed">Projects</a>
+          <a href="./archive.html" id="nav-hamburger-2" class="hover:text-themeRed">Archive</a>
+          <div>
+            <a href="https://www.linkedin.com/in/harrygu-ux/" class="text-base">
+              <img class="inline h-8" src="./icons/linkedin-hero.svg" alt="LinkedIn Profile">
+            </a>
+            <a href="https://github.com/harryg02" class="text-base">
+              <img class="inline h-8" src="./icons/github-hero.svg" alt="GitHub Profile">
+            </a>
           </div>
         </div>
-      
-        <script src="js/script.js"></script>
       </div>
 
-    </section>
+      <script src="js/script.js"></script>
+    </div>
+
+  </section>
 
 
-    <!-- Thumbnails -->
-    <main id="main">
+  <!-- Thumbnails -->
+  <main id="main">
     <section id="projects" role="region" aria-label="Projects" class="bg-[#1C1E1F] text-[#CCD4E3] z-50">
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] items-center">
-        
-        <div class="col-span-2 md:col-span-1 bg-[#1C1E1F] flex justify-center items-center transition bg-grey-500 min-h-full text-center">
+
+        <div
+          class="col-span-2 md:col-span-1 bg-[#1C1E1F] flex justify-center items-center transition bg-grey-500 min-h-full text-center">
           <h2 class="font-[urbanist] inline-flex font-extrabold text-xl p-11">
             Projects
           </h2>
         </div>
 
         <a class="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./kosmos.html">
-          <img src="./images/kosmos_resort/thumb-dark.png" alt="Kosmos stargazing resort website showing night sky with stars and text 'Where The Stars Align With You' with Book Your Stay button">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden="true"></div>
-          <h3 class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+          <img src="./images/kosmos_resort/thumb-dark.png"
+            alt="Desktop and mobile mockups featuring a starry night interface theme.">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden="true">
+          </div>
+          <h3
+            class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
             "Kosmos Stargazing Resort"
             Website Redesign & Development
           </h3>
@@ -196,11 +214,14 @@
         </a>
 
         <a class="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="./impact-report-usletter-Dec4.pdf">
-          <img class="" src="./images/impact_report/thumbnail.png" alt="Exodus Place fiscal year report cover in teal green showing text 'AUGUST 2023 to JULY 2024 END OF THE FISCAL YEAR REPORT' with QR code labeled 'Donate to Exodus Place'">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden="true"></div>
-          <h3 class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+          <img class="" src="./images/impact_report/thumbnail.png"
+            alt="Teal fiscal year report cover featuring a donation QR code.">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden="true">
+          </div>
+          <h3
+            class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
             Exodus Place 2024
-            <br/>
+            <br />
             Impact Report
           </h3>
           <p class="p-2 leading-tight text-center">
@@ -209,9 +230,12 @@
         </a>
 
         <a class="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./reentryguide-gr.html">
-          <img src="./images/ReentryGuide-GR/cover.png" alt="Hand holding smartphone displaying ReentryGuide GR app main menu with options Find Food, Clothing, Hygiene, Healthcare, and text 'YOUR LOCAL RESOURCE NAVIGATOR'">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden="true"></div>
-          <h3 class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+          <img src="./images/ReentryGuide-GR/cover.png"
+            alt="Smartphone held in hand displaying the app's main menu interface.">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden="true">
+          </div>
+          <h3
+            class="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
             "ReentryGuide GR"
 
             Mobile App & Website
@@ -222,10 +246,14 @@
         </a>
 
 
-        <a class="items-center mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./exodusplace.org.html">
-          <img class="" src="./images/ExodusPlace.org/thumbnail.png" alt="Website showing aerial view of residential buildings, headline 'Providing a hand up to the homeless', with Donate button in green">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity" aria-hidden="true"></div>
-          <h3 class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+        <a class="items-center mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl"
+          href="./exodusplace.org.html">
+          <img class="" src="./images/ExodusPlace.org/thumbnail.png"
+            alt="Dark-themed website redesign showing an aerial view of the facility.">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity" aria-hidden="true">
+          </div>
+          <h3
+            class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
             Exodus Place Website Redesign
           </h3>
           <p class="pb-2 leading-tight text-center">
@@ -233,10 +261,14 @@
           </p>
         </a>
 
-        <a class="items-center mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="./reentryreimagined.html">
-          <img class="" src="./images/ReentryReimagined/thumbnail.png" alt="Website showing desktop and mobile versions with headline 'Empowering New Beginnings, Supporting Strong Futures' featuring client testimonial with photo and quote, and Donate button in brown">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity" aria-hidden="true"></div>
-          <h3 class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+        <a class="items-center mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl"
+          href="./reentryreimagined.html">
+          <img class="" src="./images/ReentryReimagined/thumbnail.png"
+            alt="Earth-toned website layout displayed on desktop and mobile screens.">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity" aria-hidden="true">
+          </div>
+          <h3
+            class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
             Reentry Reimagined Website Redesign
           </h3>
           <p class="pb-2 leading-tight text-center mt-[-15px] mb-[15px] ">
@@ -245,11 +277,14 @@
         </a>
 
         <a class="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="./calvin-finds.html">
-          <img class="" src="./images/CalvinFinds/thumbnail.png" alt="Mobile app login screen on orange background showing app logo with illustrated character, email field, and password field">
-          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden="true"></div>
-          <h3 class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+          <img class="" src="./images/CalvinFinds/thumbnail.png"
+            alt="Mobile login screen featuring a flat illustration on an orange background.">
+          <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden="true">
+          </div>
+          <h3
+            class="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
             Calvin Finds
-            <br/>
+            <br />
             Mobile App
           </h3>
           <p class="p-2 leading-tight text-center">
@@ -260,114 +295,115 @@
       </div>
 
     </section>
-    </main>
+  </main>
 
 
 
   <!-- Footer -->
-    <footer id="footer-placeholder" class="bg-LightGray font-[urbanist]">
-    </footer>
+  <footer id="footer-placeholder" class="bg-LightGray font-[urbanist]">
+  </footer>
 
-    <!-- parallax -->
-    <script>
-      window.addEventListener('scroll', function() {
-        const offset = window.pageYOffset;
-        const parallaxContainer = document.getElementById('hero');
+  <!-- parallax -->
+  <script>
+    window.addEventListener('scroll', function () {
+      const offset = window.pageYOffset;
+      const parallaxContainer = document.getElementById('hero');
 
-        // Adjust this speed factor to make it move slower (e.g., 0.3 for slower, 0.5 for faster)
-        parallaxContainer.style.transform = `translateY(${offset * 0.3}px)`;
+      // Adjust this speed factor to make it move slower (e.g., 0.3 for slower, 0.5 for faster)
+      parallaxContainer.style.transform = `translateY(${offset * 0.3}px)`;
+    });
+  </script>
+
+  <!-- Loading Screen and Change hero video every 3 seconds -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var loadingText = document.getElementById('loadingText');
+      var resources = [...document.images, ...document.getElementsByTagName('video')];
+      var totalResources = resources.length;
+      var loadedResources = 0;
+
+      // Update loading percentage
+      function updateLoadingPercentage() {
+        var percentage = Math.round((loadedResources / totalResources) * 100);
+        loadingText.textContent = 'Loading ' + percentage + '%';
+      }
+
+      // Function to call when a resource is loaded
+      function resourceLoaded() {
+        loadedResources++;
+        updateLoadingPercentage();
+        if (loadedResources === totalResources) {
+          // All resources are loaded, hide loading screen
+          document.getElementById('loadingScreen').style.opacity = '0';
+          setTimeout(function () {
+            document.getElementById('loadingScreen').style.display = 'none';
+            startBackgroundChange(); // Start background change script
+          }, 500); // Adjust this value to match the fade-out transition time
+        }
+      }
+
+      // Add event listeners to each resource
+      resources.forEach(resource => {
+        if (resource.tagName === 'IMG' && resource.complete ||
+          resource.tagName === 'VIDEO' && resource.readyState >= 4) {
+          // Resource is already loaded
+          resourceLoaded();
+        } else {
+          // Wait for the resource to load
+          resource.addEventListener('load', resourceLoaded, { once: true });
+          resource.addEventListener('canplaythrough', resourceLoaded, { once: true });
+          resource.addEventListener('error', resourceLoaded, { once: true }); // Handle load errors
+        }
       });
-    </script>
 
-    <!-- Loading Screen and Change hero video every 3 seconds -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        var loadingText = document.getElementById('loadingText');
-        var resources = [...document.images, ...document.getElementsByTagName('video')];
-        var totalResources = resources.length;
-        var loadedResources = 0;
+      function startBackgroundChange() {
+        var videoOverlays = [
+          document.getElementById('myVideo1'),
+          document.getElementById('myVideo2'),
+          document.getElementById('myVideo3')
+        ];
+        var currentIndex = 0;
 
-        // Update loading percentage
-        function updateLoadingPercentage() {
-          var percentage = Math.round((loadedResources / totalResources) * 100);
-          loadingText.textContent = 'Loading ' + percentage + '%';
-        }
+        function changeBackgroundVideo() {
+          // Show the next video
+          currentIndex = (currentIndex + 1) % videoOverlays.length;
+          videoOverlays[currentIndex].style.display = 'block';
 
-        // Function to call when a resource is loaded
-        function resourceLoaded() {
-          loadedResources++;
-          updateLoadingPercentage();
-          if (loadedResources === totalResources) {
-            // All resources are loaded, hide loading screen
-            document.getElementById('loadingScreen').style.opacity = '0';
-            setTimeout(function() {
-              document.getElementById('loadingScreen').style.display = 'none';
-              startBackgroundChange(); // Start background change script
-            }, 500); // Adjust this value to match the fade-out transition time
+          // After showing the last video, reset all back to the first video
+          if (currentIndex === videoOverlays.length - 1) {
+            setTimeout(function () {
+              videoOverlays.forEach(function (overlay, index) {
+                overlay.style.display = index === 0 ? 'block' : 'none';
+              });
+              currentIndex = 0;
+            }, 3000); // Reset after the last video has been displayed for 3 seconds
           }
         }
 
-        // Add event listeners to each resource
-        resources.forEach(resource => {
-          if (resource.tagName === 'IMG' && resource.complete ||
-              resource.tagName === 'VIDEO' && resource.readyState >= 4) {
-            // Resource is already loaded
-            resourceLoaded();
-          } else {
-            // Wait for the resource to load
-            resource.addEventListener('load', resourceLoaded, { once: true });
-            resource.addEventListener('canplaythrough', resourceLoaded, { once: true });
-            resource.addEventListener('error', resourceLoaded, { once: true }); // Handle load errors
-          }
+        // Start the cycle of changing videos every 3 seconds
+        setInterval(changeBackgroundVideo, 3000);
+      }
+    });
+  </script>
+
+  <!-- load navbar and footer -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch('./navbar.shtml')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('nav-placeholder').innerHTML = data;
         });
 
-        function startBackgroundChange() {
-          var videoOverlays = [
-            document.getElementById('myVideo1'),
-            document.getElementById('myVideo2'),
-            document.getElementById('myVideo3')
-          ];
-          var currentIndex = 0;
-
-          function changeBackgroundVideo() {
-            // Show the next video
-            currentIndex = (currentIndex + 1) % videoOverlays.length;
-            videoOverlays[currentIndex].style.display = 'block';
-
-            // After showing the last video, reset all back to the first video
-            if (currentIndex === videoOverlays.length - 1) {
-              setTimeout(function() {
-                videoOverlays.forEach(function(overlay, index) {
-                  overlay.style.display = index === 0 ? 'block' : 'none';
-                });
-                currentIndex = 0;
-              }, 3000); // Reset after the last video has been displayed for 3 seconds
-            }
-          }
-
-          // Start the cycle of changing videos every 3 seconds
-          setInterval(changeBackgroundVideo, 3000);
-        }
-      });
-    </script>
-
-    <!-- load navbar and footer -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        fetch('./navbar.shtml')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('nav-placeholder').innerHTML = data;
-          });
-
-        fetch('./footer.shtml')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('footer-placeholder').innerHTML = data;
-          });
-      });
-    </script>
+      fetch('./footer.shtml')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer-placeholder').innerHTML = data;
+        });
+    });
+  </script>
 
 
-  </body>
+</body>
+
 </html>
