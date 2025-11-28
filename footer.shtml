@@ -4,12 +4,10 @@
   <div class="basis-2/3 py-10 md:px-10 md:py-0">
     <h2 class="text-gray-900 font-[urbanist] font-extrabold text-lg leading-8">About Me</h2>
     <p class="text-base font-semibold">
-      I'm Harry Gu, a Graphic Designer and Front-End Developer focused on delivering results. I specialize in strategic
-      mobile and web redesigns that drive growth,
-      achieving outcomes like a 173% increase in page views and a 40% boost in traffic for my clients. Combining skills
-      in User Experience, Development, and graphic design,
-      I create impactful digital experiences. Fluent in English and Mandarin Chinese. Currently studying at University
-      of Michigan School of Information - MS in information with User-Centered Agile Development Pathway.
+      I'm Harry Gu, a designer who codes. I specialize in accessible and elegant digital experiences — from React Native
+      apps for formerly incarcerated individuals to data visualizations for nonprofit fundraising campaigns. My work has
+      driven 173% traffic growth for organizations serving marginalized communities. BFA in Graphic Design at Calvin
+      University, MS in Information at University of Michigan - Ann Arbor. Fluent in English and Mandarin.
     </p>
   </div>
   <!-- Right item -->
