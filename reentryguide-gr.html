@@ -159,6 +159,30 @@
 
     </section>
 
+    <!-- Community Embeddedness -->
+    <section class="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+      <div class="max-w-[1200px] m-auto px-6 py-10 flex justify-center">
+        <div
+          class="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 sm:px-8 py-12 max-w-xl">
+          <div class="flex flex-row py-3">
+            <h2 class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+              Designing With, Not For
+            </h2>
+          </div>
+          <p class="inline-flex md:text-sm py-2 mb-5">
+            To design with formerly incarcerated individuals, I didn't start with wireframes—I started by showing up.
+            For
+            3 months, I voluntarily attended weekly meetings with C.L.E.A.R., a community group of 20+ formerly
+            incarcerated people in Grand Rapids. I listened to their stories, learned that many had never owned a
+            smartphone before and during prison, and discovered that some had cognitive disabilities that made complex
+            navigation
+            overwhelming. By the time I opened Figma, I wasn't designing for an abstract "user with low digital
+            literacy." I was designing for people I knew by name.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- p2 -->
     <section class="bg-[#FDDEBA] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
 
@@ -233,92 +257,50 @@
       </div>
     </section>
 
-    <!-- p3 -->
-    <section class="bg-[#FDDEBA] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-
-      <div class=" max-w-[1200px] m-auto px-6 pb-20 grid grid-col-1 lg:grid-cols-2 ">
-
+    <!-- Inclusive Design Approach -->
+    <section class="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+      <div class="max-w-[1200px] m-auto px-6 py-10 grid grid-col-1">
         <div
-          class="flex flex-col justify-center items-center  p-2 col-span-1 row-span-1 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
-          <img src="/images/ReentryGuide-GR/stack.svg" alt="Logos: Trello, React Native, Expo, Yarn, GitHub.">
-        </div>
-        <!-- text block -->
-        <div
-          class=" col-span-1 row-span-2 lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 sm:px-16 max-w-xl">
-
-          <h2 class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
-            Technology Stack Evaluation
-          </h2>
+          class="col-span-1 lg:mx-[9vh] flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 sm:px-8 py-12 max-w-3xl">
+          <div class="flex flex-row py-3">
+            <h2 class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+              Inclusive Design Approach
+            </h2>
+          </div>
+          <p class="inline-flex md:text-sm py-2 mb-5">
+            Our users included people with cognitive disabilities, limited smartphone experience, and motor
+            difficulties. Every design decision prioritized their needs:
+          </p>
           <ul class="list-none">
             <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              Agile methodology for software development. Utilized Scrum framework for iterative and incremental
-              development.
+              <strong>Reduced Cognitive Load</strong>: Limited options per screen to minimize overwhelm
             </li>
             <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              Trello for agile project management, Used for backlog management and sprint tracking.
+              <strong>Motor Accessibility</strong>: Large buttons spanning full screen width, placed in thumb zones for
+              one-handed use
             </li>
             <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              Github for hosting git repository
+              <strong>Visual Clarity</strong>: High contrast (WCAG AAA color compliance), large text (17px minimum),
+              clear visual
+              hierarchy
             </li>
             <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              <p class="pb-1">
-                React Native as framework
-              </p>
-              <ul class="list-decimal pl-3">
-                <li class="pb-1">Large Community: accessible to large amount of npm packages.</li>
-                <li class="pb-1">Cross-Platform Code: One set of code for multiple potential platforms.</li>
-              </ul>
+              <strong>Familiar Patterns</strong>: Hybrid of iOS and Fluent Design for users who might recognize
+              settings-menu patterns
             </li>
             <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              Expo for managed workflow and easy debugging on physical devices
+              <strong>Icon + Text Pairing</strong>: Every button combines icons with text labels to aid comprehension
             </li>
             <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              Yarn as local package management, as it perform better than npm
-              <br />
-              <br />
-              <br />
+              <strong>Shadow Indicators</strong>: Buttons have shadows to clearly indicate "clickability" for users
+              unfamiliar with flat design
             </li>
-
           </ul>
-          <h3>Map Integration Decision</h3>
-          <ul class="list-none">
-            <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              <p class="pb-1">
-                Options Considered:
-              </p>
-              <ol class="list-decimal pl-3">
-                <li class="pb-1">Develop a fully-featured map applications, including navigation that leads user to
-                  resources locations that provides food, clothing, etc.</li>
-                <li class="pb-1">Create an app that generates links to Google Maps with few clicks.</li>
-              </ol>
-            </li>
-
-            <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              Decision: We chose option 2 - generating links to Google Maps.
-            </li>
-
-            <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
-              <p class="pb-1">
-                Rationale:
-              </p>
-              <ul class="list-decimal pl-3">
-                <li class="pb-1">Cost-effective: Avoided expensive API costs for local bus route data</li>
-                <li class="pb-1">Sustainability: More beneficial for long-term maintenance and updates</li>
-              </ul>
-            </li>
-
-          </ul>
-
         </div>
-        <div
-          class="flex flex-col justify-center items-center p-2 col-span-1 row-span-1 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
-          <img class="rounded-xl" src="/images/ReentryGuide-GR/agile.webp"
-            alt="Circular diagram of the Agile lifecycle: Plan, Design, Develop, Test, Deploy, Review.">
-          <p class="md:text-sm p-2">(Credit: Asana)</p>
-        </div>
-
       </div>
     </section>
+
+
 
     <!-- p4  UI/UX Design Research -->
     <section class="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
@@ -354,39 +336,13 @@
             </li>
           </ul>
 
-          <h3>UI Design System Analysis</h3>
+          <h3>Why Hybrid iOS + Fluent (Not Material Design 3)</h3>
           <p class="inline-flex md:text-sm py-2">
-            We compared several prominent design systems to inform our UI decisions:
+            We evaluated iOS, Fluent Design, and Material Design 3. We rejected Material Design 3's flat aesthetic
+            because our users—many unfamiliar with modern smartphones—needed clear visual depth cues to understand what
+            was clickable. We adopted a hybrid of iOS settings patterns and Fluent Design's depth emphasis, creating
+            immediate clarity for first-time smartphone users.
           </p>
-          <ul class="list-none">
-            <li class="md:text-sm pl-3 py-1 relative before:content-['•'] before:absolute before:left-0">
-              Fluent Design (Microsoft)</li>
-            <li class="md:text-sm pl-3 py-1 relative before:content-['•'] before:absolute before:left-0">
-              iOS Design Guidelines (Apple)</li>
-            <li class="md:text-sm pl-3 py-1 relative before:content-['•'] before:absolute before:left-0">
-              Refactoring UI</li>
-            <li class="md:text-sm pl-3 py-1 relative before:content-['•'] before:absolute before:left-0">
-              Material Design 3 (Google)
-            </li>
-          </ul>
-          <p class="inline-flex md:text-sm py-2">
-            Key Decision: We adopted a hybrid approach, drawing inspiration from iOS settings menu and Fluent Design,
-            with additional accessibility design suggestions from Refactoring UI.
-            <br />
-            <br />
-          </p>
-          <p class="pb-1 md:text-sm">
-            Rationale:
-          </p>
-          <ul class="list-decimal pl-3 md:text-sm">
-            <li class="pb-1">Emphasize Depth: Created clear visual cues for clickable elements, crucial for users with
-              limited smartphone experience.</li>
-            <li class="pb-1">Avoid Confusion: Steered away from the flatter aesthetic of Material Design 3, which might
-              be less intuitive for our user base.
-              <br />
-              <br />
-            </li>
-          </ul>
 
 
         </div>
@@ -555,6 +511,16 @@
 
       <div class=" max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-3 ">
 
+        <div class="col-span-1 lg:col-span-3 py-10 text-center">
+          <h2 class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl">
+            Component Library
+          </h2>
+          <p class="md:text-sm py-2 max-w-2xl m-auto">
+            Documented typography scale, color tokens, and reusable button patterns to ensure consistency and
+            accessibility across all screens.
+          </p>
+        </div>
+
         <div
           class="flex flex-col justify-center items-center  p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
           <img src="/images/ReentryGuide-GR/Tablet-Screen-1.svg"
@@ -594,7 +560,7 @@
               40s male, formerly incarcerated (2 years ago), homeless, limited smartphone skills
             </li>
             <li class="md:text-sm py-2 relative">
-              50s male, formerly incarcerated (1 year and 7 months ago), has autism
+              <strong>50s male, formerly incarcerated (1 year and 7 months ago), has autism</strong>
             </li>
             <li class="md:text-sm py-2 relative">
               30s male, homeless, limited smartphone skills
@@ -625,6 +591,13 @@
         <div
           class=" col-span-1  lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 max-w-xl">
 
+          <h3>Key Insight: Testing with Neurodiversity</h3>
+          <p class="md:text-sm py-2">
+            "When a participant with autism struggled to understand when locations were open or closed, we changed from
+            horizontal to vertical alignment and rewrote the timing language to present tense. The confusion disappeared
+            in round 2."
+          </p>
+
           <h3>Testing Methodology</h3>
           <ul class="list-decimal pl-5 space-y-4 md:text-sm">
             <li class="mb-2">
@@ -641,38 +614,6 @@
               <ul class="list-disc pl-5 mt-1">
                 <li>Met participants near their homes or location of their choice for comfort</li>
                 <li>Provided a testing phone with preloaded app</li>
-              </ul>
-            </li>
-
-            <li class="mb-2">
-              <p class="font-semibold">User Interview:</p>
-              <ul class="list-disc pl-5 mt-1">
-                <li>Used standardized usability testing script</li>
-                <li>Guided participants through app tasks</li>
-                <li>Employed 'think-aloud' protocol for deeper insights
-                  <ul class="list-disc pl-5 mt-1">
-                    <li>Participants verbalized thoughts</li>
-                    <li>Explained screen content in their own words</li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-
-            <li class="mb-2">
-              <p class="font-semibold">Data collection:</p>
-              <ul class="list-disc pl-5 mt-1">
-                <li>Used personal phone to record:
-                  <ul class="list-disc pl-5 mt-1">
-                    <li>Verbatim quotes</li>
-                    <li>Detailed observations of user responses</li>
-                    <li>User interactions with the app and performance of doing tasks</li>
-                  </ul>
-                </li>
-                <li>Maintained natural testing environment while documenting accurately
-                  <br />
-                  <br />
-                  <br />
-                </li>
               </ul>
             </li>
           </ul>
@@ -981,6 +922,93 @@
             src="/images/ReentryGuide-GR/screenshots/Screenshot_18.png"
             alt="Mobile screen showing the Find Healthcare category menu.">
           <p class="py-3 md:text-sm">FindHealthcare.js</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- p3 (Moved) -->
+    <section class="bg-[#FDDEBA] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+
+      <div class=" max-w-[1200px] m-auto px-6 pb-20 grid grid-col-1 lg:grid-cols-2 ">
+
+        <div
+          class="flex flex-col justify-center items-center  p-2 col-span-1 row-span-1 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img src="/images/ReentryGuide-GR/stack.svg" alt="Logos: Trello, React Native, Expo, Yarn, GitHub.">
+        </div>
+        <!-- text block -->
+        <div
+          class=" col-span-1 row-span-2 lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 sm:px-16 max-w-xl">
+
+          <h2 class="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+            Technology Stack Evaluation
+          </h2>
+          <ul class="list-none">
+            <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Agile methodology for software development. Utilized Scrum framework for iterative and incremental
+              development.
+            </li>
+            <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Trello for agile project management, Used for backlog management and sprint tracking.
+            </li>
+            <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Github for hosting git repository
+            </li>
+            <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              <p class="pb-1">
+                React Native as framework
+              </p>
+              <ul class="list-decimal pl-3">
+                <li class="pb-1">Large Community: accessible to large amount of npm packages.</li>
+                <li class="pb-1">Cross-Platform Code: One set of code for multiple potential platforms.</li>
+              </ul>
+            </li>
+            <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Expo for managed workflow and easy debugging on physical devices
+            </li>
+            <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Yarn as local package management, as it perform better than npm
+              <br />
+              <br />
+              <br />
+            </li>
+
+          </ul>
+          <h3>Map Integration Decision</h3>
+          <ul class="list-none">
+            <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              <p class="pb-1">
+                Options Considered:
+              </p>
+              <ol class="list-decimal pl-3">
+                <li class="pb-1">Develop a fully-featured map applications, including navigation that leads user to
+                  resources locations that provides food, clothing, etc.</li>
+                <li class="pb-1">Create an app that generates links to Google Maps with few clicks.</li>
+              </ol>
+            </li>
+
+            <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              Decision: We chose option 2 - generating links to Google Maps.
+            </li>
+
+            <li class="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+              <p class="pb-1">
+                Rationale:
+              </p>
+              <ul class="list-decimal pl-3">
+                <li class="pb-1">Cost-effective: Avoided expensive API costs for local bus route data</li>
+                <li class="pb-1">Sustainability: More beneficial for long-term maintenance and updates</li>
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+        <div
+          class="flex flex-col justify-center items-center p-2 col-span-1 row-span-1 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
+          <img class="rounded-xl" src="/images/ReentryGuide-GR/agile.webp"
+            alt="Circular diagram of the Agile lifecycle: Plan, Design, Develop, Test, Deploy, Review.">
+          <p class="md:text-sm p-2">(Credit: Asana)</p>
         </div>
 
       </div>
