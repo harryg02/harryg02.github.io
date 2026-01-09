@@ -4,9 +4,9 @@
   <div class="basis-2/3 py-10 md:px-10 md:py-0">
     <h2 class="text-gray-900 font-[urbanist] font-extrabold text-lg leading-8">About Me</h2>
     <p class="text-base font-semibold">
-      I'm Harry Gu, a designer who codes. I specialize in accessible and elegant digital experiences — from React Native
-      apps for formerly incarcerated individuals to data visualizations for nonprofit fundraising campaigns. My work has
-      driven 173% traffic growth for organizations serving marginalized communities. BFA in Graphic Design at Calvin
+      I'm Harry Gu, a designer who codes. I start by understanding users in their environment, then translate those insights into scalable systems: design tokens, component libraries, and documentation that make accessibility the default. 
+      I prefer pragmatic simplicity. If two solutions achieve the same outcome, I choose the one that's easier to maintain, document, and scale. At Kosmos, stakeholders wanted a custom booking system. I proposed a lightweight calendar widget deep-linked to their existing engine: same UX, 80% less scope.
+      BA in Graphic Design at Calvin
       University, MS in Information at University of Michigan - Ann Arbor. Fluent in English and Mandarin.
     </p>
   </div>
