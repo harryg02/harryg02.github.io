@@ -105,10 +105,19 @@ export default function Home() {
       </section>
 
       <main id="main" className="relative z-10">
-        <section id="projects" role="region" aria-label="Projects" className="bg-[#1D1F27] py-12 px-6 md:px-10 lg:px-20">
+        <section id="projects" role="region" aria-label="Projects" className="bg-[#171921] p-6 md:px-10 lg:px-20 border-y border-gray-800">
           <h2 className="sr-only">Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-7xl mx-auto">
+          {/*
+            Bento layout (3-col desktop):
+            Row 1: [Kosmos ×2] [Impact ×1]
+            Row 2: [ALS-LM ×1] [ReentryGuide ×2]
+            Row 3: [Exodus ×1] [RR ×1] [Calvin ×1]
+            To reorder: move entries in the array below.
+            To resize: change the className col-span value.
+          */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto">
             <ProjectCard
+              className="md:col-span-2 lg:col-span-2"
               href="/kosmos"
               imageSrc="/images/kosmos_resort/thumb-dark.png"
               imageAlt="Desktop and mobile mockups featuring a starry night interface theme."
@@ -116,6 +125,7 @@ export default function Home() {
               result="Result: -10% bounce rate"
             />
             <ProjectCard
+              className="md:col-span-2 lg:col-span-1"
               href="/impact-report-usletter-Dec4.pdf"
               imageSrc="/images/impact_report/thumbnail.png"
               imageAlt="Teal fiscal year report cover featuring a donation QR code."
@@ -130,6 +140,7 @@ export default function Home() {
               result="Result: 5/5 preferred new design for donation"
             />
             <ProjectCard
+              className="md:col-span-2 lg:col-span-2"
               href="/reentryguide-gr"
               imageSrc="/images/ReentryGuide-GR/cover.png"
               imageAlt="Smartphone held in hand displaying the app's main menu interface."
