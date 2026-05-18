@@ -115,7 +115,7 @@ export default function Home() {
             To reorder: move entries in the array below.
             To resize: change the className col-span value.
           */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto border border-[rgba(204,212,227,0.1)] bg-[rgba(204,212,227,0.1)]">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto border border-[rgba(204,212,227,0.1)]">
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/kosmos"
