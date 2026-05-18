@@ -1,5 +1,6 @@
 import Script from "next/script";
 import Footer from "./components/Footer";
+import ProjectCard from "./components/ProjectCard";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -103,77 +104,59 @@ export default function Home() {
         </div>
       </section>
 
-      <main id="main">
-        <section id="projects" role="region" aria-label="Projects" className="bg-[#1C1E1F] text-[#CCD4E3] z-50">
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] items-center">
-
-            <div className="col-span-2 md:col-span-1 bg-[#1C1E1F] flex justify-center items-center transition bg-grey-500 min-h-full text-center">
-              <h2 className="font-[urbanist] inline-flex font-extrabold text-xl p-11">Projects</h2>
-            </div>
-
-            <a className="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="/kosmos">
-              <img src="/images/kosmos_resort/thumb-dark.png" alt="Desktop and mobile mockups featuring a starry night interface theme." />
-              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden={true}></div>
-              <h3 className="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
-                &quot;Kosmos Stargazing Resort&quot; Website Redesign &amp; Development
-              </h3>
-              <p className="leading-tight pb-2 text-center">Result: -10% bounce rate</p>
-            </a>
-
-            <a className="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="/impact-report-usletter-Dec4.pdf">
-              <img src="/images/impact_report/thumbnail.png" alt="Teal fiscal year report cover featuring a donation QR code." />
-              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden={true}></div>
-              <h3 className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
-                Exodus Place 2024<br />Impact Report
-              </h3>
-              <p className="p-2 leading-tight text-center">Result: Distributed to donor base during $835K fundraising campaign</p>
-            </a>
-
-            <a className="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="/als-lm">
-              <img src="/images/als-lm/cover.png" alt="two web pages on a blueprint grid" />
-              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden={true}></div>
-              <h3 className="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
-                &quot;Adult Learning Systems&quot; Website Research &amp; Redesign
-              </h3>
-              <p className="p-2 leading-tight text-center">Result: 5/5 preferred new design for donation</p>
-            </a>
-
-            <a className="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="/reentryguide-gr">
-              <img src="/images/ReentryGuide-GR/cover.png" alt="Smartphone held in hand displaying the app's main menu interface." />
-              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden={true}></div>
-              <h3 className="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
-                &quot;ReentryGuide GR&quot; Mobile App &amp; Website
-              </h3>
-              <p className="p-2 leading-tight text-center">Result: Fixed 2 usability issues, promoted by MDOC</p>
-            </a>
-
-            <a className="items-center mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="/exodusplace">
-              <img src="/images/ExodusPlace.org/thumbnail.png" alt="Dark-themed website redesign showing an aerial view of the facility." />
-              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity" aria-hidden={true}></div>
-              <h3 className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
-                Exodus Place Website Redesign
-              </h3>
-              <p className="pb-2 leading-tight text-center">Result: Implemented in 2 weeks, handled +173% traffic surge</p>
-            </a>
-
-            <a className="items-center mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="/reentryreimagined">
-              <img src="/images/ReentryReimagined/thumbnail.png" alt="Earth-toned website layout displayed on desktop and mobile screens." />
-              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity" aria-hidden={true}></div>
-              <h3 className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
-                Reentry Reimagined Website Redesign
-              </h3>
-              <p className="pb-2 leading-tight text-center mt-[-15px] mb-[15px]">Result: +40% traffic</p>
-            </a>
-
-            <a className="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="/calvin-finds">
-              <img src="/images/CalvinFinds/thumbnail.png" alt="Mobile login screen featuring a flat illustration on an orange background." />
-              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden={true}></div>
-              <h3 className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
-                Calvin Finds<br />Mobile App
-              </h3>
-              <p className="p-2 leading-tight text-center">Result: Identified and fixed 6 usability issues</p>
-            </a>
-
+      <main id="main" className="relative z-10">
+        <section id="projects" role="region" aria-label="Projects" className="bg-[#1D1F27] py-12 px-6 md:px-10 lg:px-20">
+          <h2 className="sr-only">Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-7xl mx-auto">
+            <ProjectCard
+              href="/kosmos"
+              imageSrc="/images/kosmos_resort/thumb-dark.png"
+              imageAlt="Desktop and mobile mockups featuring a starry night interface theme."
+              title='"Kosmos Stargazing Resort" Website Redesign & Development'
+              result="Result: -10% bounce rate"
+            />
+            <ProjectCard
+              href="/impact-report-usletter-Dec4.pdf"
+              imageSrc="/images/impact_report/thumbnail.png"
+              imageAlt="Teal fiscal year report cover featuring a donation QR code."
+              title="Exodus Place 2024 Impact Report"
+              result="Result: Distributed to donor base during $835K fundraising campaign"
+            />
+            <ProjectCard
+              href="/als-lm"
+              imageSrc="/images/als-lm/cover.png"
+              imageAlt="Two web pages on a blueprint grid."
+              title='"Adult Learning Systems" Website Research & Redesign'
+              result="Result: 5/5 preferred new design for donation"
+            />
+            <ProjectCard
+              href="/reentryguide-gr"
+              imageSrc="/images/ReentryGuide-GR/cover.png"
+              imageAlt="Smartphone held in hand displaying the app's main menu interface."
+              title='"ReentryGuide GR" Mobile App & Website'
+              result="Result: Fixed 2 usability issues, promoted by MDOC"
+            />
+            <ProjectCard
+              href="/exodusplace"
+              imageSrc="/images/ExodusPlace.org/thumbnail.png"
+              imageAlt="Dark-themed website redesign showing an aerial view of the facility."
+              title="Exodus Place Website Redesign"
+              result="Result: Implemented in 2 weeks, handled +173% traffic surge"
+            />
+            <ProjectCard
+              href="/reentryreimagined"
+              imageSrc="/images/ReentryReimagined/thumbnail.png"
+              imageAlt="Earth-toned website layout displayed on desktop and mobile screens."
+              title="Reentry Reimagined Website Redesign"
+              result="Result: +40% traffic"
+            />
+            <ProjectCard
+              href="/calvin-finds"
+              imageSrc="/images/CalvinFinds/thumbnail.png"
+              imageAlt="Mobile login screen featuring a flat illustration on an orange background."
+              title="Calvin Finds Mobile App"
+              result="Result: Identified and fixed 6 usability issues"
+            />
           </div>
         </section>
       </main>
