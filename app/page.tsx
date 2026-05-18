@@ -105,7 +105,7 @@ export default function Home() {
       </section>
 
       <main id="main" className="relative z-10">
-        <section id="projects" role="region" aria-label="Projects" className="bg-[#171921] p-6 md:px-10 lg:px-20 border-y border-gray-800">
+        <section id="projects" role="region" aria-label="Projects" className="bg-[#171921] p-4 border-y border-gray-800">
           <h2 className="sr-only">Projects</h2>
           {/*
             Bento layout (3-col desktop):
@@ -115,7 +115,7 @@ export default function Home() {
             To reorder: move entries in the array below.
             To resize: change the className col-span value.
           */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto border border-[rgba(204,212,227,0.1)] bg-[rgba(204,212,227,0.1)]">
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/kosmos"

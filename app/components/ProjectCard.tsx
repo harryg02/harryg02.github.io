@@ -12,13 +12,12 @@ export default function ProjectCard({ href, imageSrc, imageAlt, title, result, c
     <a
       href={href}
       className={`
-        group flex flex-col rounded-xl overflow-hidden
-        border-2 border-gray-700 bg-gray-950
+        border border-gray-700 bg-gray-950
+        group flex flex-col overflow-hidden bg-[#0f1117]
         transition-colors duration-200
-        hover:border-gray-500
+        hover:bg-[#13161f]
         focus-visible:outline-none focus-visible:ring-2
-        focus-visible:ring-[#CCD4E3] focus-visible:ring-offset-2
-        focus-visible:ring-offset-[#1D1F27]
+        focus-visible:ring-[#CCD4E3] focus-visible:ring-inset
         ${className}
       `}
     >
