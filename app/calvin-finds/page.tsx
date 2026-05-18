@@ -10,6 +10,7 @@ export default function CalvinFinds() {
   return (
     <div className="relative font-[urbanist] bg-[#EDE7E7] font-semibold">
       <style>{`
+        body { background-color: #EDE7E7; }
         /* Highlight current page on navbar */
         #nav-hamburger-3,
         #nav-3 {

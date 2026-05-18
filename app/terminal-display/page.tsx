@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 export default function TerminalDisplay() {
   return (
     <div className="font-TerminalDisplay bg-[#2E3135]">
+      <style>{`body { background-color: #2E3135; }`}</style>
       {/* Nav Bar */}
       <header className="bg-[#2E3135]">
         <nav className="relative container p-7 text-[#C4CBD9] md:text-sm font-bold">

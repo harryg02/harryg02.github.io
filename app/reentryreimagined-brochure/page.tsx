@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 export default function ReentryReimagedBrochure() {
   return (
     <div className="relative font-RedHatDisplay font-semibold bg-[#FFF8F1]">
+      <style>{`body { background-color: #FFF8F1; }`}</style>
       {/* Nav Bar */}
       <header className="fixed top-0 left-0 right-0 z-50">
         <nav className="relative container p-7 md:text-sm">

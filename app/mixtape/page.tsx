@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 export default function Mixtape() {
   return (
     <div className="relative font-[urbanist] font-semibold bg-[#D0AF40]">
+      <style>{`body { background-color: #D0AF40; }`}</style>
       {/* Nav Bar */}
       <header className="fixed top-0 left-0 right-0 z-50">
         <nav className="relative container p-7 md:text-sm font-bold ">

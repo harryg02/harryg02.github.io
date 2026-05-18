@@ -11,45 +11,10 @@ export default function Archive() {
   return (
     <div className="font-[urbanist] font-semibold bg-[#1C1E1F]">
       <style>{`
-        /*include my own font */
-        @font-face {
-          font-family: "TerminalDisplay";
-          src: url("/fonts/terminaldisplay.ttf");
-        }
-
-        .font-terminal {
-          font-family: "TerminalDisplay";
-          letter-spacing: 1px;
-        }
-
-        html {
-          scroll-behavior: smooth;
-        }
-
-        /* Highlight current page on navbar */
-        #nav-hamburger-1,
-        #nav-1 {
-          color: #fff;
-        }
-
-        .hamburger-top,
-        .hamburger-middle,
-        .hamburger-bottom {
-          background: #CCD4E3;
-        }
-
-        html,
-        html body {
-          height: auto;
-        }
-
-        @media (max-width: 767px) {
-          #myVideo1,
-          #myVideo2,
-          #myVideo3 {
-            object-position: calc(50% + 40px) center;
-          }
-        }
+        body { background-color: #1C1E1F; }
+        #nav-hamburger-1, #nav-1 { color: #fff; }
+        .hamburger-top, .hamburger-middle, .hamburger-bottom { background: #CCD4E3; }
+        html, html body { height: auto; }
       `}</style>
 
       {/* Skip to main content link */}
