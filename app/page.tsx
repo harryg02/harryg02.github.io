@@ -1,0 +1,257 @@
+import Script from "next/script";
+import Footer from "./components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Harry Gu - Creative Designer & Developer | Portfolio - Home",
+  description: "Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.",
+};
+
+export default function Home() {
+  return (
+    <div className="font-[urbanist] font-semibold bg-[#1E2128]">
+      <style>{`
+        #nav-hamburger-1, #nav-1 { color: #fff; }
+        .hamburger-top, .hamburger-middle, .hamburger-bottom { background: #CCD4E3; }
+        html, html body { height: auto; }
+        @media (max-width: 767px) {
+          #myVideo1, #myVideo2, #myVideo3 { object-position: calc(50% + 40px) center; }
+        }
+      `}</style>
+
+      <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[1000] bg-[#CCD4E3] text-black focus:px-4 focus:py-2 focus:rounded">
+        Skip to main content
+      </a>
+
+      <div id="loadingScreen" className="font-terminal" suppressHydrationWarning
+        style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "100%", background: "black", display: "flex", justifyContent: "center", alignItems: "center", zIndex: 1000, opacity: 1, transition: "opacity 0.5s ease" }}>
+        <p id="loadingText" suppressHydrationWarning style={{ color: "#CCD4E3", fontSize: "2em" }}>Loading 0%</p>
+      </div>
+
+      <section id="hero" role="banner"
+        className="box-border min-h-[600px] max-h-[800px] h-[75vh] md:h-screen relative overflow-hidden bg-[#1C1E1F]">
+
+        <h1 className="sr-only text-white bg-black">I&apos;m Harry Gu. I&apos;m a UI/UX Designer, Front-End Developer, and Graphic Designer</h1>
+
+        <video id="myVideo1" autoPlay loop muted aria-hidden={true}
+          className="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0">
+          <source src="/herovideo1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <video id="myVideo2" autoPlay loop muted aria-hidden={true} style={{ display: "none" }}
+          className="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0">
+          <source src="/herovideo2.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <video id="myVideo3" autoPlay loop muted aria-hidden={true} style={{ display: "none" }}
+          className="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0">
+          <source src="/herovideo3.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <div className="hero" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundSize: "cover" }} aria-hidden={true}></div>
+
+        <div className="font-[urbanist] font-extrabold">
+          <nav className="relative container mx-auto text-gray-400">
+            <div className="flex items-center justify-between max-w-[600px] mt-[8vh] md:mt-[7vh] mx-6 md:ml-10 lg:ml-20">
+              <div style={{ zIndex: 701 }}>
+                <a href="/" className="text-base">
+                  <img className="inline h-7 opacity-40" src="/icons/logo-9-21-colored.svg" alt="Harry Gu Logo" />
+                </a>
+              </div>
+              <div className="hidden space-x-12 md:flex" style={{ zIndex: 701 }}>
+                <a href="/" id="nav-1" className="hover:text-themeRed" aria-current="page">Home</a>
+                <a href="/#projects" id="nav-3" className="hover:text-themeRed">Projects</a>
+                <a href="/archive" id="nav-2" className="hover:text-themeRed">Archive</a>
+              </div>
+              <div className="hidden space-x-3 md:flex" style={{ zIndex: 701 }}>
+                <a href="https://www.linkedin.com/in/harrygu-ux/" className="text-base">
+                  <img className="inline h-7" src="/icons/linkedin-hero.svg" alt="LinkedIn Profile" />
+                </a>
+                <a href="https://github.com/harryg02" className="text-base">
+                  <img className="inline h-7" src="/icons/github-hero.svg" alt="GitHub Profile" />
+                </a>
+              </div>
+              <button id="menu-btn" className="z-40 block hamburger md:hidden focus:outline-none" style={{ zIndex: 701 }} aria-label="Toggle menu">
+                <span className="hamburger-top"></span>
+                <span className="hamburger-middle"></span>
+                <span className="hamburger-bottom"></span>
+              </button>
+            </div>
+          </nav>
+
+          <div className="md:hidden">
+            <div id="menu" className="absolute w-[100vw] flex-col items-center hidden self-end py-16 space-y-10 font-bold text-darkGray bg-menu animate-open-menu text-base pt-36 -top-1" style={{ zIndex: 700 }}>
+              <a href="/" id="nav-hamburger-1" className="hover:text-themeRed" aria-current="page">Home</a>
+              <a href="/#projects" id="nav-hamburger-3" className="hover:text-themeRed">Projects</a>
+              <a href="/archive" id="nav-hamburger-2" className="hover:text-themeRed">Archive</a>
+              <div>
+                <a href="https://www.linkedin.com/in/harrygu-ux/" className="text-base">
+                  <img className="inline h-8" src="/icons/linkedin-hero.svg" alt="LinkedIn Profile" />
+                </a>
+                <a href="https://github.com/harryg02" className="text-base">
+                  <img className="inline h-8" src="/icons/github-hero.svg" alt="GitHub Profile" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <Script src="/js/script.js" strategy="afterInteractive" />
+        </div>
+      </section>
+
+      <main id="main">
+        <section id="projects" role="region" aria-label="Projects" className="bg-[#1C1E1F] text-[#CCD4E3] z-50">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] items-center">
+
+            <div className="col-span-2 md:col-span-1 bg-[#1C1E1F] flex justify-center items-center transition bg-grey-500 min-h-full text-center">
+              <h2 className="font-[urbanist] inline-flex font-extrabold text-xl p-11">Projects</h2>
+            </div>
+
+            <a className="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="/kosmos">
+              <img src="/images/kosmos_resort/thumb-dark.png" alt="Desktop and mobile mockups featuring a starry night interface theme." />
+              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden={true}></div>
+              <h3 className="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                &quot;Kosmos Stargazing Resort&quot; Website Redesign &amp; Development
+              </h3>
+              <p className="leading-tight pb-2 text-center">Result: -10% bounce rate</p>
+            </a>
+
+            <a className="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="/impact-report-usletter-Dec4.pdf">
+              <img src="/images/impact_report/thumbnail.png" alt="Teal fiscal year report cover featuring a donation QR code." />
+              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden={true}></div>
+              <h3 className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                Exodus Place 2024<br />Impact Report
+              </h3>
+              <p className="p-2 leading-tight text-center">Result: Distributed to donor base during $835K fundraising campaign</p>
+            </a>
+
+            <a className="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="/als-lm">
+              <img src="/images/als-lm/cover.png" alt="two web pages on a blueprint grid" />
+              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden={true}></div>
+              <h3 className="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                &quot;Adult Learning Systems&quot; Website Research &amp; Redesign
+              </h3>
+              <p className="p-2 leading-tight text-center">Result: 5/5 preferred new design for donation</p>
+            </a>
+
+            <a className="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="/reentryguide-gr">
+              <img src="/images/ReentryGuide-GR/cover.png" alt="Smartphone held in hand displaying the app's main menu interface." />
+              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden={true}></div>
+              <h3 className="font-bold absolute inset-0 flex items-center justify-center text-white text-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                &quot;ReentryGuide GR&quot; Mobile App &amp; Website
+              </h3>
+              <p className="p-2 leading-tight text-center">Result: Fixed 2 usability issues, promoted by MDOC</p>
+            </a>
+
+            <a className="items-center mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="/exodusplace">
+              <img src="/images/ExodusPlace.org/thumbnail.png" alt="Dark-themed website redesign showing an aerial view of the facility." />
+              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity" aria-hidden={true}></div>
+              <h3 className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                Exodus Place Website Redesign
+              </h3>
+              <p className="pb-2 leading-tight text-center">Result: Implemented in 2 weeks, handled +173% traffic surge</p>
+            </a>
+
+            <a className="items-center mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl" href="/reentryreimagined">
+              <img src="/images/ReentryReimagined/thumbnail.png" alt="Earth-toned website layout displayed on desktop and mobile screens." />
+              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity" aria-hidden={true}></div>
+              <h3 className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                Reentry Reimagined Website Redesign
+              </h3>
+              <p className="pb-2 leading-tight text-center mt-[-15px] mb-[15px]">Result: +40% traffic</p>
+            </a>
+
+            <a className="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="/calvin-finds">
+              <img src="/images/CalvinFinds/thumbnail.png" alt="Mobile login screen featuring a flat illustration on an orange background." />
+              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity" aria-hidden={true}></div>
+              <h3 className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                Calvin Finds<br />Mobile App
+              </h3>
+              <p className="p-2 leading-tight text-center">Result: Identified and fixed 6 usability issues</p>
+            </a>
+
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+
+      <Script id="parallax" strategy="afterInteractive">{`
+        window.addEventListener('scroll', function() {
+          var offset = window.pageYOffset;
+          var parallaxContainer = document.getElementById('hero');
+          if (parallaxContainer) parallaxContainer.style.transform = 'translateY(' + (offset * 0.3) + 'px)';
+        });
+      `}</Script>
+
+      <Script id="loading-screen" strategy="afterInteractive">{`
+        (function() {
+          var loadingText = document.getElementById('loadingText');
+          var resources = Array.from(document.images).concat(Array.from(document.getElementsByTagName('video')));
+          var totalResources = resources.length;
+          var loadedResources = 0;
+
+          function updateLoadingPercentage() {
+            var percentage = Math.round((loadedResources / totalResources) * 100);
+            if (loadingText) loadingText.textContent = 'Loading ' + percentage + '%';
+          }
+
+          function resourceLoaded() {
+            loadedResources++;
+            updateLoadingPercentage();
+            if (loadedResources === totalResources) {
+              var screen = document.getElementById('loadingScreen');
+              if (screen) screen.style.opacity = '0';
+              setTimeout(function() {
+                if (screen) screen.style.display = 'none';
+                startBackgroundChange();
+              }, 500);
+            }
+          }
+
+          if (totalResources === 0) {
+            var screen = document.getElementById('loadingScreen');
+            if (screen) screen.style.display = 'none';
+            return;
+          }
+
+          resources.forEach(function(resource) {
+            if ((resource.tagName === 'IMG' && resource.complete) ||
+                (resource.tagName === 'VIDEO' && resource.readyState >= 4)) {
+              resourceLoaded();
+            } else {
+              resource.addEventListener('load', resourceLoaded, { once: true });
+              resource.addEventListener('canplaythrough', resourceLoaded, { once: true });
+              resource.addEventListener('error', resourceLoaded, { once: true });
+            }
+          });
+
+          function startBackgroundChange() {
+            var videoOverlays = [
+              document.getElementById('myVideo1'),
+              document.getElementById('myVideo2'),
+              document.getElementById('myVideo3')
+            ];
+            var currentIndex = 0;
+            function changeBackgroundVideo() {
+              currentIndex = (currentIndex + 1) % videoOverlays.length;
+              if (videoOverlays[currentIndex]) videoOverlays[currentIndex].style.display = 'block';
+              if (currentIndex === videoOverlays.length - 1) {
+                setTimeout(function() {
+                  videoOverlays.forEach(function(overlay, index) {
+                    if (overlay) overlay.style.display = index === 0 ? 'block' : 'none';
+                  });
+                  currentIndex = 0;
+                }, 3000);
+              }
+            }
+            setInterval(changeBackgroundVideo, 3000);
+          }
+        })();
+      `}</Script>
+    </div>
+  );
+}

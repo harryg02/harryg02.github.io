@@ -1,0 +1,198 @@
+import type { Metadata } from "next";
+import Footer from "@/app/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Harry Gu - Creative Designer & Developer | Portfolio - MixTape",
+  description:
+    "Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.",
+};
+
+export default function Mixtape() {
+  return (
+    <div className="relative font-[urbanist] font-semibold bg-[#D0AF40]">
+      {/* Nav Bar */}
+      <header className="fixed top-0 left-0 right-0 z-50">
+        <nav className="relative container p-7 md:text-sm font-bold ">
+          {/* Flex container */}
+          <div className="flex items-center justify-between">
+            <div className="">
+              <a
+                href="/"
+                className="py-2 px-6 rounded-full bg-[#D0AF40] font-black text-black drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] text-base hover:text-themeRed fill-black hover:fill-themeRed"
+              >
+                <svg
+                  className="inline h-3 mb-[3px]"
+                  version="1.1"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 1000 1000"
+                  enableBackground="new 0 0 1000 1000"
+                  xmlSpace="preserve"
+                  id="svg8"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <defs id="defs12" />
+                  <g display="inline" id="g6" transform="matrix(-1,0,0,1,1000,0)">
+                    <path
+                      d="m 217.6,915.1 c 0,-19.2 7.2,-38.4 21.9,-53 L 601.5,500 239.5,137.9 c -29.3,-29.3 -29.3,-76.7 0,-106 29.3,-29.3 76.7,-29.3 106,0 l 415,415.1 c 29.3,29.3 29.3,76.7 0,106 l -415,415 c -29.3,29.3 -76.7,29.3 -106,0 -14.7,-14.6 -21.9,-33.8 -21.9,-52.9 z"
+                      id="path4"
+                    />
+                  </g>
+                </svg>
+                Go Back
+              </a>
+              <a href="/" className="text-base">
+                <img className="inline h-7 ml-5" src="/icons/logo-01-18-black.svg" alt="Harry Gu Logo" />
+              </a>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      {/* Main content */}
+      <main id="gdthumbnails">
+        {/* Intro */}
+        <div className="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 ">
+          {/* text block */}
+          <div className="lg:order-last md:col-span-2 lg:col-span-1 px-16 py-32 lg:py-10 flex flex-col justify-center items-start transition bg-grey-500 min-h[30px] text-center ">
+            <h1 className="text-left inline-flex flex-col">
+              <span className="font-[poppins] text-black font-black text-2xl pt-5 ">MIXTAPE</span>
+              <span className="font-[poppins] text-black font-black text-2xl">PACKAGING</span>
+              <span className="font-[poppins] text-black font-black text-2xl">DESIGN</span>
+            </h1>
+
+            <p className="text-left inline-flex text-base mt-5">
+              &quot;Miscere&quot; is an album packaging design project exploring the integration of graphic design and
+              music dring 2023 spring semester.
+            </p>
+          </div>
+
+          <div className="md:col-span-2 bg-[#EDE7E7] transition sm:min-h-[150px] h-fit">
+            <img
+              className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
+              src="/images/mixtape/0-albumfinalprint_Page_1.png"
+              alt="Album cover art featuring a silhouette figure standing against a gold circle with the title 'MISCERE'."
+            />
+          </div>
+        </div>
+
+        {/* P1 */}
+        <div className="lg:pb-1 grid grid-cols-1 md:grid-cols-2 px-10 py-20">
+          <div className="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <img
+              className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
+              src="/images/mixtape/0-albumfinalprint_Page_1.png"
+              alt="Digital design of the album front cover with a central silhouette and gold circular motif."
+            />
+            <p className="text-black m-3 text-xl font-black">FRONT</p>
+          </div>
+
+          <div className="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <img
+              className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
+              src="/images/mixtape/0-albumfinalprint_Page_3.png"
+              alt="Digital design of the album back cover listing the tracklist for Side A and Side B."
+            />
+            <p className="text-black m-3 text-xl font-black">BACK</p>
+          </div>
+        </div>
+
+        {/* P2 */}
+        <div className="lg:pb-1 grid grid-cols-1 md:grid-cols-2 px-10 py-20 bg-[#FBFBE3]">
+          <div className="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <img
+              className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
+              src="/images/mixtape/0-albumfinalprint_Page_2.png"
+              alt="Illustration of a hiking backpack containing a blue mountain landscape."
+            />
+            <p className="text-black m-3 text-xl font-black">INTERIOR - LEFT</p>
+          </div>
+
+          <div className="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <img
+              className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
+              src="/images/mixtape/0-albumfinalprint_Page_4.png"
+              alt="Stylized typography design of the album title 'MISCERE' featuring a geometric logo symbol."
+            />
+            <p className="text-black m-3 text-xl font-black">INTERIOR - RIGHT</p>
+          </div>
+        </div>
+
+        {/* P3 */}
+        <div className="lg:pb-1 grid grid-cols-1 md:grid-cols-2 px-10 py-20 bg-[#FBFBE3]">
+          <div className="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <img
+              className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
+              src="/images/mixtape/insert1.png"
+              alt="Album insert art featuring a dark castle silhouette against a teal background."
+            />
+            <p className="text-black m-3 text-xl font-black">INSERT 1</p>
+          </div>
+
+          <div className="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <img
+              className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
+              src="/images/mixtape/insert2.png"
+              alt="Album insert art featuring a city skyline silhouette against a light blue background."
+            />
+            <p className="text-black m-3 text-xl font-black">INSERT 2</p>
+          </div>
+        </div>
+
+        {/* Application */}
+        <div className="py-10 items-center grid grid-col-1 sm:grid-cols-2 lg:grid-cols-4  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+          {/* text block */}
+          <div className=" col-span-1 sm:col-span-2 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12">
+            {/* title */}
+            <div className=" flex flex-row p-4">
+              <h2 className="flex flex-row items-center">
+                <span className="flex flex-col">
+                  <span className="text-gray-900 text-right font-[poppins] font-black text-xl">
+                    APPLICATION
+                    <br />
+                  </span>
+                  <span className="text-black text-right font-[poppins] font-black text-xl">IMPLEMENTATION</span>
+                </span>
+                <span className="text-[#a18843] text-6xl font-[poppins] font-black pl-2">&amp;</span>
+              </h2>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
+            <img
+              className="rounded-2xl"
+              src="/images/mixtape/photo6.jpg"
+              alt="Physical mockup of the vinyl record, open gatefold sleeve, and cassette tape arranged on a wooden surface."
+            />
+          </div>
+
+          <div className="flex flex-col justify-center items-center p-9 col-span-2 md:col-span-1 row-span-2  transition sm:min-h-[150px] h-fit">
+            <img
+              className="rounded-2xl"
+              src="/images/mixtape/photo5.jpg"
+              alt="Close-up of the 'Miscere' cassette tape packaging."
+            />
+          </div>
+
+          <div className="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
+            <img
+              className="rounded-2xl"
+              src="/images/mixtape/photo1.jpg"
+              alt="Physical printed vinyl sleeve with the record peeking out."
+            />
+          </div>
+
+          <div className="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
+            <img
+              className="rounded-2xl"
+              src="/images/mixtape/photo2.jpg"
+              alt="Interior view of the open gatefold vinyl sleeve displaying the backpack illustration and title typography."
+            />
+          </div>
+        </div>
+      </main>
+
+      <Footer />
+    </div>
+  );
+}
