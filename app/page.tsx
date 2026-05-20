@@ -138,6 +138,12 @@ export default function Home() {
 
       <Script id="parallax" strategy="afterInteractive">{`
         var navBorder = document.getElementById('nav-border');
+        var mainNav = document.getElementById('main-nav');
+        var NAV_END = 15;
+        var NAV_START = 40;
+        if (mainNav) {
+          mainNav.style.top = NAV_START + 'px';
+        }
         window.addEventListener('scroll', function() {
           var offset = window.pageYOffset;
           var parallaxContainer = document.getElementById('hero');
@@ -147,6 +153,10 @@ export default function Home() {
             var topAlpha = (0.06 + t * 0.16).toFixed(3);
             var botAlpha = (0.22 - t * 0.16).toFixed(3);
             navBorder.style.background = 'linear-gradient(to bottom, rgba(204,212,227,' + topAlpha + '), rgba(204,212,227,' + botAlpha + '))';
+          }
+          if (mainNav) {
+            var p = Math.min(offset / 80, 1);
+            mainNav.style.top = (NAV_START - (NAV_START - NAV_END) * p) + 'px';
           }
         }, { passive: true });
       `}</Script>

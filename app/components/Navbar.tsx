@@ -6,7 +6,7 @@ interface NavbarProps {
 
 export default function Navbar({ activePage = "home" }: NavbarProps) {
   return (
-    <nav className="font-[urbanist] font-extrabold fixed top-5 inset-x-0 z-[701] flex justify-center pointer-events-none">
+    <nav id="main-nav" className="font-[urbanist] font-extrabold fixed top-5 inset-x-0 z-[701] flex justify-center pointer-events-none">
       <div id="nav-border" className="pointer-events-auto p-0.5 rounded-xl" style={{background: "linear-gradient(to bottom, rgba(204,212,227,0.06), rgba(204,212,227,0.22))"}}>
       <div className="flex items-center gap-3 px-4 py-2.5 rounded-[10px] bg-[#0d0f14]/80 backdrop-blur-md text-xs text-gray-400 sm:gap-4 sm:px-5 sm:text-sm">
         <Link href="/" className="shrink-0">
