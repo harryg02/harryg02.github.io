@@ -118,9 +118,9 @@ export default function DetroitChildUsability() {
                     <span className="text-[#cbd5e1] font-medium">Harry Gu</span>,{" "}
                     Nathan Schuman, Louise Depa, Mikang Moon, Zhitai Jin
                   </p>
-                  <p className="text-sm text-[#64748b]">Date: April 20, 2026</p>
+                  <p className="text-[#94a3b8]">Date: April 20, 2026</p>
 
-                  <p className="mt-6 text-sm text-[#94a3b8] border-l-2 border-[#7eb8f7]/40 pl-4">
+                  <p className="mt-6 text-[#94a3b8] border-l-2 border-[#7eb8f7]/40 pl-4">
                     <strong className="text-[#cbd5e1]">My role:</strong> Analyzed usability testing notes, drafted the Findings section, authored Recommendations 1 and 3, and participated in 2 of the 5 test sessions.
                   </p>
                 </header>
@@ -304,14 +304,14 @@ export default function DetroitChildUsability() {
                       className="w-full rounded-lg border border-[#1e2737] my-4"
                       loading="lazy"
                     />
-                    <p className="text-sm text-[#64748b] italic">(&ldquo;Jump to a section&rdquo; can remain in the same location if the user does not scroll down)</p>
+                    <p className="text-sm text-[#94a3b8] italic">(&ldquo;Jump to a section&rdquo; can remain in the same location if the user does not scroll down)</p>
                     <img
                       src="/images/detroit-child-usability/suggestion3.1.png"
                       alt="Screenshot showing the 'Jump to a section' dropdown fixed to the top of the viewport after the user has scrolled down the page."
                       className="w-full rounded-lg border border-[#1e2737] my-4"
                       loading="lazy"
                     />
-                    <p className="text-sm text-[#64748b] italic">(&ldquo;Jump to a section&rdquo; becomes sticky on top after the user scrolls down)</p>
+                    <p className="text-sm text-[#94a3b8] italic">(&ldquo;Jump to a section&rdquo; becomes sticky on top after the user scrolls down)</p>
                   </li>
                   <li>
                     <p><strong className="text-[#f1f5f9]">Use more descriptive language for the titles of pages and tools.</strong> Renaming these features and pages to reflect their actual content will help users navigate the site and use its tools more effectively. (Such as Rename &ldquo;Topics&rdquo; to &ldquo;Methodology&rdquo;, rename &ldquo;Custom profiles&rdquo; to &ldquo;User Created Profiles.&rdquo;)</p>
@@ -431,7 +431,7 @@ export default function DetroitChildUsability() {
                 <p className="text-[#94a3b8] mb-6">
                   <strong className="text-[#cbd5e1]">Zhitai Jin:</strong> I participated in three usability testing sessions and helped write the recommendations section.
                 </p>
-                <p className="text-sm text-[#64748b]">AI was not used in the creation of this report.</p>
+                <p className="text-[#94a3b8]">AI was not used in the creation of this report.</p>
               </section>
 
               </article>
