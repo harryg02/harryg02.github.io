@@ -411,36 +411,47 @@ export default function Archive() {
         });
       `}</Script>
 
-      <script type="module" dangerouslySetInnerHTML={{ __html: `
-        import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe-lightbox.esm.js';
-        import PhotoSwipeDynamicCaption from 'https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js';
+      <Script id="photoswipe-init" strategy="afterInteractive">{`
+        (async function() {
+          const { default: PhotoSwipeLightbox } = await import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe-lightbox.esm.js');
+          const { default: PhotoSwipeDynamicCaption } = await import('https://unpkg.com/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js');
 
-        const smallScreenPadding = { top: 0, bottom: 0, left: 0, right: 0 };
-        const largeScreenPadding = { top: 30, bottom: 30, left: 0, right: 0 };
-        const lightbox = new PhotoSwipeLightbox({
-          gallerySelector: '#gallery',
-          childSelector: '.pswp-gallery__item',
-          paddingFn: (viewportSize) => {
-            return viewportSize.x < 700 ? smallScreenPadding : largeScreenPadding
-          },
-          pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.esm.js')
-        });
+          const smallScreenPadding = { top: 0, bottom: 0, left: 0, right: 0 };
+          const largeScreenPadding = { top: 30, bottom: 30, left: 0, right: 0 };
+          const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '#gallery',
+            childSelector: '.pswp-gallery__item',
+            paddingFn: (viewportSize) => {
+              return viewportSize.x < 700 ? smallScreenPadding : largeScreenPadding;
+            },
+            pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.esm.js')
+          });
 
-        const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
-          mobileLayoutBreakpoint: 700,
-          type: 'auto',
-          mobileCaptionOverlapRatio: 1
-        });
+          const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
+            mobileLayoutBreakpoint: 700,
+            type: 'auto',
+            mobileCaptionOverlapRatio: 1
+          });
 
-        lightbox.init();
-      ` }} />
+          lightbox.init();
+        })();
+      `}</Script>
 
-      <Script id="loading-screen" strategy="afterInteractive">{`
+      <Script id="loading-screen-archive" strategy="afterInteractive">{`
         (function() {
           var loadingText = document.getElementById('loadingText');
           var resources = Array.from(document.images).concat(Array.from(document.getElementsByTagName('video')));
           var totalResources = resources.length;
           var loadedResources = 0;
+          var done = false;
+
+          function hide() {
+            if (done) return;
+            done = true;
+            var screen = document.getElementById('loadingScreen');
+            if (screen) screen.style.opacity = '0';
+            setTimeout(function() { if (screen) screen.style.display = 'none'; }, 500);
+          }
 
           function updateLoadingPercentage() {
             var percentage = Math.round((loadedResources / totalResources) * 100);
@@ -450,20 +461,10 @@ export default function Archive() {
           function resourceLoaded() {
             loadedResources++;
             updateLoadingPercentage();
-            if (loadedResources === totalResources) {
-              var screen = document.getElementById('loadingScreen');
-              if (screen) screen.style.opacity = '0';
-              setTimeout(function() {
-                if (screen) screen.style.display = 'none';
-              }, 500);
-            }
+            if (loadedResources === totalResources) hide();
           }
 
-          if (totalResources === 0) {
-            var screen = document.getElementById('loadingScreen');
-            if (screen) screen.style.display = 'none';
-            return;
-          }
+          if (totalResources === 0) { hide(); return; }
 
           resources.forEach(function(resource) {
             if ((resource.tagName === 'IMG' && resource.complete) ||
@@ -475,6 +476,9 @@ export default function Archive() {
               resource.addEventListener('error', resourceLoaded, { once: true });
             }
           });
+
+          // safety fallback in case any resource event never fires
+          setTimeout(hide, 5000);
         })();
       `}</Script>
     </div>
