@@ -106,7 +106,7 @@ export default function DetroitChildUsability() {
           <main id="main-content">
             <article>
                       {/* ── Header ── */}
-            <header className="pt-15 mb-5">
+            <div className="pt-15 mb-5">
               <div className="max-w-5xl mx-auto">
                 <div className="inline-block text-xs font-semibold tracking-widest uppercase text-[#7eb8f7] border border-[#7eb8f7]/30 px-3 py-1 rounded-full mb-6">
                   UX Research · Usability Testing
@@ -130,7 +130,7 @@ export default function DetroitChildUsability() {
                   <strong className="text-[#cbd5e1]">My role:</strong> Analyzed usability testing notes, drafted the Findings section, authored Recommendations 1 and 3, and participated in 2 of the 5 test sessions.
                 </p>
               </div>
-            </header>
+            </div>
             <hr className="border-[#1e2737] my-12" />
 
               {/* ── Executive Summary ── */}
