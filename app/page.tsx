@@ -34,7 +34,7 @@ export default function Home() {
       <Navbar activePage="home" />
 
       <section id="hero" role="banner"
-        className="box-border aspect-11/16 md:aspect-15/16 lg:aspect-video relative overflow-hidden bg-[#1C1E1F]">
+        className="box-border aspect-11/16 md:aspect-square lg:aspect-video relative overflow-hidden bg-[#1C1E1F]">
 
         <h1 className="sr-only text-white bg-black">I&apos;m Harry Gu. I&apos;m a UI/UX Designer, Front-End Developer, and Graphic Designer</h1>
 
