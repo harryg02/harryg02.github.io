@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
-import Navbar from "@/app/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - ReentryReimagined - Brochure",
@@ -12,7 +11,7 @@ export default function ReentryReimagedBrochure() {
   return (
     <div className="relative font-RedHatDisplay font-semibold bg-[#FFF8F1]">
       <style>{`body { background-color: #FFF8F1; }`}</style>
-      <Navbar />
+
 
       {/* Main content */}
       <main id="gdthumbnails">

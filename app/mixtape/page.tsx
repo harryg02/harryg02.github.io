@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
-import Navbar from "@/app/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - MixTape",
@@ -12,7 +11,7 @@ export default function Mixtape() {
   return (
     <div className="relative font-[urbanist] font-semibold bg-[#D0AF40]">
       <style>{`body { background-color: #D0AF40; }`}</style>
-      <Navbar />
+
 
       {/* Main content */}
       <main id="gdthumbnails">

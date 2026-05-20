@@ -1,5 +1,4 @@
 import Script from "next/script";
-import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import type { Metadata } from "next";
 
@@ -23,7 +22,7 @@ html, html body { height: auto; }
       </a>
 
 
-      <Navbar />
+
 
       {/* Main content */}
       <main id="main">

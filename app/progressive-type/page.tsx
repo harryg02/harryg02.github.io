@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
-import Navbar from "@/app/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - Progressive Type",
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
 export default function ProgressiveType() {
   return (
     <div className="font-display bg-veryLightGray">
-      <Navbar />
+
 
       <main id="main">
         {/* Main content */}

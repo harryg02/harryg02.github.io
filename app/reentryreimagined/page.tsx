@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
-import Navbar from "@/app/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - Reentry Reimagined",
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
 export default function ReentryReimagined() {
   return (
     <div className="relative font-[manrope] font-semibold bg-[#fff]">
-      <Navbar />
+
 
       <main>
         <h1 className="sr-only">Reentry Reimagined Website Redesign - Project Case Study</h1>

@@ -1,5 +1,4 @@
 import Footer from "@/app/components/Footer";
-import Navbar from "@/app/components/Navbar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -16,7 +15,7 @@ export default function AlsLm() {
         }
       `}</style>
 
-      <Navbar />
+
 
       <main>
         {/* p1 */}

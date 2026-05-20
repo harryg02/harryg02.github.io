@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
-import Navbar from "@/app/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - Crazy Charlies",
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
 export default function CrazyCharlies() {
   return (
     <div className="font-display bg-veryLightGray">
-      <Navbar />
+
 
       <main id="main">
         {/* Main content */}

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
-import Navbar from "@/app/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - ReentryGuide GR",
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
 export default function ReentryGuideGRFlyer() {
   return (
     <div className="relative font-[manrope] font-semibold bg-[#fff]">
-      <Navbar />
+
 
       {/* p1 */}
       <main>

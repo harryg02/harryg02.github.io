@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
-import Navbar from "@/app/components/Navbar";
 
 export const metadata: Metadata = {
   title:
@@ -12,7 +11,7 @@ export const metadata: Metadata = {
 export default function Kosmos() {
   return (
     <div className="relative font-[manrope] font-semibold bg-[#fff]">
-      <Navbar />
+
 
       <main>
         <h1 className="sr-only">Kosmos Stargazing Resort Website Redesign &amp; Development - Project Case Study</h1>

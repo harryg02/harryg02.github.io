@@ -1,5 +1,4 @@
 import Footer from "@/app/components/Footer";
-import Navbar from "@/app/components/Navbar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -34,7 +33,7 @@ export default function CalvinFinds() {
         }
       `}</style>
 
-      <Navbar />
+
 
       {/* Main content */}
       <main id="gdthumbnails">

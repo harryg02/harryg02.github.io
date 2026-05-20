@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
-import Navbar from "@/app/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - Terminal Display",
@@ -12,7 +11,7 @@ export default function TerminalDisplay() {
   return (
     <div className="font-TerminalDisplay bg-[#2E3135]">
       <style>{`body { background-color: #2E3135; }`}</style>
-      <Navbar />
+
 
       <main id="main">
         {/* Main content */}

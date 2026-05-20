@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
-import Navbar from "@/app/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - E-Community-Service",
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
 export default function ECommunityServiceLogo() {
   return (
     <div className="font-display bg-veryLightGray">
-      <Navbar />
+
 
       {/* Main content */}
       <main id="gdthumbnails">
