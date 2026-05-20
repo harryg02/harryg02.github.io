@@ -15,29 +15,17 @@ export default function Navbar() {
     const border = borderRef.current;
 
     const heroHeight = document.getElementById("hero")?.offsetHeight ?? 900;
-    const phase1End = heroHeight / 3; // top brightens, bottom darkens
-    const phase2End = heroHeight + 950; // past hero: both brighten
+    const phase1End = heroHeight / 3;
 
     const onScroll = () => {
       if (!border) return;
       const offset = window.pageYOffset;
-      let top: number, bot: number;
-
-      if (offset <= phase1End) {
-        const t = offset / phase1End;
-        top = 0.06 + t * 0.16; // 0.06 → 0.22
-        bot = 0.22 - t * 0.16; // 0.22 → 0.06
-      } else if (offset <= phase2End) {
-        const t = (offset - heroHeight) / 150;
-        const t2 = Math.max(0, Math.min(t, 1));
-        top = 0.22 + t2 * 0.13; // 0.22 → 0.35
-        bot = 0.06 + t2 * 0.29; // 0.06 → 0.35
-      } else {
-        top = 0.35;
-        bot = 0.35;
-      }
-
-      border.style.background = `linear-gradient(to bottom, rgba(204,212,227,${top.toFixed(3)}), rgba(204,212,227,${bot.toFixed(3)}))`;
+      // Phase 1: scroll into hero — top brightens, bottom darkens
+      // Phase 2: scroll past hero — reverses back to original
+      const t1 = Math.min(offset / phase1End, 1);
+      const t2 = Math.min(Math.max(offset - heroHeight, 0) / 150, 1);
+      const t = t1 - t2 * t1; // unwinds phase 1 progress after hero
+      border.style.background = `linear-gradient(to bottom, rgba(204,212,227,${(0.06 + t * 0.16).toFixed(3)}), rgba(204,212,227,${(0.22 - t * 0.16).toFixed(3)}))`;
     };
 
     window.addEventListener("scroll", onScroll, { passive: true });
