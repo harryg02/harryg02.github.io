@@ -10,45 +10,7 @@ export const metadata: Metadata = {
 export default function ProgressiveType() {
   return (
     <div className="font-display bg-veryLightGray">
-      {/* Nav Bar */}
-      <header className="bg-veryLightGray">
-        <nav className="relative container p-7 text-darkGray md:text-sm font-bold">
-          {/* Flex container */}
-          <div className="flex items-center justify-between">
-            {/* logo */}
-            <div className="">
-              <a
-                href="/"
-                className="pt-2 text-base hover:text-themeRed fill-darkGray hover:fill-themeRed"
-              >
-                <svg
-                  className="inline h-3 mb-[3px]"
-                  version="1.1"
-                  x="0px"
-                  y="0px"
-                  viewBox="0 0 1000 1000"
-                  enableBackground="new 0 0 1000 1000"
-                  xmlSpace="preserve"
-                  id="svg8"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <defs id="defs12" />
-                  <g display="inline" id="g6" transform="matrix(-1,0,0,1,1000,0)">
-                    <path
-                      d="m 217.6,915.1 c 0,-19.2 7.2,-38.4 21.9,-53 L 601.5,500 239.5,137.9 c -29.3,-29.3 -29.3,-76.7 0,-106 29.3,-29.3 76.7,-29.3 106,0 l 415,415.1 c 29.3,29.3 29.3,76.7 0,106 l -415,415 c -29.3,29.3 -76.7,29.3 -106,0 -14.7,-14.6 -21.9,-33.8 -21.9,-52.9 z"
-                      id="path4"
-                    />
-                  </g>
-                </svg>
-                GO BACK
-              </a>
-              <a href="/" className="text-base">
-                <img className="inline h-7 ml-5" src="/icons/logo-01-18-black.svg" alt="Harry Gu Logo" />
-              </a>
-            </div>
-          </div>
-        </nav>
-      </header>
+
 
       <main id="main">
         {/* Main content */}

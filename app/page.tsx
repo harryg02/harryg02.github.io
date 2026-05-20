@@ -1,5 +1,4 @@
 import Script from "next/script";
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectCard from "./components/ProjectCard";
 import type { Metadata } from "next";
@@ -25,7 +24,7 @@ export default function Home() {
       </a>
 
 
-      <Navbar />
+
 
       <section id="hero" role="banner"
         className="box-border aspect-11/16 md:aspect-square lg:aspect-15/8 relative overflow-hidden bg-[#1C1E1F]">
