@@ -115,6 +115,15 @@ export default function Home() {
               title="Reentry Reimagined Website Redesign"
               result="Result: +40% traffic"
             />
+            {/* Row 5 */}
+            <ProjectCard
+              className="md:col-span-1 lg:col-span-1"
+              href="/detroit-child-usability"
+              imageSrc="/images/detroit-child-usability/suggestion1.png"
+              imageAlt="Mockup of the State of the Detroit Child homepage redesign with an embedded interactive map of Detroit prominently featured."
+              title="State of the Detroit Child Usability Analysis"
+              result="Result: 5 usability findings, 5 actionable recommendations"
+            />
           </div>
         </section>
       </main>
