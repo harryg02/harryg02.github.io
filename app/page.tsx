@@ -64,7 +64,7 @@ export default function Home() {
             Landscape thumbnails → col-span-2, portrait → row-span-2.
           */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto border border-[rgba(204,212,227,0.1)]">
-            {/* Row 1 */}
+            {/* Row 1 — Kosmos wide, Exodus tall (spills into row 2) */}
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/kosmos"
@@ -74,14 +74,14 @@ export default function Home() {
               result="Result: -10% bounce rate"
             />
             <ProjectCard
-              className="md:col-span-2 lg:col-span-1"
-              href="/impact-report-usletter-Dec4.pdf"
-              imageSrc="/images/impact_report/thumbnail.png"
-              imageAlt="Teal fiscal year report cover featuring a donation QR code."
-              title="Exodus Place 2024 Impact Report"
-              result="Result: Distributed to donor base during $835K fundraising campaign"
+              className="lg:row-span-2"
+              href="/exodusplace"
+              imageSrc="/images/ExodusPlace.org/mockup-mobile.png"
+              imageAlt="Dark-themed website redesign showing an aerial view of the facility."
+              title="Exodus Place Website Redesign"
+              result="Result: Implemented in 2 weeks, handled +173% traffic surge"
             />
-            {/* Row 2 — ALS-LM wide, Exodus tall (spills into row 3) */}
+            {/* Row 2 — ALS-LM wide, Exodus continues */}
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/als-lm"
@@ -90,15 +90,7 @@ export default function Home() {
               title='"Adult Learning Systems" Website Research & Redesign'
               result="Result: 5/5 preferred new design for donation"
             />
-            <ProjectCard
-              className="lg:row-span-2"
-              href="/exodusplace"
-              imageSrc="/images/ExodusPlace.org/mockup-mobile.png"
-              imageAlt="Dark-themed website redesign showing an aerial view of the facility."
-              title="Exodus Place Website Redesign"
-              result="Result: Implemented in 2 weeks, handled +173% traffic surge"
-            />
-            {/* Row 3 — ReentryGuide wide, Exodus continues */}
+            {/* Row 3 — ReentryGuide wide, Calvin fills col 3 */}
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/reentryguide-gr"
@@ -106,6 +98,13 @@ export default function Home() {
               imageAlt="Smartphone held in hand displaying the app's main menu interface."
               title='"ReentryGuide GR" Mobile App & Website'
               result="Result: Fixed 2 usability issues, promoted by MDOC"
+            />
+            <ProjectCard
+              href="/calvin-finds"
+              imageSrc="/images/CalvinFinds/thumbnail.png"
+              imageAlt="Mobile login screen featuring a flat illustration on an orange background."
+              title="Calvin Finds Mobile App"
+              result="Result: Identified and fixed 6 usability issues"
             />
             {/* Row 4 */}
             <ProjectCard
@@ -115,13 +114,6 @@ export default function Home() {
               imageAlt="Earth-toned website layout displayed on desktop and mobile screens."
               title="Reentry Reimagined Website Redesign"
               result="Result: +40% traffic"
-            />
-            <ProjectCard
-              href="/calvin-finds"
-              imageSrc="/images/CalvinFinds/thumbnail.png"
-              imageAlt="Mobile login screen featuring a flat illustration on an orange background."
-              title="Calvin Finds Mobile App"
-              result="Result: Identified and fixed 6 usability issues"
             />
           </div>
         </section>
