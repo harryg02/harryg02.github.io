@@ -106,6 +106,10 @@ export default function DetroitChildUsability() {
               Nathan Schuman, Louise Depa, Mikang Moon, Zhitai Jin
             </p>
             <p className="text-sm text-[#64748b]">Date: April 20, 2026</p>
+
+            <p className="mt-6 text-sm text-[#94a3b8] border-l-2 border-[#7eb8f7]/40 pl-4">
+              <strong className="text-[#cbd5e1]">My role:</strong> Analyzed usability testing notes, drafted the Findings section, authored Recommendations 1 and 3, and participated in 2 of the 5 test sessions.
+            </p>
           </div>
         </header>
 
