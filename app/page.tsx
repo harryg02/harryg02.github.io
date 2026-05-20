@@ -32,7 +32,7 @@ export default function Home() {
       <Navbar />
 
       <section id="hero" role="banner"
-        className="box-border aspect-11/16 md:aspect-square lg:aspect-video relative overflow-hidden bg-[#1C1E1F]">
+        className="box-border aspect-11/16 md:aspect-square lg:aspect-15/8 relative overflow-hidden bg-[#1C1E1F]">
 
         <h1 className="sr-only text-white bg-black">I&apos;m Harry Gu. I&apos;m a UI/UX Designer, Front-End Developer, and Graphic Designer</h1>
 
@@ -135,27 +135,9 @@ export default function Home() {
       <Footer />
 
       <Script id="parallax" strategy="afterInteractive">{`
-        var navBorder = document.getElementById('nav-border');
-        var mainNav = document.getElementById('main-nav');
-        var NAV_END = 15;
-        var NAV_START = 40;
-        if (mainNav) {
-          mainNav.style.top = NAV_START + 'px';
-        }
         window.addEventListener('scroll', function() {
-          var offset = window.pageYOffset;
           var parallaxContainer = document.getElementById('hero');
-          if (parallaxContainer) parallaxContainer.style.transform = 'translateY(' + (offset * 0.3) + 'px)';
-          if (navBorder) {
-            var t = Math.min(offset / 300, 1);
-            var topAlpha = (0.06 + t * 0.16).toFixed(3);
-            var botAlpha = (0.22 - t * 0.16).toFixed(3);
-            navBorder.style.background = 'linear-gradient(to bottom, rgba(204,212,227,' + topAlpha + '), rgba(204,212,227,' + botAlpha + '))';
-          }
-          if (mainNav) {
-            var p = Math.min(offset / 80, 1);
-            mainNav.style.top = (NAV_START - (NAV_START - NAV_END) * p) + 'px';
-          }
+          if (parallaxContainer) parallaxContainer.style.transform = 'translateY(' + (window.pageYOffset * 0.3) + 'px)';
         }, { passive: true });
       `}</Script>
 
