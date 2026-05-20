@@ -112,7 +112,7 @@ html, html body { height: auto; }
           {/* Disable swiper on mobile, use a separate 1 column view instead */}
           <div className="hidden md:flex overflow-hidden">
             <div className="thumbContainer mx-auto">
-              <div className="my-32 pb-[5em] pt-[4em]">
+              <div className="my-32 py-2em">
                 <div className="text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[44rem] lg:max-w-[65rem] xl:max-w-[85rem] m-auto">
                   <h2 className="font-[urbanist] pb-6 pl-1 font-extrabold text-xl">Drawing</h2>
                   <div className="align-baseline grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
