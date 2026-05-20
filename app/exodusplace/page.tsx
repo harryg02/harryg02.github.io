@@ -1,0 +1,470 @@
+import type { Metadata } from "next";
+import Footer from "@/app/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Harry Gu - Creative Designer & Developer | Portfolio - Exodus Place Website Redesign",
+  description:
+    "Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.",
+};
+
+export default function ExodusPlace() {
+  return (
+    <div className="relative font-['Inter'] bg-[#fff]">
+      {/* Nav Bar */}
+      <header className="fixed top-0 left-0 right-0 z-50">
+        <nav className="relative container p-7 text-white md:text-sm font-bold ">
+          {/* Flex container */}
+          <div className="flex">
+            <div className="">
+              <a
+                href="/"
+                className="py-3 px-12 pl-5 rounded-[15px] bg-[#2A2A2A] font-semibold text-[#fff] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] text-base hover:text-themeRed fill-[#fff] hover:fill-themeRed"
+              >
+                <svg
+                  className="inline h-3 mb-[3px] mr-3"
+                  version="1.1"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 1000 1000"
+                  enableBackground="new 0 0 1000 1000"
+                  xmlSpace="preserve"
+                  id="svg8"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <defs id="defs12" />
+                  <g display="inline" id="g6" transform="matrix(-1,0,0,1,1000,0)">
+                    <path
+                      d="m 217.6,915.1 c 0,-19.2 7.2,-38.4 21.9,-53 L 601.5,500 239.5,137.9 c -29.3,-29.3 -29.3,-76.7 0,-106 29.3,-29.3 76.7,-29.3 106,0 l 415,415.1 c 29.3,29.3 29.3,76.7 0,106 l -415,415 c -29.3,29.3 -76.7,29.3 -106,0 -14.7,-14.6 -21.9,-33.8 -21.9,-52.9 z"
+                      id="path4"
+                    />
+                  </g>
+                </svg>
+                Go Back
+              </a>
+              <a href="/" className="text-base">
+                <img className="inline h-7 ml-5" src="/icons/logo-9-21-colored.svg" alt="Harry Gu Logo" />
+              </a>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        {/* p1 */}
+        <section className="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 text-white bg-[#1A1A1A]">
+          {/* text block */}
+          <div className="md:col-span-3 transition sm:min-h-[150px] h-fit mt-5 mb-[-40px]">
+            <img
+              className="hidden md:block"
+              src="/images/ExodusPlace.org/mockup-large.png"
+              alt="Dark-themed homepage with aerial facility view."
+            />
+            <img
+              className="block md:hidden"
+              src="/images/ExodusPlace.org/mockup-mobile.png"
+              alt="Dark-themed homepage with aerial facility view."
+            />
+          </div>
+
+          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pt-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center ">
+            <h1 className="font-['Montserrat'] text-left inline-flex font-bold text-2xl text-[#72D976]">
+              Exodus Place Website Redesign
+            </h1>
+            <p className="py-1 text-left inline-flex md:text-sm">
+              Result: Implemented the website in 2 weeks, handled a 173% traffic surge during an $835K fundraising
+              campaign.
+            </p>
+            <a
+              href="https://exodusplace.org"
+              className="flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 mt-2 bg-[#2a2a2a] hover:bg-[#333] shadow-md max-w-xs"
+            >
+              <div className="flex items-center flex-1">
+                <img src="/icons/globe.png" className="mr-0 w-8 h-8 object-contain" alt="" />
+                <span className="ml-2.5 text-base text-white flex-shrink-1">Visit Website</span>
+              </div>
+              <img src="/icons/forward-white.png" className="mr-0 w-5 h-5 object-contain" alt="" />
+            </a>
+
+            <div className=""></div>
+          </div>
+
+          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+            <h2 className="font-['Montserrat'] font-bold text-xl text-[#72D976]">Technology</h2>
+            <p className="text-left inline-flex md:text-sm">Figma, Inkscape, Krita, GRCMC custom platform</p>
+            <h2 className="font-['Montserrat'] font-bold text-xl mt-8 text-[#72D976]">Service</h2>
+            <p className="text-left inline-flex md:text-sm">Web Design, User Experience, Branding, SEO</p>
+          </div>
+
+          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pb-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+            <p className="text-left inline-flex md:text-sm">
+              Exodus Place, a non-profit organization providing transitional housing for homeless people in Grand Rapids,
+              Michigan, needed redesigning their website. The redesign is a collaboration with the Exodus Place marketing
+              team and GRCMC, focused on enhancing aesthetics, usability, and branding.{" "}
+            </p>
+          </div>
+        </section>
+
+        {/* P2 */}
+        <section className="bg-[#0B4F3A] text-white  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+          <div className=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2">
+            {/* text block */}
+            <div className=" col-span-1 lg:mx-[9vh] flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">
+              {/* title */}
+              <div className="flex flex-row py-3">
+                <h2 className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left">Project Overview</h2>
+              </div>
+
+              <p className="inline-flex md:text-sm py-2 mb-10">
+                Exodus Place is a non-profit organization based in Grand Rapids, Michigan, dedicated to assisting men in
+                their transition out of homelessness. Building on experience from designing the Reentry Reimagined
+                website, we leveraged established non-profit design patterns while tailoring the solution to Exodus
+                Place&apos;s specific needs.
+                <br />
+                <br />
+                The organization&apos;s existing website was too simple, lacking in aesthetics, content structure, and
+                might confuse the user.
+              </p>
+
+              {/* title */}
+              <div className="flex flex-row py-3">
+                <h2 className="inline-flex font-bold font-['Montserrat'] text-2xl text-left">Objectives:</h2>
+              </div>
+
+              <p className="inline-flex md:text-sm py-2 mb-5">As the designer, my role encompassed:</p>
+
+              <ol className="list-decimal pl-3 md:text-sm">
+                <li className="pb-1">Redesigning the website on GRCMC&apos;s custom website hosting platform</li>
+                <li className="pb-1">Assisting transferring the domain name to the new platform</li>
+                <li className="pb-1 mb-10">
+                  Enhancing design aesthetics and branding that effectively communicates the organization&apos;s mission
+                  and services
+                </li>
+              </ol>
+
+              <div className="flex flex-row py-3">
+                <h2 className="inline-flex font-bold font-['Montserrat'] text-2xl text-left">
+                  Old Website Analysis
+                </h2>
+              </div>
+
+              <p className="inline-flex md:text-sm py-2 mb-5">
+                Analysis of the original website revealed several key issues:
+              </p>
+
+              <ol className="list-decimal pl-3 md:text-sm">
+                <li className="pb-1">Basic, text-heavy design lacking visual hierarchy and engagement</li>
+                <li className="pb-1">Disconnected content presentation</li>
+                <li className="pb-1">Confusing grouping of navigation bar items</li>
+              </ol>
+            </div>
+
+            <div className="flex flex-col justify-center gap-4 items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
+              <img
+                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                src="/images/ExodusPlace.org/old-website.png"
+                alt="Dated layout with cluttered navigation."
+              />
+              <img
+                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                src="/images/ExodusPlace.org/old-website-2.png"
+                alt="Dated layout with small text."
+              />
+              <p className="md:text-sm">The Website Before Redesign</p>
+            </div>
+          </div>
+        </section>
+
+        {/* P3 */}
+        <section className="bg-[#E6F2EB] text-black  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+          <div className=" justify-center items-center max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2 ">
+            {/* Image */}
+            <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
+              <img
+                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                src="/images/ReentryReimagined/eg1.png"
+                alt="Reference interface with bold hero photography."
+              />
+              <p className="md:text-sm p-4">Liberty in North Korea Site (Credit: Liberty in North Korea)</p>
+            </div>
+            {/* text block */}
+            <div className=" col-span-1 lg:mx-[9vh] md:row-span-3 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">
+              {/* title */}
+              <div className="flex flex-row py-3">
+                <p className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left text-[#006826]">
+                  Research and Discovery
+                </p>
+              </div>
+
+              <h3 className="font-black inline-flex py-2 mb-1">
+                Stakeholder Input
+                <br />
+              </h3>
+              <ul className="list-disc pl-3 md:text-sm">
+                <li className="pb-1">Direct feedback from Exodus Place CEO and executive team</li>
+                <li className="pb-1">
+                  Indirect user feedback collected through staff interactions with:
+                  <ul className="list-disc pl-5 mt-1">
+                    <li className="pb-1">Donors and volunteers</li>
+                    <li className="pb-1">Community partners accessing services</li>
+                    <li className="pb-1">Resident members using the website</li>
+                  </ul>
+                </li>
+              </ul>
+
+              <h3 className="font-black inline-flex py-2 mb-1">Target Audience Analysis</h3>
+              <p className="md:text-sm py-2 mb-1">We identified key user groups:</p>
+              <ul className="list-disc pl-3 md:text-sm">
+                <li className="pb-1">Potential donors and community supporters</li>
+                <li className="pb-1">Men seeking housing and support services</li>
+                <li className="pb-1">Partner organizations and service providers</li>
+                <li className="pb-1">Community volunteers</li>
+                <li className="pb-1">
+                  General public interested in homeless advocacy
+                  <br />
+                  <br />
+                </li>
+              </ul>
+
+              <h3 className="font-black inline-flex py-2 mb-1">Competitive Analysis</h3>
+              <p className="md:text-sm py-2 mb-1">
+                Building on previous non-profit experience for{" "}
+                <a href="/reentryreimagined" className="inline underline">
+                  Reentry Reimagined Website
+                </a>{" "}
+                from non-profit sector informed key design patterns:
+              </p>
+              <ul className="list-disc pl-3 md:text-sm">
+                <li className="pb-1">Clear, mission-focused messaging</li>
+                <li className="pb-1">Impactful imagery and testimonials</li>
+                <li className="pb-1">Prominent calls-to-action</li>
+                <li className="pb-1">Accessible navigation patterns</li>
+                <li className="pb-1">Mobile-optimized layouts</li>
+              </ul>
+            </div>
+
+            {/* Image */}
+            <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
+              <img
+                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                src="/images/ReentryReimagined/eg2.png"
+                alt="Reference interface with diverse imagery."
+              />
+              <p className="md:text-sm p-4">American Heart Association Site (Credit: American Heart Association)</p>
+            </div>
+          </div>
+        </section>
+
+        {/* P4 */}
+        <section className="bg-[#1A1A1A] text-white">
+          <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2">
+            {/* text block */}
+            <div className=" col-span-1 row-span-3 lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8 max-w-xl">
+              <h2 className="inline-flex font-bold font-['Montserrat'] text-[#72D976] text-2xl text-left py-3">
+                Design
+              </h2>
+            </div>
+
+            <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit mt-[-40px] mb-[-40px]">
+              <img
+                className="hidden md:block"
+                src="/images/ExodusPlace.org/mockup-large.png"
+                alt="Dark-themed homepage with aerial facility view."
+              />
+              <img
+                className="block md:hidden"
+                src="/images/ExodusPlace.org/mockup-mobile.png"
+                alt="Dark-themed homepage with aerial facility view."
+              />
+            </div>
+
+            <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+              <h3 className="font-['Montserrat'] font-bold text-xl text-[#72D976] text-left py-2">
+                Mission-Focused Homepage
+              </h3>
+              <p className="text-left">&bull; Clear &quot;hand up, not handout&quot; messaging</p>
+              <p className="text-left">&bull; Direct paths to key actions (donate)</p>
+              <p className="text-left">&bull; Mobile-optimized navigation</p>
+            </div>
+
+            <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+              <h3 className="font-['Montserrat'] font-bold text-xl text-[#72D976] text-left py-2">
+                Visual Communication
+              </h3>
+              <p className="text-left">&bull; Clear typography hierarchy</p>
+              <p className="text-left">&bull; Balanced white space</p>
+              <p className="text-left">
+                &bull; Video looping in the hero section background, enhancing engagement
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* P5 */}
+        <section className="bg-[#1A1A1A] text-white">
+          <div className=" max-w-[1300px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2 gap-5">
+            <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <img
+                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                src="/images/ExodusPlace.org/hero-event.png"
+                alt="Homepage variation: 'Roof Sit' banner."
+              />
+              <p className="md:text-sm p-4">
+                Hero Section if important events ongoing, providing easy access for users
+              </p>
+            </div>
+
+            <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <img
+                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                src="/images/ExodusPlace.org/hero-normal.png"
+                alt="Homepage variation: standard video background."
+              />
+              <p className="md:text-sm p-4">Normal Hero Section</p>
+            </div>
+          </div>
+        </section>
+
+        {/* P6 */}
+        <section className="bg-[#1A1A1A] text-white">
+          <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2">
+            <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit mt-[-40px] mb-[-40px]">
+              <img
+                className="hidden md:block rounded-2xl"
+                src="/images/ExodusPlace.org/service-section.png"
+                alt="Photos of building exterior, food preparation, and medical care."
+              />
+              <img
+                className="block md:hidden rounded-xl"
+                src="/images/ExodusPlace.org/service-section-mobile.png"
+                alt="Photos of building exterior, food preparation, and medical care."
+              />
+              <p className="p-2">Structured service categories</p>
+            </div>
+          </div>
+        </section>
+
+        {/* P7 */}
+        <section className="bg-[#1A1A1A] text-white">
+          <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-4 gap-6">
+            <div className="flex flex-col justify-center items-center md:col-span-3 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
+              <img
+                className="rounded-2xl"
+                src="/images/ExodusPlace.org/grouping.png"
+                alt="Desktop dropdown menu."
+              />
+              <p className="p-2 hidden md:block">Improved grouping for navigation bar items</p>
+            </div>
+
+            <div className="flex flex-col justify-center items-center col-span-1 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
+              <img
+                className="rounded-2xl"
+                src="/images/ExodusPlace.org/grouping-mobile.png"
+                alt="Mobile menu drawer."
+              />
+              <p className="p-2 md:hidden">Improved grouping for navigation bar items</p>
+            </div>
+          </div>
+        </section>
+
+        {/* P8 */}
+        <section className="bg-[#1A1A1A] text-white">
+          <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2">
+            <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
+              <img
+                className="hidden md:block rounded-2xl"
+                src="/images/ExodusPlace.org/accessibility.png"
+                alt="Toolbar with contrast, font size, and pause toggles."
+              />
+              <img
+                className="block md:hidden rounded-xl"
+                src="/images/ExodusPlace.org/accessibility-mobile.png"
+                alt="Toolbar with contrast, font size, and pause toggles."
+              />
+              <p className="p-2">
+                Accessibility Options: Resize font, High contract, pause video autoplay (provided by GRCMC)
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* P9 */}
+        <section className="bg-[#1A1A1A] text-white">
+          <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-4 gap-6">
+            <div className="flex flex-col justify-center items-center md:col-span-3 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
+              <img
+                className="rounded-2xl"
+                src="/images/ExodusPlace.org/housing.png"
+                alt="Mobile Housing UI: Text list."
+              />
+            </div>
+
+            <div className="flex flex-col justify-center items-center col-span-1 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
+              <img
+                className="rounded-2xl"
+                src="/images/ExodusPlace.org/housing2.png"
+                alt="Mobile Housing UI: Large touch-friendly buttons."
+              />
+              <p className="p-2">Mobile Page is provided with additional buttons easier for users to click</p>
+            </div>
+          </div>
+        </section>
+
+        {/* P5 (Results) */}
+        <section className="bg-white text-[#006826]  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+          <div className=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-4 ">
+            <div className="flex flex-col justify-center items-center col-span-4 mx-3 my-5 transition sm:min-h-[150px] h-fit">
+              <img
+                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                src="/images/ExodusPlace.org/Exodus-Place-Brand-Guidelines.png"
+                alt="Montserrat font weights and green color swatches."
+              />
+              <p className="md:text-sm p-4">Brand Guidelines</p>
+            </div>
+
+            {/* text block */}
+            <div className="lg:mx-[9vh] md:row-span-2 col-span-4 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-10 max-w-xl">
+              {/* title */}
+              <div className="flex flex-row py-3">
+                <h2 className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left">Results and Impact</h2>
+              </div>
+
+              <ol className="list-disc pl-3 md:text-sm">
+                <li className="pb-1">
+                  Redesigned and implemented exodusplace.org in 2 weeks to support a 173% traffic surge during an $835K
+                  fundraising campaign.
+                </li>
+              </ol>
+            </div>
+
+            <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
+              <img
+                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                src="/images/ExodusPlace.org/home-event.png"
+                alt="Desktop view of the homepage highlighting the event announcement section."
+              />
+              <p className="md:text-sm p-4">Home Page - Desktop</p>
+            </div>
+            <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
+              <img
+                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                src="/images/ExodusPlace.org/events.png"
+                alt="Desktop view of the Events page listing upcoming community activities."
+              />
+              <p className="md:text-sm p-4">Events Page - Desktop</p>
+            </div>
+            <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
+              <img
+                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                src="/images/ExodusPlace.org/service-meals.png"
+                alt="Exodus Place branded delivery van featuring a bright green and white vehicle wrap."
+              />
+              <p className="md:text-sm p-4">Meals Page - Desktop</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  );
+}
