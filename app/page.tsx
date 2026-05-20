@@ -1,6 +1,5 @@
 import Script from "next/script";
 import Navbar from "./components/Navbar";
-import LoadingScreen from "./components/LoadingScreen";
 import Footer from "./components/Footer";
 import ProjectCard from "./components/ProjectCard";
 import type { Metadata } from "next";
@@ -27,7 +26,6 @@ export default function Home() {
         Skip to main content
       </a>
 
-      <LoadingScreen />
 
       <Navbar />
 
