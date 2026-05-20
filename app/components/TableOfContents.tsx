@@ -36,10 +36,10 @@ export default function TableOfContents({ items }: { items: TocItem[] }) {
   return (
     <aside className="hidden lg:block">
       <nav aria-label="Table of contents" className="sticky top-28">
-        <p className="text-xs font-semibold uppercase tracking-widest text-[#64748b] mb-4">
+        <h2 className="text-xs font-semibold uppercase tracking-widest text-[#64748b] mb-4">
           On this page
-        </p>
-        <ul style={{ listStyle: "none", padding: 0, margin: 0 }} className="space-y-0.5">
+        </h2>
+        <ul className="list-none p-0 m-0 space-y-0.5">
           {items.map((item) => (
             <li key={item.id}>
               <a
@@ -53,7 +53,7 @@ export default function TableOfContents({ items }: { items: TocItem[] }) {
                 {item.label}
               </a>
               {item.children && (
-                <ul style={{ listStyle: "none", padding: 0, margin: 0 }} className="space-y-0.5">
+                <ul className="list-none p-0 m-0 space-y-0.5">
                   {item.children.map((child) => (
                     <li key={child.id}>
                       <a

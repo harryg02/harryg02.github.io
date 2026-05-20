@@ -99,39 +99,33 @@ export default function DetroitChildUsability() {
       </a>
 
       <div className="paper min-h-screen">
-
-
         <div className="max-w-5xl mx-auto px-6 py-12">
           <div className="lg:grid lg:grid-cols-[1fr_14rem] lg:gap-12">
-          <main id="main-content">
-            <article>
-                      {/* ── Header ── */}
-            <div className="pt-15 mb-5">
-              <div className="max-w-5xl mx-auto">
-                <div className="inline-block text-xs font-semibold tracking-widest uppercase text-[#7eb8f7] border border-[#7eb8f7]/30 px-3 py-1 rounded-full mb-6">
-                  UX Research · Usability Testing
-                </div>
+            <main id="main-content" className="min-w-0">
+              <article>
+                <header className="pt-15 mb-5">
+                  <div className="inline-block text-xs font-semibold tracking-widest uppercase text-[#7eb8f7] border border-[#7eb8f7]/30 px-3 py-1 rounded-full mb-6">
+                    UX Research · Usability Testing
+                  </div>
 
-                <h1 className="text-3xl sm:text-4xl font-bold text-[#f1f5f9] mb-4 leading-tight">
-                  State of the Detroit Child<br />Usability Analysis
-                </h1>
+                  <h1 className="text-3xl sm:text-4xl font-bold text-[#f1f5f9] mb-4 leading-tight">
+                    State of the Detroit Child<br />Usability Analysis
+                  </h1>
 
-                <p className="text-[#94a3b8] mb-1">
-                  Leinweber Consulting
-                </p>
-                <p className="text-[#94a3b8] mb-1">
-                  Authors:{" "}
-                  <span className="text-[#cbd5e1] font-medium">Harry Gu</span>,{" "}
-                  Nathan Schuman, Louise Depa, Mikang Moon, Zhitai Jin
-                </p>
-                <p className="text-sm text-[#64748b]">Date: April 20, 2026</p>
+                  <p className="text-[#94a3b8] mb-1">Leinweber Consulting</p>
+                  <p className="text-[#94a3b8] mb-1">
+                    Authors:{" "}
+                    <span className="text-[#cbd5e1] font-medium">Harry Gu</span>,{" "}
+                    Nathan Schuman, Louise Depa, Mikang Moon, Zhitai Jin
+                  </p>
+                  <p className="text-sm text-[#64748b]">Date: April 20, 2026</p>
 
-                <p className="mt-6 text-sm text-[#94a3b8] border-l-2 border-[#7eb8f7]/40 pl-4">
-                  <strong className="text-[#cbd5e1]">My role:</strong> Analyzed usability testing notes, drafted the Findings section, authored Recommendations 1 and 3, and participated in 2 of the 5 test sessions.
-                </p>
-              </div>
-            </div>
-            <hr className="border-[#1e2737] my-12" />
+                  <p className="mt-6 text-sm text-[#94a3b8] border-l-2 border-[#7eb8f7]/40 pl-4">
+                    <strong className="text-[#cbd5e1]">My role:</strong> Analyzed usability testing notes, drafted the Findings section, authored Recommendations 1 and 3, and participated in 2 of the 5 test sessions.
+                  </p>
+                </header>
+
+                <hr className="border-[#1e2737] my-12" />
 
               {/* ── Executive Summary ── */}
               <section id="executive-summary" aria-labelledby="exec-heading">
@@ -440,9 +434,9 @@ export default function DetroitChildUsability() {
                 <p className="text-sm text-[#64748b]">AI was not used in the creation of this report.</p>
               </section>
 
-            </article>
-          </main>
-          <TableOfContents items={detroitTocItems} />
+              </article>
+            </main>
+            <TableOfContents items={detroitTocItems} />
           </div>
         </div>
       </div>

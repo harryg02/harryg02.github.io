@@ -1,11 +1,47 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
+import TableOfContents from "@/app/components/TableOfContents";
+import type { TocItem } from "@/app/components/TableOfContents";
 
 export const metadata: Metadata = {
   title: "Measuring LLM-Powered Screen Reader Efficiency — Harry Gu",
   description:
     "HCI research proposal investigating how blind and low vision users access complex data visualizations using LLM-powered conversational screen readers versus traditional screen readers.",
 };
+
+const hciTocItems: TocItem[] = [
+  { id: "introduction", label: "Introduction" },
+  {
+    id: "section-1",
+    label: "1. Alt-Text Deficit & User Agency",
+    children: [
+      { id: "section-1-1", label: "1.1 User Agency and Control" },
+      { id: "section-1-2", label: "1.2 Information Needs by Context" },
+    ],
+  },
+  {
+    id: "section-2",
+    label: "2. LLM Bias & Hallucination",
+    children: [
+      { id: "section-2-1", label: "2.1 Bias and Misrepresentations" },
+      { id: "section-2-2", label: "2.2 Hallucination and Trust" },
+    ],
+  },
+  {
+    id: "section-3",
+    label: "3. Study Design",
+    children: [
+      { id: "section-3-2", label: "3.2 Research Question" },
+      { id: "section-3-3", label: "3.3 Co-Design" },
+      { id: "section-3-4", label: "3.4 Recruitment" },
+      { id: "section-3-5", label: "3.5 Materials and Tools" },
+      { id: "section-3-6", label: "3.6 Procedure" },
+      { id: "section-3-7", label: "3.7 Data Collection" },
+    ],
+  },
+  { id: "references", label: "References" },
+  { id: "ai-statement", label: "AI Statement" },
+];
 
 export default function HCIResearch() {
   return (
@@ -68,7 +104,7 @@ export default function HCIResearch() {
       <div className="paper min-h-screen">
         {/* ── Header ── */}
         <header className="border-b border-[#1e2737] pt-28 pb-10">
-          <div className="max-w-3xl mx-auto px-6">
+          <div className="max-w-5xl mx-auto px-6">
 
             <div className="inline-block text-xs font-semibold tracking-widest uppercase text-[#7eb8f7] border border-[#7eb8f7]/30 px-3 py-1 rounded-full mb-6">
               HCI Research Proposal
@@ -96,42 +132,8 @@ export default function HCIResearch() {
           </div>
         </header>
 
-        <div className="max-w-3xl mx-auto px-6 py-12">
-          {/* ── TOC ── */}
-          <nav aria-label="Table of contents" className="mb-16 p-6 bg-[#111827] rounded-xl border border-[#1e2737]">
-            <h2 className="text-xs font-semibold uppercase tracking-widest text-[#64748b] mb-4">Contents</h2>
-            <ol className="space-y-1.5 text-[#7eb8f7] text-sm" style={{ listStyle: "none", padding: 0, margin: 0 }}>
-              <li><a href="#introduction">Introduction</a></li>
-              <li>
-                <a href="#section-1">1. The Deficit of Traditional Alt-Text and the Demand for Agency</a>
-                <ol className="mt-1 ml-4 space-y-1" style={{ listStyle: "none", padding: 0 }}>
-                  <li><a href="#section-1-1">1.1 User Agency and Control</a></li>
-                  <li><a href="#section-1-2">1.2 Information Needs by Context</a></li>
-                </ol>
-              </li>
-              <li>
-                <a href="#section-2">2. LLM Bias, Misrepresentation, and Hallucination</a>
-                <ol className="mt-1 ml-4 space-y-1" style={{ listStyle: "none", padding: 0 }}>
-                  <li><a href="#section-2-1">2.1 Bias, Stereotypes, and Misrepresentations</a></li>
-                  <li><a href="#section-2-2">2.2 Hallucination, User Frustration, and Trust</a></li>
-                </ol>
-              </li>
-              <li>
-                <a href="#section-3">3. Study Design</a>
-                <ol className="mt-1 ml-4 space-y-1" style={{ listStyle: "none", padding: 0 }}>
-                  <li><a href="#section-3-2">3.2 Research Question</a></li>
-                  <li><a href="#section-3-3">3.3 Co-Design</a></li>
-                  <li><a href="#section-3-4">3.4 Recruitment</a></li>
-                  <li><a href="#section-3-5">3.5 Materials and Tools</a></li>
-                  <li><a href="#section-3-6">3.6 Procedure</a></li>
-                  <li><a href="#section-3-7">3.7 Data Collection and Analysis</a></li>
-                </ol>
-              </li>
-              <li><a href="#references">References</a></li>
-              <li><a href="#ai-statement">AI Statement</a></li>
-            </ol>
-          </nav>
-
+        <div className="max-w-5xl mx-auto px-6 py-12">
+          <div className="lg:grid lg:grid-cols-[1fr_14rem] lg:gap-12">
           <main id="main-content">
             <article>
 
@@ -361,6 +363,8 @@ export default function HCIResearch() {
 
             </article>
           </main>
+          <TableOfContents items={hciTocItems} />
+          </div>
         </div>
       </div>
 
