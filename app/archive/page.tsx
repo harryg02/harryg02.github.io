@@ -77,6 +77,21 @@ html, html body { height: auto; }
               </p>
             </a>
 
+            <a className="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl"
+              href="/impact-report-usletter-Dec4.pdf">
+              <img className="" src="/images/impact_report/thumbnail.png"
+                alt="Teal fiscal year report cover featuring a donation QR code." />
+              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
+              <div className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                Exodus Place 2024
+                <br />
+                Impact Report
+              </div>
+              <p className="px-1 leading-tight text-center md:hidden">
+                Exodus Place 2024 Impact Report
+              </p>
+            </a>
+
             <a className="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl"
               href="/e-community-service-logo">
               <img className="" src="/trademarks/e-community-service.png"
