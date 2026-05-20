@@ -13,9 +13,7 @@ export default function Archive() {
     <div className="font-[urbanist] font-semibold bg-[#1C1E1F]">
       <style>{`
         body { background-color: #1C1E1F; }
-        #nav-hamburger-1, #nav-1 { color: #fff; }
-        .hamburger-top, .hamburger-middle, .hamburger-bottom { background: #CCD4E3; }
-        html, html body { height: auto; }
+html, html body { height: auto; }
       `}</style>
 
       {/* Skip to main content link */}

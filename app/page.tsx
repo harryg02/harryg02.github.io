@@ -14,8 +14,6 @@ export default function Home() {
     <div className="font-[urbanist] font-semibold bg-[#1E2128]">
       <style>{`
         body { background-color: #1D1F27; }
-        #nav-hamburger-1, #nav-1 { color: #fff; }
-        .hamburger-top, .hamburger-middle, .hamburger-bottom { background: #CCD4E3; }
         html, html body { height: auto; }
         @media (max-width: 767px) {
           #myVideo1, #myVideo2, #myVideo3 { object-position: calc(50% + 40px) center; }
