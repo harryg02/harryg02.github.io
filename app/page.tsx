@@ -31,6 +31,60 @@ export default function Home() {
         <p id="loadingText" suppressHydrationWarning style={{ color: "#CCD4E3", fontSize: "2em" }}>Loading 0%</p>
       </div>
 
+      {/* Nav lives outside hero so the parallax transform on #hero doesn't break fixed positioning */}
+      <div className="font-[urbanist] font-extrabold">
+        {/* Pill navbar — fixed, centred, floats over everything */}
+        <nav className="fixed top-5 inset-x-0 z-[701] flex justify-center pointer-events-none">
+          {/* Gradient border wrapper: transparent at top → visible at bottom */}
+          <div id="nav-border" className="pointer-events-auto p-0.5 rounded-xl" style={{background: "linear-gradient(to bottom, rgba(204,212,227,0.06), rgba(204,212,227,0.22))"}}>
+          <div className="flex items-center gap-4 px-5 py-2.5 rounded-[10px] bg-[#0d0f14]/80 backdrop-blur-md text-sm text-gray-400">
+            <Link href="/" className="shrink-0">
+              <img className="inline h-6 opacity-50" src="/icons/logo-9-21-colored.svg" alt="Harry Gu Logo" />
+            </Link>
+            <span aria-hidden className="hidden md:block w-px h-4 bg-[rgba(204,212,227,0.2)]" />
+            <div className="hidden md:flex items-center gap-5">
+              <Link href="/" id="nav-1" className="hover:text-themeRed transition-colors" aria-current="page">Home</Link>
+              <Link href="/#projects" id="nav-3" className="hover:text-themeRed transition-colors">Projects</Link>
+              <Link href="/archive" id="nav-2" className="hover:text-themeRed transition-colors">Archive</Link>
+            </div>
+            <span aria-hidden className="hidden md:block w-px h-4 bg-[rgba(204,212,227,0.2)]" />
+            <div className="hidden md:flex items-center gap-2">
+              <a href="https://www.linkedin.com/in/harrygu-ux/">
+                <img className="inline h-5" src="/icons/linkedin-hero.svg" alt="LinkedIn Profile" />
+              </a>
+              <a href="https://github.com/harryg02">
+                <img className="inline h-5" src="/icons/github-hero.svg" alt="GitHub Profile" />
+              </a>
+            </div>
+            <button id="menu-btn" className="md:hidden hamburger focus:outline-none" aria-label="Toggle menu">
+              <span className="hamburger-top"></span>
+              <span className="hamburger-middle"></span>
+              <span className="hamburger-bottom"></span>
+            </button>
+          </div>
+          </div>
+        </nav>
+
+        {/* Mobile menu */}
+        <div className="md:hidden">
+          <div id="menu" className="fixed w-[100vw] flex-col items-center hidden self-end py-16 space-y-10 font-bold text-darkGray bg-menu animate-open-menu text-base pt-36 -top-1" style={{ zIndex: 700 }}>
+            <Link href="/" id="nav-hamburger-1" className="hover:text-themeRed" aria-current="page">Home</Link>
+            <Link href="/#projects" id="nav-hamburger-3" className="hover:text-themeRed">Projects</Link>
+            <Link href="/archive" id="nav-hamburger-2" className="hover:text-themeRed">Archive</Link>
+            <div>
+              <a href="https://www.linkedin.com/in/harrygu-ux/">
+                <img className="inline h-8" src="/icons/linkedin-hero.svg" alt="LinkedIn Profile" />
+              </a>
+              <a href="https://github.com/harryg02">
+                <img className="inline h-8" src="/icons/github-hero.svg" alt="GitHub Profile" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <Script src="/js/script.js" strategy="afterInteractive" />
+      </div>
+
       <section id="hero" role="banner"
         className="box-border aspect-11/16 md:aspect-15/16 lg:aspect-video relative overflow-hidden bg-[#1C1E1F]">
 
@@ -55,59 +109,6 @@ export default function Home() {
         </video>
 
         <div className="hero" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundSize: "cover" }} aria-hidden={true}></div>
-
-        <div className="font-[urbanist] font-extrabold">
-          {/* Pill navbar — fixed, centred, floats over hero */}
-          <nav className="fixed top-5 inset-x-0 z-[701] flex justify-center pointer-events-none">
-            {/* Gradient border wrapper: transparent at top → visible at bottom */}
-            <div className="pointer-events-auto p-[2px] rounded-xl" style={{background: "linear-gradient(to bottom, rgba(204,212,227,0.06), rgba(204,212,227,0.22))"}}>
-            <div className="flex items-center gap-4 px-5 py-2.5 rounded-[10px] bg-[#0d0f14]/80 backdrop-blur-md text-sm text-gray-400">
-              <Link href="/" className="shrink-0">
-                <img className="inline h-6 opacity-50" src="/icons/logo-9-21-colored.svg" alt="Harry Gu Logo" />
-              </Link>
-              <span aria-hidden className="hidden md:block w-px h-4 bg-[rgba(204,212,227,0.2)]" />
-              <div className="hidden md:flex items-center gap-5">
-                <Link href="/" id="nav-1" className="hover:text-themeRed transition-colors" aria-current="page">Home</Link>
-                <Link href="/#projects" id="nav-3" className="hover:text-themeRed transition-colors">Projects</Link>
-                <Link href="/archive" id="nav-2" className="hover:text-themeRed transition-colors">Archive</Link>
-              </div>
-              <span aria-hidden className="hidden md:block w-px h-4 bg-[rgba(204,212,227,0.2)]" />
-              <div className="hidden md:flex items-center gap-2">
-                <a href="https://www.linkedin.com/in/harrygu-ux/">
-                  <img className="inline h-5" src="/icons/linkedin-hero.svg" alt="LinkedIn Profile" />
-                </a>
-                <a href="https://github.com/harryg02">
-                  <img className="inline h-5" src="/icons/github-hero.svg" alt="GitHub Profile" />
-                </a>
-              </div>
-              <button id="menu-btn" className="md:hidden hamburger focus:outline-none" aria-label="Toggle menu">
-                <span className="hamburger-top"></span>
-                <span className="hamburger-middle"></span>
-                <span className="hamburger-bottom"></span>
-              </button>
-            </div>
-            </div>
-          </nav>
-
-          {/* Mobile menu */}
-          <div className="md:hidden">
-            <div id="menu" className="fixed w-[100vw] flex-col items-center hidden self-end py-16 space-y-10 font-bold text-darkGray bg-menu animate-open-menu text-base pt-36 -top-1" style={{ zIndex: 700 }}>
-              <Link href="/" id="nav-hamburger-1" className="hover:text-themeRed" aria-current="page">Home</Link>
-              <Link href="/#projects" id="nav-hamburger-3" className="hover:text-themeRed">Projects</Link>
-              <Link href="/archive" id="nav-hamburger-2" className="hover:text-themeRed">Archive</Link>
-              <div>
-                <a href="https://www.linkedin.com/in/harrygu-ux/">
-                  <img className="inline h-8" src="/icons/linkedin-hero.svg" alt="LinkedIn Profile" />
-                </a>
-                <a href="https://github.com/harryg02">
-                  <img className="inline h-8" src="/icons/github-hero.svg" alt="GitHub Profile" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <Script src="/js/script.js" strategy="afterInteractive" />
-        </div>
       </section>
 
       <main id="main" className="relative z-10">
@@ -188,11 +189,18 @@ export default function Home() {
       <Footer />
 
       <Script id="parallax" strategy="afterInteractive">{`
+        var navBorder = document.getElementById('nav-border');
         window.addEventListener('scroll', function() {
           var offset = window.pageYOffset;
           var parallaxContainer = document.getElementById('hero');
           if (parallaxContainer) parallaxContainer.style.transform = 'translateY(' + (offset * 0.3) + 'px)';
-        });
+          if (navBorder) {
+            var t = Math.min(offset / 300, 1);
+            var topAlpha = (0.06 + t * 0.16).toFixed(3);
+            var botAlpha = (0.22 - t * 0.16).toFixed(3);
+            navBorder.style.background = 'linear-gradient(to bottom, rgba(204,212,227,' + topAlpha + '), rgba(204,212,227,' + botAlpha + '))';
+          }
+        }, { passive: true });
       `}</Script>
 
       <Script id="loading-screen" strategy="afterInteractive">{`
