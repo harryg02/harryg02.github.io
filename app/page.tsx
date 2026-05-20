@@ -109,13 +109,14 @@ export default function Home() {
           <h2 className="sr-only">Projects</h2>
           {/*
             Bento layout (3-col desktop):
-            Row 1: [Kosmos ×2] [Impact ×1]
-            Row 2: [ALS-LM ×1] [ReentryGuide ×2]
-            Row 3: [Exodus ×1] [RR ×1] [Calvin ×1]
-            To reorder: move entries in the array below.
-            To resize: change the className col-span value.
+            Row 1: [Kosmos ×2col]         [Impact ×1col]
+            Row 2: [ALS-LM ×2col]         [Exodus ×1col, row-span-2 ↓]
+            Row 3: [ReentryGuide ×2col]   [Exodus cont.]
+            Row 4: [RR ×2col]             [Calvin ×1col]
+            Landscape thumbnails → col-span-2, portrait → row-span-2.
           */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto border border-[rgba(204,212,227,0.1)]">
+            {/* Row 1 */}
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/kosmos"
@@ -132,13 +133,24 @@ export default function Home() {
               title="Exodus Place 2024 Impact Report"
               result="Result: Distributed to donor base during $835K fundraising campaign"
             />
+            {/* Row 2 — ALS-LM wide, Exodus tall (spills into row 3) */}
             <ProjectCard
+              className="md:col-span-2 lg:col-span-2"
               href="/als-lm"
               imageSrc="/images/als-lm/cover.png"
               imageAlt="Two web pages on a blueprint grid."
               title='"Adult Learning Systems" Website Research & Redesign'
               result="Result: 5/5 preferred new design for donation"
             />
+            <ProjectCard
+              className="lg:row-span-2"
+              href="/exodusplace"
+              imageSrc="/images/ExodusPlace.org/mockup-mobile.png"
+              imageAlt="Dark-themed website redesign showing an aerial view of the facility."
+              title="Exodus Place Website Redesign"
+              result="Result: Implemented in 2 weeks, handled +173% traffic surge"
+            />
+            {/* Row 3 — ReentryGuide wide, Exodus continues */}
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/reentryguide-gr"
@@ -147,14 +159,9 @@ export default function Home() {
               title='"ReentryGuide GR" Mobile App & Website'
               result="Result: Fixed 2 usability issues, promoted by MDOC"
             />
+            {/* Row 4 */}
             <ProjectCard
-              href="/exodusplace"
-              imageSrc="/images/ExodusPlace.org/thumbnail.png"
-              imageAlt="Dark-themed website redesign showing an aerial view of the facility."
-              title="Exodus Place Website Redesign"
-              result="Result: Implemented in 2 weeks, handled +173% traffic surge"
-            />
-            <ProjectCard
+              className="md:col-span-2 lg:col-span-2"
               href="/reentryreimagined"
               imageSrc="/images/ReentryReimagined/thumbnail.png"
               imageAlt="Earth-toned website layout displayed on desktop and mobile screens."
