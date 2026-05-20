@@ -23,7 +23,7 @@ export default function Navbar() {
       // Phase 1: scroll into hero — top brightens, bottom darkens
       // Phase 2: scroll past hero — reverses back to original
       const t1 = Math.min(offset / phase1End, 1);
-      const t2 = Math.min(Math.max(offset - heroHeight, 0) / 150, 1);
+      const t2 = Math.min(Math.max(offset - heroHeight, 0) / 250, 1);
       const t = t1 - t2 * t1; // unwinds phase 1 progress after hero
       border.style.background = `linear-gradient(to bottom, rgba(204,212,227,${(0.06 + t * 0.16).toFixed(3)}), rgba(204,212,227,${(0.22 - t * 0.16).toFixed(3)}))`;
     };
