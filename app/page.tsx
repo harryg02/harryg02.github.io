@@ -59,7 +59,9 @@ export default function Home() {
         <div className="font-[urbanist] font-extrabold">
           {/* Pill navbar — fixed, centred, floats over hero */}
           <nav className="fixed top-5 inset-x-0 z-[701] flex justify-center pointer-events-none">
-            <div className="pointer-events-auto flex items-center gap-4 px-5 py-2.5 rounded-xl border-2 border-[rgba(204,212,227,0.14)] bg-[#0d0f14]/55 backdrop-blur-md text-sm text-gray-400">
+            {/* Gradient border wrapper: transparent at top → visible at bottom */}
+            <div className="pointer-events-auto p-[2px] rounded-xl" style={{background: "linear-gradient(to bottom, rgba(204,212,227,0.06), rgba(204,212,227,0.22))"}}>
+            <div className="flex items-center gap-4 px-5 py-2.5 rounded-[10px] bg-[#0d0f14]/80 backdrop-blur-md text-sm text-gray-400">
               <Link href="/" className="shrink-0">
                 <img className="inline h-6 opacity-50" src="/icons/logo-9-21-colored.svg" alt="Harry Gu Logo" />
               </Link>
@@ -83,6 +85,7 @@ export default function Home() {
                 <span className="hamburger-middle"></span>
                 <span className="hamburger-bottom"></span>
               </button>
+            </div>
             </div>
           </nav>
 
