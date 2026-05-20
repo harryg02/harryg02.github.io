@@ -14,9 +14,11 @@ export default function Navbar() {
     if (pathname !== "/") return;
     const border = borderRef.current;
 
+    const threshold = (document.getElementById("hero")?.offsetHeight ?? 900) / 3;
+
     const onScroll = () => {
       if (border) {
-        const t = Math.min(window.pageYOffset / 300, 1);
+        const t = Math.min(window.pageYOffset / threshold, 1);
         border.style.background = `linear-gradient(to bottom, rgba(204,212,227,${(0.06 + t * 0.16).toFixed(3)}), rgba(204,212,227,${(0.22 - t * 0.16).toFixed(3)}))`;
       }
     };
