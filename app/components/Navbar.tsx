@@ -14,13 +14,30 @@ export default function Navbar() {
     if (pathname !== "/") return;
     const border = borderRef.current;
 
-    const threshold = (document.getElementById("hero")?.offsetHeight ?? 900) / 3;
+    const heroHeight = document.getElementById("hero")?.offsetHeight ?? 900;
+    const phase1End = heroHeight / 3; // top brightens, bottom darkens
+    const phase2End = heroHeight + 950; // past hero: both brighten
 
     const onScroll = () => {
-      if (border) {
-        const t = Math.min(window.pageYOffset / threshold, 1);
-        border.style.background = `linear-gradient(to bottom, rgba(204,212,227,${(0.06 + t * 0.16).toFixed(3)}), rgba(204,212,227,${(0.22 - t * 0.16).toFixed(3)}))`;
+      if (!border) return;
+      const offset = window.pageYOffset;
+      let top: number, bot: number;
+
+      if (offset <= phase1End) {
+        const t = offset / phase1End;
+        top = 0.06 + t * 0.16; // 0.06 → 0.22
+        bot = 0.22 - t * 0.16; // 0.22 → 0.06
+      } else if (offset <= phase2End) {
+        const t = (offset - heroHeight) / 150;
+        const t2 = Math.max(0, Math.min(t, 1));
+        top = 0.22 + t2 * 0.13; // 0.22 → 0.35
+        bot = 0.06 + t2 * 0.29; // 0.06 → 0.35
+      } else {
+        top = 0.35;
+        bot = 0.35;
       }
+
+      border.style.background = `linear-gradient(to bottom, rgba(204,212,227,${top.toFixed(3)}), rgba(204,212,227,${bot.toFixed(3)}))`;
     };
 
     window.addEventListener("scroll", onScroll, { passive: true });
