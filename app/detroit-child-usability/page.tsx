@@ -1,11 +1,24 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
+import TableOfContents from "@/app/components/TableOfContents";
+import type { TocItem } from "@/app/components/TableOfContents";
 
 export const metadata: Metadata = {
   title: "State of the Detroit Child — Usability Analysis | Harry Gu",
   description:
     "Usability analysis of the State of the Detroit Child website, conducted for Data Driven Detroit. Includes findings from 5 participants and 5 actionable recommendations.",
 };
+
+const detroitTocItems: TocItem[] = [
+  { id: "executive-summary", label: "Executive Summary" },
+  { id: "introduction", label: "Introduction" },
+  { id: "methods", label: "Methods" },
+  { id: "findings", label: "Findings" },
+  { id: "recommendations", label: "Recommendations" },
+  { id: "discussion", label: "Discussion" },
+  { id: "task-data", label: "Task Performance Data" },
+  { id: "contribution", label: "Contribution Statement" },
+];
 
 export default function DetroitChildUsability() {
   return (
@@ -86,51 +99,39 @@ export default function DetroitChildUsability() {
       </a>
 
       <div className="paper min-h-screen">
-        {/* ── Header ── */}
-        <header className="border-b border-[#1e2737] pt-28 pb-10">
-          <div className="max-w-3xl mx-auto px-6">
-            <div className="inline-block text-xs font-semibold tracking-widest uppercase text-[#7eb8f7] border border-[#7eb8f7]/30 px-3 py-1 rounded-full mb-6">
-              UX Research · Usability Testing
-            </div>
 
-            <h1 className="text-3xl sm:text-4xl font-bold text-[#f1f5f9] mb-4 leading-tight">
-              State of the Detroit Child<br />Usability Analysis
-            </h1>
 
-            <p className="text-[#94a3b8] mb-1">
-              Leinweber Consulting
-            </p>
-            <p className="text-[#94a3b8] mb-1">
-              Authors:{" "}
-              <span className="text-[#cbd5e1] font-medium">Harry Gu</span>,{" "}
-              Nathan Schuman, Louise Depa, Mikang Moon, Zhitai Jin
-            </p>
-            <p className="text-sm text-[#64748b]">Date: April 20, 2026</p>
-
-            <p className="mt-6 text-sm text-[#94a3b8] border-l-2 border-[#7eb8f7]/40 pl-4">
-              <strong className="text-[#cbd5e1]">My role:</strong> Analyzed usability testing notes, drafted the Findings section, authored Recommendations 1 and 3, and participated in 2 of the 5 test sessions.
-            </p>
-          </div>
-        </header>
-
-        <div className="max-w-3xl mx-auto px-6 py-12">
-          {/* ── TOC ── */}
-          <nav aria-label="Table of contents" className="mb-16 p-6 bg-[#111827] rounded-xl border border-[#1e2737]">
-            <h2 className="text-xs font-semibold uppercase tracking-widest text-[#64748b] mb-4">Contents</h2>
-            <ol className="space-y-1.5 text-[#7eb8f7] text-sm" style={{ listStyle: "none", padding: 0, margin: 0 }}>
-              <li><a href="#executive-summary">Executive Summary</a></li>
-              <li><a href="#introduction">Introduction</a></li>
-              <li><a href="#methods">Methods</a></li>
-              <li><a href="#findings">Findings</a></li>
-              <li><a href="#recommendations">Recommendations</a></li>
-              <li><a href="#discussion">Discussion</a></li>
-              <li><a href="#task-data">Task Performance Data</a></li>
-              <li><a href="#contribution">Contribution Statement</a></li>
-            </ol>
-          </nav>
-
+        <div className="max-w-5xl mx-auto px-6 py-12">
+          <div className="lg:grid lg:grid-cols-[1fr_14rem] lg:gap-12">
           <main id="main-content">
             <article>
+                      {/* ── Header ── */}
+            <header className="pt-15 mb-5">
+              <div className="max-w-5xl mx-auto">
+                <div className="inline-block text-xs font-semibold tracking-widest uppercase text-[#7eb8f7] border border-[#7eb8f7]/30 px-3 py-1 rounded-full mb-6">
+                  UX Research · Usability Testing
+                </div>
+
+                <h1 className="text-3xl sm:text-4xl font-bold text-[#f1f5f9] mb-4 leading-tight">
+                  State of the Detroit Child<br />Usability Analysis
+                </h1>
+
+                <p className="text-[#94a3b8] mb-1">
+                  Leinweber Consulting
+                </p>
+                <p className="text-[#94a3b8] mb-1">
+                  Authors:{" "}
+                  <span className="text-[#cbd5e1] font-medium">Harry Gu</span>,{" "}
+                  Nathan Schuman, Louise Depa, Mikang Moon, Zhitai Jin
+                </p>
+                <p className="text-sm text-[#64748b]">Date: April 20, 2026</p>
+
+                <p className="mt-6 text-sm text-[#94a3b8] border-l-2 border-[#7eb8f7]/40 pl-4">
+                  <strong className="text-[#cbd5e1]">My role:</strong> Analyzed usability testing notes, drafted the Findings section, authored Recommendations 1 and 3, and participated in 2 of the 5 test sessions.
+                </p>
+              </div>
+            </header>
+            <hr className="border-[#1e2737] my-12" />
 
               {/* ── Executive Summary ── */}
               <section id="executive-summary" aria-labelledby="exec-heading">
@@ -441,6 +442,8 @@ export default function DetroitChildUsability() {
 
             </article>
           </main>
+          <TableOfContents items={detroitTocItems} />
+          </div>
         </div>
       </div>
 
