@@ -11,6 +11,7 @@ export default function Navbar() {
     `transition-colors hover:text-themeRed ${pathname === href ? "text-[#CCD4E3]" : ""}`;
 
   useEffect(() => {
+    if (pathname !== "/") return;
     const border = borderRef.current;
 
     const onScroll = () => {
@@ -22,7 +23,7 @@ export default function Navbar() {
 
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [pathname]);
 
   return (
     <nav id="main-nav" className="font-[urbanist] font-extrabold fixed top-5 inset-x-0 z-701 flex justify-center pointer-events-none">
