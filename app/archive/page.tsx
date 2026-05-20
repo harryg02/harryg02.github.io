@@ -1,5 +1,6 @@
 import Script from "next/script";
 import Navbar from "@/app/components/Navbar";
+import LoadingScreen from "@/app/components/LoadingScreen";
 import Footer from "@/app/components/Footer";
 import type { Metadata } from "next";
 
@@ -24,13 +25,9 @@ export default function Archive() {
         Skip to main content
       </a>
 
-      {/* loading screen */}
-      <div id="loadingScreen" className="font-terminal" suppressHydrationWarning
-        style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', background: 'black', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 1000, opacity: 1, transition: 'opacity 0.5s ease' }}>
-        <p id="loadingText" suppressHydrationWarning style={{ color: '#CCD4E3', fontSize: '2em' }}>Loading 0%</p>
-      </div>
+      <LoadingScreen />
 
-      <Navbar activePage="archive" />
+      <Navbar />
 
       {/* Main content */}
       <main id="main">
@@ -386,50 +383,6 @@ export default function Archive() {
         })();
       `}</Script>
 
-      <Script id="loading-screen-archive" strategy="afterInteractive">{`
-        (function() {
-          var loadingText = document.getElementById('loadingText');
-          var resources = Array.from(document.images).concat(Array.from(document.getElementsByTagName('video')));
-          var totalResources = resources.length;
-          var loadedResources = 0;
-          var done = false;
-
-          function hide() {
-            if (done) return;
-            done = true;
-            var screen = document.getElementById('loadingScreen');
-            if (screen) screen.style.opacity = '0';
-            setTimeout(function() { if (screen) screen.style.display = 'none'; }, 500);
-          }
-
-          function updateLoadingPercentage() {
-            var percentage = Math.round((loadedResources / totalResources) * 100);
-            if (loadingText) loadingText.textContent = 'Loading ' + percentage + '%';
-          }
-
-          function resourceLoaded() {
-            loadedResources++;
-            updateLoadingPercentage();
-            if (loadedResources === totalResources) hide();
-          }
-
-          if (totalResources === 0) { hide(); return; }
-
-          resources.forEach(function(resource) {
-            if ((resource.tagName === 'IMG' && resource.complete) ||
-                (resource.tagName === 'VIDEO' && resource.readyState >= 4)) {
-              resourceLoaded();
-            } else {
-              resource.addEventListener('load', resourceLoaded, { once: true });
-              resource.addEventListener('canplaythrough', resourceLoaded, { once: true });
-              resource.addEventListener('error', resourceLoaded, { once: true });
-            }
-          });
-
-          // safety fallback in case any resource event never fires
-          setTimeout(hide, 5000);
-        })();
-      `}</Script>
     </div>
   );
 }

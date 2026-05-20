@@ -1,10 +1,13 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
-interface NavbarProps {
-  activePage?: "home" | "projects" | "archive";
-}
+export default function Navbar() {
+  const pathname = usePathname();
 
-export default function Navbar({ activePage = "home" }: NavbarProps) {
+  const linkClass = (href: string) =>
+    `transition-colors hover:text-themeRed ${pathname === href ? "text-[#CCD4E3]" : ""}`;
+
   return (
     <nav id="main-nav" className="font-[urbanist] font-extrabold fixed top-5 inset-x-0 z-[701] flex justify-center pointer-events-none">
       <div id="nav-border" className="pointer-events-auto p-0.5 rounded-xl" style={{background: "linear-gradient(to bottom, rgba(204,212,227,0.06), rgba(204,212,227,0.22))"}}>
@@ -14,9 +17,9 @@ export default function Navbar({ activePage = "home" }: NavbarProps) {
         </Link>
         <span aria-hidden className="w-px h-4 bg-[rgba(204,212,227,0.2)]" />
         <div className="flex items-center gap-3 sm:gap-5">
-          <Link href="/" id="nav-1" className="hover:text-themeRed transition-colors" aria-current={activePage === "home" ? "page" : undefined}>Home</Link>
-          <Link href="/#projects" id="nav-3" className="hover:text-themeRed transition-colors" aria-current={activePage === "projects" ? "page" : undefined}>Projects</Link>
-          <Link href="/archive" id="nav-2" className="hover:text-themeRed transition-colors" aria-current={activePage === "archive" ? "page" : undefined}>Archive</Link>
+          <Link href="/" className={linkClass("/")} aria-current={pathname === "/" ? "page" : undefined}>Home</Link>
+          <Link href="/#projects" className="transition-colors hover:text-themeRed">Projects</Link>
+          <Link href="/archive" className={linkClass("/archive")} aria-current={pathname === "/archive" ? "page" : undefined}>Archive</Link>
         </div>
         <span aria-hidden className="w-px h-4 bg-[rgba(204,212,227,0.2)]" />
         <div className="flex items-center gap-2">

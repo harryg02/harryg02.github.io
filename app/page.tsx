@@ -1,5 +1,6 @@
 import Script from "next/script";
 import Navbar from "./components/Navbar";
+import LoadingScreen from "./components/LoadingScreen";
 import Footer from "./components/Footer";
 import ProjectCard from "./components/ProjectCard";
 import type { Metadata } from "next";
@@ -26,12 +27,9 @@ export default function Home() {
         Skip to main content
       </a>
 
-      <div id="loadingScreen" className="font-terminal" suppressHydrationWarning
-        style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "100%", background: "black", display: "flex", justifyContent: "center", alignItems: "center", zIndex: 1000, opacity: 1, transition: "opacity 0.5s ease" }}>
-        <p id="loadingText" suppressHydrationWarning style={{ color: "#CCD4E3", fontSize: "2em" }}>Loading 0%</p>
-      </div>
+      <LoadingScreen />
 
-      <Navbar activePage="home" />
+      <Navbar />
 
       <section id="hero" role="banner"
         className="box-border aspect-11/16 md:aspect-square lg:aspect-video relative overflow-hidden bg-[#1C1E1F]">
@@ -161,69 +159,27 @@ export default function Home() {
         }, { passive: true });
       `}</Script>
 
-      <Script id="loading-screen" strategy="afterInteractive">{`
+      <Script id="hero-video-cycle" strategy="afterInteractive">{`
         (function() {
-          var loadingText = document.getElementById('loadingText');
-          var resources = Array.from(document.images).concat(Array.from(document.getElementsByTagName('video')));
-          var totalResources = resources.length;
-          var loadedResources = 0;
-
-          function updateLoadingPercentage() {
-            var percentage = Math.round((loadedResources / totalResources) * 100);
-            if (loadingText) loadingText.textContent = 'Loading ' + percentage + '%';
-          }
-
-          function resourceLoaded() {
-            loadedResources++;
-            updateLoadingPercentage();
-            if (loadedResources === totalResources) {
-              var screen = document.getElementById('loadingScreen');
-              if (screen) screen.style.opacity = '0';
+          var videoOverlays = [
+            document.getElementById('myVideo1'),
+            document.getElementById('myVideo2'),
+            document.getElementById('myVideo3')
+          ];
+          var currentIndex = 0;
+          function changeBackgroundVideo() {
+            currentIndex = (currentIndex + 1) % videoOverlays.length;
+            if (videoOverlays[currentIndex]) videoOverlays[currentIndex].style.display = 'block';
+            if (currentIndex === videoOverlays.length - 1) {
               setTimeout(function() {
-                if (screen) screen.style.display = 'none';
-                startBackgroundChange();
-              }, 500);
+                videoOverlays.forEach(function(overlay, index) {
+                  if (overlay) overlay.style.display = index === 0 ? 'block' : 'none';
+                });
+                currentIndex = 0;
+              }, 3000);
             }
           }
-
-          if (totalResources === 0) {
-            var screen = document.getElementById('loadingScreen');
-            if (screen) screen.style.display = 'none';
-            return;
-          }
-
-          resources.forEach(function(resource) {
-            if ((resource.tagName === 'IMG' && resource.complete) ||
-                (resource.tagName === 'VIDEO' && resource.readyState >= 4)) {
-              resourceLoaded();
-            } else {
-              resource.addEventListener('load', resourceLoaded, { once: true });
-              resource.addEventListener('canplaythrough', resourceLoaded, { once: true });
-              resource.addEventListener('error', resourceLoaded, { once: true });
-            }
-          });
-
-          function startBackgroundChange() {
-            var videoOverlays = [
-              document.getElementById('myVideo1'),
-              document.getElementById('myVideo2'),
-              document.getElementById('myVideo3')
-            ];
-            var currentIndex = 0;
-            function changeBackgroundVideo() {
-              currentIndex = (currentIndex + 1) % videoOverlays.length;
-              if (videoOverlays[currentIndex]) videoOverlays[currentIndex].style.display = 'block';
-              if (currentIndex === videoOverlays.length - 1) {
-                setTimeout(function() {
-                  videoOverlays.forEach(function(overlay, index) {
-                    if (overlay) overlay.style.display = index === 0 ? 'block' : 'none';
-                  });
-                  currentIndex = 0;
-                }, 3000);
-              }
-            }
-            setInterval(changeBackgroundVideo, 3000);
-          }
+          setInterval(changeBackgroundVideo, 3000);
         })();
       `}</Script>
     </div>
