@@ -1,4 +1,5 @@
 import Script from "next/script";
+import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import type { Metadata } from "next";
 
@@ -29,59 +30,7 @@ export default function Archive() {
         <p id="loadingText" suppressHydrationWarning style={{ color: '#CCD4E3', fontSize: '2em' }}>Loading 0%</p>
       </div>
 
-      {/* Nav Bar */}
-      <header className="font-[urbanist] font-extrabold">
-        <nav className="relative container mx-auto text-gray-400">
-          {/* Flex container */}
-          <div className="flex items-center justify-between max-w-[600px] mt-[8vh] md:mt-[7vh] mx-6 md:ml-10 lg:ml-20 my-10">
-            {/* logo */}
-            <div style={{ zIndex: 701 }}>
-              <a href="/" className="text-base">
-                <img className="inline h-7 opacity-40" src="/icons/logo-9-21-colored.svg" alt="Harry Gu Logo" />
-              </a>
-            </div>
-            {/* menu items */}
-            <div className="hidden space-x-12 md:flex" style={{ zIndex: 701 }}>
-              <a href="/" id="nav-3" className="hover:text-themeRed">Home</a>
-              <a href="/#projects" id="nav-3" className="hover:text-themeRed">Projects</a>
-              <a href="/archive" id="nav-1" className="hover:text-themeRed" aria-current="page">Archive</a>
-            </div>
-            <div className="hidden space-x-3 md:flex" style={{ zIndex: 701 }}>
-              <a href="https://www.linkedin.com/in/harrygu-ux/" className="text-base">
-                <img className="inline h-7" src="/icons/linkedin-hero.svg" alt="LinkedIn" />
-              </a>
-              <a href="https://github.com/harryg02" className="text-base">
-                <img className="inline h-7" src="/icons/github-hero.svg" alt="github" />
-              </a>
-            </div>
-
-            {/* Hamburger Icon */}
-            <button id="menu-btn" className="z-40 block hamburger md:hidden focus:outline-none" style={{ zIndex: 701 }}
-              aria-label="Toggle menu">
-              <span className="hamburger-top"></span>
-              <span className="hamburger-middle"></span>
-              <span className="hamburger-bottom"></span>
-            </button>
-          </div>
-        </nav>
-        <div className="md:hidden">
-          <div id="menu" className="absolute w-[100vw] flex-col items-center hidden self-end py-16 space-y-10 font-bold text-darkGray bg-menu animate-open-menu text-base pt-36 -top-1" style={{ zIndex: 700 }}>
-            <a href="/" id="nav-hamburger-3" className="hover:text-themeRed">Home</a>
-            <a href="/#projects" id="nav-hamburger-3" className="hover:text-themeRed">Projects</a>
-            <a href="/archive" id="nav-hamburger-1" className="hover:text-themeRed" aria-current="page">Archive</a>
-            <div>
-              <a href="https://www.linkedin.com/in/harrygu-ux/" className="text-base">
-                <img className="inline h-8" src="/icons/linkedin-hero.svg" alt="LinkedIn" />
-              </a>
-              <a href="https://github.com/harryg02" className="text-base">
-                <img className="inline h-8" src="/icons/github-hero.svg" alt="GitHub" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <Script src="/js/script.js" strategy="afterInteractive" />
-      </header>
+      <Navbar activePage="archive" />
 
       {/* Main content */}
       <main id="main">
