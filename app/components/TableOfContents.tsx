@@ -44,7 +44,7 @@ export default function TableOfContents({ items }: { items: TocItem[] }) {
             <li key={item.id}>
               <a
                 href={`#${item.id}`}
-                className={`block py-1 border-l-2 pl-3 text-sm transition-colors no-underline leading-snug ${
+                className={`block py-1 border-l-2 pl-3 transition-colors no-underline leading-snug ${
                   activeId === item.id
                     ? "border-[#7eb8f7] text-[#7eb8f7]"
                     : "border-[#1e2737] text-[#64748b] hover:text-[#94a3b8] hover:border-[#334155]"
