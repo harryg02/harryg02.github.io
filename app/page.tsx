@@ -15,7 +15,7 @@ export default function Home() {
         body { background-color: #1D1F27; }
         html, html body { height: auto; }
         @media (max-width: 767px) {
-          #myVideo1, #myVideo2, #myVideo3 { object-position: calc(50% + 40px) center; }
+          #heroVideo { object-position: calc(50% + 40px) center; }
         }
       `}</style>
 
@@ -28,22 +28,9 @@ export default function Home() {
 
         <h1 className="sr-only text-white bg-black">I&apos;m Harry Gu. I&apos;m a UI/UX Designer, Front-End Developer, and Graphic Designer</h1>
 
-        <video id="myVideo1" autoPlay loop muted aria-hidden={true}
+        <video id="heroVideo" autoPlay loop muted aria-hidden={true}
           className="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0">
-          <source src="/herovideo1.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
-        <video id="myVideo2" autoPlay loop muted aria-hidden={true} style={{ display: "none" }}
-          className="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0">
-          <source src="/herovideo2.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
-        <video id="myVideo3" autoPlay loop muted aria-hidden={true} style={{ display: "none" }}
-          className="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0">
-          <source src="/herovideo3.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
+          <source src="/herovideo.mp4" type="video/mp4" />
         </video>
 
         <div className="hero" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundSize: "cover" }} aria-hidden={true}></div>
@@ -134,29 +121,7 @@ export default function Home() {
         }, { passive: true });
       `}</Script>
 
-      <Script id="hero-video-cycle" strategy="afterInteractive">{`
-        (function() {
-          var videoOverlays = [
-            document.getElementById('myVideo1'),
-            document.getElementById('myVideo2'),
-            document.getElementById('myVideo3')
-          ];
-          var currentIndex = 0;
-          function changeBackgroundVideo() {
-            currentIndex = (currentIndex + 1) % videoOverlays.length;
-            if (videoOverlays[currentIndex]) videoOverlays[currentIndex].style.display = 'block';
-            if (currentIndex === videoOverlays.length - 1) {
-              setTimeout(function() {
-                videoOverlays.forEach(function(overlay, index) {
-                  if (overlay) overlay.style.display = index === 0 ? 'block' : 'none';
-                });
-                currentIndex = 0;
-              }, 3000);
-            }
-          }
-          setInterval(changeBackgroundVideo, 3000);
-        })();
-      `}</Script>
+
     </div>
   );
 }
