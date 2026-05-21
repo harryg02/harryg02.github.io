@@ -175,7 +175,7 @@ export default function ReentryGuideGR() {
         <section className="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 pt-10 grid grid-col-1 lg:grid-cols-2 items-start ">
             {/* text block 1 */}
-            <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 sm:px-16 py-12">
+            <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-5">
                 <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
@@ -207,7 +207,7 @@ export default function ReentryGuideGR() {
               </p>
             </div>
             {/* block 2 */}
-            <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 sm:px-16 py-12">
+            <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               <div className="max-w-[400px] flex flex-col justify-center items-center  p-2 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <img
                   src="/images/ReentryGuide-GR/ref.png"
@@ -222,7 +222,7 @@ export default function ReentryGuideGR() {
         <section className="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 pt-5 grid grid-col-1 lg:grid-cols-2 items-start ">
             {/* text block 1 */}
-            <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 sm:px-16 py-5">
+            <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-5">
               <h2 className="text-xl font-bold">Design Choices:</h2>
               <ul className="list-none">
                 <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
@@ -252,7 +252,7 @@ export default function ReentryGuideGR() {
             </div>
 
             {/* text block 2 */}
-            <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 sm:px-16 py-5 mt-5">
+            <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-5 mt-5">
               <ul className="list-none">
                 <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Accessible Placement: Buttons located in the middle or lower half of the screen, making it easier for
@@ -286,7 +286,7 @@ export default function ReentryGuideGR() {
           {/* p4 Design Choices continued */}
           <div className=" max-w-[1200px] m-auto px-6 pt-5 grid grid-col-1 lg:grid-cols-2 items-start ">
             {/* text block 2 */}
-            <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 sm:px-16 py-5 mt-5">
+            <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-5 mt-5">
               <ul className="list-none">
                 <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Buttons: Large, clearly defined with shadows to indicate &apos;clickability&apos;, with unified style
@@ -320,7 +320,7 @@ export default function ReentryGuideGR() {
             </div>
 
             {/* text block 2 */}
-            <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 sm:px-16 py-5">
+            <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-5">
               <ul className="list-none">
                 <li className="list-none">
                   <div className="flex flex-col justify-center items-center py-5 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
@@ -633,7 +633,7 @@ export default function ReentryGuideGR() {
               <img src="/images/ReentryGuide-GR/stack.svg" alt="Logos: Trello, React Native, Expo, Yarn, GitHub." />
             </div>
             {/* text block */}
-            <div className=" col-span-1 row-span-2 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 sm:px-16">
+            <div className=" col-span-1 row-span-2 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5">
               <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
                 Technology Stack Evaluation
               </h2>
