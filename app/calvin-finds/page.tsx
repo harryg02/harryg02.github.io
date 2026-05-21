@@ -66,7 +66,7 @@ export default function CalvinFinds() {
         <section className="text-[#2F2E41] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2 gap-3">
             {/* text block */}
-            <div className="col-span-1 md:row-span-4 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
+            <div className="col-span-1 md:row-span-4 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className="inline-flex font-black font-[poppins] text-[#2F2E41] font-RedHatDisplay text-2xl text-left">
@@ -97,21 +97,21 @@ export default function CalvinFinds() {
               </p>
             </div>
 
-            <div className="flex flex-col justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <img className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/photo.png"
                 alt="Whiteboard sketch with 'Airpod' written in red marker and an arrow pointing to a drawing." />
             </div>
 
-            <div className="flex flex-col py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <img className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/s1.png"
                 alt="Email notification reporting a lost phone found in a parking lot." />
             </div>
 
-            <div className="flex flex-col px-5 py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md px-5 py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <img className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/s2.jpg"
                 alt="Chat interface showing a message thread about a lost power brick in a lab." />
             </div>
-            <div className="flex flex-col px-5 py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md px-5 py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <img className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/s3.jpg"
                 alt="Chat interface displaying a message about items left behind in a computer lab." />
             </div>
@@ -123,7 +123,7 @@ export default function CalvinFinds() {
         <section className="text-[#2F2E41] bg-white drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className="inline-flex font-black font-[poppins] text-[#2F2E41] font-RedHatDisplay text-2xl text-left">
@@ -149,13 +149,13 @@ export default function CalvinFinds() {
             </div>
 
             {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="flex flex-col py-4">
                 <b className="">• Environment</b>
                 <p className="pl-3">Primarily on campus, the students and staff are usually busy.</p>
               </div>
 
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/CalvinUniversity.jpg"
                   alt="Students walking along a paved pathway on a university campus." />
                 <p className="md:text-sm p-2">Credit: Calvin University</p>
@@ -175,7 +175,7 @@ export default function CalvinFinds() {
         <section className="text-[#2F2E41] bg-[#F4F1F1] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <h3 className="font-black text-xl inline-flex py-2 mb-1">
                 UI/UX Design Brainstorming
                 <br />
@@ -193,7 +193,7 @@ export default function CalvinFinds() {
             </div>
 
             {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="flex flex-col py-4">
                 <h4 className="font-black text-base">• Accessibility</h4>
                 <p className="pl-3">We designed the application with inclusive mind. We want to take cared of the users who may
@@ -212,7 +212,7 @@ export default function CalvinFinds() {
         <section className="text-[#2F2E41] bg-[#FFF] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <h3 className="font-black text-xl inline-flex py-2 mb-1">Management Method</h3>
               <div className="flex flex-col py-4">
                 <h4 className="font-black text-base">• Sprint Planning</h4>
@@ -230,8 +230,8 @@ export default function CalvinFinds() {
             </div>
 
             {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/ReentryGuide-GR/agile.webp"
                   alt="Circular flowchart illustrating the Agile development lifecycle phases." />
                 <p className="md:text-sm p-2">Credit: Asana</p>
@@ -243,13 +243,13 @@ export default function CalvinFinds() {
         {/* 3.4 */}
         <section className="text-[#2F2E41] bg-[#FFF] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 pb-5 grid grid-col-1 lg:grid-cols-2">
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
               <div className="flex flex-col py-4">
                 <h4 className="font-black text-base">• Sprint Meetings</h4>
                 <p className="pl-3">We held weekly sprint meetings after class to review progress, plan upcoming tasks, and address any challenges.</p>
               </div>
             </div>
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
               <div className="flex flex-col py-4">
                 <h4 className="font-black text-base">• Design-Development Integration</h4>
                 <p className="pl-3">As both a designer and developer, I was able to seamlessly integrate Figma designs with React Native development, ensuring a smooth transition from design to implementation.</p>
@@ -261,7 +261,7 @@ export default function CalvinFinds() {
         {/* 3.5 */}
         <section className="text-[#2F2E41] bg-[#FFF] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 pb-5 grid grid-col-1 lg:grid-cols-2">
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
               <div className="flex flex-col py-4">
                 <h4 className="font-black text-base">• Kanban - Trello Board</h4>
                 <p className="pl-3">We used a Kanban board in Trello to visualize our workflow and manage tasks efficiently. Our board included:</p>
@@ -274,24 +274,24 @@ export default function CalvinFinds() {
                 </ul>
               </div>
               <p className="pl-3">Kanban Template we were using:</p>
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/t1.png"
                   alt="Kanban board interface showing 'To Do', 'Doing', and 'Done' columns." />
                 <p className="md:text-sm p-2"></p>
               </div>
             </div>
 
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/t2.png"
                   alt="Kanban board columns populated with specific development tasks." />
                 <p className="md:text-sm p-2"></p>
               </div>
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/t3.png" alt="Kanban board showing progress on tasks" />
                 <p className="md:text-sm p-2"></p>
               </div>
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/t4.png"
                   alt="Kanban board detail view showing 'Sprints 1 through x-1' task grouping." />
                 <p className="md:text-sm p-2"></p>
@@ -303,9 +303,9 @@ export default function CalvinFinds() {
         {/* 3.6 */}
         <section className="text-[#2F2E41] bg-[#F4F1F1] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2">
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <h3 className="font-black text-xl inline-flex py-4 mb-1">Technology Stack Evaluation</h3>
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/tech.png"
                   alt="Logos for PostgreSQL, GitHub, Azure, React Native, Figma, Inkscape, and Trello." />
                 <p className="md:text-sm p-2"></p>
@@ -324,7 +324,7 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="flex flex-col py-4">
                 <div className="flex flex-col py-4">
                   <h4 className="font-black text-base">• draw.io</h4>
@@ -356,7 +356,7 @@ export default function CalvinFinds() {
         {/* 4.1 */}
         <section className="text-[#2F2E41] bg-[#FFAF66] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 pt-10 grid grid-col-1 lg:grid-cols-2">
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="flex flex-row py-3">
                 <h2 className="inline-flex font-black font-[poppins] text-[#2F2E41] font-RedHatDisplay text-2xl text-left">Design</h2>
               </div>
@@ -373,8 +373,8 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl"
                   src="https://cdn.dribbble.com/users/1052299/screenshots/3819384/shot.png?resize=800x600&vertical=center"
                   alt="Mobile UI concept featuring an image-heavy social media feed layout." />
@@ -387,15 +387,15 @@ export default function CalvinFinds() {
         {/* 4.2 */}
         <section className="text-[#2F2E41] bg-[#FFAF66] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 pb-5 grid grid-col-1 lg:grid-cols-2">
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/card.png"
                   alt="UI card component displaying a photo of socks, user avatar, and location tag." />
                 <p className="md:text-sm p-2"></p>
               </div>
             </div>
 
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
               <div className="flex flex-col py-2">
                 <b className="">• Platform Comparisons</b>
                 <p className="pl-3">We examined other platforms but found Instagram&apos;s approach most suitable:</p>
@@ -406,7 +406,7 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
               <h3 className="font-black text-lg inline-flex py-2 mb-1">Color Scheme and Branding</h3>
               <div className="flex flex-col py-2">
                 <b className="">• Gen-Z Appeal</b>
@@ -419,8 +419,8 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5 max-w-md">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="https://images.pexels.com/photos/5325866/pexels-photo-5325866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                   alt="Three young adults wearing bright clothing, one holding a green smartphone." />
                 <p className="md:text-sm p-2"></p>
@@ -432,7 +432,7 @@ export default function CalvinFinds() {
         {/* 4.3 */}
         <section className="text-[#2F2E41] bg-[#fdc794] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-10 grid grid-col-1 lg:grid-cols-2">
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <h3 className="font-black text-xl inline-flex py-2 mb-1">Accessibility Considerations</h3>
               <div className="flex flex-col py-2">
                 <b className="">• Typography</b>
@@ -444,7 +444,7 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="flex flex-col py-2">
                 <b className="">• Color Choices</b>
                 <p className="pl-3">We prioritized accessibility in our color selections:</p>
@@ -464,10 +464,10 @@ export default function CalvinFinds() {
         {/* p5 Brand */}
         <section className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-3">
-            <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <img src="/images/CalvinFinds/brand2.svg" alt="Green app icon with a white image-placeholder symbol." />
             </div>
-            <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
               <img src="/images/CalvinFinds/brand1.svg" alt="Full logo featuring the icon and 'Calvin Finds' typography." />
             </div>
           </div>
@@ -476,7 +476,7 @@ export default function CalvinFinds() {
         {/* p6 Usability Testing */}
         <section className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1300px] m-auto pb-10 grid grid-col-1 lg:grid-cols-2">
-            <div className="order-1 self-start col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
+            <div className="order-1 self-start col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
               <div className="flex flex-row py-3">
                 <h2 className="inline-flex font-black font-[poppins] text-[#2F2E41] font-RedHatDisplay text-2xl text-left">Usability Testing</h2>
               </div>
@@ -504,7 +504,7 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="order-2 self-start col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
+            <div className="order-2 self-start col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
               <div className="flex flex-col py-6">
                 <b className="font-black text-lg">Test Structure</b>
                 <ol className="list-decimal pl-6">
@@ -527,23 +527,23 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="order-3 self-start col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="order-3 self-start col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/Usability Test Script-1.png"
                   alt="Page 1 of the printed usability testing questionnaire." />
                 <p className="md:text-sm p-2">Usability testing Script - Page 1</p>
               </div>
             </div>
 
-            <div className="order-4 self-start col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="order-4 self-start col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/Usability Test Script-2.png"
                   alt="Page 2 of the printed usability testing questionnaire." />
                 <p className="md:text-sm p-2">Usability testing Script - Page 2</p>
               </div>
             </div>
 
-            <div className="order-5 col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="order-5 col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <h3 className="font-black text-xl">Key Findings and Improvements</h3>
               <div className="my-6">
                 <b className="">1. Navigation and Button Clarity</b>
@@ -557,7 +557,7 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="order-6 col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="order-6 col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="my-4 flex flex-col lg:flex-row justify-center items-center gap-4">
                 <div className="flex flex-col items-center">
                   <img className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/before.png"
@@ -584,14 +584,14 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="order-8 md:order-7 col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="order-8 md:order-7 col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="grid-cols-2">
-                <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+                <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                   <img className="rounded-xl max-w-[300px]" src="/images/CalvinFinds/usability-testing/detail-before.png"
                     alt="Item detail screen lacking contact information." />
                   <p className="md:text-sm p-2">before</p>
                 </div>
-                <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+                <div className="flex flex-col mx-auto max-w-md justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                   <img className="rounded-xl max-w-[300px]" src="/images/CalvinFinds/usability-testing/detail-after.png"
                     alt="Item detail screen displaying the poster's email and username." />
                   <p className="md:text-sm p-2">after</p>
@@ -599,7 +599,7 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="order-7 md:order-8 col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="order-7 md:order-8 col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="my-6">
                 <b className="">3. Contact Information Accessibility</b>
                 <p className="pl-3">Users were uncertain about how to contact item owners.</p>
@@ -607,7 +607,7 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="order-9 col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="order-9 col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="my-6">
                 <b className="">4. Image Upload Process</b>
                 <p className="pl-3">Users wanted to take pictures directly in the app when posting items.</p>
@@ -615,7 +615,7 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="order-10 col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="order-10 col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="my-6">
                 <b className="">5. Profile Information Accuracy</b>
                 <p className="pl-3">Bug with the numbers displayed on user profiles for posted and archived items.</p>
@@ -623,7 +623,7 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="order-11 col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="order-11 col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="flex flex-col lg:flex-row justify-center items-center gap-4">
                 <div className="flex flex-col items-center">
                   <img className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/map-before.png"
@@ -638,7 +638,7 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="order-12 col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="order-12 col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="my-6">
                 <b className="">6. Location Selection Interface</b>
                 <p className="pl-3">Users found it challenging to find specific locations on the map.</p>
@@ -646,7 +646,7 @@ export default function CalvinFinds() {
               </div>
             </div>
 
-            <div className="order-last self-start mt-10 col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
+            <div className="order-last self-start mt-10 col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5 max-w-md">
               <div className="flex flex-col py-2 mt-4">
                 <b className="font-black text-lg">Overall User Feedback</b>
                 <ul className="list-disc pl-6">
@@ -671,7 +671,7 @@ export default function CalvinFinds() {
             <div className="flex flex-row p-3">
               <h2 className="inline-flex font-black font-[poppins] text-[#2F2E41] font-RedHatDisplay text-2xl text-left">Initial UI Model</h2>
             </div>
-            <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <img className="rounded-2xl" src="/images/CalvinFinds/UI-Model.jpg"
                 alt="High-fidelity user flow diagram connecting app screens with directional arrows." />
             </div>
@@ -680,7 +680,7 @@ export default function CalvinFinds() {
 
         {/* P8 Final UI */}
         <section className="bg-[#FFAF66] py-10 grid grid-col-1 sm:grid-cols-2 lg:grid-cols-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="col-span-1 sm:col-span-2 lg:col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12">
+          <div className="col-span-1 sm:col-span-2 lg:col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12">
             <div className="flex flex-row p-4">
               <h2 className="text-[#2F2E41] mt-4 inline-flex font-black font-[poppins] text-xl text-left">Final UI</h2>
             </div>
@@ -700,7 +700,7 @@ export default function CalvinFinds() {
             { src: "/images/CalvinFinds/map.png", alt: "Mobile map interface showing a location pin on a campus building.", label: "Add Item Page - Map Selection" },
             { src: "/images/CalvinFinds/add-filled.png", alt: "Mobile entry form populated with 'Socks' as the item name.", label: "Add Item Page - Filled" },
           ].map((item, idx) => (
-            <div key={idx} className="flex flex-col justify-center items-center p-9 col-span-1 row-span-2 bg-[#FFAF66] transition sm:min-h-[150px] h-fit">
+            <div key={idx} className="flex flex-col mx-auto max-w-md justify-center items-center p-9 col-span-1 row-span-2 bg-[#FFAF66] transition sm:min-h-[150px] h-fit">
               <img src={item.src} alt={item.alt} />
               <p className="text-[#2F2E41] m-1">{item.label}</p>
             </div>
@@ -713,7 +713,7 @@ export default function CalvinFinds() {
             <div className="flex flex-row p-3">
               <h2 className="inline-flex font-black font-[poppins] text-[#2F2E41] font-RedHatDisplay text-2xl text-left">Deployment Diagram</h2>
             </div>
-            <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <img className="rounded-2xl" src="/images/CalvinFinds/DeploymentDiagram.png" alt="" />
             </div>
           </div>
@@ -725,7 +725,7 @@ export default function CalvinFinds() {
             <div className="flex flex-row pt-3">
               <h2 className="w-full justify-center inline-flex font-black font-[poppins] text-white font-RedHatDisplay text-2xl text-left">Domain Model</h2>
             </div>
-            <div className="flex flex-col justify-center items-center col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <img className="" src="/images/CalvinFinds/DomainModel.png" alt="" />
             </div>
           </div>

@@ -38,7 +38,7 @@ export default function ExodusPlace() {
         <section className="bg-[#0B4F3A] text-white  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
-            <div className=" col-span-1 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
+            <div className=" col-span-1 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left">Project Overview</h2>
@@ -88,7 +88,7 @@ export default function ExodusPlace() {
               </ol>
             </div>
 
-            <div className="flex flex-col justify-center gap-4 items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center gap-4 items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/old-website.png"
@@ -108,7 +108,7 @@ export default function ExodusPlace() {
         <section className="bg-[#E6F2EB] text-black  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" justify-center items-center max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2 ">
             {/* Image */}
-            <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/eg1.png"
@@ -117,7 +117,7 @@ export default function ExodusPlace() {
               <p className="md:text-sm p-4">Liberty in North Korea Site (Credit: Liberty in North Korea)</p>
             </div>
             {/* text block */}
-            <div className=" col-span-1 md:row-span-3 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
+            <div className=" col-span-1 md:row-span-3 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
               {/* title */}
               <div className="flex flex-row py-3">
                 <p className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left text-[#006826]">
@@ -173,7 +173,7 @@ export default function ExodusPlace() {
             </div>
 
             {/* Image */}
-            <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/eg2.png"
@@ -188,13 +188,13 @@ export default function ExodusPlace() {
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
-            <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8 max-w-md">
+            <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8 max-w-md">
               <h2 className="inline-flex font-bold font-['Montserrat'] text-[#72D976] text-2xl text-left py-3">
                 Design
               </h2>
             </div>
 
-            <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit mt-[-40px] mb-[-40px]">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit mt-[-40px] mb-[-40px]">
               <img
                 className="hidden md:block"
                 src="/images/ExodusPlace.org/mockup-large.png"
@@ -207,7 +207,7 @@ export default function ExodusPlace() {
               />
             </div>
 
-            <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-md">
+            <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col mx-auto max-w-md justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-md">
               <h3 className="font-['Montserrat'] font-bold text-xl text-[#72D976] text-left py-2">
                 Mission-Focused Homepage
               </h3>
@@ -216,7 +216,7 @@ export default function ExodusPlace() {
               <p className="text-left">&bull; Mobile-optimized navigation</p>
             </div>
 
-            <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-md">
+            <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col mx-auto max-w-md justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-md">
               <h3 className="font-['Montserrat'] font-bold text-xl text-[#72D976] text-left py-2">
                 Visual Communication
               </h3>
@@ -232,7 +232,7 @@ export default function ExodusPlace() {
         {/* P5 */}
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1300px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2 gap-5">
-            <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/hero-event.png"
@@ -243,7 +243,7 @@ export default function ExodusPlace() {
               </p>
             </div>
 
-            <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/hero-normal.png"
@@ -257,7 +257,7 @@ export default function ExodusPlace() {
         {/* P6 */}
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2">
-            <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit mt-[-40px] mb-[-40px]">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit mt-[-40px] mb-[-40px]">
               <img
                 className="hidden md:block rounded-2xl"
                 src="/images/ExodusPlace.org/service-section.png"
@@ -276,7 +276,7 @@ export default function ExodusPlace() {
         {/* P7 */}
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-4 gap-6">
-            <div className="flex flex-col justify-center items-center md:col-span-3 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center md:col-span-3 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
               <img
                 className="rounded-2xl"
                 src="/images/ExodusPlace.org/grouping.png"
@@ -285,7 +285,7 @@ export default function ExodusPlace() {
               <p className="p-2 hidden md:block">Improved grouping for navigation bar items</p>
             </div>
 
-            <div className="flex flex-col justify-center items-center col-span-1 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
               <img
                 className="rounded-2xl"
                 src="/images/ExodusPlace.org/grouping-mobile.png"
@@ -299,7 +299,7 @@ export default function ExodusPlace() {
         {/* P8 */}
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2">
-            <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
               <img
                 className="hidden md:block rounded-2xl"
                 src="/images/ExodusPlace.org/accessibility.png"
@@ -320,7 +320,7 @@ export default function ExodusPlace() {
         {/* P9 */}
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-4 gap-6">
-            <div className="flex flex-col justify-center items-center md:col-span-3 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center md:col-span-3 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
               <img
                 className="rounded-2xl"
                 src="/images/ExodusPlace.org/housing.png"
@@ -328,7 +328,7 @@ export default function ExodusPlace() {
               />
             </div>
 
-            <div className="flex flex-col justify-center items-center col-span-1 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
               <img
                 className="rounded-2xl"
                 src="/images/ExodusPlace.org/housing2.png"
@@ -342,7 +342,7 @@ export default function ExodusPlace() {
         {/* P5 (Results) */}
         <section className="bg-white text-[#006826]  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-4 ">
-            <div className="flex flex-col justify-center items-center col-span-4 mx-3 my-5 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/Exodus-Place-Brand-Guidelines.png"
@@ -352,7 +352,7 @@ export default function ExodusPlace() {
             </div>
 
             {/* text block */}
-            <div className="md:row-span-2 col-span-4 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-10 max-w-md">
+            <div className="md:row-span-2 col-span-4 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-10 max-w-md">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left">Results and Impact</h2>
@@ -366,7 +366,7 @@ export default function ExodusPlace() {
               </ol>
             </div>
 
-            <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/home-event.png"
@@ -374,7 +374,7 @@ export default function ExodusPlace() {
               />
               <p className="md:text-sm p-4">Home Page - Desktop</p>
             </div>
-            <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/events.png"
@@ -382,7 +382,7 @@ export default function ExodusPlace() {
               />
               <p className="md:text-sm p-4">Events Page - Desktop</p>
             </div>
-            <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/service-meals.png"

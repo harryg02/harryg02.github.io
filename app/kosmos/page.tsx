@@ -35,7 +35,7 @@ export default function Kosmos() {
         <section className="bg-[#EDE3DD] text-[#392A3D]  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2 ">
             {/* text block */}
-            <div className=" col-span-1  md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
+            <div className=" col-span-1  md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className=" inline-flex font-bold font-RedHatDisplay text-2xl text-left">Project Overview</h2>
@@ -104,7 +104,7 @@ export default function Kosmos() {
               </ol>
             </div>
 
-            <div className="flex flex-col justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="https://cdn.prod.website-files.com/64b952b6247a6084952d92ef/68537b2786c3788191e0ee87_Kosmos-VillaOne-Web-20-1-p-1600.jpg"
@@ -119,18 +119,18 @@ export default function Kosmos() {
         <section className="text-[#392A3D] bg-[#F9F4F1]">
           <div className=" max-w-[1300px] m-auto px-6 py-20 grid grid-col-1 gap-5">
             {/* text block */}
-            <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8 max-w-md">
+            <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8 max-w-md">
               <h2 className="inline-flex font-bold font-['Montserrat'] text-2xl text-left py-3">Design</h2>
             </div>
 
             {/* text block */}
-            <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/kosmos_resort/desktop.png"
                 alt="Website hero section featuring a galaxy background and a central 'Book Your Stay' call-to-action."
               />
-              <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-md">
+              <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col mx-auto max-w-md justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-md">
                 <h3 className="font-['Montserrat'] font-bold text-xl  text-left py-2">Homepage - Hero Section</h3>
                 <ul className="list-disc pl-3 text-left">
                   <li className="pb-1">Tagline for marketing</li>
@@ -144,7 +144,7 @@ export default function Kosmos() {
               </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/kosmos_resort/villa.png"
@@ -155,7 +155,7 @@ export default function Kosmos() {
                 src="/images/kosmos_resort/villa2.png"
                 alt="Villa booking card displaying a night-time rendering of a dome illuminated against a starry desert sky."
               />
-              <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-md">
+              <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col mx-auto max-w-md justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-md">
                 <h3 className="font-['Montserrat'] font-bold text-xl  text-left py-2">Homepage - Villa Section</h3>
                 <ul className="list-disc pl-3 text-left">
                   <li className="pb-1">Key visual images and features to showcase the villa</li>
@@ -187,7 +187,7 @@ export default function Kosmos() {
         <section className="text-[#392A3D] bg-[#EDE3DD]">
           <div className=" max-w-[1300px] m-auto px-6 py-20 grid grid-col-1 gap-5">
             {/* text block */}
-            <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <img
                   className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]"
@@ -200,7 +200,7 @@ export default function Kosmos() {
                   alt="Mobile view of the booking calendar interface."
                 />
               </div>
-              <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-left max-w-md">
+              <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col mx-auto max-w-md justify-start items-start transition bg-grey-500 min-h[30px] text-left max-w-md">
                 <h3 className="font-['Montserrat'] font-bold text-2xl text-left py-2 mb-4">
                   Strategic Implementation: The Booking System
                 </h3>

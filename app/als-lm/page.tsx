@@ -59,7 +59,7 @@ export default function AlsLm() {
         <section className="bg-[#E4EFFF] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-10 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12 max-w-md">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
@@ -74,7 +74,7 @@ export default function AlsLm() {
               </ul>
             </div>
 
-            <div className="flex flex-col justify-center items-center p-2 col-span-1 row-span-2 bg-[#E4EFFF] transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 row-span-2 bg-[#E4EFFF] transition sm:min-h-[150px] h-fit">
               <img src="/images/als-lm/psych_graph.png"
                 alt="Line graph of user emotional response across the donation flow: scores rise to +15 at step 3, then drop sharply to −30 at the final step when users discover mail-only donations." />
             </div>
@@ -125,7 +125,7 @@ export default function AlsLm() {
               <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl">
                 The Redesign
               </h2>
-              <div className="flex flex-col justify-center items-center min-w-0 p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center min-w-0 p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <img src="/images/als-lm/1.png" className="w-full"
                   alt="Redesigned homepage section displaying impact statistics: 300+ disabled individuals achieved independent living, 25+ years of service, and 600+ free equipment distributed." />
                 <p className="md:text-sm py-2 max-w-2xl m-auto">
@@ -133,7 +133,7 @@ export default function AlsLm() {
                 </p>
               </div>
 
-              <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <img src="/images/als-lm/2.png" className="w-full max-w-2xl"
                   alt="Client testimony section showing a smiling man in a wheelchair outdoors, with the quote: 'ALS-LM helped me to achieve independent living within 6 months.' — Tony Smith." />
                 <p className="md:text-sm py-2 max-w-2xl m-auto">
@@ -141,7 +141,7 @@ export default function AlsLm() {
                 </p>
               </div>
 
-              <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <img src="/images/als-lm/5.png" className="w-full"
                   alt="Digital donation form with frequency toggle for one-time or monthly giving, preset amount buttons from $10 to $200, a custom amount field, and a Donate button." />
                 <p className="md:text-sm py-2 max-w-2xl m-auto">
@@ -149,7 +149,7 @@ export default function AlsLm() {
                 </p>
               </div>
 
-              <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <img src="/images/als-lm/3.png" className="w-full"
                   alt="Redesigned Support Us page with three illustrated cards for Financial Support, Donate Equipment, and Volunteering, each with a brief description and call-to-action button." />
                 <p className="md:text-sm py-2 max-w-2xl m-auto">
@@ -157,7 +157,7 @@ export default function AlsLm() {
                 </p>
               </div>
 
-              <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <img src="/images/als-lm/4.png" className="w-full"
                   alt="Thank You page displayed after donation, featuring a group photo of staff members outside a lodge and social media links to Instagram and Facebook." />
                 <p className="md:text-sm py-2 max-w-2xl m-auto">
@@ -216,7 +216,7 @@ export default function AlsLm() {
         <section className="bg-[#E4EFFF] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 pt-10 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 max-w-md">
               <h3 className="text-gray-900 inline-flex font-extrabold text-xl font-RedHatDisplay text-md text-left">
                 Key Findings
               </h3>
@@ -233,7 +233,7 @@ export default function AlsLm() {
               </ul>
             </div>
             {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-4 max-w-md">
+            <div className="col-span-1 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-4 max-w-md">
               <h3 className="text-gray-900 inline-flex font-extrabold text-xl font-RedHatDisplay text-md text-left">
                 Key Discovery: The Information Density Paradox
               </h3>
@@ -322,7 +322,7 @@ export default function AlsLm() {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <p className="md:text-sm py-2 max-w-2xl m-auto">
                   2. Added texts to explicitly address that we will keep your information private on checkout Page
                 </p>
@@ -330,7 +330,7 @@ export default function AlsLm() {
                   alt="Redesigned checkout page header showing 'Powered by PayPal' badge and a privacy assurance statement: 'We will keep your information private and not sell your information.'" />
               </div>
 
-              <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <p className="md:text-sm py-2 max-w-2xl m-auto">
                   3. Added About Us Page
                 </p>
@@ -347,31 +347,31 @@ export default function AlsLm() {
               <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl">
                 Final Redesign
               </h2>
-              <div className="flex flex-col justify-center items-center min-w-0 p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center min-w-0 p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <img src="/images/als-lm/final/1.png" className="w-full"
                   alt="Final redesigned homepage with hero section, impact statistics, a 'Learn More About Us' button, client testimony carousel, accreditation details, and a Support Us call to action." />
                 <p className="md:text-sm py-2 max-w-2xl m-auto">Home Page</p>
               </div>
 
-              <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <img src="/images/als-lm/final/2.png" className="w-full"
                   alt="Final Support Us page with a hero photo of volunteers packing donations and three illustrated cards for Financial Support, Donate Equipment, and Volunteering." />
                 <p className="md:text-sm py-2 max-w-2xl m-auto">Support Us Page (Previously Donation Page)</p>
               </div>
 
-              <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <img src="/images/als-lm/final/3.png" className="w-full"
                   alt="Final donation selection page with a photo of two men high-fiving, frequency toggle, preset donation amounts from $10 to $200, and a Donate button." />
                 <p className="md:text-sm py-2 max-w-2xl m-auto">Donation Selection page</p>
               </div>
 
-              <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <img src="/images/als-lm/final/5.png" className="w-full"
                   alt="Final checkout page with PayPal badge, privacy assurance text, contact and payment form fields, donation summary showing a $10 one-time donation, and a Submit button." />
                 <p className="md:text-sm py-2 max-w-2xl m-auto">Payment Page</p>
               </div>
 
-              <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+              <div className="flex flex-col mx-auto max-w-md justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <img src="/images/als-lm/final/6.png" className="w-full"
                   alt="Final thank-you page with a group photo of staff in front of a lodge, a message confirming the donation, and social media links to Instagram and Facebook." />
                 <p className="md:text-sm py-2 max-w-2xl m-auto">Thank You Page</p>
