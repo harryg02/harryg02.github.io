@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
 import TableOfContents from "@/app/components/TableOfContents";
 import type { TocItem } from "@/app/components/TableOfContents";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "State of the Detroit Child — Usability Analysis | Harry Gu",
@@ -272,18 +273,22 @@ export default function DetroitChildUsability() {
                 <ol className="list-decimal list-outside pl-6 space-y-8">
                   <li>
                     <p className="mb-2"><strong className="text-[#f1f5f9]">Move the interactive map of Detroit to the homepage.</strong> Several participants were dissatisfied with the content on the homepage and felt it was difficult to navigate from it to important features on the site. This can be remedied by moving the map to the homepage. This aligns with our previous findings that featuring such content here is industry standard, as shown by the homepage from another analytics site we previously analyzed.</p>
-                    <img
+                    <Image
                       src="/images/detroit-child-usability/social-explorer.png"
                       alt="Social Explorer analytics website homepage showing an interactive map of the United States as its primary feature."
                       className="w-full rounded-lg border border-[#1e2737] my-4"
                       loading="lazy"
+                    
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                     <p>Below is a mockup of how the site&apos;s homepage could potentially look if this suggestion is implemented.</p>
-                    <img
+                    <Image
                       src="/images/detroit-child-usability/suggestion1.png"
                       alt="Mockup of the State of the Detroit Child homepage redesign with an embedded interactive map of Detroit prominently featured."
                       className="w-full rounded-lg border border-[#1e2737] my-4"
                       loading="lazy"
+                    
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   </li>
                   <li>
@@ -291,18 +296,22 @@ export default function DetroitChildUsability() {
                   </li>
                   <li>
                     <p className="mb-2"><strong className="text-[#f1f5f9]">On the Data/Map page, make the &ldquo;Jump to a section&rdquo; dropdown sticky on top.</strong> Instead of having users scroll through all of the data, sticky links would allow them to efficiently find whatever they&apos;re looking for as shown below.</p>
-                    <img
+                    <Image
                       src="/images/detroit-child-usability/suggestion3.png"
                       alt="Screenshot showing the 'Jump to a section' dropdown in its default position at the top of the data page before the user scrolls."
                       className="w-full rounded-lg border border-[#1e2737] my-4"
                       loading="lazy"
+                    
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                     <p className="text-sm text-[#94a3b8] italic">(&ldquo;Jump to a section&rdquo; can remain in the same location if the user does not scroll down)</p>
-                    <img
+                    <Image
                       src="/images/detroit-child-usability/suggestion3.1.png"
                       alt="Screenshot showing the 'Jump to a section' dropdown fixed to the top of the viewport after the user has scrolled down the page."
                       className="w-full rounded-lg border border-[#1e2737] my-4"
                       loading="lazy"
+                    
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                     <p className="text-sm text-[#94a3b8] italic">(&ldquo;Jump to a section&rdquo; becomes sticky on top after the user scrolls down)</p>
                   </li>

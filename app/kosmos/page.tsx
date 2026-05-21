@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
 import ProjectHero from "@/app/components/ProjectHero";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title:
@@ -107,10 +108,12 @@ export default function Kosmos() {
                   </li>
                 </ol>
               </div>
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="https://cdn.prod.website-files.com/64b952b6247a6084952d92ef/68537b2786c3788191e0ee87_Kosmos-VillaOne-Web-20-1-p-1600.jpg"
                 alt="Geodesic white domes situated in a flat, grassy landscape with mountains in the distance."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Credit: Kosmos Stargazing Resort</p>
             </div>
@@ -127,10 +130,12 @@ export default function Kosmos() {
 
             {/* text block */}
             <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/kosmos_resort/desktop.png"
                 alt="Website hero section featuring a galaxy background and a central 'Book Your Stay' call-to-action."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-2xl">
                 <h3 className="font-bold text-xl  text-left py-2">Homepage - Hero Section</h3>
@@ -147,15 +152,19 @@ export default function Kosmos() {
             </div>
 
             <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/kosmos_resort/villa.png"
                 alt="Villa booking card displaying amenities, price ($700/night), and interior photos of a bedroom inside a dome structure."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] pt-10"
                 src="/images/kosmos_resort/villa2.png"
                 alt="Villa booking card displaying a night-time rendering of a dome illuminated against a starry desert sky."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-2xl">
                 <h3 className="font-bold text-xl  text-left py-2">Homepage - Villa Section</h3>
@@ -191,15 +200,19 @@ export default function Kosmos() {
             {/* text block */}
             <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <img
+                <Image
                   className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]"
                   src="/images/kosmos_resort/widget.png"
                   alt="Desktop view of the booking calendar interface."
+                
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                 />
-                <img
+                <Image
                   className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]"
                   src="/images/kosmos_resort/widget2.png"
                   alt="Mobile view of the booking calendar interface."
+                
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                 />
               </div>
               <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-left max-w-2xl">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - Crazy Charlies",
@@ -18,7 +19,7 @@ export default function CrazyCharlies() {
           {/* Intro */}
           <div className=" grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
             <div className="col-span-1 row-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazycharlies.png" alt="" />
+              <Image src="/images/crazycharlies.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="md:col-span-2 lg:col-span-1 row-span-2 flex flex-col justify-center items-center transition bg-grey-500 shadow-xl min-h[30px] text-center py-32 md:py-24">
@@ -35,15 +36,15 @@ export default function CrazyCharlies() {
             </div>
 
             <div className="col-span-1 row-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/poster1final.png" alt="" />
+              <Image src="/images/poster1final.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/poster3square.png" alt="" />
+              <Image src="/images/crazy_charlies/poster3square.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="md:col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/poster2square.png" alt="" />
+              <Image src="/images/crazy_charlies/poster2square.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
 
@@ -72,15 +73,15 @@ export default function CrazyCharlies() {
             </div>
 
             <div className="col-span-1 row-span-3 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/1.jpg" alt="" />
+              <Image src="/images/crazy_charlies/1.jpg" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/2.jpg" alt="" />
+              <Image src="/images/crazy_charlies/2.jpg" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/3.jpg" alt="" />
+              <Image src="/images/crazy_charlies/3.jpg" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
 
@@ -100,15 +101,15 @@ export default function CrazyCharlies() {
             </div>
 
             <div className="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/white.png" alt="" />
+              <Image src="/images/crazy_charlies/white.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/black.png" alt="" />
+              <Image src="/images/crazy_charlies/black.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-2 md:col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazycharlies2.png" alt="" />
+              <Image src="/images/crazycharlies2.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
 
@@ -130,19 +131,19 @@ export default function CrazyCharlies() {
             </div>
 
             <div className="col-span-2 row-span-4 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/third_party_img/cyberpunk.jpg" alt="" />
+              <Image src="/third_party_img/cyberpunk.jpg" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/third_party_img/sword.jpg" alt="" />
+              <Image src="/third_party_img/sword.jpg" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="lg:order-last col-span-1 row-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/third_party_img/urban.jpg" alt="" />
+              <Image src="/third_party_img/urban.jpg" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-3 row-span-6 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/third_party_img/comics2.jpg" alt="" />
+              <Image src="/third_party_img/comics2.jpg" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
 
@@ -161,89 +162,89 @@ export default function CrazyCharlies() {
             </div>
 
             <div className="col-span-2 row-span-4 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process0.png" alt="" />
+              <Image src="/images/crazy_charlies/process0.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process0.6.png" alt="" />
+              <Image src="/images/crazy_charlies/process0.6.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process1.png" alt="" />
+              <Image src="/images/crazy_charlies/process1.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-2 row-span-6 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/poster2final.png" alt="" />
+              <Image src="/images/crazy_charlies/poster2final.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process3.png" alt="" />
+              <Image src="/images/crazy_charlies/process3.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process4.png" alt="" />
+              <Image src="/images/crazy_charlies/process4.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
 
           {/* 4.1 */}
           <div className="md:py-1 grid grid-cols-4 md:grid-cols-8  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
             <div className="col-span-2 row-span-4 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process5.jpg" alt="" />
+              <Image src="/images/crazy_charlies/process5.jpg" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-2 row-span-4 bg-yellow-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process6.png" alt="" />
+              <Image src="/images/crazy_charlies/process6.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process7.png" alt="" />
+              <Image src="/images/crazy_charlies/process7.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process8.png" alt="" />
+              <Image src="/images/crazy_charlies/process8.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-2 row-span-6 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/poster3final.png" alt="" />
+              <Image src="/images/crazy_charlies/poster3final.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process9.png" alt="" />
+              <Image src="/images/crazy_charlies/process9.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process10.png" alt="" />
+              <Image src="/images/crazy_charlies/process10.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
 
           {/* 4.1 */}
           <div className="md:py-1 grid grid-cols-4 md:grid-cols-8  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
             <div className="col-span-2 row-span-4 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process11.jpg" alt="" />
+              <Image src="/images/crazy_charlies/process11.jpg" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-2 row-span-4 bg-gray-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process12.png" alt="" />
+              <Image src="/images/crazy_charlies/process12.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 m-1 bg-gray-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process13.png" alt="" />
+              <Image src="/images/crazy_charlies/process13.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process14.png" alt="" />
+              <Image src="/images/crazy_charlies/process14.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-2 row-span-6 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/poster1final.png" alt="" />
+              <Image src="/images/crazy_charlies/poster1final.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process15.png" alt="" />
+              <Image src="/images/crazy_charlies/process15.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
 
             <div className="col-span-1 row-span-1 m-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/process16.png" alt="" />
+              <Image src="/images/crazy_charlies/process16.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
 
@@ -259,7 +260,7 @@ export default function CrazyCharlies() {
             </div>
 
             <div className="col-span-2 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <img src="/images/crazy_charlies/mockup3.png" alt="" />
+              <Image src="/images/crazy_charlies/mockup3.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
         </section>

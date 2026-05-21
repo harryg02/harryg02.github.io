@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Footer from "@/app/components/Footer";
 import ProjectHero from "@/app/components/ProjectHero";
 
@@ -89,15 +90,17 @@ export default function ExodusPlace() {
             </div>
 
             <div className="flex flex-col justify-center gap-4 items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/old-website.png"
                 alt="Dated layout with cluttered navigation."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/old-website-2.png"
                 alt="Dated layout with small text."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className="">The Website Before Redesign</p>
             </div>
@@ -109,10 +112,11 @@ export default function ExodusPlace() {
           <div className=" justify-center items-center max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2 ">
             {/* Image */}
             <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/eg1.png"
                 alt="Reference interface with bold hero photography."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Liberty in North Korea Site (Credit: Liberty in North Korea)</p>
             </div>
@@ -174,10 +178,11 @@ export default function ExodusPlace() {
 
             {/* Image */}
             <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/eg2.png"
                 alt="Reference interface with diverse imagery."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">American Heart Association Site (Credit: American Heart Association)</p>
             </div>
@@ -195,15 +200,17 @@ export default function ExodusPlace() {
             </div>
 
             <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit mt-[-40px] mb-[-40px]">
-              <img
+              <Image
                 className="hidden md:block"
                 src="/images/ExodusPlace.org/mockup-large.png"
                 alt="Dark-themed homepage with aerial facility view."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
-              <img
+              <Image
                 className="block md:hidden"
                 src="/images/ExodusPlace.org/mockup-mobile.png"
                 alt="Dark-themed homepage with aerial facility view."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
             </div>
 
@@ -233,10 +240,11 @@ export default function ExodusPlace() {
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1300px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2 gap-5">
             <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/hero-event.png"
                 alt="Homepage variation: 'Roof Sit' banner."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">
                 Hero Section if important events ongoing, providing easy access for users
@@ -244,10 +252,11 @@ export default function ExodusPlace() {
             </div>
 
             <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/hero-normal.png"
                 alt="Homepage variation: standard video background."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Normal Hero Section</p>
             </div>
@@ -258,15 +267,17 @@ export default function ExodusPlace() {
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2">
             <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit mt-[-40px] mb-[-40px]">
-              <img
+              <Image
                 className="hidden md:block rounded-2xl"
                 src="/images/ExodusPlace.org/service-section.png"
                 alt="Photos of building exterior, food preparation, and medical care."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
-              <img
+              <Image
                 className="block md:hidden rounded-xl"
                 src="/images/ExodusPlace.org/service-section-mobile.png"
                 alt="Photos of building exterior, food preparation, and medical care."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className="p-2">Structured service categories</p>
             </div>
@@ -277,19 +288,21 @@ export default function ExodusPlace() {
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-4 gap-6">
             <div className="flex flex-col justify-center items-center md:col-span-3 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
-              <img
+              <Image
                 className="rounded-2xl"
                 src="/images/ExodusPlace.org/grouping.png"
                 alt="Desktop dropdown menu."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className="p-2 hidden md:block">Improved grouping for navigation bar items</p>
             </div>
 
             <div className="flex flex-col justify-center items-center col-span-1 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
-              <img
+              <Image
                 className="rounded-2xl"
                 src="/images/ExodusPlace.org/grouping-mobile.png"
                 alt="Mobile menu drawer."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className="p-2 md:hidden">Improved grouping for navigation bar items</p>
             </div>
@@ -300,15 +313,17 @@ export default function ExodusPlace() {
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2">
             <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
-              <img
+              <Image
                 className="hidden md:block rounded-2xl"
                 src="/images/ExodusPlace.org/accessibility.png"
                 alt="Toolbar with contrast, font size, and pause toggles."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
-              <img
+              <Image
                 className="block md:hidden rounded-xl"
                 src="/images/ExodusPlace.org/accessibility-mobile.png"
                 alt="Toolbar with contrast, font size, and pause toggles."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className="p-2">
                 Accessibility Options: Resize font, High contract, pause video autoplay (provided by GRCMC)
@@ -321,18 +336,20 @@ export default function ExodusPlace() {
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-4 gap-6">
             <div className="flex flex-col justify-center items-center md:col-span-3 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
-              <img
+              <Image
                 className="rounded-2xl"
                 src="/images/ExodusPlace.org/housing.png"
                 alt="Mobile Housing UI: Text list."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
             </div>
 
             <div className="flex flex-col justify-center items-center col-span-1 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
-              <img
+              <Image
                 className="rounded-2xl"
                 src="/images/ExodusPlace.org/housing2.png"
                 alt="Mobile Housing UI: Large touch-friendly buttons."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className="p-2">Mobile Page is provided with additional buttons easier for users to click</p>
             </div>
@@ -343,10 +360,11 @@ export default function ExodusPlace() {
         <section className="bg-white text-[#006826]  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-4 ">
             <div className="flex flex-col justify-center items-center col-span-4 mx-3 my-5 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/Exodus-Place-Brand-Guidelines.png"
                 alt="Montserrat font weights and green color swatches."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Brand Guidelines</p>
             </div>
@@ -367,26 +385,29 @@ export default function ExodusPlace() {
             </div>
 
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/home-event.png"
                 alt="Desktop view of the homepage highlighting the event announcement section."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Home Page - Desktop</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/events.png"
                 alt="Desktop view of the Events page listing upcoming community activities."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Events Page - Desktop</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ExodusPlace.org/service-meals.png"
                 alt="Exodus Place branded delivery van featuring a bright green and white vehicle wrap."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Meals Page - Desktop</p>
             </div>

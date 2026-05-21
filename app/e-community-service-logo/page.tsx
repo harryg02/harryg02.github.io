@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - E-Community-Service",
@@ -26,9 +27,11 @@ export default function ECommunityServiceLogo() {
           </div>
 
           <div className="md:col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/trademarks/e-community-service.png"
               alt="Final E-Community Service logo design featuring a gradient heart-handshake icon on a dark gray background."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
         </div>
@@ -62,47 +65,53 @@ export default function ECommunityServiceLogo() {
           </div>
 
           <div className="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img src="/third_party_img/img1.png" alt="Logo reference: ProPrio." />
+            <Image src="/third_party_img/img1.png" alt="Logo reference: ProPrio."  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img src="/third_party_img/LiNK_Logo.png" alt="Logo reference: Liberty in North Korea." />
+            <Image src="/third_party_img/LiNK_Logo.png" alt="Logo reference: Liberty in North Korea."  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img src="/third_party_img/heartassociation.png" alt="Logo reference: American Heart Association." />
+            <Image src="/third_party_img/heartassociation.png" alt="Logo reference: American Heart Association."  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/third_party_img/220421132621_LogoCett-Descriptiu-UB-H-color-positiu.png"
               alt="Logo reference: Barcelona School of Tourism and Gastronomy."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
           <div className="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/third_party_img/onedrop_share-1552502970-1669300092.png"
               alt="Logo reference: One Drop."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
           <div className="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img src="/third_party_img/Human_appeal_logo18.png" alt="Logo reference: Human Appeal." />
+            <Image src="/third_party_img/Human_appeal_logo18.png" alt="Logo reference: Human Appeal."  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img src="/third_party_img/PoP.png" alt="Logo reference: Pencils of Promise." />
+            <Image src="/third_party_img/PoP.png" alt="Logo reference: Pencils of Promise."  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img src="/third_party_img/DAM_New_Logo.svg.png" alt="Logo reference: Denver Art Museum." />
+            <Image src="/third_party_img/DAM_New_Logo.svg.png" alt="Logo reference: Denver Art Museum."  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="col-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/third_party_img/IMG_BANDEAUX_PAGE-LOGO_EN.jpg"
               alt="Logo reference: Handicap International."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
         </div>
@@ -123,23 +132,29 @@ export default function ECommunityServiceLogo() {
           </div>
 
           <div className="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/trademarks/e-community-service/progress1.png"
               alt="Typography iterations testing various font weights, alignments, and teal/red color accents."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
           <div className="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/trademarks/e-community-service/progress2.png"
               alt="Typography iterations testing various font weights, alignments, and teal/red color accents."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
           <div className="col-span-2 md:col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/trademarks/e-community-service/progress3.png"
               alt="Vector sketches exploring combinations of heart, handshake, and mobile device motifs."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
@@ -157,9 +172,11 @@ export default function ECommunityServiceLogo() {
           </div>
 
           <div className="hidden md:block lg:hidden col-span-2 md:col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/trademarks/e-community-service/logo-complete3.png"
               alt="Final logo layout displayed on a white background with black text."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
         </div>
@@ -179,16 +196,20 @@ export default function ECommunityServiceLogo() {
           </div>
 
           <div className="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/trademarks/e-community-service/logo-complete1.png"
               alt="Final logo layout displayed on a dark background with white text."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
           <div className="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/trademarks/e-community-service/logo-complete2.png"
               alt="Final logo layout displayed on a white background with black text."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
         </div>
@@ -205,30 +226,38 @@ export default function ECommunityServiceLogo() {
           </div>
 
           <div className="col-span-3 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/trademarks/e-community-service/desktop-web-mockup.png"
               alt="Desktop website homepage mockup featuring the new logo and photography of holding hands."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
           <div className="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/trademarks/e-community-service/phone-web-mockup.png"
               alt="Mobile website mockup showing responsive navigation and header design."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
           <div className="col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/trademarks/e-community-service/insta.png"
               alt="Instagram profile mockup showing the logo used as a profile picture."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
           <div className="col-span-2 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               src="/trademarks/e-community-service/facebook.png"
               alt="Facebook page mockup demonstrating the brand identity in a social media context."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
         </div>

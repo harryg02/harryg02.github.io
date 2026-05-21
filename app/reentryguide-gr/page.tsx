@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
 import ProjectHero from "@/app/components/ProjectHero";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - ReentryGuide GR",
@@ -121,9 +122,11 @@ export default function ReentryGuideGR() {
             </div>
 
             <div className="flex flex-col justify-center items-center p-2 col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 src="/images/ReentryGuide-GR/infographic.png"
                 alt="Bar charts comparing prison disability rates vs general population and post-release jobless trends."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
             </div>
           </div>
@@ -209,9 +212,11 @@ export default function ReentryGuideGR() {
             {/* block 2 */}
             <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               <div className="max-w-[400px] flex flex-col justify-center items-center  p-2 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                <img
+                <Image
                   src="/images/ReentryGuide-GR/ref.png"
                   alt="Visual references: Microsoft Fluent Design calendar and iOS Settings menu."
+                
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                 />
               </div>
             </div>
@@ -237,10 +242,12 @@ export default function ReentryGuideGR() {
 
                 <li className="list-none">
                   <div className="flex flex-col justify-center items-center  py-9 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                    <img
+                    <Image
                       className="w-[300px] rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                       src="/images/ReentryGuide-GR/design-choices/highlight.png"
                       alt="Mobile UI card highlighting the 'Pick Closest Location' button."
+                    
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                     <p className="py-3 pt-5  px-9">
                       Highlighting the most likely choice with limited options by the user ensures a streamlined user
@@ -262,18 +269,22 @@ export default function ReentryGuideGR() {
                 <li className="list-none">
                   <div className="flex flex-col lg:flex-row justify-center items-center">
                     <div className="mx-5 flex flex-col justify-center items-center px-9 w-full lg:w-1/2 transition h-fit">
-                      <img
+                      <Image
                         className="w-[300px] md:max-w-[300px] rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                         src="/images/ReentryGuide-GR/design-choices/hand-left.png"
                         alt="Heatmap overlay showing reachable screen zones for left-handed users."
+                      
+                      width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                       />
                       <p className="py-3 ">Thumb zone for left handed people</p>
                     </div>
                     <div className="mx-5 flex flex-col justify-center items-center px-9 w-full lg:w-1/2 transition h-fit">
-                      <img
+                      <Image
                         className="w-[300px] md:max-w-[300px] rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                         src="/images/ReentryGuide-GR/design-choices/hand-right.png"
                         alt="Heatmap overlay showing reachable screen zones for right-handed users."
+                      
+                      width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                       />
                       <p className="py-3 ">Thumb zone for right handed people</p>
                     </div>
@@ -299,10 +310,12 @@ export default function ReentryGuideGR() {
 
                 <li className="list-none">
                   <div className="flex flex-col justify-center items-center py-5 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                    <img
+                    <Image
                       className="w-[300px] rounded-3xl"
                       src="/images/ReentryGuide-GR/design-choices/button.png"
                       alt="UI component specs for Primary and Secondary buttons with shadow details."
+                    
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   </div>
                 </li>
@@ -324,10 +337,12 @@ export default function ReentryGuideGR() {
               <ul className="list-none">
                 <li className="list-none">
                   <div className="flex flex-col justify-center items-center py-5 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                    <img
+                    <Image
                       className="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                       src="/images/ReentryGuide-GR/design-choices/color.svg"
                       alt="Diagram detailing hex codes for background, beige button, and white button."
+                    
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   </div>
                 </li>
@@ -357,16 +372,20 @@ export default function ReentryGuideGR() {
             </div>
 
             <div className="flex flex-col justify-center items-center  p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 src="/images/ReentryGuide-GR/Tablet-Screen-1.svg"
                 alt="Typography specimen for Roboto and Manrope fonts with button styles."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
             </div>
 
             <div className="flex flex-col justify-center items-center  p-2 col-span-1 md:col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 src="/images/ReentryGuide-GR/tablet-screen.svg"
                 alt="Color palette grid showing earth tones and pastels with hex codes."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
             </div>
           </div>
@@ -403,10 +422,12 @@ export default function ReentryGuideGR() {
                 </li>
                 <li className="list-none">
                   <div className="flex flex-col justify-center items-center h-fit">
-                    <img
+                    <Image
                       className="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] "
                       src="/images/ReentryGuide-GR/Ferguson.png"
                       alt="Street view photograph of the Ferguson Apartments building, one of the locations used for field usability testing."
+                    
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                     <p className="p-2 pb-5  text-center">
                       Ferguson Apartments in Grand Rapids Downtown: One of the usability testing locations
@@ -483,9 +504,11 @@ export default function ReentryGuideGR() {
             </div>
             {/* text block */}
             <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-4">
-              <img
+              <Image
                 src="/images/ReentryGuide-GR/usability-testing-change1.svg"
                 alt="Visual comparison of a location card: The 'Before' version versus the 'After' redesign which features improved spacing and clearer status badges."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
             </div>
           </div>
@@ -497,10 +520,12 @@ export default function ReentryGuideGR() {
             {/* text block */}
             <div className="col-span-1  md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left">
               <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
-                <img
+                <Image
                   className="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-[300px]"
                   src="/images/ReentryGuide-GR/screenshots/Screenshot_15.png"
                   alt="Usability Testing: Google Maps Start Button Issue"
+                
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                 />
               </div>
             </div>
@@ -544,9 +569,11 @@ export default function ReentryGuideGR() {
               href="/images/ReentryGuide-GR/UsabilityTestingScript-1.png"
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] flex flex-col justify-center items-center  p-2 col-span-1 transition sm:min-h-[150px] h-fit"
             >
-              <img
+              <Image
                 src="/images/ReentryGuide-GR/UsabilityTestingScript-1.png"
                 alt="Page 1 of the printed usability testing script used to interview participants."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
             </a>
 
@@ -554,9 +581,11 @@ export default function ReentryGuideGR() {
               href="/images/ReentryGuide-GR/UsabilityTestingScript-2.png"
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] flex flex-col justify-center items-center  p-2 col-span-1 transition sm:min-h-[150px] h-fit"
             >
-              <img
+              <Image
                 src="/images/ReentryGuide-GR/UsabilityTestingScript-2.png"
                 alt="Page 2 of the printed usability testing script used to interview participants."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
             </a>
 
@@ -564,9 +593,11 @@ export default function ReentryGuideGR() {
               href="/images/ReentryGuide-GR/UsabilityTestingScript-3.png"
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] flex flex-col justify-center items-center  p-2 col-span-1 transition sm:min-h-[150px] h-fit"
             >
-              <img
+              <Image
                 src="/images/ReentryGuide-GR/UsabilityTestingScript-3.png"
                 alt="Page 3 of the printed usability testing script used to interview participants."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
             </a>
           </div>
@@ -576,9 +607,11 @@ export default function ReentryGuideGR() {
         <section className="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto lg:px-6 py-10 grid grid-col-1">
             <div className="flex flex-col justify-center items-center  p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 src="/images/ReentryGuide-GR/sitemap.svg"
                 alt="Flowchart diagram visualizing the app's logic path for Prominent Disclosures, Permission Requests, and conditional linking to external apps."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
             </div>
           </div>
@@ -615,10 +648,12 @@ export default function ReentryGuideGR() {
                 key={item.src}
                 className="flex flex-col justify-center items-center  p-9 col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit"
               >
-                <img
+                <Image
                   className="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                   src={`/images/ReentryGuide-GR/screenshots/${item.src}`}
                   alt={item.alt}
+                
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                 />
                 <p className="py-3 ">{item.label}</p>
               </div>
@@ -630,7 +665,7 @@ export default function ReentryGuideGR() {
         <section className="bg-[#FDDEBA] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 pb-20 grid grid-col-1 lg:grid-cols-2 ">
             <div className="flex flex-col justify-center items-center  p-2 col-span-1 row-span-1 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
-              <img src="/images/ReentryGuide-GR/stack.svg" alt="Logos: Trello, React Native, Expo, Yarn, GitHub." />
+              <Image src="/images/ReentryGuide-GR/stack.svg" alt="Logos: Trello, React Native, Expo, Yarn, GitHub."  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
             {/* text block */}
             <div className=" col-span-1 row-span-2 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5">
@@ -692,10 +727,12 @@ export default function ReentryGuideGR() {
               </ul>
             </div>
             <div className="flex flex-col justify-center items-center p-2 col-span-1 row-span-1 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl"
                 src="/images/ReentryGuide-GR/agile.webp"
                 alt="Circular diagram of the Agile lifecycle: Plan, Design, Develop, Test, Deploy, Review."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-2">(Credit: Asana)</p>
             </div>
@@ -717,10 +754,10 @@ export default function ReentryGuideGR() {
               className="relative right-1 flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 my-3 bg-[#fff] hover:bg-[#aaa] drop-shadow-[0_10px_8px_rgba(0,0,0,0.1)] max-w-xs"
             >
               <div className="flex items-center flex-1">
-                <img src="/icons/globe-dark.png" className="mr-0 w-6 h-6 object-contain" alt="" />
+                <Image src="/icons/globe-dark.png" className="mr-0 w-6 h-6 object-contain" alt=""  width={24} height={24} />
                 <span className="ml-2.5 text-base text-black flex-shrink-1">Visit Website</span>
               </div>
-              <img src="/icons/forward.png" className="mr-0 w-5 h-5 object-contain" alt="" />
+              <Image src="/icons/forward.png" className="mr-0 w-5 h-5 object-contain" alt=""  width={20} height={20} />
             </a>
 
             <p className="inline-flex  py-3">
@@ -745,10 +782,12 @@ export default function ReentryGuideGR() {
           </div>
 
           <div className="flex flex-col justify-center items-center col-span-2 row-span-2 transition sm:min-h-[150px] lg:my-14 h-fit">
-            <img
+            <Image
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] rounded-md"
               src="/images/ReentryGuide-GR/website.png"
               alt="Promotional graphic featuring a hand holding a smartphone displaying the ReentryGuide main menu against a light gray city skyline background."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
         </section>

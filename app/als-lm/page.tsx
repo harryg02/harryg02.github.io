@@ -1,6 +1,7 @@
 import Footer from "@/app/components/Footer";
 import ProjectHero from "@/app/components/ProjectHero";
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - Adult Learning Systems - Lower Michigan Website",
@@ -69,8 +70,10 @@ export default function AlsLm() {
             </div>
 
             <div className="flex flex-col justify-center items-center p-2 col-span-1 row-span-2 bg-[#E4EFFF] transition sm:min-h-[150px] h-fit">
-              <img src="/images/als-lm/psych_graph.png"
-                alt="Line graph of user emotional response across the donation flow: scores rise to +15 at step 3, then drop sharply to −30 at the final step when users discover mail-only donations." />
+              <Image src="/images/als-lm/psych_graph.png"
+                alt="Line graph of user emotional response across the donation flow: scores rise to +15 at step 3, then drop sharply to −30 at the final step when users discover mail-only donations." 
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
             </div>
           </div>
         </section>
@@ -120,40 +123,50 @@ export default function AlsLm() {
                 The Redesign
               </h2>
               <div className="flex flex-col justify-center items-center min-w-0 p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                <img src="/images/als-lm/1.png" className="w-full"
-                  alt="Redesigned homepage section displaying impact statistics: 300+ disabled individuals achieved independent living, 25+ years of service, and 600+ free equipment distributed." />
+                <Image src="/images/als-lm/1.png" className="w-full"
+                  alt="Redesigned homepage section displaying impact statistics: 300+ disabled individuals achieved independent living, 25+ years of service, and 600+ free equipment distributed." 
+                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
                 <p className=" py-2 max-w-2xl m-auto">
                   Added Impact statistics (300+, 25+, 600+) on homepage &rarr; tests H2
                 </p>
               </div>
 
               <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                <img src="/images/als-lm/2.png" className="w-full max-w-2xl"
-                  alt="Client testimony section showing a smiling man in a wheelchair outdoors, with the quote: 'ALS-LM helped me to achieve independent living within 6 months.' — Tony Smith." />
+                <Image src="/images/als-lm/2.png" className="w-full max-w-2xl"
+                  alt="Client testimony section showing a smiling man in a wheelchair outdoors, with the quote: 'ALS-LM helped me to achieve independent living within 6 months.' — Tony Smith." 
+                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
                 <p className=" py-2 max-w-2xl m-auto">
                   Added client testimony with photo &rarr; tests H3
                 </p>
               </div>
 
               <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                <img src="/images/als-lm/5.png" className="w-full"
-                  alt="Digital donation form with frequency toggle for one-time or monthly giving, preset amount buttons from $10 to $200, a custom amount field, and a Donate button." />
+                <Image src="/images/als-lm/5.png" className="w-full"
+                  alt="Digital donation form with frequency toggle for one-time or monthly giving, preset amount buttons from $10 to $200, a custom amount field, and a Donate button." 
+                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
                 <p className=" py-2 max-w-2xl m-auto">
                   Added digital donation form with preset amounts &rarr; tests H4
                 </p>
               </div>
 
               <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                <img src="/images/als-lm/3.png" className="w-full"
-                  alt="Redesigned Support Us page with three illustrated cards for Financial Support, Donate Equipment, and Volunteering, each with a brief description and call-to-action button." />
+                <Image src="/images/als-lm/3.png" className="w-full"
+                  alt="Redesigned Support Us page with three illustrated cards for Financial Support, Donate Equipment, and Volunteering, each with a brief description and call-to-action button." 
+                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
                 <p className=" py-2 max-w-2xl m-auto">
                   Re-arrange support Us layout with 3 illustrations &rarr; tests H1
                 </p>
               </div>
 
               <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                <img src="/images/als-lm/4.png" className="w-full"
-                  alt="Thank You page displayed after donation, featuring a group photo of staff members outside a lodge and social media links to Instagram and Facebook." />
+                <Image src="/images/als-lm/4.png" className="w-full"
+                  alt="Thank You page displayed after donation, featuring a group photo of staff members outside a lodge and social media links to Instagram and Facebook." 
+                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
                 <p className=" py-2 max-w-2xl m-auto">
                   Add a thank You page post donation with group photo and social media links &rarr; tests H5, H6&quot;
                 </p>
@@ -161,15 +174,19 @@ export default function AlsLm() {
 
               <div className="flex flex-col lg:flex-row justify-center items-center">
                 <div className="mx-5 flex flex-col justify-center items-center px-9 w-full lg:w-1/2 transition h-fit">
-                  <img className="w-full md:max-3xl rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                  <Image className="w-full md:max-3xl rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                     src="/images/als-lm/8.png"
-                    alt="Before: original ALS-LM website with a dense, single-block paragraph describing their CARF accreditation and 25-year history." />
+                    alt="Before: original ALS-LM website with a dense, single-block paragraph describing their CARF accreditation and 25-year history." 
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                    />
                   <p className="py-3 ">Before</p>
                 </div>
                 <div className="mx-5 flex flex-col justify-center items-center px-9 w-full lg:w-1/2 transition h-fit">
-                  <img className="w-full md:max-3xl rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                  <Image className="w-full md:max-3xl rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                     src="/images/als-lm/7.png"
-                    alt="After: redesigned CARF accreditation section with shortened paragraph text for improved scannability." />
+                    alt="After: redesigned CARF accreditation section with shortened paragraph text for improved scannability." 
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                    />
                   <p className="py-3 ">After</p>
                 </div>
               </div>
@@ -303,15 +320,19 @@ export default function AlsLm() {
 
               <div className="flex flex-col lg:flex-row justify-center items-center">
                 <div className="mx-5 flex flex-col justify-center items-center px-9 w-full lg:w-1/2 transition h-fit">
-                  <img className="w-full md:max-3xl rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                  <Image className="w-full md:max-3xl rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                     src="/images/als-lm/7.png"
-                    alt="Before iteration: CARF accreditation section with a shortened paragraph that reduced trust." />
+                    alt="Before iteration: CARF accreditation section with a shortened paragraph that reduced trust." 
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                    />
                   <p className="py-3 ">Before</p>
                 </div>
                 <div className="mx-5 flex flex-col justify-center items-center px-9 w-full lg:w-1/2 transition h-fit">
-                  <img className="w-full md:max-3xl rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+                  <Image className="w-full md:max-3xl rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                     src="/images/als-lm/9.png"
-                    alt="After iteration: CARF section with detailed text broken into smaller, scannable paragraphs to balance readability and trust." />
+                    alt="After iteration: CARF section with detailed text broken into smaller, scannable paragraphs to balance readability and trust." 
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                    />
                   <p className="py-3 ">After</p>
                 </div>
               </div>
@@ -320,16 +341,20 @@ export default function AlsLm() {
                 <p className=" py-2 max-w-2xl m-auto">
                   2. Added texts to explicitly address that we will keep your information private on checkout Page
                 </p>
-                <img src="/images/als-lm/10.png" className="w-full max-w-md"
-                  alt="Redesigned checkout page header showing 'Powered by PayPal' badge and a privacy assurance statement: 'We will keep your information private and not sell your information.'" />
+                <Image src="/images/als-lm/10.png" className="w-full max-w-md"
+                  alt="Redesigned checkout page header showing 'Powered by PayPal' badge and a privacy assurance statement: 'We will keep your information private and not sell your information.'" 
+                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
               </div>
 
               <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <p className=" py-2 max-w-2xl m-auto">
                   3. Added About Us Page
                 </p>
-                <img src="/images/als-lm/final/7.png" className="w-full"
-                  alt="New About Us page with organization history, photos of a residential home and staff with a client, descriptions of 24-hour specialized residential and community living services, and a Board of Directors section." />
+                <Image src="/images/als-lm/final/7.png" className="w-full"
+                  alt="New About Us page with organization history, photos of a residential home and staff with a client, descriptions of 24-hour specialized residential and community living services, and a Board of Directors section." 
+                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
               </div>
             </div>
           </div>
@@ -342,32 +367,42 @@ export default function AlsLm() {
                 Final Redesign
               </h2>
               <div className="flex flex-col justify-center items-center min-w-0 p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                <img src="/images/als-lm/final/1.png" className="w-full"
-                  alt="Final redesigned homepage with hero section, impact statistics, a 'Learn More About Us' button, client testimony carousel, accreditation details, and a Support Us call to action." />
+                <Image src="/images/als-lm/final/1.png" className="w-full"
+                  alt="Final redesigned homepage with hero section, impact statistics, a 'Learn More About Us' button, client testimony carousel, accreditation details, and a Support Us call to action." 
+                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
                 <p className=" py-2 max-w-2xl m-auto">Home Page</p>
               </div>
 
               <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                <img src="/images/als-lm/final/2.png" className="w-full"
-                  alt="Final Support Us page with a hero photo of volunteers packing donations and three illustrated cards for Financial Support, Donate Equipment, and Volunteering." />
+                <Image src="/images/als-lm/final/2.png" className="w-full"
+                  alt="Final Support Us page with a hero photo of volunteers packing donations and three illustrated cards for Financial Support, Donate Equipment, and Volunteering." 
+                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
                 <p className=" py-2 max-w-2xl m-auto">Support Us Page (Previously Donation Page)</p>
               </div>
 
               <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                <img src="/images/als-lm/final/3.png" className="w-full"
-                  alt="Final donation selection page with a photo of two men high-fiving, frequency toggle, preset donation amounts from $10 to $200, and a Donate button." />
+                <Image src="/images/als-lm/final/3.png" className="w-full"
+                  alt="Final donation selection page with a photo of two men high-fiving, frequency toggle, preset donation amounts from $10 to $200, and a Donate button." 
+                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
                 <p className=" py-2 max-w-2xl m-auto">Donation Selection page</p>
               </div>
 
               <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                <img src="/images/als-lm/final/5.png" className="w-full"
-                  alt="Final checkout page with PayPal badge, privacy assurance text, contact and payment form fields, donation summary showing a $10 one-time donation, and a Submit button." />
+                <Image src="/images/als-lm/final/5.png" className="w-full"
+                  alt="Final checkout page with PayPal badge, privacy assurance text, contact and payment form fields, donation summary showing a $10 one-time donation, and a Submit button." 
+                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
                 <p className=" py-2 max-w-2xl m-auto">Payment Page</p>
               </div>
 
               <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-                <img src="/images/als-lm/final/6.png" className="w-full"
-                  alt="Final thank-you page with a group photo of staff in front of a lodge, a message confirming the donation, and social media links to Instagram and Facebook." />
+                <Image src="/images/als-lm/final/6.png" className="w-full"
+                  alt="Final thank-you page with a group photo of staff in front of a lodge, a message confirming the donation, and social media links to Instagram and Facebook." 
+                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
                 <p className=" py-2 max-w-2xl m-auto">Thank You Page</p>
               </div>
             </div>
