@@ -3,7 +3,7 @@ import PrimaryButton from "./PrimaryButton";
 export default function Footer() {
   return (
     <footer className="bg-LightGray font-[urbanist]">
-      <div className="container flex flex-col md:flex-row relative py-20 px-5 mx-auto text-gray-600 leading-7">
+      <div className="container flex flex-col md:flex-row relative max-w-7xl py-20 px-5 mx-auto text-gray-600 leading-7">
         <div className="basis-2/3 py-10 md:px-10 md:py-0">
           <h2 className="text-gray-900 font-[urbanist] font-extrabold text-lg leading-8">About Me</h2>
           <p className="text-base font-semibold">

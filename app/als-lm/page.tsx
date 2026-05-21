@@ -1,4 +1,5 @@
 import Footer from "@/app/components/Footer";
+import ProjectHero from "@/app/components/ProjectHero";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -18,54 +19,22 @@ export default function AlsLm() {
 
 
       <main id="main-content">
-        {/* p1 */}
-        <section className="lg:pb-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-white bg-[#141414]">
-          {/* text block */}
-          <div className="md:col-span-3 bg-[#e7eaed] transition sm:min-h-[150px] h-fit">
-            <img className="hidden md:block drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="/images/als-lm/cover.png"
-              alt="Redesigned ALS-LM website showing the homepage with hero image of three smiling adults, impact statistics, and the Support Us page with donation options." />
-            <img className="block md:hidden drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="/images/als-lm/cover-mobile.png"
-              alt="Redesigned ALS-LM website showing the homepage with hero image of three smiling adults, impact statistics, and the Support Us page with donation options." />
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pt-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
-            <h1 className="font-RedHatDisplay text-left inline-flex font-semibold text-2xl">Rescuing a Nonprofit&apos;s Donation Flow</h1>
-            <p className="py-3 text-left inline-flex md:text-sm"><br /> 5/5 A/B testing participants preferred the redesigned
-              donation flow for confidence. NPS improved from 1.25 &rarr; 7.0 average.</p>
-
-            <a href="https://als-lm.org/"
-              className="flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 mt-2 bg-[#333] hover:bg-[#222] shadow-md max-w-xs">
-              <div className="flex items-center flex-1">
-                <img src="/icons/globe.png" className="mr-0 w-8 h-8 object-contain" alt="" />
-                <span className="ml-2.5 text-base text-white flex-shrink-1">Visit Original Site</span>
-              </div>
-              <img src="/icons/forward-white.png" className="mr-0 w-5 h-5 object-contain" alt="" />
-            </a>
-
-            <a href="https://www.figma.com/proto/bqmh0ZZ6qSnKzmLsNV2tIj/Adult-Learning-Systems?node-id=131-287&scaling=scale-down-width&content-scaling=fixed"
-              className="flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 mt-2 bg-[#333] hover:bg-[#222] shadow-md max-w-xs">
-              <div className="flex items-center flex-1">
-                <img src="/icons/globe.png" className="mr-0 w-8 h-8 object-contain" alt="" />
-                <span className="ml-2.5 text-base text-white flex-shrink-1">Visit Figma Prototype</span>
-              </div>
-              <img src="/icons/forward-white.png" className="mr-0 w-5 h-5 object-contain" alt="" />
-            </a>
-
-            <div className=""></div>
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-            <h2 className="font-RedHatDisplay font-bold text-xl">Technology</h2>
-            <p className="text-left inline-flex md:text-sm">Figma</p>
-            <h2 className="font-RedHatDisplay font-bold text-xl mt-8">Scope</h2>
-            <p className="text-left inline-flex md:text-sm">UX Research, Interaction Design, Usability Testing, A/B Testing</p>
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pb-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-            <p className="text-left inline-flex md:text-sm">A semester-long UX redesign of Adult Learning Systems &mdash; Lower
-              Michigan&apos;s donation flow, using the UX Research method to form, test, and revise design hypotheses.</p>
-          </div>
-        </section>
+        <ProjectHero
+          imageSrc="/images/als-lm/cover.png"
+          imageMobileSrc="/images/als-lm/cover-mobile.png"
+          imageAlt="Redesigned ALS-LM website showing the homepage with hero image of three smiling adults, impact statistics, and the Support Us page with donation options."
+          title="Rescuing a Nonprofit's Donation Flow"
+          summary="5/5 A/B testing participants preferred the redesigned donation flow for confidence. NPS improved from 1.25 → 7.0 average."
+          links={[
+            { href: "https://als-lm.org/", icon: "/icons/globe.png", label: "Visit Original Site" },
+            { href: "https://www.figma.com/proto/bqmh0ZZ6qSnKzmLsNV2tIj/Adult-Learning-Systems?node-id=131-287&scaling=scale-down-width&content-scaling=fixed", icon: "/icons/globe.png", label: "Visit Figma Prototype" },
+          ]}
+          meta={[
+            { label: "Technology", value: "Figma" },
+            { label: "Scope", value: "UX Research, Interaction Design, Usability Testing, A/B Testing" },
+          ]}
+          description={<p className="text-left inline-flex md:text-sm">A semester-long UX redesign of Adult Learning Systems &mdash; Lower Michigan&apos;s donation flow, using the UX Research method to form, test, and revise design hypotheses.</p>}
+        />
 
         <section className="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-10 flex justify-center">

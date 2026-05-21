@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
+import ProjectHero from "@/app/components/ProjectHero";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - Exodus Place Website Redesign",
@@ -13,59 +14,25 @@ export default function ExodusPlace() {
 
 
       <main id="main-content">
-        {/* p1 */}
-        <section className="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 text-white bg-[#1A1A1A]">
-          {/* text block */}
-          <div className="md:col-span-3 transition sm:min-h-[150px] h-fit mt-5 mb-[-40px]">
-            <img
-              className="hidden md:block"
-              src="/images/ExodusPlace.org/mockup-large.png"
-              alt="Dark-themed homepage with aerial facility view."
-            />
-            <img
-              className="block md:hidden"
-              src="/images/ExodusPlace.org/mockup-mobile.png"
-              alt="Dark-themed homepage with aerial facility view."
-            />
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pt-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center ">
-            <h1 className="font-['Montserrat'] text-left inline-flex font-bold text-2xl text-[#72D976]">
-              Exodus Place Website Redesign
-            </h1>
-            <p className="py-1 text-left inline-flex md:text-sm">
-              Result: Implemented the website in 2 weeks, handled a 173% traffic surge during an $835K fundraising
-              campaign.
-            </p>
-            <a
-              href="https://exodusplace.org"
-              className="flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 mt-2 bg-[#2a2a2a] hover:bg-[#333] shadow-md max-w-xs"
-            >
-              <div className="flex items-center flex-1">
-                <img src="/icons/globe.png" className="mr-0 w-8 h-8 object-contain" alt="" />
-                <span className="ml-2.5 text-base text-white flex-shrink-1">Visit Website</span>
-              </div>
-              <img src="/icons/forward-white.png" className="mr-0 w-5 h-5 object-contain" alt="" />
-            </a>
-
-            <div className=""></div>
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-            <h2 className="font-['Montserrat'] font-bold text-xl text-[#72D976]">Technology</h2>
-            <p className="text-left inline-flex md:text-sm">Figma, Inkscape, Krita, GRCMC custom platform</p>
-            <h2 className="font-['Montserrat'] font-bold text-xl mt-8 text-[#72D976]">Service</h2>
-            <p className="text-left inline-flex md:text-sm">Web Design, User Experience, Branding, SEO</p>
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pb-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-            <p className="text-left inline-flex md:text-sm">
-              Exodus Place, a non-profit organization providing transitional housing for homeless people in Grand Rapids,
-              Michigan, needed redesigning their website. The redesign is a collaboration with the Exodus Place marketing
-              team and GRCMC, focused on enhancing aesthetics, usability, and branding.{" "}
-            </p>
-          </div>
-        </section>
+        <ProjectHero
+          sectionClassName="text-white bg-[#1A1A1A]"
+          imageSrc="/images/ExodusPlace.org/mockup-large.png"
+          imageMobileSrc="/images/ExodusPlace.org/mockup-mobile.png"
+          imageAlt="Dark-themed homepage with aerial facility view."
+          imageContainerClassName="mt-5 mb-[-40px]"
+          titleClassName="font-['Montserrat'] text-left inline-flex font-bold text-2xl text-[#72D976]"
+          title="Exodus Place Website Redesign"
+          summary="Result: Implemented the website in 2 weeks, handled a 173% traffic surge during an $835K fundraising campaign."
+          links={[
+            { href: "https://exodusplace.org", icon: "/icons/globe.png", label: "Visit Website", buttonClassName: "bg-[#2a2a2a] hover:bg-[#333]" },
+          ]}
+          metaHeadingClassName="font-['Montserrat'] font-bold text-xl text-[#72D976]"
+          meta={[
+            { label: "Technology", value: "Figma, Inkscape, Krita, GRCMC custom platform" },
+            { label: "Service", value: "Web Design, User Experience, Branding, SEO" },
+          ]}
+          description={<p className="text-left inline-flex md:text-sm">Exodus Place, a non-profit organization providing transitional housing for homeless people in Grand Rapids, Michigan, needed redesigning their website. The redesign is a collaboration with the Exodus Place marketing team and GRCMC, focused on enhancing aesthetics, usability, and branding.</p>}
+        />
 
         {/* P2 */}
         <section className="bg-[#0B4F3A] text-white  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
