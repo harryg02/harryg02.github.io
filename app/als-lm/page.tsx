@@ -38,7 +38,7 @@ export default function AlsLm() {
 
         <section className="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-10 flex justify-center">
-            <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 sm:px-8 py-12 max-w-xl">
+            <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12 max-w-md">
               <div className="flex flex-row py-3">
                 <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
                   The Problem
@@ -59,7 +59,7 @@ export default function AlsLm() {
         <section className="bg-[#E4EFFF] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-10 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
-            <div className="col-span-1 lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 sm:px-8 py-12 max-w-xl">
+            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
@@ -84,7 +84,7 @@ export default function AlsLm() {
         {/* p4 UI/UX Design Research */}
         <section className="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-10 flex justify-center">
-            <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 sm:px-8 py-12 max-w-xl">
+            <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12 max-w-md">
               <div className="flex flex-row py-3">
                 <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
                   Hypothesis
@@ -186,7 +186,7 @@ export default function AlsLm() {
 
         <section className="bg-[#E4EFFF] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-10 flex justify-center">
-            <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 sm:px-8 py-12 max-w-xl">
+            <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12 max-w-md">
               <div className="flex flex-row py-3">
                 <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
                   A/B Testing
@@ -216,7 +216,7 @@ export default function AlsLm() {
         <section className="bg-[#E4EFFF] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 pt-10 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
-            <div className="col-span-1 lg:mx-[6vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 max-w-xl">
+            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8">
               <h3 className="text-gray-900 inline-flex font-extrabold text-xl font-RedHatDisplay text-md text-left">
                 Key Findings
               </h3>
@@ -233,7 +233,7 @@ export default function AlsLm() {
               </ul>
             </div>
             {/* text block */}
-            <div className="col-span-1 lg:mx-[6vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-4 max-w-xl">
+            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-4">
               <h3 className="text-gray-900 inline-flex font-extrabold text-xl font-RedHatDisplay text-md text-left">
                 Key Discovery: The Information Density Paradox
               </h3>
@@ -251,7 +251,7 @@ export default function AlsLm() {
 
         <section className="bg-[#E4EFFF] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 py-10 flex justify-center">
-            <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 sm:px-8 py-12 max-w-xl">
+            <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12 max-w-md">
               <div className="flex flex-row py-3">
                 <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
                   Additional Findings
@@ -326,7 +326,7 @@ export default function AlsLm() {
                 <p className="md:text-sm py-2 max-w-2xl m-auto">
                   2. Added texts to explicitly address that we will keep your information private on checkout Page
                 </p>
-                <img src="/images/als-lm/10.png" className="w-full max-w-xl"
+                <img src="/images/als-lm/10.png" className="w-full max-w-md"
                   alt="Redesigned checkout page header showing 'Powered by PayPal' badge and a privacy assurance statement: 'We will keep your information private and not sell your information.'" />
               </div>
 

@@ -38,7 +38,7 @@ export default function ExodusPlace() {
         <section className="bg-[#0B4F3A] text-white  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
-            <div className=" col-span-1 lg:mx-[9vh] flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">
+            <div className=" col-span-1 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left">Project Overview</h2>
@@ -117,7 +117,7 @@ export default function ExodusPlace() {
               <p className="md:text-sm p-4">Liberty in North Korea Site (Credit: Liberty in North Korea)</p>
             </div>
             {/* text block */}
-            <div className=" col-span-1 lg:mx-[9vh] md:row-span-3 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">
+            <div className=" col-span-1 md:row-span-3 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
                 <p className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left text-[#006826]">
@@ -188,7 +188,7 @@ export default function ExodusPlace() {
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
-            <div className=" col-span-1 row-span-3 lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8 max-w-xl">
+            <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8">
               <h2 className="inline-flex font-bold font-['Montserrat'] text-[#72D976] text-2xl text-left py-3">
                 Design
               </h2>
@@ -207,7 +207,7 @@ export default function ExodusPlace() {
               />
             </div>
 
-            <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+            <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
               <h3 className="font-['Montserrat'] font-bold text-xl text-[#72D976] text-left py-2">
                 Mission-Focused Homepage
               </h3>
@@ -216,7 +216,7 @@ export default function ExodusPlace() {
               <p className="text-left">&bull; Mobile-optimized navigation</p>
             </div>
 
-            <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+            <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
               <h3 className="font-['Montserrat'] font-bold text-xl text-[#72D976] text-left py-2">
                 Visual Communication
               </h3>
@@ -352,7 +352,7 @@ export default function ExodusPlace() {
             </div>
 
             {/* text block */}
-            <div className="lg:mx-[9vh] md:row-span-2 col-span-4 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-10 max-w-xl">
+            <div className="md:row-span-2 col-span-4 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-10">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left">Results and Impact</h2>

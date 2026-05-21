@@ -40,7 +40,7 @@ export default function ReentryReimagined() {
         <section className="bg-white text-[#775022]  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2 ">
             {/* text block */}
-            <div className=" col-span-1  lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">
+            <div className=" col-span-1  md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className=" inline-flex font-bold font-RedHatDisplay text-2xl text-left">Project Overview</h2>
@@ -103,7 +103,7 @@ export default function ReentryReimagined() {
               <p className="md:text-sm p-4">Liberty in North Korea Site (Credit: Liberty in North Korea)</p>
             </div>
             {/* text block */}
-            <div className=" col-span-1 lg:mx-[9vh] md:row-span-3 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">
+            <div className=" col-span-1 md:row-span-3 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className=" inline-flex font-bold font-RedHatDisplay text-2xl text-left">
@@ -202,7 +202,7 @@ export default function ReentryReimagined() {
         <section className="bg-[#FFF8F1] text-[#775022] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2 ">
             {/* text block */}
-            <div className=" col-span-1 row-span-3 lg:mx-[9vh] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8 max-w-xl">
+            <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8">
               <h2 className="inline-flex font-bold font-RedHatDisplay text-2xl text-left py-3">Design Process</h2>
 
               <ol className="list-decimal pl-3">
@@ -389,7 +389,7 @@ export default function ReentryReimagined() {
         <section className="bg-white text-[#775022]  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-4 ">
             {/* text block */}
-            <div className="lg:mx-[9vh] md:row-span-2 col-span-4 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-10 max-w-xl">
+            <div className="md:row-span-2 col-span-4 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-10">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className=" inline-flex font-bold font-RedHatDisplay text-2xl text-left">Results and Impact</h2>
