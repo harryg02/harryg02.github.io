@@ -19,7 +19,7 @@ export default function ExodusPlace() {
           imageSrc="/images/ExodusPlace.org/mockup-large.png"
           imageMobileSrc="/images/ExodusPlace.org/mockup-mobile.png"
           imageAlt="Dark-themed homepage with aerial facility view."
-          imageContainerClassName="mt-5 mb-[-40px]"
+          imageContainerClassName="mb-[-40px]"
           titleClassName="text-left inline-flex font-bold text-2xl text-[#72D976]"
           title="Exodus Place Website Redesign"
           summary="Result: Implemented the website in 2 weeks, handled a 173% traffic surge during an $835K fundraising campaign."

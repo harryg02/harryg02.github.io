@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-LightGray">
       <div className="container flex flex-col md:flex-row relative max-w-7xl py-20 px-5 mx-auto text-gray-600 leading-7">
-        <div className="basis-2/3 py-10 md:px-10 md:py-0 mx-auto">
+        <div className="basis-2/3 py-10 md:px-10 md:py-0">
           <h2 className="text-gray-900 font-extrabold text-lg leading-8">About Me</h2>
           <p className="text-base">
             I&apos;m Harry Gu. I research, design, and code. I start by watching people doing things, then build solutions where accessibility is the default.{" "}
@@ -12,7 +12,7 @@ export default function Footer() {
             Graphic Design at Calvin University, UX & Dev at University of Michigan - Ann Arbor. Fluent in English and Mandarin.
           </p>
         </div>
-        <div className="basis-1/3 py-10 md:px-10 md:py-0 mx-auto">
+        <div className="basis-1/3 py-10 md:px-10 md:py-0">
           <h2 className="text-gray-900 font-extrabold text-lg leading-8">Contact Me</h2>
           <div className="my-3">
             <PrimaryButton

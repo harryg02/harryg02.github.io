@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function CalvinFinds() {
   return (
-    <div className="relative bg-[#EDE7E7] font-semibold">
+    <div className="relative bg-[#EDE7E7]">
       <style>{`
         body { background-color: #EDE7E7; }
         /* Highlight current page on navbar */
