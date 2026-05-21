@@ -1,3 +1,4 @@
+import Image from "next/image";
 interface ProjectCardProps {
   href: string;
   imageSrc: string;
@@ -23,10 +24,12 @@ export default function ProjectCard({ href, imageSrc, imageAlt, title, result, c
     >
       {/* Image - expands to fill available card height */}
       <div className="flex-1 min-h-0 overflow-hidden bg-[#161820]">
-        <img
+        <Image
           src={imageSrc}
           alt={imageAlt}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+        
+        width={0} height={0} style={{ width: '100%', height: '100%' }}
         />
       </div>
 

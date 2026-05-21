@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - ReentryGuide GR",
@@ -53,10 +54,12 @@ export default function ReentryGuideGRFlyer() {
           </div>
 
           <div className="flex flex-col justify-center items-center col-span-2 row-span-2 transition sm:min-h-[150px] lg:my-14 h-fit">
-            <img
+            <Image
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] rounded-md max-h-[630px] px-5"
               src="/images/ReentryGuide-GR/flyer.png"
               alt="High-contrast flyer design featuring bold orange typography listing resources like Food and Hygiene alongside a QR code."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
         </div>
@@ -64,10 +67,12 @@ export default function ReentryGuideGRFlyer() {
         <div className=" grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 text-white bg-[#141414]">
           {/* text block */}
           <div className="md:col-span-3 bg-[#EDE7E7] transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] max-h-[600px] w-full object-cover"
               src="/images/ReentryGuide-GR/flyer-mockup.png"
               alt="Top-down view of printed flyers arranged on a dark wooden texture, framed by decorative green palm leaves."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
         </div>

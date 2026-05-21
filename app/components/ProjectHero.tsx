@@ -1,4 +1,5 @@
 import { Fragment, ReactNode } from "react";
+import Image from "next/image";
 
 interface ProjectHeroLink {
   href: string;
@@ -48,8 +49,8 @@ export default function ProjectHero({
   return (
     <section className={`lg:pb-1 ${sectionClassName}`}>
       <div className={`transition sm:min-h-[150px] h-fit ${imageContainerClassName}`}>
-        <img className="hidden md:block drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src={imageSrc} alt={imageAlt} />
-        <img className="block md:hidden drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src={imageMobileSrc} alt={imageAlt} />
+        <Image className="hidden md:block drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src={imageSrc} alt={imageAlt}  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+        <Image className="block md:hidden drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src={imageMobileSrc} alt={imageAlt}  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[1500px] mx-auto">
@@ -63,10 +64,10 @@ export default function ProjectHero({
               className={`flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 mt-2 shadow-md max-w-xs ${link.buttonClassName ?? "bg-[#333] hover:bg-[#222]"}`}
             >
               <div className="flex items-center flex-1">
-                <img src={link.icon} className="mr-0 w-8 h-8 object-contain" alt="" />
+                <Image src={link.icon} className="mr-0 w-8 h-8 object-contain" alt=""  width={32} height={32} />
                 <span className={`ml-2.5 text-base flex-shrink-1 ${link.labelClassName ?? "text-white"}`}>{link.label}</span>
               </div>
-              <img src={link.forwardIcon ?? "/icons/forward-white.png"} className="mr-0 w-5 h-5 object-contain" alt="" />
+              <Image src={link.forwardIcon ?? "/icons/forward-white.png"} className="mr-0 w-5 h-5 object-contain" alt=""  width={20} height={20} />
             </a>
           ))}
           <div className="" />

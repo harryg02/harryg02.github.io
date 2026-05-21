@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -52,7 +53,7 @@ export default function Navbar() {
       >
         <div className="flex items-center gap-5 px-5 py-2.5 rounded-[10px] bg-[#0d0f14]/80 backdrop-blur-md text-sm text-gray-400">
           <Link href="/" className="shrink-0">
-            <img className="inline h-6 opacity-50" src="/icons/logo-9-21-colored.svg" alt="Harry Gu Logo" />
+            <Image className="inline h-6 opacity-50" src="/icons/logo-9-21-colored.svg" alt="Harry Gu Logo"  width={24} height={24} style={{ width: 'auto' }} />
           </Link>
 
           <span aria-hidden className="w-px h-4 bg-[rgba(204,212,227,0.2)]" />
@@ -89,10 +90,10 @@ export default function Navbar() {
 
           <div className="flex items-center gap-2">
             <a href="https://www.linkedin.com/in/harrygu-ux/">
-              <img className="inline h-6" src="/icons/linkedin-hero.svg" alt="LinkedIn Profile" />
+              <Image className="inline h-6" src="/icons/linkedin-hero.svg" alt="LinkedIn Profile"  width={24} height={24} style={{ width: 'auto' }} />
             </a>
             <a href="https://github.com/harryg02">
-              <img className="inline h-6" src="/icons/github-hero.svg" alt="GitHub Profile" />
+              <Image className="inline h-6" src="/icons/github-hero.svg" alt="GitHub Profile"  width={24} height={24} style={{ width: 'auto' }} />
             </a>
           </div>
         </div>

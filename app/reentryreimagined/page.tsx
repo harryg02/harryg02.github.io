@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
 import ProjectHero from "@/app/components/ProjectHero";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - Reentry Reimagined",
@@ -80,10 +81,12 @@ export default function ReentryReimagined() {
             </div>
 
             <div className="flex flex-col justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/old-website.png"
                 alt="reference"
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">The Website Before Redesign</p>
             </div>
@@ -95,10 +98,12 @@ export default function ReentryReimagined() {
           <div className=" justify-center items-center max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2 ">
             {/* Image */}
             <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/eg1.png"
                 alt="Reference interface featuring bold activism imagery and clear typography."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Liberty in North Korea Site (Credit: Liberty in North Korea)</p>
             </div>
@@ -178,20 +183,24 @@ export default function ReentryReimagined() {
 
             {/* Image */}
             <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/eg2.png"
                 alt="Reference interface utilizing diverse photography and red accent colors."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">American Heart Association Site (Credit: American Heart Association)</p>
             </div>
 
             {/* Image */}
             <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/eg3.webp"
                 alt="Reference interface using bright yellow branding and storytelling elements."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Malala Fund Site (Credit: Malala Fund)</p>
             </div>
@@ -367,18 +376,22 @@ export default function ReentryReimagined() {
             </div>
 
             <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/prototype2.png"
                 alt="A more polished prototype"
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">One of the later prototypes</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/brandGuideLines.svg"
                 alt="Red Hat Display font specimen displayed alongside an earth-tone color palette."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Brand Guidelines</p>
             </div>
@@ -403,82 +416,102 @@ export default function ReentryReimagined() {
             </div>
 
             <div className="flex flex-col justify-center items-center col-span-4 lg:col-span-2 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/old-website.png"
                 alt="Visual comparison: The dark, outdated previous design versus the bright, modern redesign."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">The Website Before Redesign</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 lg:col-span-2 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/new-website.png"
                 alt="The bright, modern redesign."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">The Website After Redesign</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/d1.png"
                 alt="Full-page mockup showing the homepage scroll flow, from hero section to footer."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Home Page - Desktop</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/d2.png"
                 alt="Desktop screenshot of the Reentry Reimagined Resources page."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Resources Page - Desktop</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/d3.png"
                 alt="Desktop screenshot of the Reentry Reimagined About page."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">About Page - Desktop</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/d4.png"
                 alt="Desktop screenshot of the Reentry Reimagined Contact page."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Contact Page - Desktop</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/m1.png"
                 alt="Mobile screenshot of the Reentry Reimagined Homepage."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Home Page - Mobile</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/m2.png"
                 alt="Mobile screenshot of the Reentry Reimagined Resources page."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Resource Page - Mobile</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/m3.png"
                 alt="Mobile screenshot of the Reentry Reimagined About page."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">About Page - Mobile</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
-              <img
+              <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/m4.png"
                 alt="Mobile screenshot of the Reentry Reimagined Contact page."
+              
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <p className=" p-4">Contact Page - Mobile</p>
             </div>

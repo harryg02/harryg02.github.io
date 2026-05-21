@@ -1,6 +1,7 @@
 import Script from "next/script";
 import Footer from "@/app/components/Footer";
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - Home",
@@ -36,8 +37,10 @@ html, html body { height: auto; }
             </div>
 
             <a className="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="/reentryreimagined-brochure">
-              <img className="" src="/images/ReentryReimagined-Brochure/1.jpg"
-                alt="Hand holding Reentry Reimagined brochure with city skyline illustration, text reads 'Empowering Second Chances, Supporting Strong Futures'" />
+              <Image className="" src="/images/ReentryReimagined-Brochure/1.jpg"
+                alt="Hand holding Reentry Reimagined brochure with city skyline illustration, text reads 'Empowering Second Chances, Supporting Strong Futures'" 
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
               <div className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
                 Reentry Reimagined
@@ -50,8 +53,10 @@ html, html body { height: auto; }
             </a>
 
             <a className="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="/reentryguide-gr-flyer">
-              <img className="" src="/images/ReentryGuide-GR/flyer-thumbnail.png"
-                alt="White flyer on wooden table with text 'Do you need Food, Clothing, Hygiene, Healthcare etc.?' and QR code" />
+              <Image className="" src="/images/ReentryGuide-GR/flyer-thumbnail.png"
+                alt="White flyer on wooden table with text 'Do you need Food, Clothing, Hygiene, Healthcare etc.?' and QR code" 
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
               <div className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
                 &quot;ReentryGuide GR&quot;
@@ -64,8 +69,10 @@ html, html body { height: auto; }
             </a>
 
             <a className="mb-2 relative group rounded-xl sm:min-h-[150px] h-fit hover:shadow-xl" href="/mixtape">
-              <img className="" src="/images/miscere.jpeg"
-                alt="Circular yellow logo design with silhouette of person and text 'MISCERE' in geometric font" />
+              <Image className="" src="/images/miscere.jpeg"
+                alt="Circular yellow logo design with silhouette of person and text 'MISCERE' in geometric font" 
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
               <div className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
                 Mixtape
@@ -79,8 +86,10 @@ html, html body { height: auto; }
 
             <a className="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl"
               href="/impact-report-usletter-Dec4.pdf">
-              <img className="" src="/images/impact_report/thumbnail.png"
-                alt="Teal fiscal year report cover featuring a donation QR code." />
+              <Image className="" src="/images/impact_report/thumbnail.png"
+                alt="Teal fiscal year report cover featuring a donation QR code." 
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity"></div>
               <div className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
                 Exodus Place 2024
@@ -94,8 +103,10 @@ html, html body { height: auto; }
 
             <a className="mb-2 relative group col-span-2 sm:min-h-[150px] h-fit hover:shadow-xl"
               href="/e-community-service-logo">
-              <img className="" src="/trademarks/e-community-service.png"
-                alt="Logo with blue and green gradient heart icon with handshake symbol and text 'E-COMMUNITY SERVICE' in white uppercase letters" />
+              <Image className="" src="/trademarks/e-community-service.png"
+                alt="Logo with blue and green gradient heart icon with handshake symbol and text 'E-COMMUNITY SERVICE' in white uppercase letters" 
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
               <div className="text-lg font-bold absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
                 e-community-service.org logo
@@ -119,9 +130,11 @@ html, html body { height: auto; }
                     <div className="pswp-gallery row-span-2" id="gallery">
                       <div className="pswp-gallery__item">
                         <a href="/images/victory.jpeg" data-pswp-width="2877" data-pswp-height="3819" target="_blank">
-                          <img className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
+                          <Image className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
                             src="/images/victory.jpeg"
-                            alt="Graphite drawing of airplane dropping small human figures instead of bombs over a city skyline" />
+                            alt="Graphite drawing of airplane dropping small human figures instead of bombs over a city skyline" 
+                            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                            />
                         </a>
                         <div className="pswp-caption-content">
                           <b>Victory&quot;, Graphite on Paper, 2022.4</b>
@@ -140,9 +153,11 @@ html, html body { height: auto; }
                     <div className="pswp-gallery" id="gallery">
                       <div className="pswp-gallery__item">
                         <a href="/images/Gaia.jpeg" data-pswp-width="2008" data-pswp-height="1785" target="_blank">
-                          <img className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
+                          <Image className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
                             src="/images/Gaia.jpeg"
-                            alt="Graphite and color pencil drawing of person lying on platform with red blood flowing down as waterfall into landscape below" />
+                            alt="Graphite and color pencil drawing of person lying on platform with red blood flowing down as waterfall into landscape below" 
+                            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                            />
                         </a>
                         <div className="pswp-caption-content"><b>&quot;Gaia&quot;, Graphite &amp; Color Pencil on Paper, 2023.4</b><br />22 in *
                           25 in <br /> <br />This is about non-violence movements. <br /> <br /> In this drawing, She chose to use a
@@ -156,9 +171,11 @@ html, html body { height: auto; }
                     <div className="pswp-gallery" id="gallery">
                       <div className="pswp-gallery__item">
                         <a href="/images/Rahab.jpeg" data-pswp-width="2151" data-pswp-height="1596" target="_blank">
-                          <img className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
+                          <Image className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
                             src="/images/Rahab.jpeg"
-                            alt="White charcoal drawing on black paper showing storefront with Chinese characters 'SPA' and figures in urban night scene" />
+                            alt="White charcoal drawing on black paper showing storefront with Chinese characters 'SPA' and figures in urban night scene" 
+                            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                            />
                         </a>
                         <div className="pswp-caption-content"><b>&quot;Prostitute Rehab Meets Two Israeli Spies&quot;, White Charcoal on
                           Black paper, 2023.4</b><br />18 in * 24 in<br /> <br />However the cultural context is not the ancient
@@ -170,8 +187,10 @@ html, html body { height: auto; }
                     <div className="pswp-gallery" id="gallery">
                       <div className="pswp-gallery__item">
                         <a href="/images/ship.jpg" data-pswp-width="4032" data-pswp-height="3024" target="_blank">
-                          <img className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
-                            src="/images/ship.jpg" alt="Graphite drawing of sinking ship tilted in ocean water" />
+                          <Image className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
+                            src="/images/ship.jpg" alt="Graphite drawing of sinking ship tilted in ocean water" 
+                            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                            />
                         </a>
                         <div className="pswp-caption-content"><b>Unnamed, Graphite on Paper, 2022.4</b><br />18 in x 24 in</div>
                       </div>
@@ -180,8 +199,10 @@ html, html body { height: auto; }
                     <div className="pswp-gallery" id="gallery">
                       <div className="pswp-gallery__item">
                         <a href="/images/tank.jpg" data-pswp-width="4032" data-pswp-height="3024" target="_blank">
-                          <img className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
-                            src="/images/tank.jpg" alt="Charcoal drawing of military tank in dark wooded forest setting" />
+                          <Image className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
+                            src="/images/tank.jpg" alt="Charcoal drawing of military tank in dark wooded forest setting" 
+                            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                            />
                         </a>
                         <div className="pswp-caption-content"><b>Unnamed, Charcoal on Paper, 2022.4</b><br />18 in x 24 in</div>
                       </div>
@@ -190,9 +211,11 @@ html, html body { height: auto; }
                     <div className="pswp-gallery" id="gallery">
                       <div className="pswp-gallery__item">
                         <a href="/images/rifle.jpg" data-pswp-width="4032" data-pswp-height="3024" target="_blank">
-                          <img className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
+                          <Image className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
                             src="/images/rifle.jpg"
-                            alt="Graphite drawing of AK-47 rifle with barrel bent upward by three blooming roses" />
+                            alt="Graphite drawing of AK-47 rifle with barrel bent upward by three blooming roses" 
+                            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                            />
                         </a>
                         <div className="pswp-caption-content"><b>&quot;Aaron&apos;s Rifle&quot;, Graphite on Paper, 2022.4</b><br />18 in x 24 in</div>
                       </div>
@@ -201,9 +224,11 @@ html, html body { height: auto; }
                     <div className="pswp-gallery" id="gallery">
                       <div className="pswp-gallery__item">
                         <a href="/images/equality.jpeg" data-pswp-width="4032" data-pswp-height="3024" target="_blank">
-                          <img className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
+                          <Image className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
                             src="/images/equality.jpeg"
-                            alt="Graphite drawing of two gravestones side by side, one wearing business suit and tie, the other in tattered homeless clothing" />
+                            alt="Graphite drawing of two gravestones side by side, one wearing business suit and tie, the other in tattered homeless clothing" 
+                            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                            />
                         </a>
                         <div className="pswp-caption-content"><b>Equality, Graphite on Paper, 2023.12</b><br />18 in x 24 in</div>
                       </div>
@@ -226,9 +251,11 @@ html, html body { height: auto; }
                       <div className="pswp-gallery" id="gallery">
                         <div className="pswp-gallery__item">
                           <a href="/images/Gaia.jpeg" data-pswp-width="2008" data-pswp-height="1785" target="_blank">
-                            <img className="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]"
+                            <Image className="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]"
                               src="/images/Gaia.jpeg"
-                              alt="Graphite and color pencil drawing of person lying on platform with red blood flowing down as waterfall into landscape below" />
+                              alt="Graphite and color pencil drawing of person lying on platform with red blood flowing down as waterfall into landscape below" 
+                              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                              />
                           </a>
                           <div className="pswp-caption-content"><b>&quot;Gaia&quot;, Graphite &amp; Color Pencil on Paper, 2023.4</b><br />22 in
                             * 25 in <br /> <br />This is about non-violence movements. <br /> <br /> In this drawing, She chose to
@@ -244,9 +271,11 @@ html, html body { height: auto; }
                       <div className="pswp-gallery row-span-2" id="gallery">
                         <div className="pswp-gallery__item">
                           <a href="/images/victory.jpeg" data-pswp-width="2877" data-pswp-height="3819" target="_blank">
-                            <img className="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]"
+                            <Image className="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]"
                               src="/images/victory.jpeg"
-                              alt="Graphite drawing of airplane dropping small human figures instead of bombs over a city skyline" />
+                              alt="Graphite drawing of airplane dropping small human figures instead of bombs over a city skyline" 
+                              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                              />
                           </a>
                           <div className="pswp-caption-content"><b>Victory&quot;, Graphite on Paper, 2022.4</b>
                             <br />24 in * 18 in <br />
@@ -267,9 +296,11 @@ html, html body { height: auto; }
                       <div className="pswp-gallery" id="gallery">
                         <div className="pswp-gallery__item">
                           <a href="/images/Rahab.jpeg" data-pswp-width="2151" data-pswp-height="1596" target="_blank">
-                            <img className="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]"
+                            <Image className="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]"
                               src="/images/Rahab.jpeg"
-                              alt="White charcoal drawing on black paper showing storefront with Chinese characters 'SPA' and figures in urban night scene" />
+                              alt="White charcoal drawing on black paper showing storefront with Chinese characters 'SPA' and figures in urban night scene" 
+                              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                              />
                           </a>
                           <div className="pswp-caption-content"><b>&quot;Prostitute Rehab Meets Two Israeli Spies&quot;, White Charcoal on
                             Black Paper, 2023.4</b><br />18 in * 24 in<br /> <br />However the cultural context is not the
@@ -282,8 +313,10 @@ html, html body { height: auto; }
                       <div className="pswp-gallery" id="gallery">
                         <div className="pswp-gallery__item">
                           <a href="/images/ship.jpg" data-pswp-width="4032" data-pswp-height="3024" target="_blank">
-                            <img className="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]"
-                              src="/images/ship.jpg" alt="Graphite drawing of sinking ship tilted in ocean water" />
+                            <Image className="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]"
+                              src="/images/ship.jpg" alt="Graphite drawing of sinking ship tilted in ocean water" 
+                              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                              />
                           </a>
                           <div className="pswp-caption-content"><b>Unnamed, Graphite on Paper, 2022.4</b><br />18 in x 24 in</div>
                         </div>
@@ -294,8 +327,10 @@ html, html body { height: auto; }
                       <div className="pswp-gallery" id="gallery">
                         <div className="pswp-gallery__item">
                           <a href="/images/tank.jpg" data-pswp-width="4032" data-pswp-height="3024" target="_blank">
-                            <img className="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]"
-                              src="/images/tank.jpg" alt="Charcoal drawing of military tank in dark wooded forest setting" />
+                            <Image className="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]"
+                              src="/images/tank.jpg" alt="Charcoal drawing of military tank in dark wooded forest setting" 
+                              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                              />
                           </a>
                           <div className="pswp-caption-content"><b>Unnamed, Charcoal on Paper, 2022.4</b><br />18 in x 24 in</div>
                         </div>
@@ -306,8 +341,10 @@ html, html body { height: auto; }
                       <div className="pswp-gallery" id="gallery">
                         <div className="pswp-gallery__item">
                           <a href="/images/rifle.jpg" data-pswp-width="4032" data-pswp-height="3024" target="_blank">
-                            <img className="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]"
-                              src="/images/rifle.jpg" alt="a rifle but the barrel bent by rose flower" />
+                            <Image className="transition object-cover w-full border-8 border-white rounded-lg min-h[50px]"
+                              src="/images/rifle.jpg" alt="a rifle but the barrel bent by rose flower" 
+                              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                              />
                           </a>
                           <div className="pswp-caption-content"><b>&quot;Aaron&apos;s Rifle&quot;, Graphite on Paper, 2022.4</b><br />18 in x 24 in</div>
                         </div>
@@ -318,9 +355,11 @@ html, html body { height: auto; }
                       <div className="pswp-gallery" id="gallery">
                         <div className="pswp-gallery__item">
                           <a href="/images/equality.jpeg" data-pswp-width="4032" data-pswp-height="3024" target="_blank">
-                            <img className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
+                            <Image className="transition hover:scale-105 object-cover w-full border-8 border-white rounded-lg shadow-xl min-h[50px]"
                               src="/images/equality.jpeg"
-                              alt="two grave stones, one dressed like business man and one dressed like homeless" />
+                              alt="two grave stones, one dressed like business man and one dressed like homeless" 
+                              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                              />
                           </a>
                           <div className="pswp-caption-content"><b>Equality, Graphite on Paper, 2023.12</b><br />18 in x 24 in</div>
                         </div>

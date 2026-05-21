@@ -1,4 +1,5 @@
 import PrimaryButton from "./PrimaryButton";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -17,17 +18,17 @@ export default function Footer() {
           <div className="my-3">
             <PrimaryButton
               href="mailto:tuharrygu@gmail.com"
-              icon={<img src="/icons/mail.png" className="w-4 h-4 object-contain" alt="" />}
+              icon={<Image src="/icons/mail.png" className="w-4 h-4 object-contain" alt=""  width={16} height={16} />}
             >
               Email Me
             </PrimaryButton>
           </div>
           <p className="my-2">
             <a className="hover:text-themeRed" href="https://www.linkedin.com/in/harrygu-ux/">
-              <img className="inline h-8 m-[2px]" src="/icons/linkedin.svg" alt="LinkedIn Profile" />
+              <Image className="inline h-8 m-[2px]" src="/icons/linkedin.svg" alt="LinkedIn Profile"  width={32} height={32} style={{ width: 'auto' }} />
             </a>
             <a className="hover:text-themeRed" href="https://github.com/harryg02">
-              <img className="inline h-8 m-[2px]" src="/icons/github.svg" alt="GitHub Profile" />
+              <Image className="inline h-8 m-[2px]" src="/icons/github.svg" alt="GitHub Profile"  width={32} height={32} style={{ width: 'auto' }} />
             </a>
           </p>
         </div>

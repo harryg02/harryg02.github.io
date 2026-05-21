@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - ReentryReimagined - Brochure",
@@ -36,10 +37,12 @@ export default function ReentryReimagedBrochure() {
           </div>
 
           <div className="md:col-span-2 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] md:rounded-br-2xl"
               src="/images/ReentryReimagined-Brochure/1.jpg"
               alt="Hand holding the closed brochure showing the 'Empowering New Beginnings' cover design."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
         </div>
@@ -72,26 +75,32 @@ export default function ReentryReimagedBrochure() {
           </div>
 
           <div className="flex flex-col justify-center items-center p-9 col-span-2 md:col-span-1 row-span-2  transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               className="rounded-2xl"
               src="/images/ReentryReimagined-Brochure/2.jpg"
               alt="Hands holding the partially open brochure, revealing the 'Our Team' and 'About Us' panels."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
           <div className="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               className="rounded-2xl"
               src="/images/ReentryReimagined-Brochure/4.png"
               alt="Fully open brochure held in hands, displaying the internal 'Our Services' and statistics panels."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
 
           <div className="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
-            <img
+            <Image
               className="rounded-2xl"
               src="/images/ReentryReimagined-Brochure/3.jpg"
               alt="Exterior view of the unfolded brochure showing the cover, back panel, and inside flap layout."
+            
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
             />
           </div>
         </div>
