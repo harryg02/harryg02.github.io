@@ -40,7 +40,7 @@ export default function ReentryReimagined() {
         <section className="bg-white text-[#775022]  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2 ">
             {/* text block */}
-            <div className=" col-span-1  md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
+            <div className=" col-span-1  md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className=" inline-flex font-bold font-RedHatDisplay text-2xl text-left">Project Overview</h2>
@@ -79,7 +79,7 @@ export default function ReentryReimagined() {
               </ol>
             </div>
 
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/old-website.png"
@@ -94,7 +94,7 @@ export default function ReentryReimagined() {
         <section className="bg-[#775022] text-white  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" justify-center items-center max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2 ">
             {/* Image */}
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
+            <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/eg1.png"
@@ -103,7 +103,7 @@ export default function ReentryReimagined() {
               <p className="md:text-sm p-4">Liberty in North Korea Site (Credit: Liberty in North Korea)</p>
             </div>
             {/* text block */}
-            <div className=" col-span-1 md:row-span-3 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12 max-w-md">
+            <div className=" col-span-1 md:row-span-3 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className=" inline-flex font-bold font-RedHatDisplay text-2xl text-left">
@@ -177,7 +177,7 @@ export default function ReentryReimagined() {
             </div>
 
             {/* Image */}
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
+            <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/eg2.png"
@@ -187,7 +187,7 @@ export default function ReentryReimagined() {
             </div>
 
             {/* Image */}
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
+            <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/eg3.webp"
@@ -202,7 +202,7 @@ export default function ReentryReimagined() {
         <section className="bg-[#FFF8F1] text-[#775022] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2 ">
             {/* text block */}
-            <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8 max-w-md">
+            <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8">
               <h2 className="inline-flex font-bold font-RedHatDisplay text-2xl text-left py-3">Design Process</h2>
 
               <ol className="list-decimal pl-3">
@@ -366,7 +366,7 @@ export default function ReentryReimagined() {
               </ol>
             </div>
 
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/prototype2.png"
@@ -374,7 +374,7 @@ export default function ReentryReimagined() {
               />
               <p className="md:text-sm p-4">One of the later prototypes</p>
             </div>
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/brandGuideLines.svg"
@@ -389,7 +389,7 @@ export default function ReentryReimagined() {
         <section className="bg-white text-[#775022]  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-4 ">
             {/* text block */}
-            <div className="md:row-span-2 col-span-4 flex flex-col mx-auto max-w-md justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-10 max-w-md">
+            <div className="md:row-span-2 col-span-4 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-10">
               {/* title */}
               <div className="flex flex-row py-3">
                 <h2 className=" inline-flex font-bold font-RedHatDisplay text-2xl text-left">Results and Impact</h2>
@@ -402,7 +402,7 @@ export default function ReentryReimagined() {
               </ol>
             </div>
 
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 lg:col-span-2 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-4 lg:col-span-2 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/old-website.png"
@@ -410,7 +410,7 @@ export default function ReentryReimagined() {
               />
               <p className="md:text-sm p-4">The Website Before Redesign</p>
             </div>
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 lg:col-span-2 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-4 lg:col-span-2 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/new-website.png"
@@ -418,7 +418,7 @@ export default function ReentryReimagined() {
               />
               <p className="md:text-sm p-4">The Website After Redesign</p>
             </div>
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/d1.png"
@@ -426,7 +426,7 @@ export default function ReentryReimagined() {
               />
               <p className="md:text-sm p-4">Home Page - Desktop</p>
             </div>
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/d2.png"
@@ -434,7 +434,7 @@ export default function ReentryReimagined() {
               />
               <p className="md:text-sm p-4">Resources Page - Desktop</p>
             </div>
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/d3.png"
@@ -442,7 +442,7 @@ export default function ReentryReimagined() {
               />
               <p className="md:text-sm p-4">About Page - Desktop</p>
             </div>
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/d4.png"
@@ -450,7 +450,7 @@ export default function ReentryReimagined() {
               />
               <p className="md:text-sm p-4">Contact Page - Desktop</p>
             </div>
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/m1.png"
@@ -458,7 +458,7 @@ export default function ReentryReimagined() {
               />
               <p className="md:text-sm p-4">Home Page - Mobile</p>
             </div>
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/m2.png"
@@ -466,7 +466,7 @@ export default function ReentryReimagined() {
               />
               <p className="md:text-sm p-4">Resource Page - Mobile</p>
             </div>
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/m3.png"
@@ -474,7 +474,7 @@ export default function ReentryReimagined() {
               />
               <p className="md:text-sm p-4">About Page - Mobile</p>
             </div>
-            <div className="flex flex-col mx-auto max-w-md justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
+            <div className="flex flex-col justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
               <img
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
                 src="/images/ReentryReimagined/screenshots/m4.png"
