@@ -32,15 +32,8 @@ export default function Kosmos() {
 
         <section className="text-[#392A3D] bg-[#F9F4F1] ">
           {/* p1 */}
-          <div className="max-w-[1200px] m-auto pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-            <div className=" lg:col-span-2 px-16 py-5 lg:py-[4em] pb-20 flex flex-col items-left transition bg-grey-500 min-h[30px] max-w-xl m-auto">
-              <h2 className="font-RedHatDisplay font-bold text-2xl">Results</h2>
-              <p className="text-left md:text-sm">
-                Reduced bounce rate by 10% and stabilized traffic 84% above the baseline after a WSJ feature, serving
-                6,800+ monthly visitors. Reduced planned development scope by 80% by proposing deep-link integration
-                over full custom booking system build.
-              </p>
-            </div>
+          <div className="m-auto pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
 
             <div className="col-span-1 px-16 py-5 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center ">
               <h2 className="font-RedHatDisplay text-left inline-flex font-bold text-2xl">
@@ -70,6 +63,14 @@ export default function Kosmos() {
               <h2 className="font-RedHatDisplay font-bold text-xl mt-8 ">Service</h2>
               <p className="text-left inline-flex md:text-sm">
                 Web Design, UX design, Web Development, Responsive Design, API integration, SEO
+              </p>
+            </div>
+            <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+              <h2 className="font-RedHatDisplay font-bold text-2xl">Results</h2>
+              <p className="text-left md:text-sm">
+                Reduced bounce rate by 10% and stabilized traffic 84% above the baseline after a WSJ feature, serving
+                6,800+ monthly visitors. Reduced planned development scope by 80% by proposing deep-link integration
+                over full custom booking system build.
               </p>
             </div>
           </div>
