@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
+import ProjectHero from "@/app/components/ProjectHero";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - Reentry Reimagined",
@@ -15,61 +16,25 @@ export default function ReentryReimagined() {
       <main id="main-content">
         <h1 className="sr-only">Reentry Reimagined Website Redesign - Project Case Study</h1>
 
-        {/* p1 */}
-        <section className="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 text-[#775022] bg-[#FFF8F1]">
-          {/* text block */}
-          <div className="md:col-span-3 bg-[#EDE7E7] transition sm:min-h-[150px] h-fit mt-5 mb-[-40px]">
-            <img
-              className="hidden md:block"
-              src="/images/ReentryReimagined/mockup-large.png"
-              alt="Earth-toned website redesign displayed on laptop and mobile screens."
-            />
-            <img
-              className="block md:hidden"
-              src="/images/ReentryReimagined/mockup-mobile.png"
-              alt="Earth-toned website redesign displayed on mobile screen."
-            />
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pt-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center ">
-            <h2 className="font-RedHatDisplay text-left inline-flex font-bold text-2xl">
-              Reentry Reimagined Website Redesign
-            </h2>
-            <p className="py-1 text-left inline-flex md:text-sm">
-              Result: The redesign led to a 40% increase in website traffic and active recurring monthly donations.
-            </p>
-
-            <a
-              href="https://reentryreimagined.org"
-              className="flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 mt-2 bg-[#775022] hover:bg-[#9e703a] shadow-md max-w-xs"
-            >
-              <div className="flex items-center flex-1">
-                <img src="/icons/globe.png" className="mr-0 w-8 h-8 object-contain" alt="icon" />
-                <span className="ml-2.5 text-base text-white flex-shrink-1">Visit Website</span>
-              </div>
-              <img src="/icons/forward-white.png" className="mr-0 w-5 h-5 object-contain" alt="arrow" />
-            </a>
-
-            <div className=""></div>
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-            <h3 className="font-RedHatDisplay font-bold text-xl">Technology</h3>
-            <p className="text-left inline-flex md:text-sm">Wix, Figma, Inkscape, Krita</p>
-            <h3 className="font-RedHatDisplay font-bold text-xl mt-8 ">Service</h3>
-            <p className="text-left inline-flex md:text-sm">
-              Web Design, Branding, Digital Photography, Digital Illustration, SEO
-            </p>
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pb-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-            <p className="text-left inline-flex md:text-sm">
-              Reentry Reimagined is nonprofit organization dedicated to supporting individuals transitioning back into
-              society after incarceration. The redesign focused on enhancing branding, aesthetics, and SEO while
-              maintaining brand consistency.
-            </p>
-          </div>
-        </section>
+        <ProjectHero
+          sectionClassName="text-[#775022] bg-[#FFF8F1]"
+          imageSrc="/images/ReentryReimagined/mockup-large.png"
+          imageMobileSrc="/images/ReentryReimagined/mockup-mobile.png"
+          imageAlt="Earth-toned website redesign displayed on laptop and mobile screens."
+          imageContainerClassName="bg-[#EDE7E7] mt-5 mb-[-40px]"
+          titleAs="h2"
+          titleClassName="font-RedHatDisplay text-left inline-flex font-bold text-2xl"
+          title="Reentry Reimagined Website Redesign"
+          summary="Result: The redesign led to a 40% increase in website traffic and active recurring monthly donations."
+          links={[
+            { href: "https://reentryreimagined.org", icon: "/icons/globe.png", label: "Visit Website", buttonClassName: "bg-[#775022] hover:bg-[#9e703a]" },
+          ]}
+          meta={[
+            { label: "Technology", value: "Wix, Figma, Inkscape, Krita" },
+            { label: "Service", value: "Web Design, Branding, Digital Photography, Digital Illustration, SEO" },
+          ]}
+          description={<p className="text-left inline-flex md:text-sm">Reentry Reimagined is nonprofit organization dedicated to supporting individuals transitioning back into society after incarceration. The redesign focused on enhancing branding, aesthetics, and SEO while maintaining brand consistency.</p>}
+        />
 
         {/* P2 */}
         <section className="bg-white text-[#775022]  drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">

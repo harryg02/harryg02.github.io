@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
+import ProjectHero from "@/app/components/ProjectHero";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Creative Designer & Developer | Portfolio - ReentryGuide GR",
@@ -13,70 +14,23 @@ export default function ReentryGuideGR() {
 
 
       <main id="main-content">
-        {/* p1 */}
-        <section className="lg:pb-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-white bg-[#141414]">
-          <div className="md:col-span-3 bg-[#EDE7E7] transition sm:min-h-[150px] h-fit">
-            <img
-              className="hidden md:block drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
-              src="/images/ReentryGuide-GR/mockup.png"
-              alt="Three mobile screens showing the App Homepage, Main Menu, and Location Details."
-            />
-            <img
-              className="block md:hidden drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
-              src="/images/ReentryGuide-GR/mockup-mobile.png"
-              alt="Thumbnail preview of the mobile app interface."
-            />
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pt-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center ">
-            <h1 className="font-RedHatDisplay text-left inline-flex font-semibold text-2xl">ReentryGuide GR</h1>
-            <p className="py-1 text-left inline-flex md:text-sm">
-              <br /> Impact: Fixed 2 critical navigation blockers, the app deployed to community pilot group, the
-              app&apos;s posters displayed at Michigan Department of Corrections (MDOC) parole office in Grand Rapids.
-            </p>
-
-            <a
-              href="https://reentryguidegr.org"
-              className="flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 mt-2 bg-[#333] hover:bg-[#222] shadow-md max-w-xs"
-            >
-              <div className="flex items-center flex-1">
-                <img src="/icons/globe.png" className="mr-0 w-8 h-8 object-contain" alt="" />
-                <span className="ml-2.5 text-base text-white flex-shrink-1">Visit Website</span>
-              </div>
-              <img src="/icons/forward-white.png" className="mr-0 w-5 h-5 object-contain" alt="" />
-            </a>
-
-            <a
-              href="https://github.com/ReentryGuide-GR"
-              className="flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 mt-2 bg-[#333] hover:bg-[#222] shadow-md max-w-xs"
-            >
-              <div className="flex items-center flex-1">
-                <img src="/icons/github-white.svg" className="mr-0 w-8 h-8 object-contain" alt="" />
-                <span className="ml-2.5 text-base text-white flex-shrink-1">Visit Github</span>
-              </div>
-              <img src="/icons/forward-white.png" className="mr-0 w-5 h-5 object-contain" alt="" />
-            </a>
-            <div className=""></div>
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-            <h2 className="font-RedHatDisplay font-bold text-xl">Technology</h2>
-            <p className="text-left inline-flex md:text-sm">React Native, Docusaurus, Figma, Inkscape, Krita</p>
-            <h2 className="font-RedHatDisplay font-bold text-xl mt-8 ">Service</h2>
-            <p className="text-left inline-flex md:text-sm">
-              Software Development, UX Design, User Research, Usability Testing, Deployment, Web Design, Graphic
-              Design, Logo Design, Digital Illustration
-            </p>
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pb-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-            <p className="text-left inline-flex md:text-sm">
-              &quot;ReentryGuide GR&quot; is a mobile application developed in collaboration with Reentry Reimagined,
-              designed specifically to support the reintegration of former prisoners into society within the Grand
-              Rapids area.{" "}
-            </p>
-          </div>
-        </section>
+        <ProjectHero
+          imageSrc="/images/ReentryGuide-GR/mockup.png"
+          imageMobileSrc="/images/ReentryGuide-GR/mockup-mobile.png"
+          imageAlt="Three mobile screens showing the App Homepage, Main Menu, and Location Details."
+          imageContainerClassName="bg-[#EDE7E7]"
+          title="ReentryGuide GR"
+          summary="Fixed 2 critical navigation blockers, the app deployed to community pilot group, the app's posters displayed at Michigan Department of Corrections (MDOC) parole office in Grand Rapids."
+          links={[
+            { href: "https://reentryguidegr.org", icon: "/icons/globe.png", label: "Visit Website" },
+            { href: "https://github.com/ReentryGuide-GR", icon: "/icons/github-white.svg", label: "Visit Github" },
+          ]}
+          meta={[
+            { label: "Technology", value: "React Native, Docusaurus, Figma, Inkscape, Krita" },
+            { label: "Service", value: "Software Development, UX Design, User Research, Usability Testing, Deployment, Web Design, Graphic Design, Logo Design, Digital Illustration" },
+          ]}
+          description={<p className="text-left inline-flex md:text-sm">&quot;ReentryGuide GR&quot; is a mobile application developed in collaboration with Reentry Reimagined, designed specifically to support the reintegration of former prisoners into society within the Grand Rapids area.</p>}
+        />
 
         {/* Community Embeddedness */}
         <section className="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
