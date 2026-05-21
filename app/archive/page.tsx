@@ -28,12 +28,12 @@ html, html body { height: auto; }
       {/* Main content */}
       <main id="main-content">
         {/* Graphic Design */}
-        <section id="graphicdesign" className="bg-[#1C1E1F] text-[#CCD4E3] z-50">
+        <section id="graphicdesign" className="bg-[#1C1E1F] text-[#CCD4E3] z-50 pt-12">
           {/* Screen reader accessible heading */}
           <h1 className="sr-only">I&apos;m Harry Gu. I&apos;m a UI/UX Designer, Front-End Developer, and Graphic Designer</h1>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-col-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
             <div className="col-span-2 md:col-span-1 flex justify-center items-center transition bg-grey-500 shadow-xl min-h[60px] text-center">
-              <h2 className="inline-flex font-extrabold text-xl p-11">Graphic Design</h2>
+              <h2 className="inline-flex font-semibold text-xl p-11">Graphic Design</h2>
             </div>
 
             <a className="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="/reentryreimagined-brochure">
@@ -125,7 +125,7 @@ html, html body { height: auto; }
             <div className="thumbContainer mx-auto">
               <div className="my-32 py-2em">
                 <div className="text-veryDarkGray max-w-[19rem] sm:max-w-[24rem] md:max-w-[44rem] lg:max-w-[65rem] xl:max-w-[85rem] m-auto">
-                  <h2 className="pb-6 pl-1 font-extrabold text-xl">Drawing</h2>
+                  <h2 className="pb-6 pl-1 font-bold text-xl">Drawing</h2>
                   <div className="align-baseline grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 md:gap-x-9 xl:gap-x-12 gap-y-28 md:gap-y-6">
                     <div className="pswp-gallery row-span-2" id="gallery">
                       <div className="pswp-gallery__item">
