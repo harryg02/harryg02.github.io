@@ -26,19 +26,19 @@ export default function ProgressiveType() {
               </p>
             </div>
             <div className="bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <Image src="/images/progressive_type1.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/progressive_type1.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
             <div className="bg-slate-600 transition sm:min-h-[150px] h-fit">
-              <Image src="/images/progressive_type.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/progressive_type.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
             <div className="bg-red-200 transition sm:min-h-[150px] h-fit">
-              <Image src="/images/progressive_type1.5.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/progressive_type1.5.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
             <div className="bg-pink-200 transition sm:min-h-[150px] h-fit">
-              <Image src="/images/progressive_type2.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/progressive_type2.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
             <div className="bg-cyan-200 transition sm:min-h-[150px] h-fit">
-              <Image src="/images/progressive_type0.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/progressive_type0.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
         </section>

@@ -17,8 +17,8 @@ export default function ExodusPlace() {
       <main id="main-content">
         <ProjectHero
           sectionClassName="text-white bg-[#1A1A1A]"
-          imageSrc="/images/ExodusPlace.org/mockup-large.png"
-          imageMobileSrc="/images/ExodusPlace.org/mockup-mobile.png"
+          imageSrc="/images/ExodusPlace.org/mockup-large.webp"
+          imageMobileSrc="/images/ExodusPlace.org/mockup-mobile.webp"
           imageAlt="Dark-themed homepage with aerial facility view."
           imageContainerClassName="mb-[-40px]"
           titleClassName="text-left inline-flex font-bold text-2xl text-[#72D976]"
@@ -92,13 +92,13 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center gap-4 items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ExodusPlace.org/old-website.png"
+                src="/images/ExodusPlace.org/old-website.webp"
                 alt="Dated layout with cluttered navigation."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ExodusPlace.org/old-website-2.png"
+                src="/images/ExodusPlace.org/old-website-2.webp"
                 alt="Dated layout with small text."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -114,7 +114,7 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/eg1.png"
+                src="/images/ReentryReimagined/eg1.webp"
                 alt="Reference interface with bold hero photography."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -180,7 +180,7 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/eg2.png"
+                src="/images/ReentryReimagined/eg2.webp"
                 alt="Reference interface with diverse imagery."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -202,13 +202,13 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit mt-[-40px] mb-[-40px]">
               <Image
                 className="hidden md:block"
-                src="/images/ExodusPlace.org/mockup-large.png"
+                src="/images/ExodusPlace.org/mockup-large.webp"
                 alt="Dark-themed homepage with aerial facility view."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <Image
                 className="block md:hidden"
-                src="/images/ExodusPlace.org/mockup-mobile.png"
+                src="/images/ExodusPlace.org/mockup-mobile.webp"
                 alt="Dark-themed homepage with aerial facility view."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -242,7 +242,7 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ExodusPlace.org/hero-event.png"
+                src="/images/ExodusPlace.org/hero-event.webp"
                 alt="Homepage variation: 'Roof Sit' banner."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -254,7 +254,7 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ExodusPlace.org/hero-normal.png"
+                src="/images/ExodusPlace.org/hero-normal.webp"
                 alt="Homepage variation: standard video background."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -269,13 +269,13 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit mt-[-40px] mb-[-40px]">
               <Image
                 className="hidden md:block rounded-2xl"
-                src="/images/ExodusPlace.org/service-section.png"
+                src="/images/ExodusPlace.org/service-section.webp"
                 alt="Photos of building exterior, food preparation, and medical care."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <Image
                 className="block md:hidden rounded-xl"
-                src="/images/ExodusPlace.org/service-section-mobile.png"
+                src="/images/ExodusPlace.org/service-section-mobile.webp"
                 alt="Photos of building exterior, food preparation, and medical care."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -290,7 +290,7 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center md:col-span-3 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
               <Image
                 className="rounded-2xl"
-                src="/images/ExodusPlace.org/grouping.png"
+                src="/images/ExodusPlace.org/grouping.webp"
                 alt="Desktop dropdown menu."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -300,7 +300,7 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center col-span-1 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
               <Image
                 className="rounded-2xl"
-                src="/images/ExodusPlace.org/grouping-mobile.png"
+                src="/images/ExodusPlace.org/grouping-mobile.webp"
                 alt="Mobile menu drawer."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -315,13 +315,13 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
               <Image
                 className="hidden md:block rounded-2xl"
-                src="/images/ExodusPlace.org/accessibility.png"
+                src="/images/ExodusPlace.org/accessibility.webp"
                 alt="Toolbar with contrast, font size, and pause toggles."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <Image
                 className="block md:hidden rounded-xl"
-                src="/images/ExodusPlace.org/accessibility-mobile.png"
+                src="/images/ExodusPlace.org/accessibility-mobile.webp"
                 alt="Toolbar with contrast, font size, and pause toggles."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -338,7 +338,7 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center md:col-span-3 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
               <Image
                 className="rounded-2xl"
-                src="/images/ExodusPlace.org/housing.png"
+                src="/images/ExodusPlace.org/housing.webp"
                 alt="Mobile Housing UI: Text list."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -347,7 +347,7 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center col-span-1 transition sm:min-h-[150px] h-fit md:mt-[-40px] md:mb-[-40px]">
               <Image
                 className="rounded-2xl"
-                src="/images/ExodusPlace.org/housing2.png"
+                src="/images/ExodusPlace.org/housing2.webp"
                 alt="Mobile Housing UI: Large touch-friendly buttons."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -362,7 +362,7 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center col-span-4 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ExodusPlace.org/Exodus-Place-Brand-Guidelines.png"
+                src="/images/ExodusPlace.org/Exodus-Place-Brand-Guidelines.webp"
                 alt="Montserrat font weights and green color swatches."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -387,7 +387,7 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ExodusPlace.org/home-event.png"
+                src="/images/ExodusPlace.org/home-event.webp"
                 alt="Desktop view of the homepage highlighting the event announcement section."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -396,7 +396,7 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ExodusPlace.org/events.png"
+                src="/images/ExodusPlace.org/events.webp"
                 alt="Desktop view of the Events page listing upcoming community activities."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
@@ -405,7 +405,7 @@ export default function ExodusPlace() {
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ExodusPlace.org/service-meals.png"
+                src="/images/ExodusPlace.org/service-meals.webp"
                 alt="Exodus Place branded delivery van featuring a bright green and white vehicle wrap."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />

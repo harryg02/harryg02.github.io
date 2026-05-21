@@ -41,8 +41,8 @@ export default function CalvinFinds() {
       <main id="main-content">
         <ProjectHero
           sectionClassName="text-[#2F2E41]"
-          imageSrc="/images/CalvinFinds/mockup.png"
-          imageMobileSrc="/images/CalvinFinds/thumbnail.png"
+          imageSrc="/images/CalvinFinds/mockup.webp"
+          imageMobileSrc="/images/CalvinFinds/thumbnail.webp"
           imageAlt="Four mobile screens showing the Calvin Finds app interface: login, item feed, profile, and map."
           imageContainerClassName="bg-[#EDE7E7]"
           titleClassName="text-left inline-flex font-black text-[#2F2E41] text-xl mb-3"
@@ -99,14 +99,14 @@ export default function CalvinFinds() {
             </div>
 
             <div className="flex flex-col justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-              <Image className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/photo.png"
+              <Image className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/photo.webp"
                 alt="Whiteboard sketch with 'Airpod' written in red marker and an arrow pointing to a drawing." 
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                 />
             </div>
 
             <div className="flex flex-col py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-              <Image className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/s1.png"
+              <Image className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/s1.webp"
                 alt="Email notification reporting a lost phone found in a parking lot." 
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                 />
@@ -288,7 +288,7 @@ export default function CalvinFinds() {
               </div>
               <p className="pl-3">Kanban Template we were using:</p>
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/t1.png"
+                <Image className="rounded-xl" src="/images/CalvinFinds/t1.webp"
                   alt="Kanban board interface showing 'To Do', 'Doing', and 'Done' columns." 
                   width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
@@ -298,18 +298,18 @@ export default function CalvinFinds() {
 
             <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5">
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/t2.png"
+                <Image className="rounded-xl" src="/images/CalvinFinds/t2.webp"
                   alt="Kanban board columns populated with specific development tasks." 
                   width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
                 <p className=" p-2"></p>
               </div>
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/t3.png" alt="Kanban board showing progress on tasks"  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+                <Image className="rounded-xl" src="/images/CalvinFinds/t3.webp" alt="Kanban board showing progress on tasks"  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
                 <p className=" p-2"></p>
               </div>
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/t4.png"
+                <Image className="rounded-xl" src="/images/CalvinFinds/t4.webp"
                   alt="Kanban board detail view showing 'Sprints 1 through x-1' task grouping." 
                   width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
@@ -325,7 +325,7 @@ export default function CalvinFinds() {
             <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
               <h3 className="font-black text-xl inline-flex py-4 mb-1">Technology Stack Evaluation</h3>
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/tech.png"
+                <Image className="rounded-xl" src="/images/CalvinFinds/tech.webp"
                   alt="Logos for PostgreSQL, GitHub, Azure, React Native, Figma, Inkscape, and Trello." 
                   width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
@@ -412,7 +412,7 @@ export default function CalvinFinds() {
           <div className="max-w-[1200px] m-auto px-6 pb-5 grid grid-col-1 lg:grid-cols-2">
             <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5">
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/card.png"
+                <Image className="rounded-xl" src="/images/CalvinFinds/card.webp"
                   alt="UI card component displaying a photo of socks, user avatar, and location tag." 
                   width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
@@ -556,7 +556,7 @@ export default function CalvinFinds() {
 
             <div className="order-3 self-start col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/Usability Test Script-1.png"
+                <Image className="rounded-xl" src="/images/CalvinFinds/Usability Test Script-1.webp"
                   alt="Page 1 of the printed usability testing questionnaire." 
                   width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
@@ -566,7 +566,7 @@ export default function CalvinFinds() {
 
             <div className="order-4 self-start col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/Usability Test Script-2.png"
+                <Image className="rounded-xl" src="/images/CalvinFinds/Usability Test Script-2.webp"
                   alt="Page 2 of the printed usability testing questionnaire." 
                   width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
@@ -591,14 +591,14 @@ export default function CalvinFinds() {
             <div className="order-6 col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
               <div className="my-4 flex flex-col lg:flex-row justify-center items-center gap-4">
                 <div className="flex flex-col items-center">
-                  <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/before.png"
+                  <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/before.webp"
                     alt="Dashboard using a segment control for 'Found' vs 'Lost'." 
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   <p className=" p-2">before</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/after.png"
+                  <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/after.webp"
                     alt="Dashboard using distinct orange buttons for 'Found' and 'Lost' toggles." 
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
@@ -607,14 +607,14 @@ export default function CalvinFinds() {
               </div>
               <div className="my-4 flex flex-col lg:flex-row justify-center items-center gap-4">
                 <div className="flex flex-col items-center">
-                  <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/main-before-search-activated.png"
+                  <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/main-before-search-activated.webp"
                     alt="Search bar with a generic magnifying glass icon." 
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   <p className=" p-2">before (search activated)</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/main-after-search-activated.png"
+                  <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/main-after-search-activated.webp"
                     alt="Search bar with a clear 'Type to search item' placeholder." 
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
@@ -626,14 +626,14 @@ export default function CalvinFinds() {
             <div className="order-8 md:order-7 col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
               <div className="grid-cols-2">
                 <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                  <Image className="rounded-xl max-w-[300px]" src="/images/CalvinFinds/usability-testing/detail-before.png"
+                  <Image className="rounded-xl max-w-[300px]" src="/images/CalvinFinds/usability-testing/detail-before.webp"
                     alt="Item detail screen lacking contact information." 
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   <p className=" p-2">before</p>
                 </div>
                 <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                  <Image className="rounded-xl max-w-[300px]" src="/images/CalvinFinds/usability-testing/detail-after.png"
+                  <Image className="rounded-xl max-w-[300px]" src="/images/CalvinFinds/usability-testing/detail-after.webp"
                     alt="Item detail screen displaying the poster's email and username." 
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
@@ -669,14 +669,14 @@ export default function CalvinFinds() {
             <div className="order-11 col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
               <div className="flex flex-col lg:flex-row justify-center items-center gap-4">
                 <div className="flex flex-col items-center">
-                  <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/map-before.png"
+                  <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/map-before.webp"
                     alt="Map interface showing a generic pin drop." 
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   <p className=" p-2">before</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/map-after.png"
+                  <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/map-after.webp"
                     alt="Map interface showing a specific building label 'Beets-Veenstra Hall'." 
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
@@ -736,18 +736,18 @@ export default function CalvinFinds() {
           </div>
 
           {[
-            { src: "/images/CalvinFinds/login.png", alt: "Mobile login screen with email and password input fields.", label: "Login Page" },
-            { src: "/images/CalvinFinds/signup.png", alt: "Mobile signup form filled with student credentials.", label: "Signup Page - Filled" },
-            { src: "/images/CalvinFinds/reset-password-1.png", alt: "Password reset screen requesting an email address.", label: "Reset Password Page - Send Code to Email" },
-            { src: "/images/CalvinFinds/reset-password-2.png", alt: "Password reset screen with fields to enter and confirm a new password.", label: "Reset Password Page - Type New Password" },
-            { src: "/images/CalvinFinds/main.png", alt: "App homepage showing a feed of lost item cards.", label: "Main Page" },
-            { src: "/images/CalvinFinds/main-search.png", alt: "App homepage with 'Socks' typed into the search bar.", label: "Main Page - Search Bar Activated" },
-            { src: "/images/CalvinFinds/details.png", alt: "Detailed view of a lost item including a map pin and comments section.", label: "Item Details Page" },
-            { src: "/images/CalvinFinds/profile.png", alt: "Mobile user profile screen displaying '2 posted' and '13 archived' items.", label: "User Profile Page" },
-            { src: "/images/CalvinFinds/posted.png", alt: "Mobile list view showing a user's history of posted lost and found items.", label: "User Posted Page" },
-            { src: "/images/CalvinFinds/add.png", alt: "Mobile entry form for reporting a new item with category selection.", label: "Add Item Page" },
-            { src: "/images/CalvinFinds/map.png", alt: "Mobile map interface showing a location pin on a campus building.", label: "Add Item Page - Map Selection" },
-            { src: "/images/CalvinFinds/add-filled.png", alt: "Mobile entry form populated with 'Socks' as the item name.", label: "Add Item Page - Filled" },
+            { src: "/images/CalvinFinds/login.webp", alt: "Mobile login screen with email and password input fields.", label: "Login Page" },
+            { src: "/images/CalvinFinds/signup.webp", alt: "Mobile signup form filled with student credentials.", label: "Signup Page - Filled" },
+            { src: "/images/CalvinFinds/reset-password-1.webp", alt: "Password reset screen requesting an email address.", label: "Reset Password Page - Send Code to Email" },
+            { src: "/images/CalvinFinds/reset-password-2.webp", alt: "Password reset screen with fields to enter and confirm a new password.", label: "Reset Password Page - Type New Password" },
+            { src: "/images/CalvinFinds/main.webp", alt: "App homepage showing a feed of lost item cards.", label: "Main Page" },
+            { src: "/images/CalvinFinds/main-search.webp", alt: "App homepage with 'Socks' typed into the search bar.", label: "Main Page - Search Bar Activated" },
+            { src: "/images/CalvinFinds/details.webp", alt: "Detailed view of a lost item including a map pin and comments section.", label: "Item Details Page" },
+            { src: "/images/CalvinFinds/profile.webp", alt: "Mobile user profile screen displaying '2 posted' and '13 archived' items.", label: "User Profile Page" },
+            { src: "/images/CalvinFinds/posted.webp", alt: "Mobile list view showing a user's history of posted lost and found items.", label: "User Posted Page" },
+            { src: "/images/CalvinFinds/add.webp", alt: "Mobile entry form for reporting a new item with category selection.", label: "Add Item Page" },
+            { src: "/images/CalvinFinds/map.webp", alt: "Mobile map interface showing a location pin on a campus building.", label: "Add Item Page - Map Selection" },
+            { src: "/images/CalvinFinds/add-filled.webp", alt: "Mobile entry form populated with 'Socks' as the item name.", label: "Add Item Page - Filled" },
           ].map((item, idx) => (
             <div key={idx} className="flex flex-col justify-center items-center p-9 col-span-1 row-span-2 bg-[#FFAF66] transition sm:min-h-[150px] h-fit">
               <Image src={item.src} alt={item.alt}  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
@@ -763,7 +763,7 @@ export default function CalvinFinds() {
               <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">Deployment Diagram</h2>
             </div>
             <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-              <Image className="rounded-2xl" src="/images/CalvinFinds/DeploymentDiagram.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image className="rounded-2xl" src="/images/CalvinFinds/DeploymentDiagram.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
         </section>
@@ -775,7 +775,7 @@ export default function CalvinFinds() {
               <h2 className="w-full justify-center inline-flex font-black text-white text-2xl text-left">Domain Model</h2>
             </div>
             <div className="flex flex-col justify-center items-center col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-              <Image className="" src="/images/CalvinFinds/DomainModel.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image className="" src="/images/CalvinFinds/DomainModel.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
         </section>

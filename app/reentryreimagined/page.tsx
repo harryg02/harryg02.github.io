@@ -19,8 +19,8 @@ export default function ReentryReimagined() {
 
         <ProjectHero
           sectionClassName="text-[#775022] bg-[#FFF8F1]"
-          imageSrc="/images/ReentryReimagined/mockup-large.png"
-          imageMobileSrc="/images/ReentryReimagined/mockup-mobile.png"
+          imageSrc="/images/ReentryReimagined/mockup-large.webp"
+          imageMobileSrc="/images/ReentryReimagined/mockup-mobile.webp"
           imageAlt="Earth-toned website redesign displayed on laptop and mobile screens."
           imageContainerClassName="bg-[#EDE7E7] mt-5 mb-[-40px]"
           titleAs="h2"
@@ -83,7 +83,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/old-website.png"
+                src="/images/ReentryReimagined/old-website.webp"
                 alt="reference"
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -100,7 +100,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/eg1.png"
+                src="/images/ReentryReimagined/eg1.webp"
                 alt="Reference interface featuring bold activism imagery and clear typography."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -185,7 +185,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/eg2.png"
+                src="/images/ReentryReimagined/eg2.webp"
                 alt="Reference interface utilizing diverse photography and red accent colors."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -378,7 +378,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/prototype2.png"
+                src="/images/ReentryReimagined/prototype2.webp"
                 alt="A more polished prototype"
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -418,7 +418,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-4 lg:col-span-2 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/old-website.png"
+                src="/images/ReentryReimagined/old-website.webp"
                 alt="Visual comparison: The dark, outdated previous design versus the bright, modern redesign."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -428,7 +428,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-4 lg:col-span-2 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/new-website.png"
+                src="/images/ReentryReimagined/new-website.webp"
                 alt="The bright, modern redesign."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -438,7 +438,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/screenshots/d1.png"
+                src="/images/ReentryReimagined/screenshots/d1.webp"
                 alt="Full-page mockup showing the homepage scroll flow, from hero section to footer."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -448,7 +448,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/screenshots/d2.png"
+                src="/images/ReentryReimagined/screenshots/d2.webp"
                 alt="Desktop screenshot of the Reentry Reimagined Resources page."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -458,7 +458,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/screenshots/d3.png"
+                src="/images/ReentryReimagined/screenshots/d3.webp"
                 alt="Desktop screenshot of the Reentry Reimagined About page."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -468,7 +468,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/screenshots/d4.png"
+                src="/images/ReentryReimagined/screenshots/d4.webp"
                 alt="Desktop screenshot of the Reentry Reimagined Contact page."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -478,7 +478,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/screenshots/m1.png"
+                src="/images/ReentryReimagined/screenshots/m1.webp"
                 alt="Mobile screenshot of the Reentry Reimagined Homepage."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -488,7 +488,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/screenshots/m2.png"
+                src="/images/ReentryReimagined/screenshots/m2.webp"
                 alt="Mobile screenshot of the Reentry Reimagined Resources page."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -498,7 +498,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/screenshots/m3.png"
+                src="/images/ReentryReimagined/screenshots/m3.webp"
                 alt="Mobile screenshot of the Reentry Reimagined About page."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -508,7 +508,7 @@ export default function ReentryReimagined() {
             <div className="flex flex-col justify-center items-center col-span-4 md:col-span-1 row-span-2 mx-3 my-3 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/ReentryReimagined/screenshots/m4.png"
+                src="/images/ReentryReimagined/screenshots/m4.webp"
                 alt="Mobile screenshot of the Reentry Reimagined Contact page."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}

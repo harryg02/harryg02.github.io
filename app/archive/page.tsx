@@ -53,7 +53,7 @@ html, html body { height: auto; }
             </a>
 
             <a className="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl" href="/reentryguide-gr-flyer">
-              <Image className="" src="/images/ReentryGuide-GR/flyer-thumbnail.png"
+              <Image className="" src="/images/ReentryGuide-GR/flyer-thumbnail.webp"
                 alt="White flyer on wooden table with text 'Do you need Food, Clothing, Hygiene, Healthcare etc.?' and QR code" 
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                 />
@@ -86,7 +86,7 @@ html, html body { height: auto; }
 
             <a className="mb-2 relative group sm:min-h-[150px] h-fit hover:shadow-xl"
               href="/impact-report-usletter-Dec4.pdf">
-              <Image className="" src="/images/impact_report/thumbnail.png"
+              <Image className="" src="/images/impact_report/thumbnail.webp"
                 alt="Teal fiscal year report cover featuring a donation QR code." 
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                 />

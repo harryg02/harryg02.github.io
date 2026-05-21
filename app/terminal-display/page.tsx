@@ -34,22 +34,22 @@ export default function TerminalDisplay() {
             </div>
 
             <div className="bg-blue-200 relative items-left lg:left-10 lg:col-span-2 lg:mr-20 transition sm:min-h-[150px] h-fit">
-              <Image src="/images/font1.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/font1.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
             <div className="bg-slate-600 rounded transition sm:min-h-[150px] h-fit">
-              <Image src="/images/font3.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/font3.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
             <div className="transition sm:min-h-[150px] h-fit">
-              <Image src="/images/font5.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/font5.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
             <div className="transition sm:min-h-[150px] h-fit">
-              <Image src="/images/font7.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/font7.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
             <div className="transition sm:min-h-[150px] h-fit">
-              <Image src="/images/font6.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/font6.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
             <div className="transition sm:min-h-[150px] h-fit">
-              <Image src="/images/font4.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/font4.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
         </section>

@@ -65,7 +65,7 @@ export default function Home() {
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/kosmos"
-              imageSrc="/images/kosmos_resort/thumb-dark.png"
+              imageSrc="/images/kosmos_resort/thumb-dark.webp"
               imageAlt="Desktop and mobile mockups featuring a starry night interface theme."
               title='"Kosmos Stargazing Resort" Website Redesign & Development'
               result="Result: -10% bounce rate"
@@ -73,7 +73,7 @@ export default function Home() {
             <ProjectCard
               className="lg:row-span-2"
               href="/exodusplace"
-              imageSrc="/images/ExodusPlace.org/mockup-mobile.png"
+              imageSrc="/images/ExodusPlace.org/mockup-mobile.webp"
               imageAlt="Dark-themed website redesign showing an aerial view of the facility."
               title="Exodus Place Website Redesign"
               result="Result: Implemented in 2 weeks, handled +173% traffic surge"
@@ -82,7 +82,7 @@ export default function Home() {
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/als-lm"
-              imageSrc="/images/als-lm/cover.png"
+              imageSrc="/images/als-lm/cover.webp"
               imageAlt="Two web pages on a blueprint grid."
               title='"Adult Learning Systems" Website Research & Redesign'
               result="Result: 5/5 preferred new design for donation"
@@ -91,14 +91,14 @@ export default function Home() {
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/reentryguide-gr"
-              imageSrc="/images/ReentryGuide-GR/cover.png"
+              imageSrc="/images/ReentryGuide-GR/cover.webp"
               imageAlt="Smartphone held in hand displaying the app's main menu interface."
               title='"ReentryGuide GR" Mobile App & Website'
               result="Result: Fixed 2 usability issues, promoted by MDOC"
             />
             <ProjectCard
               href="/calvin-finds"
-              imageSrc="/images/CalvinFinds/thumbnail.png"
+              imageSrc="/images/CalvinFinds/thumbnail.webp"
               imageAlt="Mobile login screen featuring a flat illustration on an orange background."
               title="Calvin Finds Mobile App"
               result="Result: Identified and fixed 6 usability issues"
@@ -107,7 +107,7 @@ export default function Home() {
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/reentryreimagined"
-              imageSrc="/images/ReentryReimagined/thumbnail.png"
+              imageSrc="/images/ReentryReimagined/thumbnail.webp"
               imageAlt="Earth-toned website layout displayed on desktop and mobile screens."
               title="Reentry Reimagined Website Redesign"
               result="Result: +40% traffic"
@@ -116,7 +116,7 @@ export default function Home() {
             <ProjectCard
               className="md:col-span-1 lg:col-span-1"
               href="/detroit-child-usability"
-              imageSrc="/images/detroit-child-usability/suggestion1.png"
+              imageSrc="/images/detroit-child-usability/suggestion1.webp"
               imageAlt="Mockup of the State of the Detroit Child homepage redesign with an embedded interactive map of Detroit prominently featured."
               title="State of the Detroit Child Usability Analysis"
               result="Result: 5 usability findings, 5 actionable recommendations"

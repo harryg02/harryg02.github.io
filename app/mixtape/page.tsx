@@ -35,7 +35,7 @@ export default function Mixtape() {
           <div className="md:col-span-2 bg-[#EDE7E7] transition sm:min-h-[150px] h-fit">
             <Image
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
-              src="/images/mixtape/0-albumfinalprint_Page_1.png"
+              src="/images/mixtape/0-albumfinalprint_Page_1.webp"
               alt="Album cover art featuring a silhouette figure standing against a gold circle with the title 'MISCERE'."
             
             width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -48,7 +48,7 @@ export default function Mixtape() {
           <div className="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
             <Image
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
-              src="/images/mixtape/0-albumfinalprint_Page_1.png"
+              src="/images/mixtape/0-albumfinalprint_Page_1.webp"
               alt="Digital design of the album front cover with a central silhouette and gold circular motif."
             
             width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -59,7 +59,7 @@ export default function Mixtape() {
           <div className="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
             <Image
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
-              src="/images/mixtape/0-albumfinalprint_Page_3.png"
+              src="/images/mixtape/0-albumfinalprint_Page_3.webp"
               alt="Digital design of the album back cover listing the tracklist for Side A and Side B."
             
             width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -73,7 +73,7 @@ export default function Mixtape() {
           <div className="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
             <Image
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
-              src="/images/mixtape/0-albumfinalprint_Page_2.png"
+              src="/images/mixtape/0-albumfinalprint_Page_2.webp"
               alt="Illustration of a hiking backpack containing a blue mountain landscape."
             
             width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -84,7 +84,7 @@ export default function Mixtape() {
           <div className="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
             <Image
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
-              src="/images/mixtape/0-albumfinalprint_Page_4.png"
+              src="/images/mixtape/0-albumfinalprint_Page_4.webp"
               alt="Stylized typography design of the album title 'MISCERE' featuring a geometric logo symbol."
             
             width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -98,7 +98,7 @@ export default function Mixtape() {
           <div className="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
             <Image
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
-              src="/images/mixtape/insert1.png"
+              src="/images/mixtape/insert1.webp"
               alt="Album insert art featuring a dark castle silhouette against a teal background."
             
             width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -109,7 +109,7 @@ export default function Mixtape() {
           <div className="flex flex-col justify-center items-center  p-10 col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
             <Image
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]"
-              src="/images/mixtape/insert2.png"
+              src="/images/mixtape/insert2.webp"
               alt="Album insert art featuring a city skyline silhouette against a light blue background."
             
             width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}

@@ -87,7 +87,7 @@ export default function ReentryReimagedBrochure() {
           <div className="flex flex-col justify-center items-center p-9 col-span-2 row-span-2 transition sm:min-h-[150px] h-fit">
             <Image
               className="rounded-2xl"
-              src="/images/ReentryReimagined-Brochure/4.png"
+              src="/images/ReentryReimagined-Brochure/4.webp"
               alt="Fully open brochure held in hands, displaying the internal 'Our Services' and statistics panels."
             
             width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}

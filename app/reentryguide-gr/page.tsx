@@ -16,8 +16,8 @@ export default function ReentryGuideGR() {
 
       <main id="main-content">
         <ProjectHero
-          imageSrc="/images/ReentryGuide-GR/mockup.png"
-          imageMobileSrc="/images/ReentryGuide-GR/mockup-mobile.png"
+          imageSrc="/images/ReentryGuide-GR/mockup.webp"
+          imageMobileSrc="/images/ReentryGuide-GR/mockup-mobile.webp"
           imageAlt="Three mobile screens showing the App Homepage, Main Menu, and Location Details."
           imageContainerClassName="bg-[#EDE7E7]"
           title="ReentryGuide GR"
@@ -123,7 +123,7 @@ export default function ReentryGuideGR() {
 
             <div className="flex flex-col justify-center items-center p-2 col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
               <Image
-                src="/images/ReentryGuide-GR/infographic.png"
+                src="/images/ReentryGuide-GR/infographic.webp"
                 alt="Bar charts comparing prison disability rates vs general population and post-release jobless trends."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -213,7 +213,7 @@ export default function ReentryGuideGR() {
             <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               <div className="max-w-[400px] flex flex-col justify-center items-center  p-2 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                 <Image
-                  src="/images/ReentryGuide-GR/ref.png"
+                  src="/images/ReentryGuide-GR/ref.webp"
                   alt="Visual references: Microsoft Fluent Design calendar and iOS Settings menu."
                 
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -244,7 +244,7 @@ export default function ReentryGuideGR() {
                   <div className="flex flex-col justify-center items-center  py-9 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                     <Image
                       className="w-[300px] rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                      src="/images/ReentryGuide-GR/design-choices/highlight.png"
+                      src="/images/ReentryGuide-GR/design-choices/highlight.webp"
                       alt="Mobile UI card highlighting the 'Pick Closest Location' button."
                     
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -271,7 +271,7 @@ export default function ReentryGuideGR() {
                     <div className="mx-5 flex flex-col justify-center items-center px-9 w-full lg:w-1/2 transition h-fit">
                       <Image
                         className="w-[300px] md:max-w-[300px] rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                        src="/images/ReentryGuide-GR/design-choices/hand-left.png"
+                        src="/images/ReentryGuide-GR/design-choices/hand-left.webp"
                         alt="Heatmap overlay showing reachable screen zones for left-handed users."
                       
                       width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -281,7 +281,7 @@ export default function ReentryGuideGR() {
                     <div className="mx-5 flex flex-col justify-center items-center px-9 w-full lg:w-1/2 transition h-fit">
                       <Image
                         className="w-[300px] md:max-w-[300px] rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                        src="/images/ReentryGuide-GR/design-choices/hand-right.png"
+                        src="/images/ReentryGuide-GR/design-choices/hand-right.webp"
                         alt="Heatmap overlay showing reachable screen zones for right-handed users."
                       
                       width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -312,7 +312,7 @@ export default function ReentryGuideGR() {
                   <div className="flex flex-col justify-center items-center py-5 col-span-2 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
                     <Image
                       className="w-[300px] rounded-3xl"
-                      src="/images/ReentryGuide-GR/design-choices/button.png"
+                      src="/images/ReentryGuide-GR/design-choices/button.webp"
                       alt="UI component specs for Primary and Secondary buttons with shadow details."
                     
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -424,7 +424,7 @@ export default function ReentryGuideGR() {
                   <div className="flex flex-col justify-center items-center h-fit">
                     <Image
                       className="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] "
-                      src="/images/ReentryGuide-GR/Ferguson.png"
+                      src="/images/ReentryGuide-GR/Ferguson.webp"
                       alt="Street view photograph of the Ferguson Apartments building, one of the locations used for field usability testing."
                     
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -522,7 +522,7 @@ export default function ReentryGuideGR() {
               <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-2 bg-[#FDDEBA] transition sm:min-h-[150px] h-fit">
                 <Image
                   className="rounded-3xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-[300px]"
-                  src="/images/ReentryGuide-GR/screenshots/Screenshot_15.png"
+                  src="/images/ReentryGuide-GR/screenshots/Screenshot_15.webp"
                   alt="Usability Testing: Google Maps Start Button Issue"
                 
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -566,11 +566,11 @@ export default function ReentryGuideGR() {
         <section className="bg-[#FDDEBA] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[2000px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-3 ">
             <a
-              href="/images/ReentryGuide-GR/UsabilityTestingScript-1.png"
+              href="/images/ReentryGuide-GR/UsabilityTestingScript-1.webp"
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] flex flex-col justify-center items-center  p-2 col-span-1 transition sm:min-h-[150px] h-fit"
             >
               <Image
-                src="/images/ReentryGuide-GR/UsabilityTestingScript-1.png"
+                src="/images/ReentryGuide-GR/UsabilityTestingScript-1.webp"
                 alt="Page 1 of the printed usability testing script used to interview participants."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -578,11 +578,11 @@ export default function ReentryGuideGR() {
             </a>
 
             <a
-              href="/images/ReentryGuide-GR/UsabilityTestingScript-2.png"
+              href="/images/ReentryGuide-GR/UsabilityTestingScript-2.webp"
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] flex flex-col justify-center items-center  p-2 col-span-1 transition sm:min-h-[150px] h-fit"
             >
               <Image
-                src="/images/ReentryGuide-GR/UsabilityTestingScript-2.png"
+                src="/images/ReentryGuide-GR/UsabilityTestingScript-2.webp"
                 alt="Page 2 of the printed usability testing script used to interview participants."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -590,11 +590,11 @@ export default function ReentryGuideGR() {
             </a>
 
             <a
-              href="/images/ReentryGuide-GR/UsabilityTestingScript-3.png"
+              href="/images/ReentryGuide-GR/UsabilityTestingScript-3.webp"
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] flex flex-col justify-center items-center  p-2 col-span-1 transition sm:min-h-[150px] h-fit"
             >
               <Image
-                src="/images/ReentryGuide-GR/UsabilityTestingScript-3.png"
+                src="/images/ReentryGuide-GR/UsabilityTestingScript-3.webp"
                 alt="Page 3 of the printed usability testing script used to interview participants."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -784,7 +784,7 @@ export default function ReentryGuideGR() {
           <div className="flex flex-col justify-center items-center col-span-2 row-span-2 transition sm:min-h-[150px] lg:my-14 h-fit">
             <Image
               className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] rounded-md"
-              src="/images/ReentryGuide-GR/website.png"
+              src="/images/ReentryGuide-GR/website.webp"
               alt="Promotional graphic featuring a hand holding a smartphone displaying the ReentryGuide main menu against a light gray city skyline background."
             
             width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
