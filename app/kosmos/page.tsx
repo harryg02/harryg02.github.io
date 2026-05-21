@@ -14,65 +14,39 @@ export default function Kosmos() {
 
 
       <main id="main-content">
-        <h1 className="sr-only">Kosmos Stargazing Resort Website Redesign &amp; Development - Project Case Study</h1>
+        <section className="lg:pb-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-white bg-[#141414]">
+          <div className="md:col-span-3 bg-[#e7eaed] transition sm:min-h-[150px] h-fit">
+            <img className="hidden md:block drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="/images/kosmos_resort/thumb.png"
+              alt="Dark starry night sky background with 'Where The Stars Align With You' headline." />
+            <img className="block md:hidden drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" src="/images/kosmos_resort/thumb-mobile.png"
+              alt="Dark starry night sky background with 'Where The Stars Align With You' headline." />
+          </div>
 
-        {/* text block */}
-        <div className="md:col-span-2 transition sm:min-h-[150px] h-fit mb-[-40px]">
-          <img
-            className="hidden md:block"
-            src="/images/kosmos_resort/thumb.png"
-            alt="Dark starry night sky background with 'Where The Stars Align With You' headline."
-          />
-          <img
-            className="block md:hidden"
-            src="/images/kosmos_resort/thumb-mobile.png"
-            alt="Dark starry night sky background with 'Where The Stars Align With You' headline."
-          />
-        </div>
+          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pt-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
+            <h1 className="font-RedHatDisplay text-left inline-flex font-semibold text-2xl">Kosmos Resort Website Redesign &amp; Development</h1>
+            <p className="py-3 text-left inline-flex md:text-sm"><br />Reduced bounce rate by 10% and stabilized traffic 84% above the baseline after a WSJ feature, serving 6,800+ monthly visitors.</p>
 
-        <section className="text-[#392A3D] bg-[#F9F4F1] ">
-          {/* p1 */}
-          <div className="m-auto pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <a href="https://www.kosmosresort.com/"
+              className="flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 mt-2 bg-[#3B2C3E] hover:bg-[#4b3a4f] shadow-md max-w-xs">
+              <div className="flex items-center flex-1">
+                <img src="/icons/globe.png" className="mr-0 w-8 h-8 object-contain" alt="" />
+                <span className="ml-2.5 text-base text-white flex-shrink-1">Visit Website</span>
+              </div>
+              <img src="/icons/forward-white.png" className="mr-0 w-5 h-5 object-contain" alt="" />
+            </a>
 
+            <div className=""></div>
+          </div>
 
-            <div className="col-span-1 px-16 py-5 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center ">
-              <h2 className="font-RedHatDisplay text-left inline-flex font-bold text-2xl">
-                Kosmos Resort Website Redesign &amp; Development
-              </h2>
-              <p className="text-left inline-flex md:text-sm my-8">
-                Kosmos Stargazing Resort &amp; Spa is a resort for astrotourism located in Alamosa, CO that blends
-                luxuary and sustainibility. The project focused on enhancing the current website and develop a custom
-                booking widget.
-              </p>
+          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+            <h2 className="font-RedHatDisplay font-bold text-xl">Technology</h2>
+            <p className="text-left inline-flex md:text-sm">Webflow, JavaScript, Figma, Mews API</p>
+            <h2 className="font-RedHatDisplay font-bold text-xl mt-8">Service</h2>
+            <p className="text-left inline-flex md:text-sm">Web Design, UX Design, Web Development, Responsive Design, API Integration, SEO</p>
+          </div>
 
-              <a
-                href="https://www.kosmosresort.com/"
-                className="flex flex-row justify-between items-center rounded-2xl w-full px-5 py-4 mt-2 bg-[#392A3D] hover:bg-[#56435b] shadow-md max-w-xs"
-              >
-                <div className="flex items-center flex-1">
-                  <img src="/icons/globe.png" className="mr-0 w-8 h-8 object-contain" alt="" />
-                  <span className="ml-2.5 text-base text-white flex-shrink-1">Visit Website</span>
-                </div>
-                <img src="/icons/forward-white.png" className="mr-0 w-5 h-5 object-contain" alt="" />
-              </a>
-            </div>
-
-            <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-              <h2 className="font-RedHatDisplay font-bold text-xl">Technology</h2>
-              <p className="text-left inline-flex md:text-sm">Webflow, JavaScript, Figma, Mews API</p>
-              <h2 className="font-RedHatDisplay font-bold text-xl mt-8 ">Service</h2>
-              <p className="text-left inline-flex md:text-sm">
-                Web Design, UX design, Web Development, Responsive Design, API integration, SEO
-              </p>
-            </div>
-            <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
-              <h2 className="font-RedHatDisplay font-bold text-2xl">Results</h2>
-              <p className="text-left md:text-sm">
-                Reduced bounce rate by 10% and stabilized traffic 84% above the baseline after a WSJ feature, serving
-                6,800+ monthly visitors. Reduced planned development scope by 80% by proposing deep-link integration
-                over full custom booking system build.
-              </p>
-            </div>
+          <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] pb-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+            <p className="text-left inline-flex md:text-sm">A website redesign and development project for Kosmos Stargazing Resort &amp; Spa &mdash; an astrotourism resort in Alamosa, CO. Focused on enhancing the site and building a custom booking widget.</p>
           </div>
         </section>
 
