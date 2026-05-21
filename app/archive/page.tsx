@@ -25,7 +25,7 @@ html, html body { height: auto; }
 
 
       {/* Main content */}
-      <main id="main">
+      <main id="main-content">
         {/* Graphic Design */}
         <section id="graphicdesign" className="bg-[#1C1E1F] text-[#CCD4E3] z-50">
           {/* Screen reader accessible heading */}

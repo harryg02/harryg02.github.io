@@ -12,7 +12,7 @@ export default function ProgressiveType() {
     <div className="font-display bg-veryLightGray">
 
 
-      <main id="main">
+      <main id="main-content">
         {/* Main content */}
         <section id="gdthumbnails">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">

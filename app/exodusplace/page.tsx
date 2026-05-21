@@ -12,7 +12,7 @@ export default function ExodusPlace() {
     <div className="relative font-['Inter'] bg-[#fff]">
 
 
-      <main>
+      <main id="main-content">
         {/* p1 */}
         <section className="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 text-white bg-[#1A1A1A]">
           {/* text block */}

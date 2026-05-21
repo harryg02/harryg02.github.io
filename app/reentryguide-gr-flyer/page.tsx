@@ -13,7 +13,7 @@ export default function ReentryGuideGRFlyer() {
 
 
       {/* p1 */}
-      <main>
+      <main id="main-content">
         <div className="bg-[#FDDEBA] px-6 md:px-24 py-10 md:py-0 justify-center grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           {/* text block */}
           <div className=" col-span-2 lg:col-span-1 lg:mx-[2em] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">

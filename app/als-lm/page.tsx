@@ -17,7 +17,7 @@ export default function AlsLm() {
 
 
 
-      <main>
+      <main id="main-content">
         {/* p1 */}
         <section className="lg:pb-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-white bg-[#141414]">
           {/* text block */}

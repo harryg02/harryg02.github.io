@@ -91,14 +91,7 @@ export default function DetroitChildUsability() {
         }
       `}</style>
 
-      <a
-        href="#main-content"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[9999] focus:bg-[#7eb8f7] focus:text-[#0a0c10] focus:px-4 focus:py-2 focus:rounded focus:font-bold"
-      >
-        Skip to main content
-      </a>
-
-      <div className="paper min-h-screen">
+<div className="paper min-h-screen">
         <div className="max-w-5xl mx-auto px-6 py-12">
           <div className="lg:grid lg:grid-cols-[1fr_14rem] lg:gap-12">
             <main id="main-content" className="min-w-0">
