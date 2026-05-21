@@ -43,7 +43,7 @@ export default function Navbar() {
         className="pointer-events-auto p-0.5 rounded-xl"
         style={{ background: "linear-gradient(to bottom, rgba(204,212,227,0.06), rgba(204,212,227,0.22))" }}
       >
-        <div className="flex items-center gap-4 px-5 py-2.5 rounded-[10px] bg-[#0d0f14]/80 backdrop-blur-md text-sm text-gray-400">
+        <div className="flex items-center gap-5 px-5 py-2.5 rounded-[10px] bg-[#0d0f14]/80 backdrop-blur-md text-sm text-gray-400">
           <Link href="/" className="shrink-0">
             <img className="inline h-6 opacity-50" src="/icons/logo-9-21-colored.svg" alt="Harry Gu Logo" />
           </Link>
@@ -65,12 +65,12 @@ export default function Navbar() {
             aria-expanded={menuOpen}
           >
             {menuOpen ? (
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round">
+              <svg width="20" height="20" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round">
                 <line x1="3" y1="3" x2="13" y2="13" />
                 <line x1="13" y1="3" x2="3" y2="13" />
               </svg>
             ) : (
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+              <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
                 <rect x="1" y="3.25" width="14" height="1.5" rx="0.75" />
                 <rect x="1" y="7.25" width="14" height="1.5" rx="0.75" />
                 <rect x="1" y="11.25" width="14" height="1.5" rx="0.75" />
@@ -82,10 +82,10 @@ export default function Navbar() {
 
           <div className="flex items-center gap-2">
             <a href="https://www.linkedin.com/in/harrygu-ux/">
-              <img className="inline h-5" src="/icons/linkedin-hero.svg" alt="LinkedIn Profile" />
+              <img className="inline h-6" src="/icons/linkedin-hero.svg" alt="LinkedIn Profile" />
             </a>
             <a href="https://github.com/harryg02">
-              <img className="inline h-5" src="/icons/github-hero.svg" alt="GitHub Profile" />
+              <img className="inline h-6" src="/icons/github-hero.svg" alt="GitHub Profile" />
             </a>
           </div>
         </div>
