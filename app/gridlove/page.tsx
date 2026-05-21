@@ -18,7 +18,7 @@ export default function GridLove() {
           <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-3 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
             <div className=" flex flex-col justify-center items-center transition bg-grey-500 shadow-xl min-h[30px] text-center py-32 md:py-24">
               <p className="inline-flex font-bold md:text-xl">Grid Love</p>
-              <p className="inline-flex md:text-sm mx-12">
+              <p className="inline-flex mx-12">
                 This is a school project I did during my 2022 fall semester. It is about using the knowledge of
                 hierarchy, content navigation, and aesthetics in graphic design, organizing texts on a 7*7 inches square
                 under various restrictions.{" "}
@@ -49,8 +49,8 @@ export default function GridLove() {
               </p>
             </div>
 
-            <p className="inline-flex md:text-sm pl-7 pr-3">- Only Black and white is allowed, color is forbidden.</p>
-            <p className="inline-flex md:text-sm pl-7 pr-3">- Text need be horizontal.</p>
+            <p className="inline-flex pl-7 pr-3">- Only Black and white is allowed, color is forbidden.</p>
+            <p className="inline-flex pl-7 pr-3">- Text need be horizontal.</p>
           </div>
 
           <div className="md:order-2 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
@@ -91,8 +91,8 @@ export default function GridLove() {
               </p>
             </div>
 
-            <p className="inline-flex md:text-sm pl-7 pr-3">- Color can be used</p>
-            <p className="inline-flex md:text-sm pl-7 pr-3">- Must include vertical text</p>
+            <p className="inline-flex pl-7 pr-3">- Color can be used</p>
+            <p className="inline-flex pl-7 pr-3">- Must include vertical text</p>
           </div>
 
           <div className="md:order-2 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
@@ -133,8 +133,8 @@ export default function GridLove() {
               </p>
             </div>
 
-            <p className="inline-flex md:text-sm pl-7 pr-3">- Photo must be used.</p>
-            <p className="inline-flex md:text-sm pl-7 pr-3">- Text must be diagonal or tilted.</p>
+            <p className="inline-flex pl-7 pr-3">- Photo must be used.</p>
+            <p className="inline-flex pl-7 pr-3">- Text must be diagonal or tilted.</p>
           </div>
 
           <div className="col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
@@ -167,7 +167,7 @@ export default function GridLove() {
               </p>
             </div>
 
-            <p className="inline-flex md:text-sm pl-7 pr-3">- Designing a cover for this project within 30 minutes.</p>
+            <p className="inline-flex pl-7 pr-3">- Designing a cover for this project within 30 minutes.</p>
           </div>
 
           <div className="m-5 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">

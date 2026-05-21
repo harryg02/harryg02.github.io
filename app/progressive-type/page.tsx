@@ -18,7 +18,7 @@ export default function ProgressiveType() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
             <div className="flex flex-col justify-center items-center transition bg-grey-500 shadow-xl min-h[30px] text-center py-32 md:py-24">
               <p className="inline-flex font-bold md:text-xl">PROGRESSIVE TYPE</p>
-              <p className="inline-flex md:text-sm mx-12">
+              <p className="inline-flex mx-12">
                 This project is for rearranging texts from &quot;first things first manifesto 2000&quot; and fit them
                 into a square, from &quot;formal&quot;, to &quot;deconstructed&quot;, with only black and white color
                 and no illustration.

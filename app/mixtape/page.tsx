@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Mixtape() {
   return (
-    <div className="relative font-[urbanist] font-semibold bg-[#D0AF40]">
+    <div className="relative bg-[#D0AF40]">
       <style>{`body { background-color: #D0AF40; }`}</style>
 
 
@@ -20,9 +20,9 @@ export default function Mixtape() {
           {/* text block */}
           <div className="lg:order-last md:col-span-2 lg:col-span-1 px-16 py-32 lg:py-10 flex flex-col justify-center items-start transition bg-grey-500 min-h[30px] text-center ">
             <h1 className="text-left inline-flex flex-col">
-              <span className="font-[poppins] text-black font-black text-2xl pt-5 ">MIXTAPE</span>
-              <span className="font-[poppins] text-black font-black text-2xl">PACKAGING</span>
-              <span className="font-[poppins] text-black font-black text-2xl">DESIGN</span>
+              <span className="text-black font-black text-2xl pt-5 ">MIXTAPE</span>
+              <span className="text-black font-black text-2xl">PACKAGING</span>
+              <span className="text-black font-black text-2xl">DESIGN</span>
             </h1>
 
             <p className="text-left inline-flex text-base mt-5">
@@ -111,13 +111,13 @@ export default function Mixtape() {
             <div className=" flex flex-row p-4">
               <h2 className="flex flex-row items-center">
                 <span className="flex flex-col">
-                  <span className="text-gray-900 text-right font-[poppins] font-black text-xl">
+                  <span className="text-gray-900 text-right font-black text-xl">
                     APPLICATION
                     <br />
                   </span>
-                  <span className="text-black text-right font-[poppins] font-black text-xl">IMPLEMENTATION</span>
+                  <span className="text-black text-right font-black text-xl">IMPLEMENTATION</span>
                 </span>
-                <span className="text-[#a18843] text-6xl font-[poppins] font-black pl-2">&amp;</span>
+                <span className="text-[#a18843] text-6xl font-black pl-2">&amp;</span>
               </h2>
             </div>
           </div>

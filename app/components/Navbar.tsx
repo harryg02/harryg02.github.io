@@ -41,7 +41,7 @@ export default function Navbar() {
     </a>
     <nav
       id="main-nav"
-      className="font-[urbanist] font-extrabold fixed top-5 inset-x-0 z-701 flex flex-col items-center gap-2 pointer-events-none"
+      className="font-semibold fixed top-5 inset-x-0 z-701 flex flex-col items-center gap-2 pointer-events-none"
     >
       {/* ── Pill ── */}
       <div

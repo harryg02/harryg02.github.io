@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function ReentryGuideGRFlyer() {
   return (
-    <div className="relative font-[manrope] font-semibold bg-[#fff]">
+    <div className="relative bg-[#fff]">
 
 
       {/* p1 */}
@@ -19,7 +19,7 @@ export default function ReentryGuideGRFlyer() {
           <div className=" col-span-2 lg:col-span-1 lg:mx-[2em] md:row-span-2 flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12 max-w-xl">
             {/* title */}
             <div className="flex flex-row ">
-              <h1 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-xl text-left">
+              <h1 className="text-gray-900 inline-flex font-bold text-xl text-left">
                 &quot;ReentryGuide GR&quot; Print Marketing Materials
               </h1>
             </div>
@@ -28,26 +28,26 @@ export default function ReentryGuideGRFlyer() {
             </a>
 
             <div className="flex flex-col w-full py-3">
-              <p className="inline-flex md:text-sm py-3">
+              <p className="inline-flex py-3">
                 This design serves both as a flyer and poster. It was displayed at the Michigan Department of
                 Corrections Parole Office in Grand Rapids and distributed by multiple local pastors.
               </p>
               <div className="flex flex-col py-2">
-                <b className="md:text-sm">&bull; Texts</b>
-                <p className="md:text-sm pl-3">
+                <b className="">&bull; Texts</b>
+                <p className="pl-3">
                   The use of large orange/red text on a white background ensures the message is clear and easily
                   noticeable.
                 </p>
               </div>
               <div className="flex flex-col py-2">
-                <b className="md:text-sm">&bull; Message</b>
-                <p className="md:text-sm pl-3">
+                <b className="">&bull; Message</b>
+                <p className="pl-3">
                   The content is simple and straightforward, including a direct call to action.
                 </p>
               </div>
               <div className="flex flex-col py-2">
-                <b className="md:text-sm">&bull; QR code</b>
-                <p className="md:text-sm pl-3">The QR code directs users to the app&apos;s Google Play page.</p>
+                <b className="">&bull; QR code</b>
+                <p className="pl-3">The QR code directs users to the app&apos;s Google Play page.</p>
               </div>
             </div>
           </div>

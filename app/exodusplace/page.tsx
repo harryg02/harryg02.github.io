@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function ExodusPlace() {
   return (
-    <div className="relative font-['Inter'] bg-[#fff]">
+    <div className="relative bg-[#fff]">
 
 
       <main id="main-content">
@@ -19,19 +19,19 @@ export default function ExodusPlace() {
           imageSrc="/images/ExodusPlace.org/mockup-large.png"
           imageMobileSrc="/images/ExodusPlace.org/mockup-mobile.png"
           imageAlt="Dark-themed homepage with aerial facility view."
-          imageContainerClassName="mt-5 mb-[-40px]"
-          titleClassName="font-['Montserrat'] text-left inline-flex font-bold text-2xl text-[#72D976]"
+          imageContainerClassName="mb-[-40px]"
+          titleClassName="text-left inline-flex font-bold text-2xl text-[#72D976]"
           title="Exodus Place Website Redesign"
           summary="Result: Implemented the website in 2 weeks, handled a 173% traffic surge during an $835K fundraising campaign."
           links={[
             { href: "https://exodusplace.org", icon: "/icons/globe.png", label: "Visit Website", buttonClassName: "bg-[#2a2a2a] hover:bg-[#333]" },
           ]}
-          metaHeadingClassName="font-['Montserrat'] font-bold text-xl text-[#72D976]"
+          metaHeadingClassName="font-bold text-xl text-[#72D976]"
           meta={[
             { label: "Technology", value: "Figma, Inkscape, Krita, GRCMC custom platform" },
             { label: "Service", value: "Web Design, User Experience, Branding, SEO" },
           ]}
-          description={<p className="text-left inline-flex md:text-sm">Exodus Place, a non-profit organization providing transitional housing for homeless people in Grand Rapids, Michigan, needed redesigning their website. The redesign is a collaboration with the Exodus Place marketing team and GRCMC, focused on enhancing aesthetics, usability, and branding.</p>}
+          description={<p className="text-left inline-flex ">Exodus Place, a non-profit organization providing transitional housing for homeless people in Grand Rapids, Michigan, needed redesigning their website. The redesign is a collaboration with the Exodus Place marketing team and GRCMC, focused on enhancing aesthetics, usability, and branding.</p>}
         />
 
         {/* P2 */}
@@ -41,10 +41,10 @@ export default function ExodusPlace() {
             <div className=" col-span-1 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left">Project Overview</h2>
+                <h2 className=" inline-flex font-bold text-2xl text-left">Project Overview</h2>
               </div>
 
-              <p className="inline-flex md:text-sm py-2 mb-10">
+              <p className="inline-flex  py-2 mb-10">
                 Exodus Place is a non-profit organization based in Grand Rapids, Michigan, dedicated to assisting men in
                 their transition out of homelessness. Building on experience from designing the Reentry Reimagined
                 website, we leveraged established non-profit design patterns while tailoring the solution to Exodus
@@ -57,12 +57,12 @@ export default function ExodusPlace() {
 
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className="inline-flex font-bold font-['Montserrat'] text-2xl text-left">Objectives:</h2>
+                <h2 className="inline-flex font-bold text-2xl text-left">Objectives:</h2>
               </div>
 
-              <p className="inline-flex md:text-sm py-2 mb-5">As the designer, my role encompassed:</p>
+              <p className="inline-flex  py-2 mb-5">As the designer, my role encompassed:</p>
 
-              <ol className="list-decimal pl-3 md:text-sm">
+              <ol className="list-decimal pl-3 ">
                 <li className="pb-1">Redesigning the website on GRCMC&apos;s custom website hosting platform</li>
                 <li className="pb-1">Assisting transferring the domain name to the new platform</li>
                 <li className="pb-1 mb-10">
@@ -72,16 +72,16 @@ export default function ExodusPlace() {
               </ol>
 
               <div className="flex flex-row py-3">
-                <h2 className="inline-flex font-bold font-['Montserrat'] text-2xl text-left">
+                <h2 className="inline-flex font-bold text-2xl text-left">
                   Old Website Analysis
                 </h2>
               </div>
 
-              <p className="inline-flex md:text-sm py-2 mb-5">
+              <p className="inline-flex  py-2 mb-5">
                 Analysis of the original website revealed several key issues:
               </p>
 
-              <ol className="list-decimal pl-3 md:text-sm">
+              <ol className="list-decimal pl-3 ">
                 <li className="pb-1">Basic, text-heavy design lacking visual hierarchy and engagement</li>
                 <li className="pb-1">Disconnected content presentation</li>
                 <li className="pb-1">Confusing grouping of navigation bar items</li>
@@ -99,7 +99,7 @@ export default function ExodusPlace() {
                 src="/images/ExodusPlace.org/old-website-2.png"
                 alt="Dated layout with small text."
               />
-              <p className="md:text-sm">The Website Before Redesign</p>
+              <p className="">The Website Before Redesign</p>
             </div>
           </div>
         </section>
@@ -114,13 +114,13 @@ export default function ExodusPlace() {
                 src="/images/ReentryReimagined/eg1.png"
                 alt="Reference interface with bold hero photography."
               />
-              <p className="md:text-sm p-4">Liberty in North Korea Site (Credit: Liberty in North Korea)</p>
+              <p className=" p-4">Liberty in North Korea Site (Credit: Liberty in North Korea)</p>
             </div>
             {/* text block */}
             <div className=" col-span-1 md:row-span-3 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
-                <p className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left text-[#006826]">
+                <p className=" inline-flex font-bold text-2xl text-left text-[#006826]">
                   Research and Discovery
                 </p>
               </div>
@@ -129,7 +129,7 @@ export default function ExodusPlace() {
                 Stakeholder Input
                 <br />
               </h3>
-              <ul className="list-disc pl-3 md:text-sm">
+              <ul className="list-disc pl-3 ">
                 <li className="pb-1">Direct feedback from Exodus Place CEO and executive team</li>
                 <li className="pb-1">
                   Indirect user feedback collected through staff interactions with:
@@ -142,8 +142,8 @@ export default function ExodusPlace() {
               </ul>
 
               <h3 className="font-black inline-flex py-2 mb-1">Target Audience Analysis</h3>
-              <p className="md:text-sm py-2 mb-1">We identified key user groups:</p>
-              <ul className="list-disc pl-3 md:text-sm">
+              <p className=" py-2 mb-1">We identified key user groups:</p>
+              <ul className="list-disc pl-3 ">
                 <li className="pb-1">Potential donors and community supporters</li>
                 <li className="pb-1">Men seeking housing and support services</li>
                 <li className="pb-1">Partner organizations and service providers</li>
@@ -156,14 +156,14 @@ export default function ExodusPlace() {
               </ul>
 
               <h3 className="font-black inline-flex py-2 mb-1">Competitive Analysis</h3>
-              <p className="md:text-sm py-2 mb-1">
+              <p className=" py-2 mb-1">
                 Building on previous non-profit experience for{" "}
                 <a href="/reentryreimagined" className="inline underline">
                   Reentry Reimagined Website
                 </a>{" "}
                 from non-profit sector informed key design patterns:
               </p>
-              <ul className="list-disc pl-3 md:text-sm">
+              <ul className="list-disc pl-3 ">
                 <li className="pb-1">Clear, mission-focused messaging</li>
                 <li className="pb-1">Impactful imagery and testimonials</li>
                 <li className="pb-1">Prominent calls-to-action</li>
@@ -179,7 +179,7 @@ export default function ExodusPlace() {
                 src="/images/ReentryReimagined/eg2.png"
                 alt="Reference interface with diverse imagery."
               />
-              <p className="md:text-sm p-4">American Heart Association Site (Credit: American Heart Association)</p>
+              <p className=" p-4">American Heart Association Site (Credit: American Heart Association)</p>
             </div>
           </div>
         </section>
@@ -188,8 +188,8 @@ export default function ExodusPlace() {
         <section className="bg-[#1A1A1A] text-white">
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
-            <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8">
-              <h2 className="inline-flex font-bold font-['Montserrat'] text-[#72D976] text-2xl text-left py-3">
+            <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left  px-8">
+              <h2 className="inline-flex font-bold text-[#72D976] text-2xl text-left py-3">
                 Design
               </h2>
             </div>
@@ -208,7 +208,7 @@ export default function ExodusPlace() {
             </div>
 
             <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
-              <h3 className="font-['Montserrat'] font-bold text-xl text-[#72D976] text-left py-2">
+              <h3 className="font-bold text-xl text-[#72D976] text-left py-2">
                 Mission-Focused Homepage
               </h3>
               <p className="text-left">&bull; Clear &quot;hand up, not handout&quot; messaging</p>
@@ -217,7 +217,7 @@ export default function ExodusPlace() {
             </div>
 
             <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
-              <h3 className="font-['Montserrat'] font-bold text-xl text-[#72D976] text-left py-2">
+              <h3 className="font-bold text-xl text-[#72D976] text-left py-2">
                 Visual Communication
               </h3>
               <p className="text-left">&bull; Clear typography hierarchy</p>
@@ -238,7 +238,7 @@ export default function ExodusPlace() {
                 src="/images/ExodusPlace.org/hero-event.png"
                 alt="Homepage variation: 'Roof Sit' banner."
               />
-              <p className="md:text-sm p-4">
+              <p className=" p-4">
                 Hero Section if important events ongoing, providing easy access for users
               </p>
             </div>
@@ -249,7 +249,7 @@ export default function ExodusPlace() {
                 src="/images/ExodusPlace.org/hero-normal.png"
                 alt="Homepage variation: standard video background."
               />
-              <p className="md:text-sm p-4">Normal Hero Section</p>
+              <p className=" p-4">Normal Hero Section</p>
             </div>
           </div>
         </section>
@@ -348,17 +348,17 @@ export default function ExodusPlace() {
                 src="/images/ExodusPlace.org/Exodus-Place-Brand-Guidelines.png"
                 alt="Montserrat font weights and green color swatches."
               />
-              <p className="md:text-sm p-4">Brand Guidelines</p>
+              <p className=" p-4">Brand Guidelines</p>
             </div>
 
             {/* text block */}
             <div className="md:row-span-2 col-span-4 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-10">
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left">Results and Impact</h2>
+                <h2 className=" inline-flex font-bold text-2xl text-left">Results and Impact</h2>
               </div>
 
-              <ol className="list-disc pl-3 md:text-sm">
+              <ol className="list-disc pl-3 ">
                 <li className="pb-1">
                   Redesigned and implemented exodusplace.org in 2 weeks to support a 173% traffic surge during an $835K
                   fundraising campaign.
@@ -372,7 +372,7 @@ export default function ExodusPlace() {
                 src="/images/ExodusPlace.org/home-event.png"
                 alt="Desktop view of the homepage highlighting the event announcement section."
               />
-              <p className="md:text-sm p-4">Home Page - Desktop</p>
+              <p className=" p-4">Home Page - Desktop</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <img
@@ -380,7 +380,7 @@ export default function ExodusPlace() {
                 src="/images/ExodusPlace.org/events.png"
                 alt="Desktop view of the Events page listing upcoming community activities."
               />
-              <p className="md:text-sm p-4">Events Page - Desktop</p>
+              <p className=" p-4">Events Page - Desktop</p>
             </div>
             <div className="flex flex-col justify-center items-center col-span-4 row-span-2 mx-3 my-5 transition sm:min-h-[150px] h-fit">
               <img
@@ -388,7 +388,7 @@ export default function ExodusPlace() {
                 src="/images/ExodusPlace.org/service-meals.png"
                 alt="Exodus Place branded delivery van featuring a bright green and white vehicle wrap."
               />
-              <p className="md:text-sm p-4">Meals Page - Desktop</p>
+              <p className=" p-4">Meals Page - Desktop</p>
             </div>
           </div>
         </section>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function ReentryReimagedBrochure() {
   return (
-    <div className="relative font-RedHatDisplay font-semibold bg-[#FFF8F1]">
+    <div className="relative bg-[#FFF8F1]">
       <style>{`body { background-color: #FFF8F1; }`}</style>
 
 
@@ -20,9 +20,9 @@ export default function ReentryReimagedBrochure() {
           {/* text block */}
           <div className="lg:order-last md:col-span-2 lg:col-span-1 px-16 py-32 lg:py-10 flex flex-col justify-center items-start transition bg-grey-500 min-h[30px] text-center ">
             <h1 className="text-left inline-flex flex-col">
-              <span className="font-RedHatDisplay text-black font-black text-2xl pt-5">Reentry Reimagined</span>
-              <span className="font-RedHatDisplay text-[#775022] font-black text-2xl">BROCHURE</span>
-              <span className="font-RedHatDisplay text-[#775022] font-black text-2xl">DESIGN</span>
+              <span className="text-black font-black text-2xl pt-5">Reentry Reimagined</span>
+              <span className="text-[#775022] font-black text-2xl">BROCHURE</span>
+              <span className="text-[#775022] font-black text-2xl">DESIGN</span>
             </h1>
 
             <p className="text-left inline text-base mt-5">
@@ -49,7 +49,7 @@ export default function ReentryReimagedBrochure() {
           <div className="flex flex-col justify-center items-center p-9 col-span-2 md:col-span-1 row-span-2  transition sm:min-h-[150px] h-fit">
             <div className="p-2">
               <div>
-                <h2 className="mb-2 font-RedHatDisplay font-bold text-lg">Target Audience</h2>
+                <h2 className="mb-2 font-bold text-lg">Target Audience</h2>
                 <ul className="list-disc ml-5 p-2">
                   <li>Formerly incarcerated individuals seeking support services</li>
                   <li>
@@ -61,7 +61,7 @@ export default function ReentryReimagedBrochure() {
               </div>
 
               <div>
-                <h2 className="mb-2 font-RedHatDisplay font-bold text-lg">Design Approach</h2>
+                <h2 className="mb-2 font-bold text-lg">Design Approach</h2>
                 <ul className="list-disc ml-5 p-2">
                   <li>Minimum 16px font size for readability</li>
                   <li>Text passes contrast requirements</li>
