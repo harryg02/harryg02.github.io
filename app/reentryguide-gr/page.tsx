@@ -29,7 +29,7 @@ export default function ReentryGuideGR() {
             { label: "Technology", value: "React Native, Docusaurus, Figma, Inkscape, Krita" },
             { label: "Service", value: "Software Development, UX Design, User Research, Usability Testing, Deployment, Web Design, Graphic Design, Logo Design, Digital Illustration" },
           ]}
-          description={<p className="text-left inline-flex md:text-sm">&quot;ReentryGuide GR&quot; is a mobile application developed in collaboration with Reentry Reimagined, designed specifically to support the reintegration of former prisoners into society within the Grand Rapids area.</p>}
+          description={<p className="text-left inline-flex ">&quot;ReentryGuide GR&quot; is a mobile application developed in collaboration with Reentry Reimagined, designed specifically to support the reintegration of former prisoners into society within the Grand Rapids area.</p>}
         />
 
         {/* Community Embeddedness */}
@@ -41,7 +41,7 @@ export default function ReentryGuideGR() {
                   Designing With, Not For
                 </h2>
               </div>
-              <p className="inline-flex md:text-sm py-2 mb-5">
+              <p className="inline-flex  py-2 mb-5">
                 To design with formerly incarcerated individuals, I didn&apos;t start with wireframes&mdash;I started
                 by showing up. For 3 months, I voluntarily attended weekly meetings with C.L.E.A.R., a community group
                 of 20+ formerly incarcerated people in Grand Rapids. I listened to their stories, learned that many had
@@ -65,7 +65,7 @@ export default function ReentryGuideGR() {
                 </h2>
               </div>
 
-              <p className="inline-flex md:text-sm py-2 mb-10">
+              <p className="inline-flex  py-2 mb-10">
                 A local non-profit organization &quot;Reentry Reimagined&quot; needed a mobile app to help formerly
                 incarcerated people navigate to locations that provide crucial resources for their survival, such as
                 food, clothing, hygiene, and healthcare.
@@ -78,7 +78,7 @@ export default function ReentryGuideGR() {
                 </h2>
               </div>
 
-              <p className="inline-flex md:text-sm py-2 mb-5">
+              <p className="inline-flex  py-2 mb-5">
                 Our user research focused on understanding the unique needs and challenges of our target audience:
                 formerly incarcerated individuals seeking crucial resources.
               </p>
@@ -86,31 +86,31 @@ export default function ReentryGuideGR() {
               <h3>Key Findings</h3>
 
               <div className="flex flex-col py-2">
-                <h4 className="md:text-sm">&bull; Demographics</h4>
-                <p className="md:text-sm pl-3">
+                <h4 className="">&bull; Demographics</h4>
+                <p className=" pl-3">
                   Our users come from diverse backgrounds and varies in age, but share the experience of reintegrating
                   into society after incarceration.
                 </p>
               </div>
 
               <div className="flex flex-col py-2">
-                <h4 className="md:text-sm">&bull; Environment</h4>
-                <p className="md:text-sm pl-3">
+                <h4 className="">&bull; Environment</h4>
+                <p className=" pl-3">
                   Many of our users navigate high-stress environments daily, dealing with uncertainties in housing,
                   employment, and social reintegration.
                 </p>
               </div>
 
               <div className="flex flex-col py-2">
-                <h4 className="md:text-sm">&bull; Technology Experience</h4>
-                <p className="md:text-sm pl-3">
+                <h4 className="">&bull; Technology Experience</h4>
+                <p className=" pl-3">
                   A significant portion of our user base has limited experience with modern smartphones and apps.
                 </p>
               </div>
 
               <div className="flex flex-col py-2">
-                <h4 className="md:text-sm">&bull; Cognitive Abilities</h4>
-                <p className="md:text-sm pl-3">
+                <h4 className="">&bull; Cognitive Abilities</h4>
+                <p className=" pl-3">
                   Some users have various cognitive disabilities, requiring special consideration in our design
                   approach.
                   <br />
@@ -138,31 +138,31 @@ export default function ReentryGuideGR() {
                   Inclusive Design Approach
                 </h2>
               </div>
-              <p className="inline-flex md:text-sm py-2 mb-5">
+              <p className="inline-flex  py-2 mb-5">
                 Our users included people with cognitive disabilities, limited smartphone experience, and motor
                 difficulties. Every design decision prioritized their needs:
               </p>
               <ul className="list-none">
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   <strong>Reduced Cognitive Load</strong>: Limited options per screen to minimize overwhelm
                 </li>
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   <strong>Motor Accessibility</strong>: Large buttons spanning full screen width, placed in thumb zones
                   for one-handed use
                 </li>
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   <strong>Visual Clarity</strong>: High contrast (WCAG AAA color compliance), large text (17px
                   minimum), clear visual hierarchy
                 </li>
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   <strong>Familiar Patterns</strong>: Hybrid of iOS and Fluent Design for users who might recognize
                   settings-menu patterns
                 </li>
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   <strong>Icon + Text Pairing</strong>: Every button combines icons with text labels to aid
                   comprehension
                 </li>
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   <strong>Shadow Indicators</strong>: Buttons have shadows to clearly indicate &quot;clickability&quot;
                   for users unfamiliar with flat design
                 </li>
@@ -186,11 +186,11 @@ export default function ReentryGuideGR() {
               <h3>Visual Design Approach</h3>
 
               <ul className="list-none">
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   We opted for a calm, soothing visual design to provide a sense of stability for users navigating
                   potentially stressful environments and coping with past traumas.
                 </li>
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   This decision was directly informed by our user research, which highlighted the high-stress situations
                   many of our users face daily.
                   <br />
@@ -199,7 +199,7 @@ export default function ReentryGuideGR() {
               </ul>
 
               <h3>Why Hybrid iOS + Fluent (Not Material Design 3)</h3>
-              <p className="inline-flex md:text-sm py-2">
+              <p className="inline-flex  py-2">
                 We evaluated iOS, Fluent Design, and Material Design 3. We rejected Material Design 3&apos;s flat
                 aesthetic because our users&mdash;many unfamiliar with modern smartphones&mdash;needed clear visual
                 depth cues to understand what was clickable. We adopted a hybrid of iOS settings patterns and Fluent
@@ -225,12 +225,12 @@ export default function ReentryGuideGR() {
             <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-5">
               <h2 className="text-xl font-bold">Design Choices:</h2>
               <ul className="list-none">
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Straightforward and Streamlined process: when the user needs something like food or clothing, we want
                   to help the user to get to their desired locations with few clicks and without extra effort.
                 </li>
 
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Limited Options on one page: Reduce cognitive load and make sure a Simple and straightforward
                   process.
                 </li>
@@ -242,7 +242,7 @@ export default function ReentryGuideGR() {
                       src="/images/ReentryGuide-GR/design-choices/highlight.png"
                       alt="Mobile UI card highlighting the 'Pick Closest Location' button."
                     />
-                    <p className="py-3 pt-5 md:text-sm px-9">
+                    <p className="py-3 pt-5  px-9">
                       Highlighting the most likely choice with limited options by the user ensures a streamlined user
                       experience
                     </p>
@@ -254,7 +254,7 @@ export default function ReentryGuideGR() {
             {/* text block 2 */}
             <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-5 mt-5">
               <ul className="list-none">
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Accessible Placement: Buttons located in the middle or lower half of the screen, making it easier for
                   users to reach with minimal hand movement
                 </li>
@@ -267,7 +267,7 @@ export default function ReentryGuideGR() {
                         src="/images/ReentryGuide-GR/design-choices/hand-left.png"
                         alt="Heatmap overlay showing reachable screen zones for left-handed users."
                       />
-                      <p className="py-3 md:text-sm">Thumb zone for left handed people</p>
+                      <p className="py-3 ">Thumb zone for left handed people</p>
                     </div>
                     <div className="mx-5 flex flex-col justify-center items-center px-9 w-full lg:w-1/2 transition h-fit">
                       <img
@@ -275,7 +275,7 @@ export default function ReentryGuideGR() {
                         src="/images/ReentryGuide-GR/design-choices/hand-right.png"
                         alt="Heatmap overlay showing reachable screen zones for right-handed users."
                       />
-                      <p className="py-3 md:text-sm">Thumb zone for right handed people</p>
+                      <p className="py-3 ">Thumb zone for right handed people</p>
                     </div>
                   </div>
                 </li>
@@ -288,12 +288,12 @@ export default function ReentryGuideGR() {
             {/* text block 2 */}
             <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-5 mt-5">
               <ul className="list-none">
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Buttons: Large, clearly defined with shadows to indicate &apos;clickability&apos;, with unified style
                   across the app to avoid confusion.
                 </li>
 
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Combining Texts with Icons: Aid understanding
                 </li>
 
@@ -307,12 +307,12 @@ export default function ReentryGuideGR() {
                   </div>
                 </li>
 
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Font: Manrope, which is similar to Product Sans as regular font, increasing the familiarity to Google
                   Maps.
                 </li>
 
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Big Texts: Font size should be at least 17px to ensure readability, especially for users with visual
                   impairments
                 </li>
@@ -332,12 +332,12 @@ export default function ReentryGuideGR() {
                   </div>
                 </li>
 
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Color Scheme: Light, Neutral color like #FCFCFC as background color, #FDDEBA as primary button color
                   to ensure brand consistency with Reentry Reimagined.
                 </li>
 
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   High Contrast: Ensuring all components are WCAG AAA compliant.
                 </li>
               </ul>
@@ -350,7 +350,7 @@ export default function ReentryGuideGR() {
           <div className=" max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-3 ">
             <div className="col-span-1 lg:col-span-3 py-10 text-center">
               <h2 className="text-gray-900 inline-flex font-bold text-2xl">Component Library</h2>
-              <p className="md:text-sm py-2 max-w-2xl m-auto">
+              <p className=" py-2 max-w-2xl m-auto">
                 Documented typography scale, color tokens, and reusable button patterns to ensure consistency and
                 accessibility across all screens.
               </p>
@@ -382,21 +382,21 @@ export default function ReentryGuideGR() {
                 <br />
                 <br />
               </h2>
-              <p className="md:text-sm py-2 relative">
+              <p className=" py-2 relative">
                 We conducted thorough user testing to ensure our app meets the needs of our diverse user base. Our
                 testing group included:
               </p>
 
               <ul className="list-decimal pl-3">
-                <li className="md:text-sm py-2 relative">
+                <li className=" py-2 relative">
                   40s male, formerly incarcerated (2 years ago), homeless, limited smartphone skills
                 </li>
-                <li className="md:text-sm py-2 relative">
+                <li className=" py-2 relative">
                   <strong>50s male, formerly incarcerated (1 year and 7 months ago), has autism</strong>
                 </li>
-                <li className="md:text-sm py-2 relative">30s male, homeless, limited smartphone skills</li>
-                <li className="md:text-sm py-2 relative">30s female, homeless</li>
-                <li className="md:text-sm py-2 relative">
+                <li className=" py-2 relative">30s male, homeless, limited smartphone skills</li>
+                <li className=" py-2 relative">30s female, homeless</li>
+                <li className=" py-2 relative">
                   40s male, formerly incarcerated (2 months ago), limited smartphone skills
                   <br />
                   <br />
@@ -408,7 +408,7 @@ export default function ReentryGuideGR() {
                       src="/images/ReentryGuide-GR/Ferguson.png"
                       alt="Street view photograph of the Ferguson Apartments building, one of the locations used for field usability testing."
                     />
-                    <p className="p-2 pb-5 md:text-sm text-center">
+                    <p className="p-2 pb-5  text-center">
                       Ferguson Apartments in Grand Rapids Downtown: One of the usability testing locations
                     </p>
                   </div>
@@ -419,14 +419,14 @@ export default function ReentryGuideGR() {
             {/* text block */}
             <div className=" col-span-1  md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8">
               <h3>Key Insight: Testing with Neurodiversity</h3>
-              <p className="md:text-sm py-2">
+              <p className=" py-2">
                 &quot;When a participant with autism struggled to understand when locations were open or closed, we
                 changed from horizontal to vertical alignment and rewrote the timing language to present tense. The
                 confusion disappeared in round 2.&quot;
               </p>
 
               <h3>Testing Methodology</h3>
-              <ul className="list-decimal pl-5 space-y-4 md:text-sm">
+              <ul className="list-decimal pl-5 space-y-4 ">
                 <li className="mb-2">
                   <p className="font-semibold">Implemented iterative usability testing process</p>
                   <ul className="list-disc pl-5 mt-1">
@@ -458,21 +458,21 @@ export default function ReentryGuideGR() {
               </h3>
 
               <p className="pb-1 font-extrabold">Positive Outcomes:</p>
-              <ul className="list-decimal pl-3 md:text-sm py-2">
+              <ul className="list-decimal pl-3  py-2">
                 <li className="pb-1">Font Readability: All users found the chosen font comfortable to read.</li>
                 <li className="pb-5">Clear Navigation: The app&apos;s navigation structure was intuitive for all users.</li>
               </ul>
 
               <p className="pb-1 font-extrabold">Areas for Improvement:</p>
               <ul className="list-none">
-                <li className="md:text-sm py-2 relative">
+                <li className=" py-2 relative">
                   <ul className="">
                     <li className="pb-1">
                       1. During the first round of testing, we found that the users with autism (User No.2) and the
                       ones less familiar with smartphones (User No.1) found the timing and open/closed status
                       confusing.
                     </li>
-                    <li className="md:text-sm pl-3 py-2 relative before:content-['◦'] before:absolute before:left-0">
+                    <li className=" pl-3 py-2 relative before:content-['◦'] before:absolute before:left-0">
                       Solution: We changed the alignments of the elements from horizontal to vertical and the wording
                       to present tense. We did not find this confusing anymore in the second round of usability
                       testing.
@@ -508,13 +508,13 @@ export default function ReentryGuideGR() {
             {/* text block */}
             <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8">
               <ul className="list-none">
-                <li className="md:text-sm py-2 relative">
+                <li className=" py-2 relative">
                   <ul className="">
                     <li className="py-1 pt-5">
                       2. During the first round of testing, we found that the users with autism (User No.2) got lost in
                       Google Maps and did not click on the blue &quot;start&quot; button to start the navigation.
                     </li>
-                    <li className="md:text-sm pl-3 py-2 relative before:content-['◦'] before:absolute before:left-0">
+                    <li className=" pl-3 py-2 relative before:content-['◦'] before:absolute before:left-0">
                       Solution: We added a simple page to remind the user to click on the start button, before our app
                       opens the google map only for the first time.
                       <br />
@@ -526,7 +526,7 @@ export default function ReentryGuideGR() {
                       3. In the second round of usability testing, the bus option in Google Maps confused users with
                       limited smartphone experience.
                     </li>
-                    <li className="md:text-sm pl-3 py-2 relative before:content-['◦'] before:absolute before:left-0">
+                    <li className=" pl-3 py-2 relative before:content-['◦'] before:absolute before:left-0">
                       Future Plans: We are planning to shoot a video guide for how to use Google Maps Bus routes, and
                       link the video into the app.
                     </li>
@@ -620,7 +620,7 @@ export default function ReentryGuideGR() {
                   src={`/images/ReentryGuide-GR/screenshots/${item.src}`}
                   alt={item.alt}
                 />
-                <p className="py-3 md:text-sm">{item.label}</p>
+                <p className="py-3 ">{item.label}</p>
               </div>
             ))}
           </div>
@@ -638,27 +638,27 @@ export default function ReentryGuideGR() {
                 Technology Stack Evaluation
               </h2>
               <ul className="list-none">
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Agile methodology for software development. Utilized Scrum framework for iterative and incremental
                   development.
                 </li>
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Trello for agile project management, Used for backlog management and sprint tracking.
                 </li>
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Github for hosting git repository
                 </li>
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   <p className="pb-1">React Native as framework</p>
                   <ul className="list-decimal pl-3">
                     <li className="pb-1">Large Community: accessible to large amount of npm packages.</li>
                     <li className="pb-1">Cross-Platform Code: One set of code for multiple potential platforms.</li>
                   </ul>
                 </li>
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Expo for managed workflow and easy debugging on physical devices
                 </li>
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Yarn as local package management, as it perform better than npm
                   <br />
                   <br />
@@ -667,7 +667,7 @@ export default function ReentryGuideGR() {
               </ul>
               <h3>Map Integration Decision</h3>
               <ul className="list-none">
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   <p className="pb-1">Options Considered:</p>
                   <ol className="list-decimal pl-3">
                     <li className="pb-1">
@@ -678,11 +678,11 @@ export default function ReentryGuideGR() {
                   </ol>
                 </li>
 
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   Decision: We chose option 2 - generating links to Google Maps.
                 </li>
 
-                <li className="md:text-sm pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
+                <li className=" pl-3 py-2 relative before:content-['•'] before:absolute before:left-0">
                   <p className="pb-1">Rationale:</p>
                   <ul className="list-decimal pl-3">
                     <li className="pb-1">Cost-effective: Avoided expensive API costs for local bus route data</li>
@@ -697,7 +697,7 @@ export default function ReentryGuideGR() {
                 src="/images/ReentryGuide-GR/agile.webp"
                 alt="Circular diagram of the Agile lifecycle: Plan, Design, Develop, Test, Deploy, Review."
               />
-              <p className="md:text-sm p-2">(Credit: Asana)</p>
+              <p className=" p-2">(Credit: Asana)</p>
             </div>
           </div>
         </section>
@@ -723,21 +723,21 @@ export default function ReentryGuideGR() {
               <img src="/icons/forward.png" className="mr-0 w-5 h-5 object-contain" alt="" />
             </a>
 
-            <p className="inline-flex md:text-sm py-3">
+            <p className="inline-flex  py-3">
               The website for ReentryGuide GR is built using Docusaurus and React, serving three primary functions:
             </p>
             <div className="flex flex-col w-full py-3">
               <div className="flex flex-col py-2">
-                <b className="md:text-sm">&bull; Download the App</b>
-                <p className="md:text-sm pl-3">Provides a google play link, ensuring easy access for users. </p>
+                <b className="">&bull; Download the App</b>
+                <p className=" pl-3">Provides a google play link, ensuring easy access for users. </p>
               </div>
               <div className="flex flex-col py-2">
-                <b className="md:text-sm">&bull; Download Resource Sheet</b>
-                <p className="md:text-sm pl-3">For those who cannot use a smartphone.</p>
+                <b className="">&bull; Download Resource Sheet</b>
+                <p className=" pl-3">For those who cannot use a smartphone.</p>
               </div>
               <div className="flex flex-col py-2">
-                <b className="md:text-sm">&bull; Documentation</b>
-                <p className="md:text-sm pl-3">
+                <b className="">&bull; Documentation</b>
+                <p className=" pl-3">
                   Allowing developers to fork the project and adapt it for use in their own cities.
                 </p>
               </div>

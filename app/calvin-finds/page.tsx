@@ -56,8 +56,8 @@ export default function CalvinFinds() {
           ]}
           description={
             <>
-              <p className="text-left inline-flex md:text-sm">Team Member: Aishwarya Joshi, Branden Husted, Edom Maru, Harry Gu, Steven McKelvey</p>
-              <p className="text-left inline-flex md:text-sm">Calvin Finds is a lost and found app for Calvin University students, written in React Native. My role in this development team was UI/UX designer, front-end developer, and various debugging.</p>
+              <p className="text-left inline-flex ">Team Member: Aishwarya Joshi, Branden Husted, Edom Maru, Harry Gu, Steven McKelvey</p>
+              <p className="text-left inline-flex ">Calvin Finds is a lost and found app for Calvin University students, written in React Native. My role in this development team was UI/UX designer, front-end developer, and various debugging.</p>
             </>
           }
         />
@@ -158,7 +158,7 @@ export default function CalvinFinds() {
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/CalvinUniversity.jpg"
                   alt="Students walking along a paved pathway on a university campus." />
-                <p className="md:text-sm p-2">Credit: Calvin University</p>
+                <p className=" p-2">Credit: Calvin University</p>
               </div>
 
               <div className="flex flex-col py-4">
@@ -234,7 +234,7 @@ export default function CalvinFinds() {
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/ReentryGuide-GR/agile.webp"
                   alt="Circular flowchart illustrating the Agile development lifecycle phases." />
-                <p className="md:text-sm p-2">Credit: Asana</p>
+                <p className=" p-2">Credit: Asana</p>
               </div>
             </div>
           </div>
@@ -277,7 +277,7 @@ export default function CalvinFinds() {
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/t1.png"
                   alt="Kanban board interface showing 'To Do', 'Doing', and 'Done' columns." />
-                <p className="md:text-sm p-2"></p>
+                <p className=" p-2"></p>
               </div>
             </div>
 
@@ -285,16 +285,16 @@ export default function CalvinFinds() {
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/t2.png"
                   alt="Kanban board columns populated with specific development tasks." />
-                <p className="md:text-sm p-2"></p>
+                <p className=" p-2"></p>
               </div>
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/t3.png" alt="Kanban board showing progress on tasks" />
-                <p className="md:text-sm p-2"></p>
+                <p className=" p-2"></p>
               </div>
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/t4.png"
                   alt="Kanban board detail view showing 'Sprints 1 through x-1' task grouping." />
-                <p className="md:text-sm p-2"></p>
+                <p className=" p-2"></p>
               </div>
             </div>
           </div>
@@ -308,7 +308,7 @@ export default function CalvinFinds() {
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/tech.png"
                   alt="Logos for PostgreSQL, GitHub, Azure, React Native, Figma, Inkscape, and Trello." />
-                <p className="md:text-sm p-2"></p>
+                <p className=" p-2"></p>
               </div>
               <div className="flex flex-col py-4">
                 <h4 className="font-black text-base">• ElephantSQL</h4>
@@ -378,7 +378,7 @@ export default function CalvinFinds() {
                 <img className="rounded-xl"
                   src="https://cdn.dribbble.com/users/1052299/screenshots/3819384/shot.png?resize=800x600&vertical=center"
                   alt="Mobile UI concept featuring an image-heavy social media feed layout." />
-                <p className="md:text-sm p-2">Credit: Ivan Martynenko</p>
+                <p className=" p-2">Credit: Ivan Martynenko</p>
               </div>
             </div>
           </div>
@@ -391,7 +391,7 @@ export default function CalvinFinds() {
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/card.png"
                   alt="UI card component displaying a photo of socks, user avatar, and location tag." />
-                <p className="md:text-sm p-2"></p>
+                <p className=" p-2"></p>
               </div>
             </div>
 
@@ -423,7 +423,7 @@ export default function CalvinFinds() {
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="https://images.pexels.com/photos/5325866/pexels-photo-5325866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                   alt="Three young adults wearing bright clothing, one holding a green smartphone." />
-                <p className="md:text-sm p-2"></p>
+                <p className=" p-2"></p>
               </div>
             </div>
           </div>
@@ -531,7 +531,7 @@ export default function CalvinFinds() {
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/Usability Test Script-1.png"
                   alt="Page 1 of the printed usability testing questionnaire." />
-                <p className="md:text-sm p-2">Usability testing Script - Page 1</p>
+                <p className=" p-2">Usability testing Script - Page 1</p>
               </div>
             </div>
 
@@ -539,7 +539,7 @@ export default function CalvinFinds() {
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <img className="rounded-xl" src="/images/CalvinFinds/Usability Test Script-2.png"
                   alt="Page 2 of the printed usability testing questionnaire." />
-                <p className="md:text-sm p-2">Usability testing Script - Page 2</p>
+                <p className=" p-2">Usability testing Script - Page 2</p>
               </div>
             </div>
 
@@ -562,24 +562,24 @@ export default function CalvinFinds() {
                 <div className="flex flex-col items-center">
                   <img className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/before.png"
                     alt="Dashboard using a segment control for 'Found' vs 'Lost'." />
-                  <p className="md:text-sm p-2">before</p>
+                  <p className=" p-2">before</p>
                 </div>
                 <div className="flex flex-col items-center">
                   <img className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/after.png"
                     alt="Dashboard using distinct orange buttons for 'Found' and 'Lost' toggles." />
-                  <p className="md:text-sm p-2">after</p>
+                  <p className=" p-2">after</p>
                 </div>
               </div>
               <div className="my-4 flex flex-col lg:flex-row justify-center items-center gap-4">
                 <div className="flex flex-col items-center">
                   <img className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/main-before-search-activated.png"
                     alt="Search bar with a generic magnifying glass icon." />
-                  <p className="md:text-sm p-2">before (search activated)</p>
+                  <p className=" p-2">before (search activated)</p>
                 </div>
                 <div className="flex flex-col items-center">
                   <img className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/main-after-search-activated.png"
                     alt="Search bar with a clear 'Type to search item' placeholder." />
-                  <p className="md:text-sm p-2">after (search activated)</p>
+                  <p className=" p-2">after (search activated)</p>
                 </div>
               </div>
             </div>
@@ -589,12 +589,12 @@ export default function CalvinFinds() {
                 <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                   <img className="rounded-xl max-w-[300px]" src="/images/CalvinFinds/usability-testing/detail-before.png"
                     alt="Item detail screen lacking contact information." />
-                  <p className="md:text-sm p-2">before</p>
+                  <p className=" p-2">before</p>
                 </div>
                 <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                   <img className="rounded-xl max-w-[300px]" src="/images/CalvinFinds/usability-testing/detail-after.png"
                     alt="Item detail screen displaying the poster's email and username." />
-                  <p className="md:text-sm p-2">after</p>
+                  <p className=" p-2">after</p>
                 </div>
               </div>
             </div>
@@ -628,12 +628,12 @@ export default function CalvinFinds() {
                 <div className="flex flex-col items-center">
                   <img className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/map-before.png"
                     alt="Map interface showing a generic pin drop." />
-                  <p className="md:text-sm p-2">before</p>
+                  <p className=" p-2">before</p>
                 </div>
                 <div className="flex flex-col items-center">
                   <img className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/map-after.png"
                     alt="Map interface showing a specific building label 'Beets-Veenstra Hall'." />
-                  <p className="md:text-sm p-2">after</p>
+                  <p className=" p-2">after</p>
                 </div>
               </div>
             </div>
