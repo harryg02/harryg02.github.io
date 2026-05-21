@@ -12,7 +12,7 @@ export default function ReentryReimagined() {
     <div className="relative font-[manrope] font-semibold bg-[#fff]">
 
 
-      <main>
+      <main id="main-content">
         <h1 className="sr-only">Reentry Reimagined Website Redesign - Project Case Study</h1>
 
         {/* p1 */}

@@ -94,14 +94,7 @@ export default function HCIResearch() {
         }
       `}</style>
 
-      <a
-        href="#main-content"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[9999] focus:bg-[#7eb8f7] focus:text-[#0a0c10] focus:px-4 focus:py-2 focus:rounded focus:font-bold"
-      >
-        Skip to main content
-      </a>
-
-      <div className="paper min-h-screen">
+<div className="paper min-h-screen">
         {/* ── Header ── */}
         <header className="border-b border-[#1e2737] pt-28 pb-10">
           <div className="max-w-5xl mx-auto px-6">

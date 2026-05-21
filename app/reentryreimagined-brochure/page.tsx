@@ -14,7 +14,7 @@ export default function ReentryReimagedBrochure() {
 
 
       {/* Main content */}
-      <main id="gdthumbnails">
+      <main id="main-content">
         {/* Intro */}
         <div className="lg:pb-1 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 ">
           {/* text block */}

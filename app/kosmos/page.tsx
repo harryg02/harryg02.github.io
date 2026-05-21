@@ -13,7 +13,7 @@ export default function Kosmos() {
     <div className="relative font-[manrope] font-semibold bg-[#fff]">
 
 
-      <main>
+      <main id="main-content">
         <h1 className="sr-only">Kosmos Stargazing Resort Website Redesign &amp; Development - Project Case Study</h1>
 
         {/* text block */}

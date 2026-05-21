@@ -12,7 +12,7 @@ export default function ReentryGuideGR() {
     <div className="relative font-[manrope] font-semibold bg-[#fff]">
 
 
-      <main>
+      <main id="main-content">
         {/* p1 */}
         <section className="lg:pb-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-white bg-[#141414]">
           <div className="md:col-span-3 bg-[#EDE7E7] transition sm:min-h-[150px] h-fit">

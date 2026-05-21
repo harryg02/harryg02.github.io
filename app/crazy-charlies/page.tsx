@@ -12,7 +12,7 @@ export default function CrazyCharlies() {
     <div className="font-display bg-veryLightGray">
 
 
-      <main id="main">
+      <main id="main-content">
         {/* Main content */}
         <section id="gdthumbnails">
           {/* Intro */}

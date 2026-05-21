@@ -13,7 +13,7 @@ export default function ECommunityServiceLogo() {
 
 
       {/* Main content */}
-      <main id="gdthumbnails">
+      <main id="main-content">
         {/* Intro */}
         <div className=" grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           {/* text block */}

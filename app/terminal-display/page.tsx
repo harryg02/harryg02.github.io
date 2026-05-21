@@ -13,7 +13,7 @@ export default function TerminalDisplay() {
       <style>{`body { background-color: #2E3135; }`}</style>
 
 
-      <main id="main">
+      <main id="main-content">
         {/* Main content */}
         <section id="gdthumbnails">
           <div className="grid items-center md:p-10 md:gap-12 grid-cols-1 lg:grid-cols-3">

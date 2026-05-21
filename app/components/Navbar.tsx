@@ -32,6 +32,13 @@ export default function Navbar() {
   }, [pathname]);
 
   return (
+    <>
+    <a
+      href="#main-content"
+      className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[9999] focus:bg-white focus:text-black focus:px-4 focus:py-2 focus:rounded focus:font-bold focus:text-sm"
+    >
+      Skip to main content
+    </a>
     <nav
       id="main-nav"
       className="font-[urbanist] font-extrabold fixed top-5 inset-x-0 z-701 flex flex-col items-center gap-2 pointer-events-none"
@@ -102,5 +109,6 @@ export default function Navbar() {
         </div>
       )}
     </nav>
+    </>
   );
 }
