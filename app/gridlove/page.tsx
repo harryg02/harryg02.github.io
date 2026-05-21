@@ -27,10 +27,10 @@ export default function GridLove() {
             </div>
 
             <div className="bg-blue-200 transition sm:min-h-[150px] h-fit">
-              <Image src="/images/GridLove.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/GridLove.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
             <div className="bg-transparent transition sm:min-h-[150px] h-fit">
-              <Image src="/images/GridLove/cover-transparent.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <Image src="/images/GridLove/cover-transparent.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
           </div>
         </section>
@@ -55,27 +55,27 @@ export default function GridLove() {
           </div>
 
           <div className="md:order-2 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/B&W/gridlove - Remake-10.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/B&W/gridlove - Remake-10.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="md:order-3 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/B&W/gridlove - Remake-12.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/B&W/gridlove - Remake-12.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="md:order-5 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/B&W/gridlove - Remake-13.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/B&W/gridlove - Remake-13.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="md:order-4 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/B&W/gridlove - Remake-07.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/B&W/gridlove - Remake-07.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="md:order-6 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/B&W/gridlove - Remake-09.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/B&W/gridlove - Remake-09.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="md:order-7 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/B&W/gridlove - Remake-08.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/B&W/gridlove - Remake-08.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
         </div>
 
@@ -97,27 +97,27 @@ export default function GridLove() {
           </div>
 
           <div className="md:order-2 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/Colored/cher.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/Colored/cher.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="md:order-3 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/Colored/frozen.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/Colored/frozen.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="md:order-5 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/Colored/blackmirror.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/Colored/blackmirror.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="md:order-4 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/Colored/assassin.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/Colored/assassin.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="md:order-6 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/Colored/ps5.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/Colored/ps5.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="md:order-7 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/Colored/cards.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/Colored/cards.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
         </div>
 
@@ -139,19 +139,19 @@ export default function GridLove() {
           </div>
 
           <div className="col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/Photo/weather.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/Photo/weather.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/Photo/matterhorn.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/Photo/matterhorn.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/Photo/modernism.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/Photo/modernism.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/Photo/frozen2.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/Photo/frozen2.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
         </div>
 
@@ -172,27 +172,27 @@ export default function GridLove() {
           </div>
 
           <div className="m-5 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/CoverProcess/cover-01.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/CoverProcess/cover-01.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="m-5 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/CoverProcess/cover-02.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/CoverProcess/cover-02.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="m-5 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/CoverProcess/cover-03.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/CoverProcess/cover-03.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="m-5 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/CoverProcess/cover-05.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/CoverProcess/cover-05.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="m-5 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove/CoverProcess/cover-06.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove/CoverProcess/cover-06.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
 
           <div className="m-5 col-span-1 row-span-1 bg-white transition sm:min-h-[150px] h-fit">
-            <Image src="/images/GridLove.png" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/GridLove.webp" alt=""  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
           </div>
         </div>
       </main>

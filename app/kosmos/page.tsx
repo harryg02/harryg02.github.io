@@ -17,8 +17,8 @@ export default function Kosmos() {
 
       <main id="main-content">
         <ProjectHero
-          imageSrc="/images/kosmos_resort/thumb.png"
-          imageMobileSrc="/images/kosmos_resort/thumb-mobile.png"
+          imageSrc="/images/kosmos_resort/thumb.webp"
+          imageMobileSrc="/images/kosmos_resort/thumb-mobile.webp"
           imageAlt="Dark starry night sky background with 'Where The Stars Align With You' headline."
           title="Kosmos Resort Website Redesign & Development"
           summary="Reduced bounce rate by 10% and stabilized traffic 84% above the baseline after a WSJ feature, serving 6,800+ monthly visitors."
@@ -132,7 +132,7 @@ export default function Kosmos() {
             <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/kosmos_resort/desktop.png"
+                src="/images/kosmos_resort/desktop.webp"
                 alt="Website hero section featuring a galaxy background and a central 'Book Your Stay' call-to-action."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -154,14 +154,14 @@ export default function Kosmos() {
             <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/kosmos_resort/villa.png"
+                src="/images/kosmos_resort/villa.webp"
                 alt="Villa booking card displaying amenities, price ($700/night), and interior photos of a bedroom inside a dome structure."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <Image
                 className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] pt-10"
-                src="/images/kosmos_resort/villa2.png"
+                src="/images/kosmos_resort/villa2.webp"
                 alt="Villa booking card displaying a night-time rendering of a dome illuminated against a starry desert sky."
               
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
@@ -202,14 +202,14 @@ export default function Kosmos() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <Image
                   className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]"
-                  src="/images/kosmos_resort/widget.png"
+                  src="/images/kosmos_resort/widget.webp"
                   alt="Desktop view of the booking calendar interface."
                 
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                 />
                 <Image
                   className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]"
-                  src="/images/kosmos_resort/widget2.png"
+                  src="/images/kosmos_resort/widget2.webp"
                   alt="Mobile view of the booking calendar interface."
                 
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}

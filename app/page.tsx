@@ -15,7 +15,7 @@ export default function Home() {
         body { background-color: #1D1F27; }
         html, html body { height: auto; }
         @media (max-width: 767px) {
-          #myVideo1, #myVideo2, #myVideo3 { object-position: calc(50% + 40px) center; }
+          #heroVideo { object-position: calc(50% + 40px) center; }
         }
       `}</style>
 
@@ -28,22 +28,9 @@ export default function Home() {
 
         <h1 className="sr-only text-white bg-black">I&apos;m Harry Gu. I&apos;m a UI/UX Designer, Front-End Developer, and Graphic Designer</h1>
 
-        <video id="myVideo1" autoPlay loop muted aria-hidden={true}
+        <video id="heroVideo" autoPlay loop muted aria-hidden={true}
           className="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0">
-          <source src="/herovideo1.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
-        <video id="myVideo2" autoPlay loop muted aria-hidden={true} style={{ display: "none" }}
-          className="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0">
-          <source src="/herovideo2.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
-        <video id="myVideo3" autoPlay loop muted aria-hidden={true} style={{ display: "none" }}
-          className="video-overlay inline-block object-cover w-full h-full absolute top-0 left-0">
-          <source src="/herovideo3.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
+          <source src="/herovideo.mp4" type="video/mp4" />
         </video>
 
         <div className="hero" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundSize: "cover" }} aria-hidden={true}></div>
@@ -65,7 +52,7 @@ export default function Home() {
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/kosmos"
-              imageSrc="/images/kosmos_resort/thumb-dark.png"
+              imageSrc="/images/kosmos_resort/thumb-dark.webp"
               imageAlt="Desktop and mobile mockups featuring a starry night interface theme."
               title='"Kosmos Stargazing Resort" Website Redesign & Development'
               result="Result: -10% bounce rate"
@@ -73,7 +60,7 @@ export default function Home() {
             <ProjectCard
               className="lg:row-span-2"
               href="/exodusplace"
-              imageSrc="/images/ExodusPlace.org/mockup-mobile.png"
+              imageSrc="/images/ExodusPlace.org/mockup-mobile.webp"
               imageAlt="Dark-themed website redesign showing an aerial view of the facility."
               title="Exodus Place Website Redesign"
               result="Result: Implemented in 2 weeks, handled +173% traffic surge"
@@ -82,7 +69,7 @@ export default function Home() {
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/als-lm"
-              imageSrc="/images/als-lm/cover.png"
+              imageSrc="/images/als-lm/cover.webp"
               imageAlt="Two web pages on a blueprint grid."
               title='"Adult Learning Systems" Website Research & Redesign'
               result="Result: 5/5 preferred new design for donation"
@@ -91,14 +78,14 @@ export default function Home() {
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/reentryguide-gr"
-              imageSrc="/images/ReentryGuide-GR/cover.png"
+              imageSrc="/images/ReentryGuide-GR/cover.webp"
               imageAlt="Smartphone held in hand displaying the app's main menu interface."
               title='"ReentryGuide GR" Mobile App & Website'
               result="Result: Fixed 2 usability issues, promoted by MDOC"
             />
             <ProjectCard
               href="/calvin-finds"
-              imageSrc="/images/CalvinFinds/thumbnail.png"
+              imageSrc="/images/CalvinFinds/thumbnail.webp"
               imageAlt="Mobile login screen featuring a flat illustration on an orange background."
               title="Calvin Finds Mobile App"
               result="Result: Identified and fixed 6 usability issues"
@@ -107,7 +94,7 @@ export default function Home() {
             <ProjectCard
               className="md:col-span-2 lg:col-span-2"
               href="/reentryreimagined"
-              imageSrc="/images/ReentryReimagined/thumbnail.png"
+              imageSrc="/images/ReentryReimagined/thumbnail.webp"
               imageAlt="Earth-toned website layout displayed on desktop and mobile screens."
               title="Reentry Reimagined Website Redesign"
               result="Result: +40% traffic"
@@ -116,7 +103,7 @@ export default function Home() {
             <ProjectCard
               className="md:col-span-1 lg:col-span-1"
               href="/detroit-child-usability"
-              imageSrc="/images/detroit-child-usability/suggestion1.png"
+              imageSrc="/images/detroit-child-usability/suggestion1.webp"
               imageAlt="Mockup of the State of the Detroit Child homepage redesign with an embedded interactive map of Detroit prominently featured."
               title="State of the Detroit Child Usability Analysis"
               result="Result: 5 usability findings, 5 actionable recommendations"
@@ -134,29 +121,7 @@ export default function Home() {
         }, { passive: true });
       `}</Script>
 
-      <Script id="hero-video-cycle" strategy="afterInteractive">{`
-        (function() {
-          var videoOverlays = [
-            document.getElementById('myVideo1'),
-            document.getElementById('myVideo2'),
-            document.getElementById('myVideo3')
-          ];
-          var currentIndex = 0;
-          function changeBackgroundVideo() {
-            currentIndex = (currentIndex + 1) % videoOverlays.length;
-            if (videoOverlays[currentIndex]) videoOverlays[currentIndex].style.display = 'block';
-            if (currentIndex === videoOverlays.length - 1) {
-              setTimeout(function() {
-                videoOverlays.forEach(function(overlay, index) {
-                  if (overlay) overlay.style.display = index === 0 ? 'block' : 'none';
-                });
-                currentIndex = 0;
-              }, 3000);
-            }
-          }
-          setInterval(changeBackgroundVideo, 3000);
-        })();
-      `}</Script>
+
     </div>
   );
 }
