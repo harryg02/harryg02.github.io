@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="font-[urbanist] font-semibold bg-[#1E2128]">
+    <div className="bg-[#1E2128]">
       <style>{`
         body { background-color: #1D1F27; }
         html, html body { height: auto; }

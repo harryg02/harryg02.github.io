@@ -9,13 +9,7 @@ export const metadata: Metadata = {
 
 export default function AlsLm() {
   return (
-    <div className="relative font-[manrope] font-semibold bg-[#fff]">
-      <style>{`
-        .font-RedHatDisplay {
-          font-family: "Red Hat Display";
-        }
-      `}</style>
-
+    <div className="relative bg-[#fff]">
 
 
       <main id="main-content">
@@ -40,7 +34,7 @@ export default function AlsLm() {
           <div className="max-w-[1200px] m-auto px-6 py-10 flex justify-center">
             <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12 max-w-md">
               <div className="flex flex-row py-3">
-                <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+                <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
                   The Problem
                 </h2>
               </div>
@@ -62,7 +56,7 @@ export default function AlsLm() {
             <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+                <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
                   Diagnosis
                 </h2>
               </div>
@@ -86,11 +80,11 @@ export default function AlsLm() {
           <div className="max-w-[1200px] m-auto px-6 py-10 flex justify-center">
             <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12 max-w-md">
               <div className="flex flex-row py-3">
-                <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+                <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
                   Hypothesis
                 </h2>
               </div>
-              <p className="inline-flex md:text-sm py-2 mb-5">
+              <p className="inline-flex py-2 mb-5">
                 I made six falsifiable hypothesis and predictions, each grounded in a named design principle.
               </p>
               <ul className="list-none">
@@ -122,7 +116,7 @@ export default function AlsLm() {
         <section className="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-3">
             <div className="col-span-1 lg:col-span-3 py-10 text-center">
-              <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl">
+              <h2 className="text-gray-900 inline-flex font-bold text-2xl">
                 The Redesign
               </h2>
               <div className="flex flex-col justify-center items-center min-w-0 p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
@@ -188,7 +182,7 @@ export default function AlsLm() {
           <div className="max-w-[1200px] m-auto px-6 py-10 flex justify-center">
             <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12 max-w-md">
               <div className="flex flex-row py-3">
-                <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+                <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
                   A/B Testing
                 </h2>
               </div>
@@ -217,7 +211,7 @@ export default function AlsLm() {
           <div className="max-w-[1200px] m-auto px-6 pt-10 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
             <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8">
-              <h3 className="text-gray-900 inline-flex font-extrabold text-xl font-RedHatDisplay text-md text-left">
+              <h3 className="text-gray-900 inline-flex font-extrabold text-xl text-md text-left">
                 Key Findings
               </h3>
               <ul className="list-decimal pl-3 md:text-sm py-2">
@@ -234,7 +228,7 @@ export default function AlsLm() {
             </div>
             {/* text block */}
             <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-4">
-              <h3 className="text-gray-900 inline-flex font-extrabold text-xl font-RedHatDisplay text-md text-left">
+              <h3 className="text-gray-900 inline-flex font-extrabold text-xl text-md text-left">
                 Key Discovery: The Information Density Paradox
               </h3>
               <p>
@@ -253,7 +247,7 @@ export default function AlsLm() {
           <div className="max-w-[1200px] m-auto px-6 py-10 flex justify-center">
             <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12 max-w-md">
               <div className="flex flex-row py-3">
-                <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+                <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
                   Additional Findings
                 </h2>
               </div>
@@ -302,7 +296,7 @@ export default function AlsLm() {
         <section className="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-3">
             <div className="col-span-1 lg:col-span-3 py-10 text-center">
-              <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl">
+              <h2 className="text-gray-900 inline-flex font-bold text-2xl">
                 Redesign Iteration
               </h2>
               <p className="py-3 md:text-sm">1. Added back dense paragraph text, but braking them into smaller paragraphs</p>
@@ -344,7 +338,7 @@ export default function AlsLm() {
         <section className="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-3">
             <div className="col-span-1 lg:col-span-3 py-10 text-center">
-              <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl">
+              <h2 className="text-gray-900 inline-flex font-bold text-2xl">
                 Final Redesign
               </h2>
               <div className="flex flex-col justify-center items-center min-w-0 p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">

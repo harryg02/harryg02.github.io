@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function ReentryReimagined() {
   return (
-    <div className="relative font-[manrope] font-semibold bg-[#fff]">
+    <div className="relative bg-[#fff]">
 
 
       <main id="main-content">
@@ -23,7 +23,7 @@ export default function ReentryReimagined() {
           imageAlt="Earth-toned website redesign displayed on laptop and mobile screens."
           imageContainerClassName="bg-[#EDE7E7] mt-5 mb-[-40px]"
           titleAs="h2"
-          titleClassName="font-RedHatDisplay text-left inline-flex font-bold text-2xl"
+          titleClassName="text-left inline-flex font-bold text-2xl"
           title="Reentry Reimagined Website Redesign"
           summary="Result: The redesign led to a 40% increase in website traffic and active recurring monthly donations."
           links={[
@@ -43,7 +43,7 @@ export default function ReentryReimagined() {
             <div className=" col-span-1  md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className=" inline-flex font-bold font-RedHatDisplay text-2xl text-left">Project Overview</h2>
+                <h2 className=" inline-flex font-bold text-2xl text-left">Project Overview</h2>
               </div>
 
               <p className="inline-flex md:text-sm py-2 mb-10">
@@ -60,7 +60,7 @@ export default function ReentryReimagined() {
 
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className="inline-flex font-bold font-RedHatDisplay text-2xl text-left">Objectives:</h2>
+                <h2 className="inline-flex font-bold text-2xl text-left">Objectives:</h2>
               </div>
 
               <p className="inline-flex md:text-sm py-2 mb-5">As the designer, my role encompassed:</p>
@@ -106,7 +106,7 @@ export default function ReentryReimagined() {
             <div className=" col-span-1 md:row-span-3 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className=" inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+                <h2 className=" inline-flex font-bold text-2xl text-left">
                   Research and Discovery
                 </h2>
               </div>
@@ -203,7 +203,7 @@ export default function ReentryReimagined() {
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2 ">
             {/* text block */}
             <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8">
-              <h2 className="inline-flex font-bold font-RedHatDisplay text-2xl text-left py-3">Design Process</h2>
+              <h2 className="inline-flex font-bold text-2xl text-left py-3">Design Process</h2>
 
               <ol className="list-decimal pl-3">
                 <li className="pb-1">
@@ -392,7 +392,7 @@ export default function ReentryReimagined() {
             <div className="md:row-span-2 col-span-4 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-10">
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className=" inline-flex font-bold font-RedHatDisplay text-2xl text-left">Results and Impact</h2>
+                <h2 className=" inline-flex font-bold text-2xl text-left">Results and Impact</h2>
               </div>
 
               <ol className="list-disc pl-3 md:text-sm">

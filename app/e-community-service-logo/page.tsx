@@ -19,7 +19,7 @@ export default function ECommunityServiceLogo() {
           {/* text block */}
           <div className="lg:order-last md:col-span-2 lg:col-span-1  flex flex-col justify-center items-center transition bg-grey-500 shadow-xl min-h[30px] text-center py-32 md:py-24">
             <h1 className="inline-flex font-bold md:text-xl p-1">E-community-service logo</h1>
-            <p className="inline-flex md:text-sm mx-12">
+            <p className="inline-flex mx-12">
               e-community-service.org is a mobile oriented web platform for high school students to do community service
               online.{" "}
             </p>
@@ -46,16 +46,16 @@ export default function ECommunityServiceLogo() {
               </h2>
             </div>
 
-            <p className="inline-flex md:text-sm  p-2">
+            <p className="inline-flex  p-2">
               - A formal, modern sans serif font, because it&apos;s easy to read on screen and good for visually
               disabled people. All caps to avoid weird space between letters.
             </p>
-            <p className="inline-flex md:text-sm  p-2">- A simple icon illustration that&apos;s good for small screens.</p>
-            <p className="inline-flex md:text-sm  p-2">
+            <p className="inline-flex  p-2">- A simple icon illustration that&apos;s good for small screens.</p>
+            <p className="inline-flex  p-2">
               - Icon on the left and text on the right to make the logo wider, so it can be more easily put on a
               navigation bar.
             </p>
-            <p className="inline-flex md:text-sm  p-2">
+            <p className="inline-flex  p-2">
               - blue or/and green color for the logo, symbolizing growth and trust. It also accompanying with the
               current changing the present logo.{" "}
             </p>
@@ -148,12 +148,12 @@ export default function ECommunityServiceLogo() {
           <div className="hidden md:block lg:hidden font-['Raleway'] row-span-2 col-span-2 font-bold text-gray-900 bg-gray-200  flex flex-col items-left transition bg-grey-500 shadow-xl min-h[30px] text-left px-20 py-32">
             {/* title */}
             <div className=" flex flex-col">
-              <div className=" md:text-sm ">Logo Wordmark</div>
+              <div className=" ">Logo Wordmark</div>
               <p className="inline-flex text-3xl text-left">Raleway Bold</p>
             </div>
-            <p className="inline-flex md:text-sm leading-tight">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-            <p className="inline-flex md:text-sm leading-tight">abcdefghijklmnopqrstuvwxyz</p>
-            <p className="inline-flex md:text-sm leading-tight">1234567890</p>
+            <p className="inline-flex leading-tight">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+            <p className="inline-flex leading-tight">abcdefghijklmnopqrstuvwxyz</p>
+            <p className="inline-flex leading-tight">1234567890</p>
           </div>
 
           <div className="hidden md:block lg:hidden col-span-2 md:col-span-1 row-span-2 bg-blue-200 transition sm:min-h-[150px] h-fit">
@@ -170,12 +170,12 @@ export default function ECommunityServiceLogo() {
           <div className="font-['Raleway'] font-bold text-gray-900 bg-gray-200  flex flex-col items-left transition bg-grey-500 shadow-xl min-h[30px] text-left px-20 py-16">
             {/* title */}
             <div className=" flex flex-col">
-              <div className=" md:text-sm ">Logo Wordmark</div>
+              <div className=" ">Logo Wordmark</div>
               <p className="inline-flex text-3xl text-left">Raleway Bold</p>
             </div>
-            <p className="inline-flex md:text-sm leading-tight">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-            <p className="inline-flex md:text-sm leading-tight">abcdefghijklmnopqrstuvwxyz</p>
-            <p className="inline-flex md:text-sm leading-tight">1234567890</p>
+            <p className="inline-flex leading-tight">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+            <p className="inline-flex leading-tight">abcdefghijklmnopqrstuvwxyz</p>
+            <p className="inline-flex leading-tight">1234567890</p>
           </div>
 
           <div className="col-span-1 bg-blue-200 transition sm:min-h-[150px] h-fit">

@@ -38,11 +38,11 @@ export default function ProjectHero({
   sectionClassName = "text-white bg-[#141414]",
   title,
   titleAs: Title = "h1",
-  titleClassName = "font-RedHatDisplay text-left inline-flex font-semibold text-2xl",
+  titleClassName = "text-left inline-flex font-semibold text-2xl",
   summary,
   links,
   meta,
-  metaHeadingClassName = "font-RedHatDisplay font-bold text-xl",
+  metaHeadingClassName = "font-bold text-xl",
   description,
 }: ProjectHeroProps) {
   return (

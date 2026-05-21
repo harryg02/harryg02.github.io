@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function ExodusPlace() {
   return (
-    <div className="relative font-['Inter'] bg-[#fff]">
+    <div className="relative bg-[#fff]">
 
 
       <main id="main-content">
@@ -20,13 +20,13 @@ export default function ExodusPlace() {
           imageMobileSrc="/images/ExodusPlace.org/mockup-mobile.png"
           imageAlt="Dark-themed homepage with aerial facility view."
           imageContainerClassName="mt-5 mb-[-40px]"
-          titleClassName="font-['Montserrat'] text-left inline-flex font-bold text-2xl text-[#72D976]"
+          titleClassName="text-left inline-flex font-bold text-2xl text-[#72D976]"
           title="Exodus Place Website Redesign"
           summary="Result: Implemented the website in 2 weeks, handled a 173% traffic surge during an $835K fundraising campaign."
           links={[
             { href: "https://exodusplace.org", icon: "/icons/globe.png", label: "Visit Website", buttonClassName: "bg-[#2a2a2a] hover:bg-[#333]" },
           ]}
-          metaHeadingClassName="font-['Montserrat'] font-bold text-xl text-[#72D976]"
+          metaHeadingClassName="font-bold text-xl text-[#72D976]"
           meta={[
             { label: "Technology", value: "Figma, Inkscape, Krita, GRCMC custom platform" },
             { label: "Service", value: "Web Design, User Experience, Branding, SEO" },
@@ -41,7 +41,7 @@ export default function ExodusPlace() {
             <div className=" col-span-1 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left">Project Overview</h2>
+                <h2 className=" inline-flex font-bold text-2xl text-left">Project Overview</h2>
               </div>
 
               <p className="inline-flex md:text-sm py-2 mb-10">
@@ -57,7 +57,7 @@ export default function ExodusPlace() {
 
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className="inline-flex font-bold font-['Montserrat'] text-2xl text-left">Objectives:</h2>
+                <h2 className="inline-flex font-bold text-2xl text-left">Objectives:</h2>
               </div>
 
               <p className="inline-flex md:text-sm py-2 mb-5">As the designer, my role encompassed:</p>
@@ -72,7 +72,7 @@ export default function ExodusPlace() {
               </ol>
 
               <div className="flex flex-row py-3">
-                <h2 className="inline-flex font-bold font-['Montserrat'] text-2xl text-left">
+                <h2 className="inline-flex font-bold text-2xl text-left">
                   Old Website Analysis
                 </h2>
               </div>
@@ -120,7 +120,7 @@ export default function ExodusPlace() {
             <div className=" col-span-1 md:row-span-3 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
-                <p className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left text-[#006826]">
+                <p className=" inline-flex font-bold text-2xl text-left text-[#006826]">
                   Research and Discovery
                 </p>
               </div>
@@ -189,7 +189,7 @@ export default function ExodusPlace() {
           <div className=" max-w-[1200px] m-auto px-6 py-20 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
             <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left md:text-sm px-8">
-              <h2 className="inline-flex font-bold font-['Montserrat'] text-[#72D976] text-2xl text-left py-3">
+              <h2 className="inline-flex font-bold text-[#72D976] text-2xl text-left py-3">
                 Design
               </h2>
             </div>
@@ -208,7 +208,7 @@ export default function ExodusPlace() {
             </div>
 
             <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
-              <h3 className="font-['Montserrat'] font-bold text-xl text-[#72D976] text-left py-2">
+              <h3 className="font-bold text-xl text-[#72D976] text-left py-2">
                 Mission-Focused Homepage
               </h3>
               <p className="text-left">&bull; Clear &quot;hand up, not handout&quot; messaging</p>
@@ -217,7 +217,7 @@ export default function ExodusPlace() {
             </div>
 
             <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
-              <h3 className="font-['Montserrat'] font-bold text-xl text-[#72D976] text-left py-2">
+              <h3 className="font-bold text-xl text-[#72D976] text-left py-2">
                 Visual Communication
               </h3>
               <p className="text-left">&bull; Clear typography hierarchy</p>
@@ -355,7 +355,7 @@ export default function ExodusPlace() {
             <div className="md:row-span-2 col-span-4 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-10">
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className=" inline-flex font-bold font-['Montserrat'] text-2xl text-left">Results and Impact</h2>
+                <h2 className=" inline-flex font-bold text-2xl text-left">Results and Impact</h2>
               </div>
 
               <ol className="list-disc pl-3 md:text-sm">

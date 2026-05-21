@@ -32,8 +32,8 @@ export default function ProjectCard({ href, imageSrc, imageAlt, title, result, c
 
       {/* Text content - pinned to bottom */}
       <div className="px-5 py-4 flex flex-col gap-1 shrink-0">
-        <h3 className="font-bold text-[#CCD4E3] text-base leading-snug">{title}</h3>
-        <p className="text-[#8B96AA] text-sm font-semibold">{result}</p>
+        <h3 className="font-semibold text-[#CCD4E3] text-base leading-snug">{title}</h3>
+        <p className="text-[#8B96AA]">{result}</p>
       </div>
     </a>
   );

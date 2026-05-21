@@ -16,7 +16,8 @@
   --color-veryDarkGray: #333;
   --color-themeRed: #be1d28;
 
-  --font-display: Montserrat, sans-serif;
+  --font-sans: "Atkinson Hyperlegible Next", sans-serif;
+  --font-display: "Atkinson Hyperlegible Next", sans-serif;
 
   --tracking-wider: 0.15em;
   --tracking-widest: 0.35em;
@@ -41,6 +42,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible Next", sans-serif;
 }
 
 /* Hamburger Menu */

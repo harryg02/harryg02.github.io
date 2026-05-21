@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function CalvinFinds() {
   return (
-    <div className="relative font-[urbanist] bg-[#EDE7E7] font-semibold">
+    <div className="relative bg-[#EDE7E7] font-semibold">
       <style>{`
         body { background-color: #EDE7E7; }
         /* Highlight current page on navbar */
@@ -44,12 +44,12 @@ export default function CalvinFinds() {
           imageMobileSrc="/images/CalvinFinds/thumbnail.png"
           imageAlt="Four mobile screens showing the Calvin Finds app interface: login, item feed, profile, and map."
           imageContainerClassName="bg-[#EDE7E7]"
-          titleClassName="font-RedHatDisplay text-left inline-flex font-black font-[poppins] text-[#2F2E41] text-xl mb-3"
+          titleClassName="text-left inline-flex font-black text-[#2F2E41] text-xl mb-3"
           title="Calvin Finds Mobile App"
           links={[
             { href: "https://github.com/calvin-cs262-fall2023-teamA", icon: "/icons/github.svg", label: "Visit Github", buttonClassName: "bg-[#FFAF66] hover:bg-[#FFAF99]", labelClassName: "text-[#2F2E41]", forwardIcon: "/icons/forward.png" },
           ]}
-          metaHeadingClassName="font-RedHatDisplay font-black font-[poppins] text-[#2F2E41] text-xl"
+          metaHeadingClassName="font-black text-[#2F2E41] text-xl"
           meta={[
             { label: "Technology", value: "React Native, Azure, ElephantSQL, Figma, Inkscape, Krita" },
             { label: "Role", value: "UI/UX Design, Development, Branding, Deployment" },
@@ -69,7 +69,7 @@ export default function CalvinFinds() {
             <div className="col-span-1 md:row-span-4 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className="inline-flex font-black font-[poppins] text-[#2F2E41] font-RedHatDisplay text-2xl text-left">
+                <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">
                   Project Overview
                 </h2>
               </div>
@@ -126,7 +126,7 @@ export default function CalvinFinds() {
             <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className="inline-flex font-black font-[poppins] text-[#2F2E41] font-RedHatDisplay text-2xl text-left">
+                <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">
                   Research and Planning
                 </h2>
               </div>
@@ -358,7 +358,7 @@ export default function CalvinFinds() {
           <div className="max-w-[1200px] m-auto px-6 pt-10 grid grid-col-1 lg:grid-cols-2">
             <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
               <div className="flex flex-row py-3">
-                <h2 className="inline-flex font-black font-[poppins] text-[#2F2E41] font-RedHatDisplay text-2xl text-left">Design</h2>
+                <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">Design</h2>
               </div>
               <h3 className="font-black text-xl inline-flex py-2 mb-1">Social Media Inspiration</h3>
               <div className="flex flex-col py-2">
@@ -478,7 +478,7 @@ export default function CalvinFinds() {
           <div className="max-w-[1300px] m-auto pb-10 grid grid-col-1 lg:grid-cols-2">
             <div className="order-1 self-start col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               <div className="flex flex-row py-3">
-                <h2 className="inline-flex font-black font-[poppins] text-[#2F2E41] font-RedHatDisplay text-2xl text-left">Usability Testing</h2>
+                <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">Usability Testing</h2>
               </div>
               <p className="my-4">
                 We conducted comprehensive usability testing to gather valuable user feedback and improve the CalvinFinds
@@ -669,7 +669,7 @@ export default function CalvinFinds() {
         <section className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-1">
             <div className="flex flex-row p-3">
-              <h2 className="inline-flex font-black font-[poppins] text-[#2F2E41] font-RedHatDisplay text-2xl text-left">Initial UI Model</h2>
+              <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">Initial UI Model</h2>
             </div>
             <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <img className="rounded-2xl" src="/images/CalvinFinds/UI-Model.jpg"
@@ -682,7 +682,7 @@ export default function CalvinFinds() {
         <section className="bg-[#FFAF66] py-10 grid grid-col-1 sm:grid-cols-2 lg:grid-cols-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="col-span-1 sm:col-span-2 lg:col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12">
             <div className="flex flex-row p-4">
-              <h2 className="text-[#2F2E41] mt-4 inline-flex font-black font-[poppins] text-xl text-left">Final UI</h2>
+              <h2 className="text-[#2F2E41] mt-4 inline-flex font-black text-xl text-left">Final UI</h2>
             </div>
           </div>
 
@@ -711,7 +711,7 @@ export default function CalvinFinds() {
         <section className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] py-10">
           <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-1">
             <div className="flex flex-row p-3">
-              <h2 className="inline-flex font-black font-[poppins] text-[#2F2E41] font-RedHatDisplay text-2xl text-left">Deployment Diagram</h2>
+              <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">Deployment Diagram</h2>
             </div>
             <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <img className="rounded-2xl" src="/images/CalvinFinds/DeploymentDiagram.png" alt="" />
@@ -723,7 +723,7 @@ export default function CalvinFinds() {
         <section className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] py-10 bg-[#18141D]">
           <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-1">
             <div className="flex flex-row pt-3">
-              <h2 className="w-full justify-center inline-flex font-black font-[poppins] text-white font-RedHatDisplay text-2xl text-left">Domain Model</h2>
+              <h2 className="w-full justify-center inline-flex font-black text-white text-2xl text-left">Domain Model</h2>
             </div>
             <div className="flex flex-col justify-center items-center col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <img className="" src="/images/CalvinFinds/DomainModel.png" alt="" />

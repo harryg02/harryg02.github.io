@@ -23,7 +23,7 @@ export default function CrazyCharlies() {
 
             <div className="md:col-span-2 lg:col-span-1 row-span-2 flex flex-col justify-center items-center transition bg-grey-500 shadow-xl min-h[30px] text-center py-32 md:py-24">
               <p className="inline-flex font-bold md:text-xl p-1">Crazy Charlies Brand Identity</p>
-              <p className="inline-flex md:text-sm mx-12">
+              <p className="inline-flex mx-12">
                 Crazy Charlies is a hot dog Restaurant in East Grand Rapids. This was originally a class project, the
                 Goal was to find a small business that potentially need brand identity. and design a logo, a copywriting,
                 and three posters for this small business.
@@ -60,15 +60,15 @@ export default function CrazyCharlies() {
                 </p>
               </div>
 
-              <p className="inline-flex md:text-sm  p-2">- Avoid Sans Serif, because it&apos;s not crazy enough.</p>
-              <p className="inline-flex md:text-sm  p-2">
+              <p className="inline-flex  p-2">- Avoid Sans Serif, because it&apos;s not crazy enough.</p>
+              <p className="inline-flex  p-2">
                 - Because the main customers of this shop is highschool students, so considering Gen-Z-ish graffiti
                 style.
               </p>
-              <p className="inline-flex md:text-sm  p-2">
+              <p className="inline-flex  p-2">
                 - Vivid colors and playful icon so appealing to Gen-Z audience.
               </p>
-              <p className="inline-flex md:text-sm  p-2"></p>
+              <p className="inline-flex  p-2"></p>
             </div>
 
             <div className="col-span-1 row-span-3 bg-blue-200 transition sm:min-h-[150px] h-fit">

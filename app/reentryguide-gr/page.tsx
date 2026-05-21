@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function ReentryGuideGR() {
   return (
-    <div className="relative font-[manrope] font-semibold bg-[#fff]">
+    <div className="relative bg-[#fff]">
 
 
       <main id="main-content">
@@ -37,7 +37,7 @@ export default function ReentryGuideGR() {
           <div className="max-w-[1200px] m-auto px-6 py-10 flex justify-center">
             <div className="flex flex-col justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12 max-w-md">
               <div className="flex flex-row py-3">
-                <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+                <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
                   Designing With, Not For
                 </h2>
               </div>
@@ -60,7 +60,7 @@ export default function ReentryGuideGR() {
             <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+                <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
                   The Challenge
                 </h2>
               </div>
@@ -73,7 +73,7 @@ export default function ReentryGuideGR() {
 
               {/* title */}
               <div className="flex flex-row py-3">
-                <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+                <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
                   User Research
                 </h2>
               </div>
@@ -134,7 +134,7 @@ export default function ReentryGuideGR() {
           <div className="max-w-[1200px] m-auto px-6 py-10 grid grid-col-1">
             <div className="col-span-1 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] px-5 py-12 max-w-3xl">
               <div className="flex flex-row py-3">
-                <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+                <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
                   Inclusive Design Approach
                 </h2>
               </div>
@@ -178,7 +178,7 @@ export default function ReentryGuideGR() {
             <div className=" col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               {/* title */}
               <div className="flex flex-row py-5">
-                <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+                <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
                   UI/UX Design Research
                 </h2>
               </div>
@@ -349,7 +349,7 @@ export default function ReentryGuideGR() {
         <section className="bg-[#fcfcfc] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className=" max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-3 ">
             <div className="col-span-1 lg:col-span-3 py-10 text-center">
-              <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl">Component Library</h2>
+              <h2 className="text-gray-900 inline-flex font-bold text-2xl">Component Library</h2>
               <p className="md:text-sm py-2 max-w-2xl m-auto">
                 Documented typography scale, color tokens, and reusable button patterns to ensure consistency and
                 accessibility across all screens.
@@ -377,7 +377,7 @@ export default function ReentryGuideGR() {
           <div className=" max-w-[1200px] m-auto px-6 pt-20 grid grid-col-1 lg:grid-cols-2 items-start">
             {/* text block */}
             <div className=" col-span-1  md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8">
-              <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+              <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
                 Usability Testing
                 <br />
                 <br />
@@ -453,7 +453,7 @@ export default function ReentryGuideGR() {
           <div className=" max-w-[1200px] m-auto px-6 pt-10 grid grid-col-1 lg:grid-cols-2">
             {/* text block */}
             <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8">
-              <h3 className="text-gray-900 inline-flex font-extrabold text-xl font-RedHatDisplay text-md text-left">
+              <h3 className="text-gray-900 inline-flex font-extrabold text-xl text-md text-left">
                 Key Findings
               </h3>
 
@@ -586,7 +586,7 @@ export default function ReentryGuideGR() {
 
         {/* p9 Final UI */}
         <section className="bg-[#FDDEBA] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <h2 className="m-auto px-14 pt-10 text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+          <h2 className="m-auto px-14 pt-10 text-gray-900 inline-flex font-bold text-2xl text-left">
             Final UI
           </h2>
 
@@ -634,7 +634,7 @@ export default function ReentryGuideGR() {
             </div>
             {/* text block */}
             <div className=" col-span-1 row-span-2 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5">
-              <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-2xl text-left">
+              <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
                 Technology Stack Evaluation
               </h2>
               <ul className="list-none">
@@ -708,7 +708,7 @@ export default function ReentryGuideGR() {
           <div className=" col-span-2 lg:col-span-1 lg:mx-[2em] md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
             {/* title */}
             <div className="flex flex-row py-3">
-              <h2 className="text-gray-900 inline-flex font-bold font-RedHatDisplay text-xl text-left">
+              <h2 className="text-gray-900 inline-flex font-bold text-xl text-left">
                 The Website
               </h2>
             </div>
