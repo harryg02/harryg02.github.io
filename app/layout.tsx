@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Harry Gu - Creative Designer & Developer | Portfolio",
+  title: "Harry Gu - Web Design, Front-End & UX Research | Portfolio",
   description: "Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences.",
   keywords: "Harry Gu, graphic design, web design, UI/UX design, illustration, front-end programming, web development, logo design, branding, portfolio",
   icons: { icon: "/icons/favicon.png" },
