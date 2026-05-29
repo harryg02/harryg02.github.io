@@ -2,6 +2,8 @@ import Footer from "@/app/components/Footer";
 import ProjectHero from "@/app/components/ProjectHero";
 import type { Metadata } from "next";
 import Image from "next/image";
+import Section from "@/app/components/Section";
+import Block from "@/app/components/Block";
 
 export const metadata: Metadata = {
   title: "Harry Gu - Web Design, Front-End & UX Research | Portfolio - Calvin Finds",
@@ -64,433 +66,413 @@ export default function CalvinFinds() {
         />
 
         {/* P2 */}
-        <section className="text-[#2F2E41] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2 gap-3">
-            {/* text block */}
-            <div className="col-span-1 md:row-span-4 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
-              {/* title */}
-              <div className="flex flex-row py-3">
-                <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">
-                  Project Overview
-                </h2>
-              </div>
-
-              <p className="inline-flex text-md py-2 mb-3">
-                Calvin currently lacks an efficient and organized system for managing lost and found items on campus.
-                Calvin&apos;s current system involves lost-and-found boxes around campus and a written record of lost items.
-                The absence of an easily accessible, on demand system not only leads to frustration but also results in the
-                unnecessary prolonged loss of personal items, which could otherwise be easily recovered with a better
-                solution in place. Our app, Calvin Finds, aims to offer easy item reporting, streamlined item searches,
-                real-time updates, identifiable pictures, specified locations and community engagement.
-              </p>
-
-              <p className="inline-flex text-md py-2 mb-3">
-                In contrast to existing apps that cover a broader region, our app is designed exclusively for Calvin
-                students and faculty, offering a simplified experience for lost and found on campus.
-                It features an authentication system and requires minimal personal information, ensuring easy setup, quick
-                posting, and secure communication. This sets us apart from existing options and empowers the Calvin
-                community for seamless lost and found retrievals.
-              </p>
-
-              <p className="inline-flex text-md py-2 mb-3">
-                My role in the team is to design the UI, UX, and Brand Guidelines for the app, front-end development,
-                integration with the back-end, and debugging.
-              </p>
+        <Section bg="text-[#2F2E41]" columns={2} py="py-5" gap="gap-3" shadow>
+          {/* text block */}
+          <Block width="md" className="col-span-1 md:row-span-4 px-5 py-12">
+            {/* title */}
+            <div className="flex flex-row py-3">
+              <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">
+                Project Overview
+              </h2>
             </div>
 
-            <div className="flex flex-col justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-              <Image className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/photo.webp"
-                alt="Whiteboard sketch with 'Airpod' written in red marker and an arrow pointing to a drawing." 
-                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                />
-            </div>
+            <p className="inline-flex text-md py-2 mb-3">
+              Calvin currently lacks an efficient and organized system for managing lost and found items on campus.
+              Calvin&apos;s current system involves lost-and-found boxes around campus and a written record of lost items.
+              The absence of an easily accessible, on demand system not only leads to frustration but also results in the
+              unnecessary prolonged loss of personal items, which could otherwise be easily recovered with a better
+              solution in place. Our app, Calvin Finds, aims to offer easy item reporting, streamlined item searches,
+              real-time updates, identifiable pictures, specified locations and community engagement.
+            </p>
 
-            <div className="flex flex-col py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-              <Image className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/s1.webp"
-                alt="Email notification reporting a lost phone found in a parking lot." 
-                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                />
-            </div>
+            <p className="inline-flex text-md py-2 mb-3">
+              In contrast to existing apps that cover a broader region, our app is designed exclusively for Calvin
+              students and faculty, offering a simplified experience for lost and found on campus.
+              It features an authentication system and requires minimal personal information, ensuring easy setup, quick
+              posting, and secure communication. This sets us apart from existing options and empowers the Calvin
+              community for seamless lost and found retrievals.
+            </p>
 
-            <div className="flex flex-col px-5 py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-              <Image className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/s2.jpg"
-                alt="Chat interface showing a message thread about a lost power brick in a lab." 
-                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                />
-            </div>
-            <div className="flex flex-col px-5 py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
-              <Image className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/s3.jpg"
-                alt="Chat interface displaying a message about items left behind in a computer lab." 
-                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                />
-            </div>
+            <p className="inline-flex text-md py-2 mb-3">
+              My role in the team is to design the UI, UX, and Brand Guidelines for the app, front-end development,
+              integration with the back-end, and debugging.
+            </p>
+          </Block>
+
+          <div className="flex flex-col justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <Image className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/photo.webp"
+              alt="Whiteboard sketch with 'Airpod' written in red marker and an arrow pointing to a drawing."
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+              />
           </div>
-        </section>
+
+          <div className="flex flex-col py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <Image className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/s1.webp"
+              alt="Email notification reporting a lost phone found in a parking lot."
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+              />
+          </div>
+
+          <div className="flex flex-col px-5 py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <Image className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/s2.jpg"
+              alt="Chat interface showing a message thread about a lost power brick in a lab."
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+              />
+          </div>
+          <div className="flex flex-col px-5 py-5 justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
+            <Image className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]" src="/images/CalvinFinds/s3.jpg"
+              alt="Chat interface displaying a message about items left behind in a computer lab."
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+              />
+          </div>
+        </Section>
 
         {/* p3 Research and Planning */}
         {/* 3.1 */}
-        <section className="text-[#2F2E41] bg-white drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2">
-            {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
-              {/* title */}
-              <div className="flex flex-row py-3">
-                <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">
-                  Research and Planning
-                </h2>
-              </div>
+        <Section bg="bg-white text-[#2F2E41]" columns={2} py="py-5" shadow>
+          {/* text block */}
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
+            {/* title */}
+            <div className="flex flex-row py-3">
+              <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">
+                Research and Planning
+              </h2>
+            </div>
 
-              <h3 className="font-black text-lg inline-flex pt-4">Target Audience</h3>
-              <p className="inline-flex pb-4 mb-3">
-                The target audience are primarily College students at Calvin University, as well as some staff.
+            <h3 className="font-black text-lg inline-flex pt-4">Target Audience</h3>
+            <p className="inline-flex pb-4 mb-3">
+              The target audience are primarily College students at Calvin University, as well as some staff.
+            </p>
+            <b className="font-black text-lg">Key Findings:</b>
+
+            <div className="flex flex-col py-4">
+              <b className="">• Demographics</b>
+              <p className="pl-3">
+                A large proportion of undergrad students and graduate students, as well as some campus staffs that has a
+                wide range of age and demographics.
+                Therefore we chose colorful color palette that vibes with Gen-Z style, and the UI and functionality is
+                heavily influenced by modern social media app.
               </p>
-              <b className="font-black text-lg">Key Findings:</b>
+            </div>
+          </Block>
 
-              <div className="flex flex-col py-4">
-                <b className="">• Demographics</b>
-                <p className="pl-3">
-                  A large proportion of undergrad students and graduate students, as well as some campus staffs that has a
-                  wide range of age and demographics.
-                  Therefore we chose colorful color palette that vibes with Gen-Z style, and the UI and functionality is
-                  heavily influenced by modern social media app.
-                </p>
-              </div>
+          {/* text block */}
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
+            <div className="flex flex-col py-4">
+              <b className="">• Environment</b>
+              <p className="pl-3">Primarily on campus, the students and staff are usually busy.</p>
             </div>
 
-            {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
-              <div className="flex flex-col py-4">
-                <b className="">• Environment</b>
-                <p className="pl-3">Primarily on campus, the students and staff are usually busy.</p>
-              </div>
-
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/CalvinUniversity.jpg"
-                  alt="Students walking along a paved pathway on a university campus." 
-                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                  />
-                <p className=" p-2">Credit: Calvin University</p>
-              </div>
-
-              <div className="flex flex-col py-4">
-                <b className="">• Technology Experience</b>
-                <p className="pl-3">Most are experienced with phones, especially social media apps.
-                  <br />
-                </p>
-              </div>
+            <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <Image className="rounded-xl" src="/images/CalvinFinds/CalvinUniversity.jpg"
+                alt="Students walking along a paved pathway on a university campus."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
+              <p className=" p-2">Credit: Calvin University</p>
             </div>
-          </div>
-        </section>
+
+            <div className="flex flex-col py-4">
+              <b className="">• Technology Experience</b>
+              <p className="pl-3">Most are experienced with phones, especially social media apps.
+                <br />
+              </p>
+            </div>
+          </Block>
+        </Section>
 
         {/* 3.2 */}
-        <section className="text-[#2F2E41] bg-[#F4F1F1] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2">
-            {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
-              <h3 className="font-black text-xl inline-flex py-2 mb-1">
-                UI/UX Design Brainstorming
+        <Section bg="bg-[#F4F1F1] text-[#2F2E41]" columns={2} py="py-5" shadow>
+          {/* text block */}
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
+            <h3 className="font-black text-xl inline-flex py-2 mb-1">
+              UI/UX Design Brainstorming
+              <br />
+            </h3>
+
+            <div className="flex flex-col py-4">
+              <h4 className="font-black text-base">• Familiarity</h4>
+              <p className="pl-3">inspired by modern social media apps, but posting lost/found items instead.</p>
+            </div>
+
+            <div className="flex flex-col py-4">
+              <h4 className="font-black text-base">• Consistency</h4>
+              <p className="pl-3">Long rectangular shapes indicates input fields, rounded shapes indicates clickable buttons.</p>
+            </div>
+          </Block>
+
+          {/* text block */}
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
+            <div className="flex flex-col py-4">
+              <h4 className="font-black text-base">• Accessibility</h4>
+              <p className="pl-3">We designed the application with inclusive mind. We want to take cared of the users who may
+                have motion or certain vision disabilities, Se we use bright yellow as primary button colors. large text
+                as primary font, and huge buttons for easy user interaction.
                 <br />
-              </h3>
-
-              <div className="flex flex-col py-4">
-                <h4 className="font-black text-base">• Familiarity</h4>
-                <p className="pl-3">inspired by modern social media apps, but posting lost/found items instead.</p>
-              </div>
-
-              <div className="flex flex-col py-4">
-                <h4 className="font-black text-base">• Consistency</h4>
-                <p className="pl-3">Long rectangular shapes indicates input fields, rounded shapes indicates clickable buttons.</p>
-              </div>
-            </div>
-
-            {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
-              <div className="flex flex-col py-4">
-                <h4 className="font-black text-base">• Accessibility</h4>
-                <p className="pl-3">We designed the application with inclusive mind. We want to take cared of the users who may
-                  have motion or certain vision disabilities, Se we use bright yellow as primary button colors. large text
-                  as primary font, and huge buttons for easy user interaction.
-                  <br />
-                  <br />
-                  <br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 3.3 */}
-        <section className="text-[#2F2E41] bg-[#FFF] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2">
-            {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
-              <h3 className="font-black text-xl inline-flex py-2 mb-1">Management Method</h3>
-              <div className="flex flex-col py-4">
-                <h4 className="font-black text-base">• Sprint Planning</h4>
-                <p className="pl-3">
-                  We organized our work into sprints - time-boxed periods (for us, typically 2-3 weeks) during which our
-                  team worked to complete a set amount of work and reached a milestone, such as completing UI/UX design, or
-                  complete deploying the server. This allowed us to:
-                </p>
-                <ul className="list-disc pl-6">
-                  <li>Focus on specific, achievable goals within a fixed timeframe</li>
-                  <li>Regularly reassess and adjust our priorities</li>
-                  <li>Deliver working increments of our product at the end of each sprint</li>
-                </ul>
-              </div>
-            </div>
-
-            {/* text block */}
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/ReentryGuide-GR/agile.webp"
-                  alt="Circular flowchart illustrating the Agile development lifecycle phases." 
-                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                  />
-                <p className=" p-2">Credit: Asana</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 3.4 */}
-        <section className="text-[#2F2E41] bg-[#FFF] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1200px] m-auto px-6 pb-5 grid grid-col-1 lg:grid-cols-2">
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5">
-              <div className="flex flex-col py-4">
-                <h4 className="font-black text-base">• Sprint Meetings</h4>
-                <p className="pl-3">We held weekly sprint meetings after class to review progress, plan upcoming tasks, and address any challenges.</p>
-              </div>
-            </div>
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5">
-              <div className="flex flex-col py-4">
-                <h4 className="font-black text-base">• Design-Development Integration</h4>
-                <p className="pl-3">As both a designer and developer, I was able to seamlessly integrate Figma designs with React Native development, ensuring a smooth transition from design to implementation.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 3.5 */}
-        <section className="text-[#2F2E41] bg-[#FFF] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1200px] m-auto px-6 pb-5 grid grid-col-1 lg:grid-cols-2">
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5">
-              <div className="flex flex-col py-4">
-                <h4 className="font-black text-base">• Kanban - Trello Board</h4>
-                <p className="pl-3">We used a Kanban board in Trello to visualize our workflow and manage tasks efficiently. Our board included:</p>
-                <ul className="list-disc pl-6">
-                  <li>Idea log - to record and track project ideas</li>
-                  <li>Story log - to document user stories</li>
-                  <li>Backlog - for prioritized, sprint-ready tasks</li>
-                  <li>Sprint Backlog - tasks committed for the current sprint</li>
-                  <li>Doing and Done columns - to track task progress within the sprint</li>
-                </ul>
-              </div>
-              <p className="pl-3">Kanban Template we were using:</p>
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/t1.webp"
-                  alt="Kanban board interface showing 'To Do', 'Doing', and 'Done' columns." 
-                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                  />
-                <p className=" p-2"></p>
-              </div>
-            </div>
-
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5">
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/t2.webp"
-                  alt="Kanban board columns populated with specific development tasks." 
-                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                  />
-                <p className=" p-2"></p>
-              </div>
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/t3.webp" alt="Kanban board showing progress on tasks"  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
-                <p className=" p-2"></p>
-              </div>
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/t4.webp"
-                  alt="Kanban board detail view showing 'Sprints 1 through x-1' task grouping." 
-                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                  />
-                <p className=" p-2"></p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 3.6 */}
-        <section className="text-[#2F2E41] bg-[#F4F1F1] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1200px] m-auto px-6 py-5 grid grid-col-1 lg:grid-cols-2">
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
-              <h3 className="font-black text-xl inline-flex py-4 mb-1">Technology Stack Evaluation</h3>
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/tech.webp"
-                  alt="Logos for PostgreSQL, GitHub, Azure, React Native, Figma, Inkscape, and Trello." 
-                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                  />
-                <p className=" p-2"></p>
-              </div>
-              <div className="flex flex-col py-4">
-                <h4 className="font-black text-base">• ElephantSQL</h4>
-                <p className="pl-3">Used as our database, as required by the professor. It provided a reliable PostgreSQL database solution with cloud hosting capabilities.</p>
-              </div>
-              <div className="flex flex-col py-4">
-                <h4 className="font-black text-base">• Microsoft Azure</h4>
-                <p className="pl-3">Utilized for server hosting, as required by the professor. Azure offered robust cloud computing services that integrated well with our other technologies.</p>
-              </div>
-              <div className="flex flex-col py-4">
-                <h4 className="font-black text-base">• Figma</h4>
-                <p className="pl-3">Our choice for UI/UX design. Figma provided an easy-to-use, free platform for collaborative design work, which integrated seamlessly with our development process.</p>
-              </div>
-            </div>
-
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
-              <div className="flex flex-col py-4">
-                <div className="flex flex-col py-4">
-                  <h4 className="font-black text-base">• draw.io</h4>
-                  <p className="pl-3">Selected for creating various diagrams such as UI models and deployment diagrams. Its user-friendly interface made it easy for all team members to contribute to visual documentation.</p>
-                </div>
-
-                <h4 className="font-black text-base">• React Native with Expo</h4>
-                <p className="pl-3">Used for client-side development, as required by the professor. We specifically chose to use Expo for a managed workflow, which offered several advantages:</p>
-                <ul className="list-disc pl-6">
-                  <li>Simplified package management, making it easier to handle dependencies</li>
-                  <li>Quick setup and initialization of the project</li>
-                  <li>Access to pre-built UI components and APIs</li>
-                  <li>Easier testing and previewing on physical devices</li>
-                  <li>Streamlined build process for both iOS and Android platforms</li>
-                </ul>
-                <p className="pl-3 mt-2">
-                  This managed workflow approach with Expo allowed us to focus more on developing features rather than
-                  configuring the development environment, which was crucial for our project timeline.
-                </p>
-              </div>
-              <div className="flex flex-col py-4">
-                <h4 className="font-black text-base">• Github</h4>
-                <p className="pl-3">Used for hosting the source code and documents, as required by the professor.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.1 */}
-        <section className="text-[#2F2E41] bg-[#FFAF66] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1200px] m-auto px-6 pt-10 grid grid-col-1 lg:grid-cols-2">
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
-              <div className="flex flex-row py-3">
-                <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">Design</h2>
-              </div>
-              <h3 className="font-black text-xl inline-flex py-2 mb-1">Social Media Inspiration</h3>
-              <div className="flex flex-col py-2">
-                <b className="">• Instagram-Inspired Main Screen</b>
-                <p className="pl-3">Our main screen design draws primary inspiration from Instagram:</p>
-                <ul className="list-disc pl-6">
-                  <li>Image-focused layout to showcase lost/found items clearly</li>
-                  <li>Card-based organization containing pictures and essential information</li>
-                  <li>Comment sections for users to provide additional details</li>
-                  <li>Fixed layout for text elements (title, subtitle, date, finder&apos;s name)<br /><br /></li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl"
-                  src="https://cdn.dribbble.com/users/1052299/screenshots/3819384/shot.png?resize=800x600&vertical=center"
-                  alt="Mobile UI concept featuring an image-heavy social media feed layout." 
-                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                  />
-                <p className=" p-2">Credit: Ivan Martynenko</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.2 */}
-        <section className="text-[#2F2E41] bg-[#FFAF66] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1200px] m-auto px-6 pb-5 grid grid-col-1 lg:grid-cols-2">
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5">
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="/images/CalvinFinds/card.webp"
-                  alt="UI card component displaying a photo of socks, user avatar, and location tag." 
-                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                  />
-                <p className=" p-2"></p>
-              </div>
-            </div>
-
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5">
-              <div className="flex flex-col py-2">
-                <b className="">• Platform Comparisons</b>
-                <p className="pl-3">We examined other platforms but found Instagram&apos;s approach most suitable:</p>
-                <ul className="list-disc pl-6">
-                  <li>Facebook and Twitter are primarily word-focused, less suitable for our image-centric needs</li>
-                  <li>Adapted Instagram&apos;s image-first approach to fit our specific lost and found context</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5">
-              <h3 className="font-black text-lg inline-flex py-2 mb-1">Color Scheme and Branding</h3>
-              <div className="flex flex-col py-2">
-                <b className="">• Gen-Z Appeal</b>
-                <p className="pl-3">We chose bright colors like yellow and red to resonate with our target audience:</p>
-                <ul className="list-disc pl-6">
-                  <li>Inspired by popular platforms like Snapchat</li>
-                  <li>Reflects current Gen-Z fashion and style preferences</li>
-                  <li>Creates a vibrant and energetic user interface<br /><br /></li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 pb-5">
-              <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-                <Image className="rounded-xl" src="https://images.pexels.com/photos/5325866/pexels-photo-5325866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  alt="Three young adults wearing bright clothing, one holding a green smartphone." 
-                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                  />
-                <p className=" p-2"></p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* 4.3 */}
-        <section className="text-[#2F2E41] bg-[#fdc794] drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1200px] m-auto px-6 py-10 grid grid-col-1 lg:grid-cols-2">
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
-              <h3 className="font-black text-xl inline-flex py-2 mb-1">Accessibility Considerations</h3>
-              <div className="flex flex-col py-2">
-                <b className="">• Typography</b>
-                <p className="pl-3">Our text styling choices support both accessibility and modern design trends:</p>
-                <ul className="list-disc pl-6">
-                  <li>Implemented bold text throughout the app to improve readability</li>
-                  <li>Bold text aligns with recent design trends, creating a modern look while enhancing visibility</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-start items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
-              <div className="flex flex-col py-2">
-                <b className="">• Color Choices</b>
-                <p className="pl-3">We prioritized accessibility in our color selections:</p>
-                <ul className="list-disc pl-6">
-                  <li>Avoided problematic color combinations (solid red/green, blue/yellow) to accommodate color blindness</li>
-                  <li>Used orange as a key color to enhance visibility for users with color vision deficiencies</li>
-                </ul>
-              </div>
-              <p className="pl-3 mt-4">
-                By combining social media design influences with careful consideration for accessibility, we&apos;ve created an
-                interface that is both familiar to our users and inclusive for those with different visual needs.
+                <br />
+                <br />
               </p>
             </div>
-          </div>
-        </section>
+          </Block>
+        </Section>
+
+        {/* 3.3 */}
+        <Section bg="bg-[#FFF] text-[#2F2E41]" columns={2} py="py-5" shadow>
+          {/* text block */}
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
+            <h3 className="font-black text-xl inline-flex py-2 mb-1">Management Method</h3>
+            <div className="flex flex-col py-4">
+              <h4 className="font-black text-base">• Sprint Planning</h4>
+              <p className="pl-3">
+                We organized our work into sprints - time-boxed periods (for us, typically 2-3 weeks) during which our
+                team worked to complete a set amount of work and reached a milestone, such as completing UI/UX design, or
+                complete deploying the server. This allowed us to:
+              </p>
+              <ul className="list-disc pl-6">
+                <li>Focus on specific, achievable goals within a fixed timeframe</li>
+                <li>Regularly reassess and adjust our priorities</li>
+                <li>Deliver working increments of our product at the end of each sprint</li>
+              </ul>
+            </div>
+          </Block>
+
+          {/* text block */}
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
+            <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <Image className="rounded-xl" src="/images/ReentryGuide-GR/agile.webp"
+                alt="Circular flowchart illustrating the Agile development lifecycle phases."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
+              <p className=" p-2">Credit: Asana</p>
+            </div>
+          </Block>
+        </Section>
+
+        {/* 3.4 */}
+        <Section bg="bg-[#FFF] text-[#2F2E41]" columns={2} py="pb-5" shadow>
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 pb-5">
+            <div className="flex flex-col py-4">
+              <h4 className="font-black text-base">• Sprint Meetings</h4>
+              <p className="pl-3">We held weekly sprint meetings after class to review progress, plan upcoming tasks, and address any challenges.</p>
+            </div>
+          </Block>
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 pb-5">
+            <div className="flex flex-col py-4">
+              <h4 className="font-black text-base">• Design-Development Integration</h4>
+              <p className="pl-3">As both a designer and developer, I was able to seamlessly integrate Figma designs with React Native development, ensuring a smooth transition from design to implementation.</p>
+            </div>
+          </Block>
+        </Section>
+
+        {/* 3.5 */}
+        <Section bg="bg-[#FFF] text-[#2F2E41]" columns={2} py="pb-5" shadow>
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 pb-5">
+            <div className="flex flex-col py-4">
+              <h4 className="font-black text-base">• Kanban - Trello Board</h4>
+              <p className="pl-3">We used a Kanban board in Trello to visualize our workflow and manage tasks efficiently. Our board included:</p>
+              <ul className="list-disc pl-6">
+                <li>Idea log - to record and track project ideas</li>
+                <li>Story log - to document user stories</li>
+                <li>Backlog - for prioritized, sprint-ready tasks</li>
+                <li>Sprint Backlog - tasks committed for the current sprint</li>
+                <li>Doing and Done columns - to track task progress within the sprint</li>
+              </ul>
+            </div>
+            <p className="pl-3">Kanban Template we were using:</p>
+            <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <Image className="rounded-xl" src="/images/CalvinFinds/t1.webp"
+                alt="Kanban board interface showing 'To Do', 'Doing', and 'Done' columns."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
+              <p className=" p-2"></p>
+            </div>
+          </Block>
+
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 pb-5">
+            <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <Image className="rounded-xl" src="/images/CalvinFinds/t2.webp"
+                alt="Kanban board columns populated with specific development tasks."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
+              <p className=" p-2"></p>
+            </div>
+            <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <Image className="rounded-xl" src="/images/CalvinFinds/t3.webp" alt="Kanban board showing progress on tasks"  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+              <p className=" p-2"></p>
+            </div>
+            <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <Image className="rounded-xl" src="/images/CalvinFinds/t4.webp"
+                alt="Kanban board detail view showing 'Sprints 1 through x-1' task grouping."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
+              <p className=" p-2"></p>
+            </div>
+          </Block>
+        </Section>
+
+        {/* 3.6 */}
+        <Section bg="bg-[#F4F1F1] text-[#2F2E41]" columns={2} py="py-5" shadow>
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
+            <h3 className="font-black text-xl inline-flex py-4 mb-1">Technology Stack Evaluation</h3>
+            <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <Image className="rounded-xl" src="/images/CalvinFinds/tech.webp"
+                alt="Logos for PostgreSQL, GitHub, Azure, React Native, Figma, Inkscape, and Trello."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
+              <p className=" p-2"></p>
+            </div>
+            <div className="flex flex-col py-4">
+              <h4 className="font-black text-base">• ElephantSQL</h4>
+              <p className="pl-3">Used as our database, as required by the professor. It provided a reliable PostgreSQL database solution with cloud hosting capabilities.</p>
+            </div>
+            <div className="flex flex-col py-4">
+              <h4 className="font-black text-base">• Microsoft Azure</h4>
+              <p className="pl-3">Utilized for server hosting, as required by the professor. Azure offered robust cloud computing services that integrated well with our other technologies.</p>
+            </div>
+            <div className="flex flex-col py-4">
+              <h4 className="font-black text-base">• Figma</h4>
+              <p className="pl-3">Our choice for UI/UX design. Figma provided an easy-to-use, free platform for collaborative design work, which integrated seamlessly with our development process.</p>
+            </div>
+          </Block>
+
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
+            <div className="flex flex-col py-4">
+              <div className="flex flex-col py-4">
+                <h4 className="font-black text-base">• draw.io</h4>
+                <p className="pl-3">Selected for creating various diagrams such as UI models and deployment diagrams. Its user-friendly interface made it easy for all team members to contribute to visual documentation.</p>
+              </div>
+
+              <h4 className="font-black text-base">• React Native with Expo</h4>
+              <p className="pl-3">Used for client-side development, as required by the professor. We specifically chose to use Expo for a managed workflow, which offered several advantages:</p>
+              <ul className="list-disc pl-6">
+                <li>Simplified package management, making it easier to handle dependencies</li>
+                <li>Quick setup and initialization of the project</li>
+                <li>Access to pre-built UI components and APIs</li>
+                <li>Easier testing and previewing on physical devices</li>
+                <li>Streamlined build process for both iOS and Android platforms</li>
+              </ul>
+              <p className="pl-3 mt-2">
+                This managed workflow approach with Expo allowed us to focus more on developing features rather than
+                configuring the development environment, which was crucial for our project timeline.
+              </p>
+            </div>
+            <div className="flex flex-col py-4">
+              <h4 className="font-black text-base">• Github</h4>
+              <p className="pl-3">Used for hosting the source code and documents, as required by the professor.</p>
+            </div>
+          </Block>
+        </Section>
+
+        {/* 4.1 */}
+        <Section bg="bg-[#FFAF66] text-[#2F2E41]" columns={2} py="pt-10" shadow>
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
+            <div className="flex flex-row py-3">
+              <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">Design</h2>
+            </div>
+            <h3 className="font-black text-xl inline-flex py-2 mb-1">Social Media Inspiration</h3>
+            <div className="flex flex-col py-2">
+              <b className="">• Instagram-Inspired Main Screen</b>
+              <p className="pl-3">Our main screen design draws primary inspiration from Instagram:</p>
+              <ul className="list-disc pl-6">
+                <li>Image-focused layout to showcase lost/found items clearly</li>
+                <li>Card-based organization containing pictures and essential information</li>
+                <li>Comment sections for users to provide additional details</li>
+                <li>Fixed layout for text elements (title, subtitle, date, finder&apos;s name)<br /><br /></li>
+              </ul>
+            </div>
+          </Block>
+
+          <Block width="md" className="col-span-1 md:row-span-2 px-5 py-12">
+            <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <Image className="rounded-xl"
+                src="https://cdn.dribbble.com/users/1052299/screenshots/3819384/shot.png?resize=800x600&vertical=center"
+                alt="Mobile UI concept featuring an image-heavy social media feed layout."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
+              <p className=" p-2">Credit: Ivan Martynenko</p>
+            </div>
+          </Block>
+        </Section>
+
+        {/* 4.2 */}
+        <Section bg="bg-[#FFAF66] text-[#2F2E41]" columns={2} py="pb-5" shadow>
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 pb-5">
+            <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <Image className="rounded-xl" src="/images/CalvinFinds/card.webp"
+                alt="UI card component displaying a photo of socks, user avatar, and location tag."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
+              <p className=" p-2"></p>
+            </div>
+          </Block>
+
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 pb-5">
+            <div className="flex flex-col py-2">
+              <b className="">• Platform Comparisons</b>
+              <p className="pl-3">We examined other platforms but found Instagram&apos;s approach most suitable:</p>
+              <ul className="list-disc pl-6">
+                <li>Facebook and Twitter are primarily word-focused, less suitable for our image-centric needs</li>
+                <li>Adapted Instagram&apos;s image-first approach to fit our specific lost and found context</li>
+              </ul>
+            </div>
+          </Block>
+
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 pb-5">
+            <h3 className="font-black text-lg inline-flex py-2 mb-1">Color Scheme and Branding</h3>
+            <div className="flex flex-col py-2">
+              <b className="">• Gen-Z Appeal</b>
+              <p className="pl-3">We chose bright colors like yellow and red to resonate with our target audience:</p>
+              <ul className="list-disc pl-6">
+                <li>Inspired by popular platforms like Snapchat</li>
+                <li>Reflects current Gen-Z fashion and style preferences</li>
+                <li>Creates a vibrant and energetic user interface<br /><br /></li>
+              </ul>
+            </div>
+          </Block>
+
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 pb-5">
+            <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
+              <Image className="rounded-xl" src="https://images.pexels.com/photos/5325866/pexels-photo-5325866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Three young adults wearing bright clothing, one holding a green smartphone."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                />
+              <p className=" p-2"></p>
+            </div>
+          </Block>
+        </Section>
+
+        {/* 4.3 */}
+        <Section bg="bg-[#fdc794] text-[#2F2E41]" columns={2} py="py-10" shadow>
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
+            <h3 className="font-black text-xl inline-flex py-2 mb-1">Accessibility Considerations</h3>
+            <div className="flex flex-col py-2">
+              <b className="">• Typography</b>
+              <p className="pl-3">Our text styling choices support both accessibility and modern design trends:</p>
+              <ul className="list-disc pl-6">
+                <li>Implemented bold text throughout the app to improve readability</li>
+                <li>Bold text aligns with recent design trends, creating a modern look while enhancing visibility</li>
+              </ul>
+            </div>
+          </Block>
+
+          <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
+            <div className="flex flex-col py-2">
+              <b className="">• Color Choices</b>
+              <p className="pl-3">We prioritized accessibility in our color selections:</p>
+              <ul className="list-disc pl-6">
+                <li>Avoided problematic color combinations (solid red/green, blue/yellow) to accommodate color blindness</li>
+                <li>Used orange as a key color to enhance visibility for users with color vision deficiencies</li>
+              </ul>
+            </div>
+            <p className="pl-3 mt-4">
+              By combining social media design influences with careful consideration for accessibility, we&apos;ve created an
+              interface that is both familiar to our users and inclusive for those with different visual needs.
+            </p>
+          </Block>
+        </Section>
 
         {/* p5 Brand */}
         <section className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-3">
+          <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-cols-1 lg:grid-cols-3">
             <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <Image src="/images/CalvinFinds/brand2.svg" alt="Green app icon with a white image-placeholder symbol."  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             </div>
@@ -502,7 +484,7 @@ export default function CalvinFinds() {
 
         {/* p6 Usability Testing */}
         <section className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1300px] m-auto pb-10 grid grid-col-1 lg:grid-cols-2">
+          <div className="max-w-[1300px] m-auto pb-10 grid grid-cols-1 lg:grid-cols-2">
             <div className="order-1 self-start col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-5 py-12">
               <div className="flex flex-row py-3">
                 <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">Usability Testing</h2>
@@ -557,7 +539,7 @@ export default function CalvinFinds() {
             <div className="order-3 self-start col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <Image className="rounded-xl" src="/images/CalvinFinds/Usability Test Script-1.webp"
-                  alt="Page 1 of the printed usability testing questionnaire." 
+                  alt="Page 1 of the printed usability testing questionnaire."
                   width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
                 <p className=" p-2">Usability testing Script - Page 1</p>
@@ -567,7 +549,7 @@ export default function CalvinFinds() {
             <div className="order-4 self-start col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-5">
               <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                 <Image className="rounded-xl" src="/images/CalvinFinds/Usability Test Script-2.webp"
-                  alt="Page 2 of the printed usability testing questionnaire." 
+                  alt="Page 2 of the printed usability testing questionnaire."
                   width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
                 <p className=" p-2">Usability testing Script - Page 2</p>
@@ -592,14 +574,14 @@ export default function CalvinFinds() {
               <div className="my-4 flex flex-col lg:flex-row justify-center items-center gap-4">
                 <div className="flex flex-col items-center">
                   <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/before.webp"
-                    alt="Dashboard using a segment control for 'Found' vs 'Lost'." 
+                    alt="Dashboard using a segment control for 'Found' vs 'Lost'."
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   <p className=" p-2">before</p>
                 </div>
                 <div className="flex flex-col items-center">
                   <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/after.webp"
-                    alt="Dashboard using distinct orange buttons for 'Found' and 'Lost' toggles." 
+                    alt="Dashboard using distinct orange buttons for 'Found' and 'Lost' toggles."
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   <p className=" p-2">after</p>
@@ -608,14 +590,14 @@ export default function CalvinFinds() {
               <div className="my-4 flex flex-col lg:flex-row justify-center items-center gap-4">
                 <div className="flex flex-col items-center">
                   <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/main-before-search-activated.webp"
-                    alt="Search bar with a generic magnifying glass icon." 
+                    alt="Search bar with a generic magnifying glass icon."
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   <p className=" p-2">before (search activated)</p>
                 </div>
                 <div className="flex flex-col items-center">
                   <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/main-after-search-activated.webp"
-                    alt="Search bar with a clear 'Type to search item' placeholder." 
+                    alt="Search bar with a clear 'Type to search item' placeholder."
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   <p className=" p-2">after (search activated)</p>
@@ -627,14 +609,14 @@ export default function CalvinFinds() {
               <div className="grid-cols-2">
                 <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                   <Image className="rounded-xl max-w-[300px]" src="/images/CalvinFinds/usability-testing/detail-before.webp"
-                    alt="Item detail screen lacking contact information." 
+                    alt="Item detail screen lacking contact information."
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   <p className=" p-2">before</p>
                 </div>
                 <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
                   <Image className="rounded-xl max-w-[300px]" src="/images/CalvinFinds/usability-testing/detail-after.webp"
-                    alt="Item detail screen displaying the poster's email and username." 
+                    alt="Item detail screen displaying the poster's email and username."
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   <p className=" p-2">after</p>
@@ -670,14 +652,14 @@ export default function CalvinFinds() {
               <div className="flex flex-col lg:flex-row justify-center items-center gap-4">
                 <div className="flex flex-col items-center">
                   <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/map-before.webp"
-                    alt="Map interface showing a generic pin drop." 
+                    alt="Map interface showing a generic pin drop."
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   <p className=" p-2">before</p>
                 </div>
                 <div className="flex flex-col items-center">
                   <Image className="rounded-xl max-w-[250px]" src="/images/CalvinFinds/usability-testing/map-after.webp"
-                    alt="Map interface showing a specific building label 'Beets-Veenstra Hall'." 
+                    alt="Map interface showing a specific building label 'Beets-Veenstra Hall'."
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                     />
                   <p className=" p-2">after</p>
@@ -714,13 +696,13 @@ export default function CalvinFinds() {
 
         {/* p7 UI model */}
         <section className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
-          <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-1">
+          <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-cols-1 lg:grid-cols-1">
             <div className="flex flex-row p-3">
               <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">Initial UI Model</h2>
             </div>
             <div className="flex flex-col justify-center items-center p-2 col-span-1 md:col-span-1 row-span-2 transition sm:min-h-[150px] h-fit">
               <Image className="rounded-2xl" src="/images/CalvinFinds/UI-Model.jpg"
-                alt="High-fidelity user flow diagram connecting app screens with directional arrows." 
+                alt="High-fidelity user flow diagram connecting app screens with directional arrows."
                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                 />
             </div>
@@ -728,7 +710,7 @@ export default function CalvinFinds() {
         </section>
 
         {/* P8 Final UI */}
-        <section className="bg-[#FFAF66] py-10 grid grid-col-1 sm:grid-cols-2 lg:grid-cols-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
+        <section className="bg-[#FFAF66] py-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]">
           <div className="col-span-1 sm:col-span-2 lg:col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left px-8 py-12">
             <div className="flex flex-row p-4">
               <h2 className="text-[#2F2E41] mt-4 inline-flex font-black text-xl text-left">Final UI</h2>
@@ -758,7 +740,7 @@ export default function CalvinFinds() {
 
         {/* p9 Deployment Diagram */}
         <section className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] py-10">
-          <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-1">
+          <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-cols-1 lg:grid-cols-1">
             <div className="flex flex-row p-3">
               <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">Deployment Diagram</h2>
             </div>
@@ -770,7 +752,7 @@ export default function CalvinFinds() {
 
         {/* p10 Domain Model */}
         <section className="drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)] py-10 bg-[#18141D]">
-          <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-col-1 lg:grid-cols-1">
+          <div className="max-w-[1200px] m-auto px-6 pb-10 grid grid-cols-1 lg:grid-cols-1">
             <div className="flex flex-row pt-3">
               <h2 className="w-full justify-center inline-flex font-black text-white text-2xl text-left">Domain Model</h2>
             </div>

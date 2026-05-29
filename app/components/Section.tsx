@@ -1,15 +1,17 @@
 import React from "react";
 
 const toneMap = {
-  mauve: "bg-[#EDE3DD]",
-  cream: "bg-[#F9F4F1]",
+  mauve: "bg-[#EDE3DD] text-[#392A3D]",
+  cream: "bg-[#F9F4F1] text-[#392A3D]",
 } as const;
 
 type SectionProps = {
-  /** Background band color. */
+  /** Preset background + text color. Ignored when `bg` is provided. */
   tone?: keyof typeof toneMap;
+  /** Raw Tailwind background and text color classes (e.g. "bg-[#1A1A1A] text-white"). Overrides tone. */
+  bg?: string;
   /** Responsive column count for the inner grid. */
-  columns?: 1 | 2;
+  columns?: 1 | 2 | 4;
   /** Max content width in px. */
   maxW?: number;
   /** Vertical padding utility (e.g. "py-10"). */
@@ -29,8 +31,15 @@ type SectionProps = {
  * Full-bleed colored band + centered grid container.
  * Owns the page's section layout so column/spacing classes live in one place.
  */
+const colsMap = {
+  1: "",
+  2: "lg:grid-cols-2",
+  4: "lg:grid-cols-4",
+} as const;
+
 export default function Section({
   tone = "cream",
+  bg,
   columns = 1,
   maxW = 1200,
   py = "py-12",
@@ -40,16 +49,15 @@ export default function Section({
   containerClassName = "",
   children,
 }: SectionProps) {
+  const colorClasses = bg ?? toneMap[tone];
   return (
     <section
-      className={`text-[#392A3D] ${toneMap[tone]} ${
+      className={`${colorClasses} ${
         shadow ? "drop-shadow-[0_10px_8px_rgba(0,0,0,0.05)]" : ""
       } ${className}`}
     >
       <div
-        className={`m-auto px-6 ${py} grid grid-cols-1 ${
-          columns === 2 ? "lg:grid-cols-2" : ""
-        } ${gap} ${containerClassName}`}
+        className={`m-auto px-6 ${py} grid grid-cols-1 ${colsMap[columns]} ${gap} ${containerClassName}`}
         style={{ maxWidth: `${maxW}px` }}
       >
         {children}

@@ -122,27 +122,27 @@ export default function Kosmos() {
           </Block>
 
           {/* Hero before/after */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
+            <figure className="flex flex-col gap-2 m-0">
+              <Image
+                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full object-cover"
+                src="/images/kosmos_resort/hero-before.png"
+                alt="Old website hero section with very low contrast between the text and the background, and it shows the villa during the day time, which is less relevant to the stargazing experience."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+              />
+              <figcaption className="text-center text-[#392A3D]">Before</figcaption>
+            </figure>
+            <figure className="flex flex-col gap-2 m-0">
+              <Image
+                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full object-cover"
+                src="/images/kosmos_resort/desktop.webp"
+                alt="Website hero section featuring a dark galaxy background and improved contrast between the text and the background."
+                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+              />
+              <figcaption className="text-center text-[#392A3D]">After</figcaption>
+            </figure>
+          </div>
           <div className="flex flex-col justify-center items-center sm:min-h-[150px] h-fit w-full">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
-              <figure className="flex flex-col gap-2 m-0">
-                <Image
-                  className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full object-cover"
-                  src="/images/kosmos_resort/hero-before.png"
-                  alt="Old website hero section with very low contrast between the text and the background, and it shows the villa during the day time, which is less relevant to the stargazing experience."
-                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                />
-                <figcaption className="text-center text-[#392A3D]">Before</figcaption>
-              </figure>
-              <figure className="flex flex-col gap-2 m-0">
-                <Image
-                  className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full object-cover"
-                  src="/images/kosmos_resort/desktop.webp"
-                  alt="Website hero section featuring a dark galaxy background and improved contrast between the text and the background."
-                  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-                />
-                <figcaption className="text-center text-[#392A3D]">After</figcaption>
-              </figure>
-            </div>
             <Block className="p-5 lg:py-[4em]">
               <h3 className="font-bold text-xl text-left py-2">Homepage - Hero Section</h3>
               <ul className="list-disc pl-3 text-left">
@@ -158,19 +158,19 @@ export default function Kosmos() {
           </div>
 
           {/* Villa section */}
+          <Image
+            className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
+            src="/images/kosmos_resort/villa.webp"
+            alt="Villa booking card displaying amenities, price ($700/night), and interior photos of a bedroom inside a dome structure."
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+          />
+          <Image
+            className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] pt-10"
+            src="/images/kosmos_resort/villa2.webp"
+            alt="Villa booking card displaying a night-time rendering of a dome illuminated against a starry desert sky."
+            width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+          />
           <div className="flex flex-col justify-center items-center sm:min-h-[150px] h-fit">
-            <Image
-              className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-              src="/images/kosmos_resort/villa.webp"
-              alt="Villa booking card displaying amenities, price ($700/night), and interior photos of a bedroom inside a dome structure."
-              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-            />
-            <Image
-              className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] pt-10"
-              src="/images/kosmos_resort/villa2.webp"
-              alt="Villa booking card displaying a night-time rendering of a dome illuminated against a starry desert sky."
-              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-            />
             <Block className="p-5 lg:py-[4em]">
               <h3 className="font-bold text-xl text-left py-2">Homepage - Added Villa Section</h3>
               <ul className="list-disc pl-3 text-left">
@@ -246,21 +246,21 @@ export default function Kosmos() {
 
         {/* P4: Booking System */}
         <Section tone="mauve" maxW={1300} py="py-10" gap="gap-5">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <Image
+              className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]"
+              src="/images/kosmos_resort/widget.webp"
+              alt="Desktop view of the booking calendar interface."
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+            />
+            <Image
+              className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]"
+              src="/images/kosmos_resort/widget2.webp"
+              alt="Mobile view of the booking calendar interface."
+              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+            />
+          </div>
           <div className="flex flex-col justify-center items-center sm:min-h-[150px] h-fit">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              <Image
-                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]"
-                src="/images/kosmos_resort/widget.webp"
-                alt="Desktop view of the booking calendar interface."
-                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-              />
-              <Image
-                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full max-w-[500px]"
-                src="/images/kosmos_resort/widget2.webp"
-                alt="Mobile view of the booking calendar interface."
-                width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-              />
-            </div>
             <Block className="p-5 lg:py-[4em]">
               <h3 className="font-bold text-2xl text-left py-2 mb-4">
                 Strategic Implementation: The Booking System
