@@ -66,7 +66,7 @@ export default function CalvinFinds() {
         />
 
         {/* P2 */}
-        <Section bg="text-[#2F2E41]" columns={2} py="py-5" gap="gap-3" shadow>
+        <Section className="text-[#2F2E41]" columns={2} py="py-5" gap="gap-3" shadow>
           {/* text block */}
           <Block width="md" className="col-span-1 md:row-span-4 px-5 py-12">
             {/* title */}
@@ -129,7 +129,7 @@ export default function CalvinFinds() {
 
         {/* p3 Research and Planning */}
         {/* 3.1 */}
-        <Section bg="bg-white text-[#2F2E41]" columns={2} py="py-5" shadow>
+        <Section className="bg-white text-[#2F2E41]" columns={2} py="py-5" shadow>
           {/* text block */}
           <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
             {/* title */}
@@ -181,7 +181,7 @@ export default function CalvinFinds() {
         </Section>
 
         {/* 3.2 */}
-        <Section bg="bg-[#F4F1F1] text-[#2F2E41]" columns={2} py="py-5" shadow>
+        <Section className="bg-[#F4F1F1] text-[#2F2E41]" columns={2} py="py-5" shadow>
           {/* text block */}
           <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
             <h3 className="font-black text-xl inline-flex py-2 mb-1">
@@ -216,7 +216,7 @@ export default function CalvinFinds() {
         </Section>
 
         {/* 3.3 */}
-        <Section bg="bg-[#FFF] text-[#2F2E41]" columns={2} py="py-5" shadow>
+        <Section className="bg-[#FFF] text-[#2F2E41]" columns={2} py="py-5" shadow>
           {/* text block */}
           <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
             <h3 className="font-black text-xl inline-flex py-2 mb-1">Management Method</h3>
@@ -248,7 +248,7 @@ export default function CalvinFinds() {
         </Section>
 
         {/* 3.4 */}
-        <Section bg="bg-[#FFF] text-[#2F2E41]" columns={2} py="pb-5" shadow>
+        <Section className="bg-[#FFF] text-[#2F2E41]" columns={2} py="pb-5" shadow>
           <Block width="md" className="col-span-1 md:row-span-2 px-8 pb-5">
             <div className="flex flex-col py-4">
               <h4 className="font-black text-base">• Sprint Meetings</h4>
@@ -264,7 +264,7 @@ export default function CalvinFinds() {
         </Section>
 
         {/* 3.5 */}
-        <Section bg="bg-[#FFF] text-[#2F2E41]" columns={2} py="pb-5" shadow>
+        <Section className="bg-[#FFF] text-[#2F2E41]" columns={2} py="pb-5" shadow>
           <Block width="md" className="col-span-1 md:row-span-2 px-8 pb-5">
             <div className="flex flex-col py-4">
               <h4 className="font-black text-base">• Kanban - Trello Board</h4>
@@ -310,7 +310,7 @@ export default function CalvinFinds() {
         </Section>
 
         {/* 3.6 */}
-        <Section bg="bg-[#F4F1F1] text-[#2F2E41]" columns={2} py="py-5" shadow>
+        <Section className="bg-[#F4F1F1] text-[#2F2E41]" columns={2} py="py-5" shadow>
           <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
             <h3 className="font-black text-xl inline-flex py-4 mb-1">Technology Stack Evaluation</h3>
             <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
@@ -363,7 +363,7 @@ export default function CalvinFinds() {
         </Section>
 
         {/* 4.1 */}
-        <Section bg="bg-[#FFAF66] text-[#2F2E41]" columns={2} py="pt-10" shadow>
+        <Section className="bg-[#FFAF66] text-[#2F2E41]" columns={2} py="pt-10" shadow>
           <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
             <div className="flex flex-row py-3">
               <h2 className="inline-flex font-black text-[#2F2E41] text-2xl text-left">Design</h2>
@@ -394,7 +394,7 @@ export default function CalvinFinds() {
         </Section>
 
         {/* 4.2 */}
-        <Section bg="bg-[#FFAF66] text-[#2F2E41]" columns={2} py="pb-5" shadow>
+        <Section className="bg-[#FFAF66] text-[#2F2E41]" columns={2} py="pb-5" shadow>
           <Block width="md" className="col-span-1 md:row-span-2 px-8 pb-5">
             <div className="flex flex-col justify-center items-center py-2 col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <Image className="rounded-xl" src="/images/CalvinFinds/card.webp"
@@ -441,7 +441,7 @@ export default function CalvinFinds() {
         </Section>
 
         {/* 4.3 */}
-        <Section bg="bg-[#fdc794] text-[#2F2E41]" columns={2} py="py-10" shadow>
+        <Section className="bg-[#fdc794] text-[#2F2E41]" columns={2} py="py-10" shadow>
           <Block width="md" className="col-span-1 md:row-span-2 px-8 py-5">
             <h3 className="font-black text-xl inline-flex py-2 mb-1">Accessibility Considerations</h3>
             <div className="flex flex-col py-2">

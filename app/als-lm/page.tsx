@@ -33,7 +33,7 @@ export default function AlsLm() {
           description={<p className="text-left inline-flex ">A semester-long UX redesign of Adult Learning Systems &mdash; Lower Michigan&apos;s donation flow, using the UX Research method to form, test, and revise design hypotheses.</p>}
         />
 
-        <Section bg="bg-[#fcfcfc]" columns={1} shadow>
+        <Section className="bg-[#fcfcfc]" columns={1} shadow>
           <div className="flex flex-col justify-center items-center sm:min-h-[150px] h-fit w-full">
           <Block className="p-5">
             <h2 className="text-gray-900 inline-flex font-bold text-2xl text-left">
@@ -51,7 +51,7 @@ export default function AlsLm() {
         </Section>
 
         {/* p2 */}
-        <Section bg="bg-[#E4EFFF]" columns={2} py="py-10" shadow>
+        <Section className="bg-[#E4EFFF]" columns={2} py="py-10" shadow>
           {/* text block */}
           <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left text-left px-5 py-12">
             {/* title */}
@@ -75,7 +75,7 @@ export default function AlsLm() {
         </Section>
 
         {/* p4 UI/UX Design Research */}
-        <Section bg="bg-[#fcfcfc]" columns={1} shadow>
+        <Section className="bg-[#fcfcfc]" columns={1} shadow>
           <div className="flex flex-col justify-center items-center sm:min-h-[150px] h-fit w-full">
 
           <Block className="p-5">
@@ -111,7 +111,7 @@ export default function AlsLm() {
         </Section>
 
         {/* p5 */}
-        <Section bg="bg-[#fcfcfc]" columns={1} py="pb-10" shadow>
+        <Section className="bg-[#fcfcfc]" columns={1} py="pb-10" shadow>
           <div className="col-span-1 lg:col-span-3 py-10 text-center">
             <h2 className="text-gray-900 inline-flex font-bold text-2xl">
               The Redesign
@@ -188,7 +188,7 @@ export default function AlsLm() {
           </div>
         </Section>
 
-        <Section bg="bg-[#E4EFFF]" columns={1} shadow>
+        <Section className="bg-[#E4EFFF]" columns={1} shadow>
           <div className="flex flex-col justify-center items-center sm:min-h-[150px] h-fit w-full">
 
             <Block className="p-5">
@@ -216,7 +216,7 @@ export default function AlsLm() {
         </Section>
 
         {/* p6 */}
-        <Section bg="bg-[#E4EFFF]" columns={2} py="pt-10" shadow>
+        <Section className="bg-[#E4EFFF]" columns={2} py="pt-10" shadow>
           {/* text block */}
           <div className="col-span-1 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left text-left px-8">
             <h3 className="text-gray-900 inline-flex font-extrabold text-xl text-md text-left">
@@ -250,7 +250,7 @@ export default function AlsLm() {
           </div>
         </Section>
 
-        <Section bg="bg-[#E4EFFF]" columns={1} shadow>
+        <Section className="bg-[#E4EFFF]" columns={1} shadow>
           <div className="flex flex-col justify-center items-center sm:min-h-[150px] h-fit w-full">
 
             <Block className="p-5">
@@ -299,7 +299,7 @@ export default function AlsLm() {
           </div>
         </Section>
 
-        <Section bg="bg-[#fcfcfc]" columns={1} py="pb-10" shadow>
+        <Section className="bg-[#fcfcfc]" columns={1} py="pb-10" shadow>
           <div className="col-span-1 lg:col-span-3 py-10 text-center">
             <h2 className="text-gray-900 inline-flex font-bold text-2xl">
               Redesign Iteration
@@ -347,7 +347,7 @@ export default function AlsLm() {
           </div>
         </Section>
 
-        <Section bg="bg-[#fcfcfc]" columns={1} py="pb-10" shadow>
+        <Section className="bg-[#fcfcfc]" columns={1} py="pb-10" shadow>
           <div className="col-span-1 lg:col-span-3 py-10 text-center">
             <h2 className="text-gray-900 inline-flex font-bold text-2xl">
               Final Redesign

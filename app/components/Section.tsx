@@ -8,8 +8,6 @@ const toneMap = {
 type SectionProps = {
   /** Preset background + text color. Ignored when `bg` is provided. */
   tone?: keyof typeof toneMap;
-  /** Raw Tailwind background and text color classes (e.g. "bg-[#1A1A1A] text-white"). Overrides tone. */
-  bg?: string;
   /** Responsive column count for the inner grid. */
   columns?: 1 | 2 | 4;
   /** Max content width in px. */
@@ -39,7 +37,6 @@ const colsMap = {
 
 export default function Section({
   tone = "cream",
-  bg,
   columns = 1,
   maxW = 1200,
   py = "py-12",
@@ -49,7 +46,7 @@ export default function Section({
   containerClassName = "",
   children,
 }: SectionProps) {
-  const colorClasses = bg ?? toneMap[tone];
+  const colorClasses = className.includes("bg-") ? "" : toneMap[tone];
   return (
     <section
       className={`${colorClasses} ${

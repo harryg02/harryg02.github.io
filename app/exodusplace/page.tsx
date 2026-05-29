@@ -38,7 +38,7 @@ export default function ExodusPlace() {
         />
 
         {/* P2 */}
-        <Section bg="bg-[#0B4F3A] text-white" columns={2} maxW={1200} py="py-5" shadow>
+        <Section className="bg-[#0B4F3A] text-white" columns={2} maxW={1200} py="py-5" shadow>
           {/* text block */}
           <Block width="md" className="col-span-1 px-5 py-12">
             <h2 className=" inline-flex font-bold text-2xl text-left">Project Overview</h2>
@@ -100,7 +100,7 @@ export default function ExodusPlace() {
         </Section>
 
         {/* P3 */}
-        <Section bg="bg-[#E6F2EB] text-black" columns={2} maxW={1200} py="py-5" shadow containerClassName="justify-center items-center">
+        <Section className="bg-[#E6F2EB] text-black" columns={2} maxW={1200} py="py-5" shadow containerClassName="justify-center items-center">
           {/* Image */}
           <div className="flex flex-col justify-center items-center col-span-1 row-span-1 transition py-5 h-fit">
             <Image
@@ -177,7 +177,7 @@ export default function ExodusPlace() {
         </Section>
 
         {/* P4 */}
-        <Section bg="bg-[#1A1A1A] text-white" columns={2} maxW={1200} py="py-20">
+        <Section className="bg-[#1A1A1A] text-white" columns={2} maxW={1200} py="py-20">
           {/* text block */}
           <Block width="md" className="col-span-1 row-span-3 md:row-span-2 px-8">
             <h2 className="inline-flex font-bold text-[#72D976] text-2xl text-left py-3">
@@ -222,7 +222,7 @@ export default function ExodusPlace() {
         </Section>
 
         {/* P5 */}
-        <Section bg="bg-[#1A1A1A] text-white" columns={2} maxW={1300} py="py-20" gap="gap-5">
+        <Section className="bg-[#1A1A1A] text-white" columns={2} maxW={1300} py="py-20" gap="gap-5">
           <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-37.5 h-fit">
             <Image
               className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
@@ -247,7 +247,7 @@ export default function ExodusPlace() {
         </Section>
 
         {/* P6 */}
-        <Section bg="bg-[#1A1A1A] text-white" columns={2} maxW={1200} py="py-20">
+        <Section className="bg-[#1A1A1A] text-white" columns={2} maxW={1200} py="py-20">
           <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-37.5 h-fit -mt-10 -mb-10">
             <Image
               className="hidden md:block rounded-2xl"
@@ -266,7 +266,7 @@ export default function ExodusPlace() {
         </Section>
 
         {/* P7 */}
-        <Section bg="bg-[#1A1A1A] text-white" columns={4} maxW={1200} py="py-20" gap="gap-6">
+        <Section className="bg-[#1A1A1A] text-white" columns={4} maxW={1200} py="py-20" gap="gap-6">
           <div className="flex flex-col justify-center items-center md:col-span-3 transition sm:min-h-37.5 h-fit md:-mt-10 md:-mb-10">
             <Image
               className="rounded-2xl"
@@ -289,7 +289,7 @@ export default function ExodusPlace() {
         </Section>
 
         {/* P8 */}
-        <Section bg="bg-[#1A1A1A] text-white" columns={2} maxW={1200} py="py-20">
+        <Section className="bg-[#1A1A1A] text-white" columns={2} maxW={1200} py="py-20">
           <div className="flex flex-col justify-center items-center md:col-span-2 transition sm:min-h-37.5 h-fit md:-mt-10 md:-mb-10">
             <Image
               className="hidden md:block rounded-2xl"
@@ -310,7 +310,7 @@ export default function ExodusPlace() {
         </Section>
 
         {/* P9 */}
-        <Section bg="bg-[#1A1A1A] text-white" columns={4} maxW={1200} py="py-20" gap="gap-6">
+        <Section className="bg-[#1A1A1A] text-white" columns={4} maxW={1200} py="py-20" gap="gap-6">
           <div className="flex flex-col justify-center items-center md:col-span-3 transition sm:min-h-37.5 h-fit md:-mt-10 md:-mb-10">
             <Image
               className="rounded-2xl"
@@ -332,7 +332,7 @@ export default function ExodusPlace() {
         </Section>
 
         {/* Results */}
-        <Section bg="bg-white text-[#006826]" columns={4} maxW={1200} py="py-5" shadow>
+        <Section className="bg-white text-[#006826]" columns={4} maxW={1200} py="py-5" shadow>
           <div className="flex flex-col justify-center items-center col-span-4 mx-3 my-5 transition sm:min-h-37.5 h-fit">
             <Image
               className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
