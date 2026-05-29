@@ -9,7 +9,7 @@ export default function Footer() {
           <h2 className="text-gray-900 font-bold text-lg leading-8">About Me</h2>
           <p className="text-base">
             I&apos;m Harry Gu. I research, design, and code. I start by watching people doing things, then build solutions where accessibility is the default.{" "}
-            I prefer pragmatic simplicity. If two solutions achieve the same outcome, I choose the one that&apos;s easier to maintain, document, and scale. At Kosmos, stakeholders wanted a custom booking system. I proposed a lightweight calendar widget deep-linked to their existing engine: same UX, 80% less scope.
+            I treat design like science: form a hypothesis, ship it, measure whether it actually worked. I prefer pragmatic simplicity. If two solutions achieve the same outcome, I choose the one that&apos;s easier to maintain, document, and scale.
             Graphic Design at Calvin University, UX & Dev at University of Michigan - Ann Arbor. Fluent in English and Mandarin.
           </p>
         </div>
