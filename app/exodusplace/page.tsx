@@ -214,7 +214,7 @@ export default function ExodusPlace() {
               />
             </div>
 
-            <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
+            <div className="md:col-span-2 lg:col-span-1 p-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-2xl">
               <h3 className="font-bold text-xl text-[#72D976] text-left py-2">
                 Mission-Focused Homepage
               </h3>
@@ -223,7 +223,7 @@ export default function ExodusPlace() {
               <p className="text-left">&bull; Mobile-optimized navigation</p>
             </div>
 
-            <div className="md:col-span-2 lg:col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
+            <div className="md:col-span-2 lg:col-span-1 p-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-2xl">
               <h3 className="font-bold text-xl text-[#72D976] text-left py-2">
                 Visual Communication
               </h3>
