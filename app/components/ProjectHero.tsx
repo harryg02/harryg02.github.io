@@ -54,7 +54,7 @@ export default function ProjectHero({
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[1500px] mx-auto gap-10 px-5">
-        <div className="md:col-span-2 lg:col-span-1 p-5 lg:py-[4em] pt-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
+        <div className="md:col-span-2 lg:col-span-1 w-full max-w-2xl mx-auto p-5 lg:py-[4em] pt-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
           <Title className={titleClassName}>{title}</Title>
           {summary && <p className="py-3 text-left inline-flex ">{summary}</p>}
           {links.map((link) => (
@@ -73,7 +73,7 @@ export default function ProjectHero({
           <div className="" />
         </div>
 
-        <div className="md:col-span-2 lg:col-span-1 p-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+        <div className="md:col-span-2 lg:col-span-1 w-full max-w-2xl mx-auto p-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
           {meta.map((item, i) => (
             <Fragment key={item.label}>
               <h2 className={`${metaHeadingClassName}${i > 0 ? " mt-8" : ""}`}>{item.label}</h2>
@@ -82,7 +82,7 @@ export default function ProjectHero({
           ))}
         </div>
 
-        <div className="md:col-span-2 lg:col-span-1 px-5 lg:py-[4em] pb-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-xl">
+        <div className="md:col-span-2 lg:col-span-1 w-full max-w-2xl mx-auto px-5 lg:py-[4em] pb-20 flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center">
           {description}
         </div>
       </div>
