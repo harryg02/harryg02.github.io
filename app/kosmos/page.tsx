@@ -122,7 +122,7 @@ export default function Kosmos() {
 
         {/* P3 */}
         <section className="text-[#392A3D] bg-[#F9F4F1]">
-          <div className=" max-w-[1300px] m-auto px-6 py-20 grid grid-col-1 gap-5">
+          <div className=" max-w-[1300px] m-auto px-6 py-10 grid grid-col-1 gap-5">
             {/* text block */}
             <div className=" col-span-1 row-span-3 md:row-span-2 flex flex-col max-w-md mx-auto justify-center items-left transition bg-grey-500 min-h[30px] text-left  px-8">
               <h2 className="inline-flex font-bold text-2xl text-left py-3">Design</h2>
@@ -135,7 +135,7 @@ export default function Kosmos() {
                   <Image
                     className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full object-cover"
                     src="/images/kosmos_resort/hero-before.png"
-                    alt="Old website hero section"
+                    alt="Old website hero section with very low contrast between the text and the background, and it shows the villa during the day time, which is less relevant to the stargazing experience."
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
                   <figcaption className="text-center text-[#392A3D]">Before</figcaption>
@@ -144,7 +144,7 @@ export default function Kosmos() {
                   <Image
                     className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full object-cover"
                     src="/images/kosmos_resort/desktop.webp"
-                    alt="Website hero section featuring a galaxy background and a central 'Book Your Stay' call-to-action."
+                    alt="Website hero section featuring a dark galaxy background and improved contrast between the text and the background."
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
                   <figcaption className="text-center text-[#392A3D]">After</figcaption>
@@ -180,7 +180,7 @@ export default function Kosmos() {
               width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
               />
               <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-2xl">
-                <h3 className="font-bold text-xl  text-left py-2">Homepage - Villa Section</h3>
+                <h3 className="font-bold text-xl  text-left py-2">Homepage - Added Villa Section</h3>
                 <ul className="list-disc pl-3 text-left">
                   <li className="pb-1">Key visual images and features to showcase the villa</li>
                   <li className="pb-1">
@@ -207,9 +207,11 @@ export default function Kosmos() {
           </div>
         </section>
 
+        
+
         {/* P4 */}
         <section className="text-[#392A3D] bg-[#EDE3DD]">
-          <div className=" max-w-[1300px] m-auto px-6 py-20 grid grid-col-1 gap-5">
+          <div className=" max-w-[1300px] m-auto px-6 py-10 grid grid-col-1 gap-5">
             {/* text block */}
             <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
