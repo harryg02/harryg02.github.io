@@ -204,10 +204,64 @@ export default function Kosmos() {
                 </ul>
               </div>
             </div>
+
+            <div className=" max-w-[1300px] m-auto px-6 py-10 grid grid-col-1 gap-5">
+              {/* text block */}
+              <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit w-full">
+                <h3 className="font-bold text-xl  text-left py-2">Form Submission Redesign</h3>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
+                  <figure className="flex flex-col gap-2 m-0">
+                    <Image
+                      className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full object-cover"
+                      src="/images/kosmos_resort/form-before.png"
+                      alt="Old form design looks like basic HTML"
+                      width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                    />
+                    <figcaption className="text-center text-[#392A3D]">Before</figcaption>
+                  </figure>
+                  <figure className="flex flex-col gap-2 m-0">
+                    <Image
+                      className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full object-cover"
+                      src="/images/kosmos_resort/form-after.png"
+                      alt="New form design with improved visual hierarchy, better spacing, and a more modern look that matches the overall site design."
+                      width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                    />
+                    <figcaption className="text-center text-[#392A3D]">After</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <div className=" max-w-[1300px] m-auto px-6 py-10 grid grid-col-1 gap-5">
+              {/* text block */}
+              <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit w-full">
+                <h3 className="font-bold text-xl  text-left py-2">Brand Ambassador Page Redesign</h3>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
+                  <figure className="flex flex-col gap-2 m-0">
+                    <Image
+                      className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full object-cover"
+                      src="/images/kosmos_resort/brand-before.png"
+                      alt="Split layout with beige background, contained hero photo on the right beside the heading and CTA."
+                      width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                    />
+                    <figcaption className="text-center text-[#392A3D]">Before</figcaption>
+                  </figure>
+                  <figure className="flex flex-col gap-2 m-0">
+                    <Image
+                      className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full object-cover"
+                      src="/images/kosmos_resort/brand-after.png"
+                      alt="Full-bleed hero background with heading and Apply Here button overlaid in white text."
+                      width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                    />
+                    <figcaption className="text-center text-[#392A3D]">After</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
           </div>
         </section>
 
-        
 
         {/* P4 */}
         <section className="text-[#392A3D] bg-[#EDE3DD]">
