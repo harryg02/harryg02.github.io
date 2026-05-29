@@ -129,14 +129,27 @@ export default function Kosmos() {
             </div>
 
             {/* text block */}
-            <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit">
-              <Image
-                className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)]"
-                src="/images/kosmos_resort/desktop.webp"
-                alt="Website hero section featuring a galaxy background and a central 'Book Your Stay' call-to-action."
-              
-              width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
-              />
+            <div className="flex flex-col justify-center items-center col-span-2 md:col-span-1 row-span-1 transition sm:min-h-[150px] h-fit w-full">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
+                <figure className="flex flex-col gap-2 m-0">
+                  <Image
+                    className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full object-cover"
+                    src="/images/kosmos_resort/hero-before.png"
+                    alt="Old website hero section"
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
+                  <figcaption className="font-bold text-lg text-center text-[#392A3D]">Before</figcaption>
+                </figure>
+                <figure className="flex flex-col gap-2 m-0">
+                  <Image
+                    className="rounded-xl drop-shadow-[0_10px_8px_rgba(0,0,0,0.10)] w-full object-cover"
+                    src="/images/kosmos_resort/desktop.webp"
+                    alt="Website hero section featuring a galaxy background and a central 'Book Your Stay' call-to-action."
+                    width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
+                  />
+                  <figcaption className="font-bold text-lg text-center text-[#392A3D]">After</figcaption>
+                </figure>
+              </div>
               <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-2xl">
                 <h3 className="font-bold text-xl  text-left py-2">Homepage - Hero Section</h3>
                 <ul className="list-disc pl-3 text-left">
