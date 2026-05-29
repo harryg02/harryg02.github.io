@@ -23,7 +23,7 @@ export default function ReentryGuideGR() {
           title="ReentryGuide GR"
           summary="Fixed 2 critical navigation blockers, the app deployed to community pilot group, the app's posters displayed at Michigan Department of Corrections (MDOC) parole office in Grand Rapids."
           links={[
-            { href: "https://reentryguidegr.org", icon: "/icons/globe.png", label: "Visit Website" },
+            { href: "https://reentryguidegr.org", icon: "/icons/globe.webp", label: "Visit Website" },
             { href: "https://github.com/ReentryGuide-GR", icon: "/icons/github-white.svg", label: "Visit Github" },
           ]}
           meta={[
@@ -625,24 +625,24 @@ export default function ReentryGuideGR() {
 
           <div className="grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 ">
             {[
-              { src: "Screenshot_1.png", alt: "Onboarding flow showing a Location Permission request.", label: "ProminentDisclosure.js" },
-              { src: "Screenshot_2.png", alt: "Onboarding flow showing a safety disclaimer notice.", label: "ImportantNotice.js" },
-              { src: "Screenshot_3.png", alt: "Onboarding flow showing a step-by-step guide on how to grant permissions.", label: "RequestPermission.js" },
-              { src: "Screenshot_5.png", alt: "Navigation flow starting from the Main Menu.", label: "MainMenu.js" },
-              { src: "Screenshot_6.png", alt: "Navigation flow moving to a 'Meal or Groceries' selection.", label: "MealOrGroceries.js" },
-              { src: "Screenshot_7.png", alt: "Navigation flow ending with a 'Lunch or Dinner' time selection screen.", label: "LunchOrDinner.js" },
-              { src: "Screenshot_8.png", alt: "Interface screen showing details for God's Kitchen.", label: "ResourceLocation.js" },
-              { src: "Screenshot_9.png", alt: "Interface screen showing menu options to 'Pick Closest Location' for groceries and hygiene.", label: "SelectResourceLocation.js" },
-              { src: "Screenshot_10.png", alt: "Interface screen showing menu options to 'Pick Other Locations' for groceries and hygiene.", label: "SelectResourceLocation.js" },
-              { src: "Screenshot_10.5.png", alt: "Mobile screen displaying an 'All locations closed' empty state.", label: "AllLocationsClosed.js" },
-              { src: "Screenshot_11.png", alt: "Mobile screen displaying a list of hygiene centers.", label: "ResourceLocationsList.js" },
-              { src: "Screenshot_12.png", alt: "Mobile screen displaying a detailed view of the Cathedral of Saint Andrew outreach center.", label: "ResourceLocation.js" },
-              { src: "Screenshot_13.png", alt: "User flow displaying a location's details.", label: "MoreInfo.js" },
-              { src: "Screenshot_14.png", alt: "User flow displaying transportation mode selection options (Walk, Bus, Drive).", label: "SelectTransportation.js" },
-              { src: "Screenshot_15.png", alt: "User flow displaying a tutorial tip for starting Google Maps navigation.", label: "/components/GoogleMapsTutorial.js" },
-              { src: "Screenshot_16.png", alt: "Mobile screen showing a query asking if Maps crashed.", label: "DidGoogleMapsCrash.js" },
-              { src: "Screenshot_17.png", alt: "Mobile screen showing a confirmation screen.", label: "DidGoogleMapsCrash.js" },
-              { src: "Screenshot_18.png", alt: "Mobile screen showing the Find Healthcare category menu.", label: "FindHealthcare.js" },
+              { src: "Screenshot_1.webp", alt: "Onboarding flow showing a Location Permission request.", label: "ProminentDisclosure.js" },
+              { src: "Screenshot_2.webp", alt: "Onboarding flow showing a safety disclaimer notice.", label: "ImportantNotice.js" },
+              { src: "Screenshot_3.webp", alt: "Onboarding flow showing a step-by-step guide on how to grant permissions.", label: "RequestPermission.js" },
+              { src: "Screenshot_5.webp", alt: "Navigation flow starting from the Main Menu.", label: "MainMenu.js" },
+              { src: "Screenshot_6.webp", alt: "Navigation flow moving to a 'Meal or Groceries' selection.", label: "MealOrGroceries.js" },
+              { src: "Screenshot_7.webp", alt: "Navigation flow ending with a 'Lunch or Dinner' time selection screen.", label: "LunchOrDinner.js" },
+              { src: "Screenshot_8.webp", alt: "Interface screen showing details for God's Kitchen.", label: "ResourceLocation.js" },
+              { src: "Screenshot_9.webp", alt: "Interface screen showing menu options to 'Pick Closest Location' for groceries and hygiene.", label: "SelectResourceLocation.js" },
+              { src: "Screenshot_10.webp", alt: "Interface screen showing menu options to 'Pick Other Locations' for groceries and hygiene.", label: "SelectResourceLocation.js" },
+              { src: "Screenshot_10.5.webp", alt: "Mobile screen displaying an 'All locations closed' empty state.", label: "AllLocationsClosed.js" },
+              { src: "Screenshot_11.webp", alt: "Mobile screen displaying a list of hygiene centers.", label: "ResourceLocationsList.js" },
+              { src: "Screenshot_12.webp", alt: "Mobile screen displaying a detailed view of the Cathedral of Saint Andrew outreach center.", label: "ResourceLocation.js" },
+              { src: "Screenshot_13.webp", alt: "User flow displaying a location's details.", label: "MoreInfo.js" },
+              { src: "Screenshot_14.webp", alt: "User flow displaying transportation mode selection options (Walk, Bus, Drive).", label: "SelectTransportation.js" },
+              { src: "Screenshot_15.webp", alt: "User flow displaying a tutorial tip for starting Google Maps navigation.", label: "/components/GoogleMapsTutorial.js" },
+              { src: "Screenshot_16.webp", alt: "Mobile screen showing a query asking if Maps crashed.", label: "DidGoogleMapsCrash.js" },
+              { src: "Screenshot_17.webp", alt: "Mobile screen showing a confirmation screen.", label: "DidGoogleMapsCrash.js" },
+              { src: "Screenshot_18.webp", alt: "Mobile screen showing the Find Healthcare category menu.", label: "FindHealthcare.js" },
             ].map((item) => (
               <div
                 key={item.src}
