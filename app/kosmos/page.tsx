@@ -85,12 +85,12 @@ export default function Kosmos() {
             </div>
 
             <div className="flex flex-col justify-center items-center col-span-1 row-span-2 transition sm:min-h-[150px] lg:min-h-[800px] h-fit">
-              <div className="flex flex-col gap-4 mb-8 max-w-md mx-auto py-12">
+              <div className="flex flex-col gap-4 mb-8 p-5 max-w-md mx-auto py-12">
                 <div className="flex flex-row py-3">
                   <h2 className="inline-flex font-bold text-2xl text-left">Key Objectives</h2>
                 </div>
 
-                <ol className="list-decimal pl-3  space-y-2">
+                <ol className="list-decimal pl-3 space-y-2">
                   <li>
                     <strong>Strategic UX:</strong> Shift from date-first to villa-first booking flow to align with user
                     mental models.
