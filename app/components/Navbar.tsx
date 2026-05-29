@@ -1,36 +1,15 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 export default function Navbar() {
   const pathname = usePathname();
-  const borderRef = useRef<HTMLDivElement>(null);
   const [menuOpen, setMenuOpen] = useState(false);
 
   const linkClass = (href: string) =>
     `transition-colors hover:text-themeRed ${pathname === href ? "text-[#CCD4E3]" : ""}`;
-
-  useEffect(() => {
-    if (pathname !== "/") return;
-    const border = borderRef.current;
-
-    const heroHeight = document.getElementById("hero")?.offsetHeight ?? 900;
-    const phase1End = heroHeight / 3;
-
-    const onScroll = () => {
-      if (!border) return;
-      const offset = window.pageYOffset;
-      const t1 = Math.min(offset / phase1End, 1);
-      const t2 = Math.min(Math.max(offset - heroHeight, 0) / 250, 1);
-      const t = t1 - t2 * t1;
-      border.style.background = `linear-gradient(to bottom, rgba(204,212,227,${(0.06 + t * 0.16).toFixed(3)}), rgba(204,212,227,${(0.22 - t * 0.16).toFixed(3)}))`;
-    };
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [pathname]);
 
   return (
     <>
@@ -46,7 +25,6 @@ export default function Navbar() {
     >
       {/* ── Pill ── */}
       <div
-        ref={borderRef}
         id="nav-border"
         className="pointer-events-auto p-0.5 rounded-xl"
         style={{ background: "linear-gradient(to bottom, rgba(204,212,227,0.06), rgba(204,212,227,0.22))" }}
