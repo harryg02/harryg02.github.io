@@ -138,7 +138,7 @@ export default function Kosmos() {
                     alt="Old website hero section"
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
-                  <figcaption className="font-bold text-lg text-center text-[#392A3D]">Before</figcaption>
+                  <figcaption className="text-center text-[#392A3D]">Before</figcaption>
                 </figure>
                 <figure className="flex flex-col gap-2 m-0">
                   <Image
@@ -147,7 +147,7 @@ export default function Kosmos() {
                     alt="Website hero section featuring a galaxy background and a central 'Book Your Stay' call-to-action."
                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }}
                   />
-                  <figcaption className="font-bold text-lg text-center text-[#392A3D]">After</figcaption>
+                  <figcaption className="text-center text-[#392A3D]">After</figcaption>
                 </figure>
               </div>
               <div className="col-span-1 px-16 py-5 lg:py-[4em] flex flex-col justify-start items-start transition bg-grey-500 min-h[30px] text-center max-w-2xl">
