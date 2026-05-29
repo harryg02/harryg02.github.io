@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title:
-    "Harry Gu - Creative Designer & Developer | Portfolio - Kosmos Stargazing Resort Website Redesign & Development",
+    "Harry Gu - Web Design, Front-End & UX Research | Portfolio - Kosmos Stargazing Resort Website Redesign & Development",
   description:
     "Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.",
 };

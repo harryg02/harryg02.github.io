@@ -4,7 +4,7 @@ import ProjectHero from "@/app/components/ProjectHero";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Harry Gu - Creative Designer & Developer | Portfolio - Reentry Reimagined",
+  title: "Harry Gu - Web Design, Front-End & UX Research | Portfolio - Reentry Reimagined",
   description:
     "Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.",
 };

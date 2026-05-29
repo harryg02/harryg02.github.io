@@ -4,7 +4,7 @@ import ProjectCard from "./components/ProjectCard";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Harry Gu - Creative Designer & Developer | Portfolio - Home",
+  title: "Harry Gu - Web Design, Front-End & UX Research | Portfolio - Home",
   description: "Harry Gu - Graphic Designer with expertise in UI/UX, development, and illustration. Crafting innovative designs that resonate with audiences. Open for freelance and collaborative opportunities.",
 };
 
